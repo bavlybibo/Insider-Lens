@@ -1,116 +1,141 @@
-# Insider Lens
+<div align="center">
 
-**Preserving satellite fire history across MODIS and VIIRS generations.**
+# INSIDER LENS
 
-NASA Space Apps Challenge 2026 · Team **Insider Lens** · Cairo, Egypt  
-Challenge: **Harmonization of MODIS and VIIRS Hot Spots**
+*Preserving fire evidence across satellite generations.*
 
-[**Open the live application →**](https://insider-lens.pages.dev/?region=canada&view=retention) · [Public source](https://github.com/bavlybibo/Insider-Lens) · [Scientific method](docs/SCIENTIFIC_SCOPE.md)
+NASA Space Apps Challenge 2026 — Cairo, Egypt<br>
+**Challenge:** Harmonization of MODIS and VIIRS Hot Spots
 
-![Insider Lens desktop investigation: geographic map, source-aware evidence partition and UTC calendar](docs/assets/insider-lens-overview.png)
+[**Live Investigation**](https://insider-lens.pages.dev/?region=canada&view=retention) · [Scientific Method](docs/SCIENTIFIC_SCOPE.md) · [Reproducibility](#run-and-reproduce) · [Evidence & Validation](#validation)
 
-> **Release status:** the complete static application is live on **[Cloudflare Pages](https://insider-lens.pages.dev/?region=canada&view=retention)**. All 798 deployed resources were anonymously verified by HTTP status, size and SHA-256; real Canada policies, history, cell/date evidence, exports and Scientific Bridge were tested in a fresh desktop browser. Scientific data and results are unchanged. The [earlier demo](https://emberguard-evidence-retention.musicalartichoke4.chatgpt.site/?region=canada&view=retention) remains available and was not modified. [Executed Canada route repair and production verification](reports/PAGES_CANADA_PRODUCTION_REPAIR.md).
+</div>
 
-## The problem
+[![Insider Lens live Canada investigation: geographic context, MODIS/VIIRS evidence retention and UTC calendar](reports/pages-repair/screenshots/retention-1920.png)](reports/pages-repair/screenshots/retention-1920.png)
 
-MODIS and VIIRS have different spatial responses, sensitivities, acquisition times and observation conditions. Comparing raw hotspot totals can confuse instrument differences with changing fire activity. Focusing only on the newer VIIRS record also discards acquired MODIS evidence from before the S-NPP era.
+*The real Pages application: Southern Canada, June 2023. Select sources, explore the map and follow reported evidence through UTC dates. Open the image for full-resolution detail.*
 
-## Our solution
+## Why satellite history is easy to misread
 
-Insider Lens keeps source identity and uncertainty visible. A geographic atlas, fixed equal-area cells and UTC positive-activity calendar connect **what was reported** to exact evidence. The Evidence Retention map shows what MODIS-only, VIIRS-only and both-native policies retain or exclude. An Evidence Passport exposes source/processing lineage; CSV exports reproduce the same committed cell/date/filter selection. Explore, Compare, History, Memory Loss, Heat Atlas and an experimental Scientific Bridge remain available.
+MODIS provides a longer historical record of thermal anomalies. S-NPP VIIRS adds newer observations with different sensitivity and finer nominal spatial resolution. A change in raw hotspot totals can reflect those instrument differences as well as changing activity; the totals alone cannot separate the two.
 
-The desktop result explains its current area, period, selected sources, SP/NRT status and native Day/Night flags. “Copy finding” includes the actual conclusion, limitation, release identity and source hashes. Unavailable eras, unacquired products and unknown observation support remain distinct.
+Using VIIRS alone can also exclude acquired MODIS evidence from before its operational era. That unavailable VIIRS history is not an observation of zero fire activity.
 
-## Verified result: Southern Canada, June 2023
+**Insider Lens makes the consequences of a source switch inspectable.** It preserves native observations, shows which geographic cells and UTC dates each source retains, and connects every selected result to its provenance and export. Calibrated cross-sensor harmonization remains withheld.
 
-Standard Processing; all native acquisition flags; study tract 120–110°W, 49–55°N; original 10 km equal-area grid:
+## The verified comparison
 
-| Reported-positive cell-day group | Keys |
-|---|---:|
-| MODIS only | 34 |
-| Shared | 199 |
-| VIIRS only | 335 |
-| **Union** | **568** |
+**Southern Canada research tract · June 2023 UTC · Standard Processing · All native acquisition flags · Fixed 10 km equal-area cells**
 
-MODIS-only policy excludes 335 positive keys present in the acquired VIIRS record; VIIRS-only excludes 34 keys present in MODIS. Both-native retains 10,524 source records: Aqua 990 + Terra 1,149 + S-NPP 8,385. June 2010 preserves 12,744 acquired MODIS records from before the S-NPP FIRMS era.
+Within 120–110°W, 49–55°N, the acquired record partitions into:
 
-These are **positive spatial-cell/UTC-day keys**, not 568 individual fires. Shared keys do not establish simultaneous valid observation opportunities; exclusive keys are not confirmed missed fires. **Calibrated continuity remains unresolved: G4 ADJUSTMENT_WITHHELD.**
+| MODIS-only positive keys | Shared positive keys | VIIRS-only positive keys | Distinct union |
+| :---: | :---: | :---: | :---: |
+| **34** | **199** | **335** | **568** |
 
-## Visual demonstration
+Both-native selection retains **10,524 source records**: 990 Aqua MODIS + 1,149 Terra MODIS + 8,385 S-NPP VIIRS.
 
-Select a geographic cell and inspect the exact source records, UTC dates and retained/excluded evidence:
+- **MODIS-only policy:** retains 233 keys and 2,139 records; excludes the **335** VIIRS-exclusive positive keys.
+- **VIIRS-only policy:** retains 534 keys and 8,385 records; excludes the **34** MODIS-exclusive positive keys.
 
-![Selected equal-area cell and its actual source-by-UTC-date evidence in the Evidence Passport](docs/assets/scientific-evidence-detail.png)
+> A key is one fixed spatial cell and one UTC day with reported positive evidence. Shared keys mean reported positives in the same cell/day, **not qualified simultaneous observations**. These are not individual physical wildfire counts, detection rates or confirmed missed fires.
 
-Before VIIRS: older acquired evidence remains visible while unavailable instrument history stays explicitly unavailable:
+[Inspect the comparison live](https://insider-lens.pages.dev/?region=canada&view=retention) · [Scientific scope and source identities](docs/SCIENTIFIC_SCOPE.md) · [Independent partition acceptance](public/data/phase12/INDEPENDENT_PARTITION.json)
 
-![Pre-VIIRS 2010 investigation distinguishes unavailable S-NPP history from acquired MODIS positives](docs/assets/historical-evidence-before-viirs.png)
+## Follow the evidence
 
-All images are genuine desktop captures from this repository using NASA observations. Map attribution is retained. No mockup or synthetic observations are displayed.
+### From a geographic cell to exact source records
 
-## Scientific method
+Select a cell on the map, inspect its UTC dates, and switch source policies without changing the underlying evidence. The example below contains **432 source records across six positive dates**: 37 Aqua, 55 Terra and 340 S-NPP records.
 
-- Aqua MODIS, Terra MODIS and S-NPP VIIRS remain separate; SP and NRT are never pooled.
-- Fixed 10 km WGS84 ellipsoidal Lambert azimuthal equal-area cells; native acquisition D/N flags and UTC grouping. Research rectangles select cell centers, W/S included and E/N excluded.
-- Exact set difference/intersection/union on reported-positive keys. MODIS occupancy uses an Aqua/Terra union, not addition of overlapping keys.
-- Python production processing and separate original-data parsing/projection/counting oracles; immutable archive/member hashes and versioned browser artifacts.
-- Unknown coverage and processing-vintage limits are exposed. Existing scientific releases, holdouts and bridge decisions are preserved.
+[![Selected 10 km cell with its source-by-UTC-date ledger: 432 records over six dates](docs/assets/scientific-evidence-detail.png)](docs/assets/scientific-evidence-detail.png)
 
-[Scope and source hashes](docs/SCIENTIFIC_SCOPE.md) · [Reproduction boundaries](docs/REPRODUCIBILITY.md) · [Release audit and executed validation](reports/FINAL_INSIDER_LENS_RELEASE_AUDIT.md)
+*Selected-cell ledger from the desktop release audit. Later Pages repairs changed routing and error recovery; these values and investigation controls are unchanged. This panel shows cells and dates, not the Evidence Passport.*
+
+Open **Evidence Passport** for source lineage, hashes and scientific limitations. Export CSV to retain the exact selected sources, cell, dates and acquisition flags; the export carries provenance and withheld-adjustment status.
+
+### Preserve the earlier record
+
+June 2010 contains **12,744 acquired MODIS records across 2,113 positive cell-day keys and 30 UTC dates**. S-NPP VIIRS is not yet in the available instrument era.
+
+[![June 2010 with VIIRS-only policy: earlier MODIS evidence remains visible but excluded, and S-NPP history is explicitly unavailable](docs/assets/historical-evidence-before-viirs.png)](docs/assets/historical-evidence-before-viirs.png)
+
+*Desktop release-audit capture, with VIIRS-only selected. Its zero retained records reflects the selected policy, not fire-free conditions: S-NPP history is unavailable and 12,744 MODIS records are excluded. The later Pages release preserves this record and era treatment.*
+
+## What we built
+
+| Capability | What it makes inspectable |
+| --- | --- |
+| **Source-aware historical atlas** | Real NASA FIRMS observations; Aqua MODIS, Terra MODIS and S-NPP VIIRS identities remain separate. Standard Processing and NRT are not pooled. |
+| **Evidence Retention map** | MODIS-only, VIIRS-only and both-native policies expose retained and excluded positive keys and source records. |
+| **UTC calendar and geographic selection** | Fixed WGS84 equal-area cells, native Day/Night flags, cell/date inspection and explicit unavailable-era or unacquired-product states. |
+| **Evidence Passport and CSV** | Hash-bound source provenance, processing limits and reproducible exports of the committed selection. |
+| **Independent numerical reconciliation** | Separate original-data parsing/projection/counting checks and exact set-partition acceptance receipts. |
+| **Experimental Scientific Bridge** | A bounded Level-2 investigation with explicit qualification restrictions. Its 16 candidates remain `UNKNOWN_SUPPORT`; no calibration is released. |
+
+## Scientific Integrity
+
+**Verified:** source-specific reported-positive evidence; exact set partitions; source, UTC and grid provenance; retained/excluded record identities; and independent numerical reconciliation.
+
+**Unresolved:** qualified common observation opportunity, calibrated cross-sensor continuity, observation-normalized trends and scientifically validated wildfire anomalies. Absent rows, unknown coverage and unavailable eras cannot establish fire absence. Production-vintage and upstream-processing limits remain explicit.
+
+**`G4 = ADJUSTMENT_WITHHELD`**
+
+The fixed 10 km grid uses WGS84 ellipsoidal Lambert azimuthal equal-area projection, centered at 60°N, 100°W. Geographic selection rules and processing limits are documented in the method.
+
+[Method and scientific limits](docs/SCIENTIFIC_SCOPE.md) · [Research and source references](public/submission/SOURCES_AND_RULES.md)
+
+## Architecture
+
+NASA FIRMS archives feed **Python + PROJ** processing and separate analytical/original-data checks. Accepted results become versioned public scientific artifacts and independent acceptance receipts, bound by **SHA-256**.
+
+The browser uses **React · TypeScript · Vite · MapLibre GL** to connect those artifacts to the map, calendar, Evidence Passport and CSV. **Cloudflare Pages serves a static application**; browser operation requires no Python backend, Earthdata authentication or raw research archive.
 
 ## Run and reproduce
 
-### Complete static release / Cloudflare Pages
+For a clean public clone, use **Node.js 22**, Git and an internet connection:
 
 ```sh
+git clone https://github.com/bavlybibo/Insider-Lens.git
+cd Insider-Lens
 npm ci
 npm run build:cloudflare
 npm run preview
 ```
 
-Use **Node.js 22**, production branch **main**, build command **`npm run build:cloudflare`**, output **`dist`**, and **`SKIP_DEPENDENCY_INSTALL=1`**. With that variable, this command installs only lockfile-pinned JavaScript dependencies. It restores three allowlisted, already public immutable receipts over verified HTTPS, checks their exact sizes and SHA-256 values, verifies every public runtime asset and catalog dependency, then builds and verifies the complete static output. A download, integrity or dependency failure stops the build. Python, Earthdata credentials, NASA ZIP/HDF files and research databases are not needed for deployment or browser operation.
+Open `/?region=canada&view=retention` at the preview address printed by Vite. The build restores three pinned public provenance receipts over verified HTTPS, checks their byte lengths and SHA-256 values, verifies runtime dependencies and compiles the static site. Missing or incorrect evidence stops the build; no substitute observations are supplied.
 
-[Deployment and integrity checks](docs/CLOUDFLARE_PAGES.md) · [Per-resource production verification](reports/pages-repair/production-resources.tsv).
+**Public demo build ≠ full research reproduction.** Python is not needed for the static build. Rebuilding the raw-data oracles requires the separately preserved original NASA archives, disk indexes, Level-2 inputs and historical receipts. Portable hash checks and a frozen-case replay do not replace a fresh original-data recount.
 
-Node 22+ and Python 3.12+ recommended. The lockfiles pin tested dependencies.
+[Full research reproduction tiers](docs/REPRODUCIBILITY.md) · [Static build and integrity checks](docs/CLOUDFLARE_PAGES.md)
 
-```sh
-python -m venv .venv
-# Activate .venv for your shell, then:
-python -m pip install -r requirements.lock.txt
-python scripts/restore-public-artifacts.py
-npm ci
-npm run dev
-```
+## Validation
 
-Open `/?region=canada&view=retention` at the printed URL. Three original public provenance receipts are restored explicitly by URL, byte size and SHA-256 because their immutable bytes contain acquisition-machine paths. All other lightweight runtime artifacts are committed. No credential, raw archive or local Python service is required by the browser.
+Recorded executions on **14 November 2026** are distinct checks, not one combined test total. They are existing release evidence, not new research runs for this README.
 
-```sh
-npm run build
-npx playwright install chromium
-npx playwright test --config playwright.public.config.ts
-python -m unittest discover -s science -p test_science.py -v
-python scripts/verify-public-release.py
-```
+| Evidence layer | Recorded result | Receipt |
+| --- | --- | --- |
+| Full research workspace | **72 scientific tests passed** in the final desktop release audit; original inputs required | [Research audit](reports/FINAL_INSIDER_LENS_RELEASE_AUDIT.md#science-and-executed-checks) |
+| Portable scientific preservation | **771 file hashes verified; 12 frozen partition cases replayed** | [Preservation and local checks](reports/pages-repair/local-tests.json) |
+| Existing desktop browser/contracts | **59 passed** during the Pages routing repair | [Executed suite](reports/pages-repair/local-tests.json) |
+| Live Pages investigation | **5 routing/failure tests + 6 scientific journeys passed** in that repair execution | [Live test receipt](reports/pages-repair/live-tests.json) |
+| Deployment checks | Production static build and **5 deployment unit tests passed** | [Production repair report](reports/PAGES_CANADA_PRODUCTION_REPAIR.md) |
+| Remote resource integrity | **798 deployed resources** verified by HTTP status, exact bytes and SHA-256 | [Per-resource verification](reports/pages-repair/production-resources.tsv) |
 
-The public-clone browser profile excludes one non-runtime historical-audit binding test whose private receipt is not published. Synthetic Python checks and the 12-case production replay do **not** replace the original-data oracle. A complete raw/L2 research replay requires separately acquired originals, disk indexes and historical receipts; see the [explicit rebuild tiers](docs/REPRODUCIBILITY.md). No simulated substitute is provided.
+The later release added a sixth missing-JSON regression: HTML cannot pass scientific verification. The [Pages repair and completion report](reports/PAGES_CANADA_PRODUCTION_REPAIR.md) distinguishes executions, source commits and measured performance endpoints.
 
-## Validation and scientific limits
+## Data, attribution and rights
 
-Executed results for this release are recorded in [the release audit](reports/FINAL_INSIDER_LENS_RELEASE_AUDIT.md) and [validation notes](docs/VALIDATION.md), including exact commands, current counts, clean-clone scope, desktop screenshots and measured performance. Historical counts are labeled by execution rather than presented as a new run.
+**NASA observations.** NASA FIRMS / LANCE / University of Maryland: MODIS Collection 6.1 and S-NPP VIIRS 375 m Collection 2. Canada archive requests **845605 / 845606** support the historical investigation; **844805 / 844806** support the preserved Portugal diagnostic. Source archive, member and runtime hashes remain attached to the scientific evidence. [FIRMS archive description, citation and disclaimer](https://firms.modaps.eosdis.nasa.gov/download/Readme.txt).
 
-Observation support/completeness remains unknown. No normalized trend, seasonal anomaly, missed-fire estimate, physical-fire count or calibrated harmonization is released. Missing/unacquired data and absent selected rows are never confirmed fire-free periods. Source collection labels and row version codes do not certify uniform monthly processing vintage. G4 remains **ADJUSTMENT_WITHHELD**.
+**Geographic context.** Natural Earth supplies bundled public-domain coarse geography. OpenFreeMap, OpenMapTiles and OpenStreetMap supply credited detailed context. Geographic basemaps are not observation masks or fire-validation data; attribution remains visible in every screenshot.
 
-## NASA data, geography and rights
+[Source acknowledgments and use conditions](public/submission/SOURCES_AND_RULES.md) · [Third-party software and notices](public/submission/THIRD_PARTY_SOFTWARE.json) · [Project license status](LICENSE_STATUS.md)
 
-**NASA observations:** NASA FIRMS / University of Maryland, MODIS C6.1 requests 844805/845605 and S-NPP VIIRS 375 m C2 requests 844806/845606. Canada deliveries contain JSON; the Portugal diagnostic contains CSV. [FIRMS archive and citation](https://firms.modaps.eosdis.nasa.gov/download/Readme.txt) · [NASA Earthdata](https://www.earthdata.nasa.gov/data/tools/firms).
+No project-wide open-source license grant is asserted. Original-content license status is recorded separately from NASA data and third-party software rights. This project does not imply NASA endorsement or scientific approval.
 
-**Geographic context:** Natural Earth public-domain coarse geography; OpenFreeMap, OpenMapTiles and OpenStreetMap detailed context with map attribution retained. No bulk provider tiles or NRCan perimeter dataset is redistributed.
+## Team and AI assistance
 
-**Method, research and software:** [Scientific scope](docs/SCIENTIFIC_SCOPE.md), [source/rules references](public/submission/SOURCES_AND_RULES.md), [147-package inventory and copied third-party notices](public/submission/THIRD_PARTY_SOFTWARE.json). Original-content license selection remains a team decision; no license grant is invented. See [license status](LICENSE_STATUS.md). NASA data use does not imply NASA endorsement.
+**Team Insider Lens · Cairo, Egypt.** The historical codename **EmberGuard** remains in scientific identifiers and historical records to preserve reproducibility.
 
-## Team and AI disclosure
-
-**Insider Lens — Cairo, Egypt.** Historical internal codename **EmberGuard** is retained in source contracts, release IDs and historical reports. No individual contributions are invented.
-
-OpenAI Codex assisted software, research, text, separate oracle implementations and tests. NASA observations were acquired, not AI-generated. Separate software recounts in one AI-assisted workflow are not independent human scientific review. [Full disclosure](public/submission/AI_DISCLOSURE.json) · [Copy-ready NASA submission](docs/NASA_SUBMISSION.md).
+OpenAI Codex assisted software, research, documentation, separate oracle implementations and testing. NASA observations were acquired, not AI-generated. No independent human scientific review is claimed. [Full AI assistance disclosure](public/submission/AI_DISCLOSURE.json).
