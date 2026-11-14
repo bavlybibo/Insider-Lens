@@ -119,3 +119,15 @@ Scientific support and calibration remain unqualified; the positive-key partitio
 - `reports/pages-repair/screenshots/retention-1920.png`
 - `reports/pages-repair/screenshots/history-2010.png`
 - `reports/pages-repair/screenshots/bridge.png`
+
+## Urgent release completion follow-up — 14 November
+
+Before this metadata-only follow-up, GitHub main `78798753ea968a0157cbe82708102c1fcc76bb8a` and successful Pages production `03a23774-6bcf-4104-8208-c9c9ec25a337` were independently confirmed to match. All 798 resources and five routing regressions passed again on that deployment. This is the Pages release baseline; no working deployment was removed.
+
+GitHub's repository homepage was still the historical chatgpt.site demo. It was updated through the authenticated repository settings API and read back as **https://insider-lens.pages.dev/?region=canada&view=retention**. README and `docs/NASA_SUBMISSION.md` already use this URL. The unfrozen root `index.html` social-preview image URL now points to the existing hash-preserved image on Pages. Historical demo references and pinned artifact-restoration source URLs remain intact. The immutable public submission snapshot retains its original bytes; current submission documentation is `docs/NASA_SUBMISSION.md`.
+
+The separate Worker check failed at the baseline commit while the Pages check succeeded. The operator confirmed the original Worker Build `675fe5f7` used `npm run build` and failed the runtime guard because pinned receipts had not been restored. Workers Builds settings/log inspection independently returned HTTP403/code10000; no effective Node/deploy/build-variable values or saved dashboard correction are claimed. [Optional Worker correction and evidence](../docs/CLOUDFLARE_WORKER.md). It is not a blocker for submitting the verified Pages URL. No new Cloudflare project, Worker deployment or permission flow was started.
+
+The actual Pages missing-resource canary returned HTTP200 with `text/html`, not scientific JSON. This is SPA fallback behavior, not a valid scientific response. A sixth regression now obtains the real host's missing-resource response, supplies it to the unchanged Canada verification path, and asserts an explicit withheld error and no totals. This does not disable integrity checking or replace any genuine observation. All six regressions passed on the locally produced static build; five deployment unit tests and the 771-file/12-case scientific preservation check passed again. Existing 59-test results above remain applicable to the unchanged application JavaScript. Final post-push Pages source/byte parity and live regression results are checked at delivery.
+
+Additional changed paths in this follow-up: `index.html`, `docs/CLOUDFLARE_WORKER.md`, `tests/pages-route.spec.ts`, this report. JavaScript bundle identities, scientific assets, manifests, oracles, original archives, holdouts and G4 ADJUSTMENT_WITHHELD remain unchanged. NASA accounts and submission forms were not accessed or changed.

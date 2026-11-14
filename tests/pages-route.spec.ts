@@ -31,3 +31,9 @@ test('direct retention refresh and repeated visits keep exact public evidence wi
  }
  expect(errors).toEqual([]);expect(consoleErrors).toEqual([]);expect(failed).toEqual([]);expect(await page.evaluate(()=>(window as any).__rejections)).toEqual([]);
 });
+
+// Exercise the real host's missing-resource response, not a simulated JSON body.
+test('a real missing-JSON response cannot masquerade as verified Canada evidence',async({page,request})=>{
+ const missing=await request.get('/data/__insider_lens_missing_science__.json');expect([200,404]).toContain(missing.status());if(missing.ok())expect(missing.headers()['content-type']).toContain('text/html');
+ await page.route('**/data/canada/**/catalog.json',r=>r.fulfill({response:missing}));await page.goto(canada);await expect(page.getByRole('alert')).toContainText(/checksum mismatch|artifact unavailable/);await expect(page.getByTestId('retention-map-answer')).toHaveCount(0);await expect(page.getByRole('button',{name:'Return to Portugal release',exact:true})).toBeVisible();
+});
