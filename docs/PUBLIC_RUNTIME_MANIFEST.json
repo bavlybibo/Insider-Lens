@@ -1,0 +1,3155 @@
+{
+  "schema": 1,
+  "basis_commit": "cb221e16d968ab9409d98b243ec1471f71d71863",
+  "scope": "All public runtime assets. Raw NASA archives and original L2 files are not browser dependencies. Scientific bytes and identities unchanged.",
+  "files": {
+    "/basemap/iberia-countries.geojson": {
+      "bytes": 33814,
+      "sha256": "70c610123a9a838038beeaf215247b9dc1cc90a6ad583f6ad11b6bf58ca5eb5a"
+    },
+    "/basemap/provenance.json": {
+      "bytes": 873,
+      "sha256": "cc8a6f77af847f1530f37836ced70a88c12935bd03bc5fabea6d9a8f0909b455"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-NRT-2026-09.json": {
+      "bytes": 3788,
+      "sha256": "d5056137336b9bbf843a539f2077c0a3c346f4b77976772458963b7c0a278a34"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-NRT-2026-10.json": {
+      "bytes": 7519,
+      "sha256": "75d7e4e294808a519a7c97c355a0c06025026007899da34c11637cb3455b6d3a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-NRT-2026-11.json": {
+      "bytes": 2923,
+      "sha256": "aaa3af440753ac74db935cecbfa9aef9f22ea6f93e6afefe21755bda039b2bee"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2010-01.json": {
+      "bytes": 1764,
+      "sha256": "ec10aef9af01279e65658872ebb74caab9eb7b1a9a4e691b30cd3336c7099909"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2010-02.json": {
+      "bytes": 2112,
+      "sha256": "06ee850d66a45ba0c20ae9b5eb83f90ff9ff6e54fa36ca38a70c23eb8182e124"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2010-03.json": {
+      "bytes": 3957,
+      "sha256": "cf82b64127701fc077cea536e5248eccd553acc1572ffb2f1e5ffcceb06ecaa0"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2010-04.json": {
+      "bytes": 12557,
+      "sha256": "5f2c7ede6f75d3712e1aca9df796cc6357c4b92e2e880c5f4f85541dfbf973ba"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2010-05.json": {
+      "bytes": 10420,
+      "sha256": "5c3a17502e21801dbe2229e3517742a3a43937713ca1aa7d7a0ffccddf8e72d3"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2010-06.json": {
+      "bytes": 19728,
+      "sha256": "e3e44b0fd03c168799efe49ee19658f5cf1b5d11f582cfb98e0cef61f18349b6"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2010-07.json": {
+      "bytes": 23710,
+      "sha256": "5d0b2ce31212de8dcf25e3ae33eae93d1fe910ac877815e2cff1f7b2f010e8ab"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2010-08.json": {
+      "bytes": 22356,
+      "sha256": "6ca3c95935cd0055f6f4c49fca260bcd95e56534c1a01cf79fc4184334518b06"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2010-09.json": {
+      "bytes": 4458,
+      "sha256": "990f7f1c971493dc1594e2f8b5a479f2545f897373326fe64856c818f1601afd"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2010-10.json": {
+      "bytes": 19734,
+      "sha256": "fb1e84a9be0ca7b3039bd719519402e642fb8b434b2b9f8de2ce2f09b429e2a8"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2010-11.json": {
+      "bytes": 10057,
+      "sha256": "4a62768c31e51e28045ac4db965aac89844448c68647338992581ee1ff255b0b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2010-12.json": {
+      "bytes": 1714,
+      "sha256": "1e14b0ffbf182dfd0c9fa1e908e08ac2a393257f2bc4ed6c9231c8ed1fd717a3"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2011-01.json": {
+      "bytes": 922,
+      "sha256": "11c294e2b966789daac1f15b7c1a504e0032b00d7159098fd4c6907d759445e8"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2011-02.json": {
+      "bytes": 703,
+      "sha256": "d2d14b0fc595c42cd801edf9d774a7fdf8fcaf87d550eac3ac17459d6b69690d"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2011-03.json": {
+      "bytes": 856,
+      "sha256": "5bd2d0283e726f0618bd61a2a13d8faafc2029560bbf402c080101a368c107b1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2011-04.json": {
+      "bytes": 1968,
+      "sha256": "668c1ef36e37d10c6a8e42e13ecd24a02a491eec0ef31229ef506413ed185d5b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2011-05.json": {
+      "bytes": 14526,
+      "sha256": "4d43d3cc819d9b923553e67d1538ff2a0c0807bc4b7ec0b50ede1783742a8192"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2011-06.json": {
+      "bytes": 16140,
+      "sha256": "0dc828f1ab1860090e1a888bcc5b589cd3f26c6bf6e0b55cde989b3f5466b21f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2011-07.json": {
+      "bytes": 14964,
+      "sha256": "94b5b859068daefc6f2a21061f260acda549cf1898dcbc362d7af1f0a1ffddf2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2011-08.json": {
+      "bytes": 6894,
+      "sha256": "3fcf690d4a7f96cbfb47a5c035934ad81c37541dcec1256641f85d7940f65465"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2011-09.json": {
+      "bytes": 9977,
+      "sha256": "9e1c431c6cf2d5d5006382d6d2564701d7c26a3e6718dcca245549edddbc2566"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2011-10.json": {
+      "bytes": 20019,
+      "sha256": "6e5d7d3259c36a277400eb87bf42a122c477764610bcbfc6ad6742dec50fa165"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2011-11.json": {
+      "bytes": 10656,
+      "sha256": "49027bc63d18110581ae533dedfd9c554be7382dd26a671aedaffa2a61e7fcbd"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2011-12.json": {
+      "bytes": 3221,
+      "sha256": "64727c234ffc92743075162ab5c5fef3c1ffe62512ff535c5bac6624c99fcf81"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2012-01.json": {
+      "bytes": 2047,
+      "sha256": "e3a7c9fd506bcef428019b6f72badc484bdd60ede134fd8f7eb7c1011039493f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2012-02.json": {
+      "bytes": 2607,
+      "sha256": "0596e7bb262022a85400e35ccd55b5842ec4aa4b618949253f4934313553617f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2012-03.json": {
+      "bytes": 3148,
+      "sha256": "e18b6e0f7dd9ff3c3dfa14bc22a97e4ccf5d7db1a19a70610beb3e1d841cb00a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2012-04.json": {
+      "bytes": 8086,
+      "sha256": "b0521c76e4bc0534b999a205a644f7e21602afc87c0e7bbc03ed65fae96c51c6"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2012-05.json": {
+      "bytes": 7654,
+      "sha256": "07f27726c332f72579317b38738494889fcc50aeb9245120f41abdf60994daa4"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2012-06.json": {
+      "bytes": 10778,
+      "sha256": "97a247a27c23f506d4146f75224b49813a539b0c6af4f331e15c296d913a49cf"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2012-07.json": {
+      "bytes": 27315,
+      "sha256": "fb3cc0d84b835e822861bc4364c84f10e0f2a1842ca1a9de5177ea1bd2507146"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2012-08.json": {
+      "bytes": 13164,
+      "sha256": "b21aa3ecb37236239a7a54d0b11937b5818328f661ebd47dd6cfc9323deb3aea"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2012-09.json": {
+      "bytes": 15033,
+      "sha256": "6d17ee498f867b924513374a5dfe0c3417322d8ad6acee17187e44da376b5780"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2012-10.json": {
+      "bytes": 10851,
+      "sha256": "531bcba8bc5b518e07bb8415940eb1dace0e98e231ed2ee46461e04f48e1ef88"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2012-11.json": {
+      "bytes": 5793,
+      "sha256": "96450037730bac48c0077bc81bada13db67f98c416459e99206417660c018d85"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2012-12.json": {
+      "bytes": 1464,
+      "sha256": "c9d9fb8b246350b3f561132996fbc12868abca2802760d0c635921fc4b2c2413"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2013-01.json": {
+      "bytes": 1531,
+      "sha256": "bc1752f8bd3e852037f43531adc5d50883c43f09555d9c95229069cff52d04cc"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2013-02.json": {
+      "bytes": 1159,
+      "sha256": "4aca6c02451cc772e34ca739f6a84ea27ad6cc1355f8d4b83ccc3546ad1d0210"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2013-03.json": {
+      "bytes": 1081,
+      "sha256": "c537e9ce6ce87e4f9b3e3362ff8a561792bfcd3c2026b44707b2736d47ded815"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2013-04.json": {
+      "bytes": 1932,
+      "sha256": "2ea35960be167f56b4aa507bfa9dfcb8f935efafdf13d3fd1fae94095b35f06c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2013-05.json": {
+      "bytes": 10519,
+      "sha256": "7d2b986b09341d3950ab7ce928e0ae788b1be256537c825246b3400b2dc293a1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2013-06.json": {
+      "bytes": 22530,
+      "sha256": "be6c3a4bbe74e57cb6dc09c7b9a11f0677de2b4e74005d13aa9be4163d0d4c63"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2013-07.json": {
+      "bytes": 39679,
+      "sha256": "2d4523bb14ebd5aafac62d51eb0a2c61e90654cf70d772ed0358385ed188970d"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2013-08.json": {
+      "bytes": 22093,
+      "sha256": "afb9d2baf52441587e609c10e35b2ebc1ffee41604f47a2c6b4092bfa9a3d47b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2013-09.json": {
+      "bytes": 8052,
+      "sha256": "269dd64716db5f1c5686843b392a14b280270a8742937998f1bebbff9e242eb1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2013-10.json": {
+      "bytes": 19425,
+      "sha256": "3f0b82889ece798cce488f702e5579309e96fd9ea6e0cca58c91d02666194f51"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2013-11.json": {
+      "bytes": 11364,
+      "sha256": "1facef5265054c0039bde6cf088c9d307d30abf9b0e2f7d1d93cfdae7c9a4cab"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2013-12.json": {
+      "bytes": 895,
+      "sha256": "0b29bf50ded7154c21b2321a7a0d72fe06fa2d37bbd6e7056d02c39162f8795d"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2014-01.json": {
+      "bytes": 2136,
+      "sha256": "35d0a04bc4fbcb8c74a8e8ff046574c589efd5ffc1803a17e165c8d6435d0552"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2014-02.json": {
+      "bytes": 662,
+      "sha256": "3849b7df4abbca7b4ab341244ebfedb9e0fd27248eccc8b7b198370990c8c99d"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2014-03.json": {
+      "bytes": 986,
+      "sha256": "a8e1749cb98c56eb70acbef9d8d77b29365e3a29907c1edbe3682cb6a78220bc"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2014-04.json": {
+      "bytes": 1980,
+      "sha256": "f155488565dd9ccb132d47b04bed3b8bc92c34bcc7ac085b11ae609d16b0500e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2014-05.json": {
+      "bytes": 14432,
+      "sha256": "5ece01f1ba15ca0c58930d70f8e4e1c0a6cd7d7acae2835bad9c9b2a868905bf"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2014-06.json": {
+      "bytes": 11209,
+      "sha256": "af6df2d7dbb91f664fae0e18f314eda9c78052028a8d920de686f56848ad3980"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2014-07.json": {
+      "bytes": 45144,
+      "sha256": "3f53438317c0e22ac363a009b34b865a790906ae39393b045bd31240ec7d3896"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2014-08.json": {
+      "bytes": 39515,
+      "sha256": "86ba27da9bfd5abe876c082d81274057144d3e5e7a271e792b0cc5c812ef575e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2014-09.json": {
+      "bytes": 5961,
+      "sha256": "58fa6c422f71f832b232d78e44c2bb399adf3c1b05584c6e0c923becd7ab1851"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2014-10.json": {
+      "bytes": 18106,
+      "sha256": "b7534a9fd03325606eb6cfc5033ce2741a93dc69c5d8e93d9291dd39b4c3e6e2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2014-11.json": {
+      "bytes": 10258,
+      "sha256": "cc586a04999c0fe96ef28a033d47f25819e44a5bb484562242c1e6dbd58a14b1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2014-12.json": {
+      "bytes": 2716,
+      "sha256": "bce180249503a5fa47d7eeb8683aeb97464f2f60ca4833ee7f7a014021e4d865"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2015-01.json": {
+      "bytes": 2201,
+      "sha256": "f790fe9b88b17d912de647e1704069e1886d3100bd4296b758f2b53ec0c4e325"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2015-02.json": {
+      "bytes": 929,
+      "sha256": "16453d0b5a8c91440bba689f04b0846db0bc2a996f69ffc0402efd61b3d0516c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2015-03.json": {
+      "bytes": 1757,
+      "sha256": "1220ad89fb99ef1847d4caaabdec3c04331756349d1f1a66f1b076681b2d6b90"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2015-04.json": {
+      "bytes": 10546,
+      "sha256": "8f33423e0ba6905241cb7cc6e1a32c6a90052eddccd5ec9afc9493d81ddcb78b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2015-05.json": {
+      "bytes": 24096,
+      "sha256": "7fbe22599063526c2ad4cfe9a9eed41c4b4822d3af7578c0998f647093042e9d"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2015-06.json": {
+      "bytes": 32064,
+      "sha256": "7aa819e7cd3b6c3c9ad5f354308604ddec8259bacd32d6704c163229d97465a7"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2015-07.json": {
+      "bytes": 37065,
+      "sha256": "42271f1787a24ac1c6d84e2fb803878dc8e8f847fb4b3761b0fe91e479a2a56e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2015-08.json": {
+      "bytes": 8208,
+      "sha256": "a02c80e31c59cc8e9db83242417c83e8efdd207a2e0a8f1e6bc4b04a1d4ae128"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2015-09.json": {
+      "bytes": 7180,
+      "sha256": "687ad46573475bf84015b6108e9d766ce4c287c4bbf0fbaf5f162a4ccbf7d245"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2015-10.json": {
+      "bytes": 25757,
+      "sha256": "5836ef9fe5c0dfbff536edab2802923e0e9b88351439b92e7e8e10f9412430f9"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2015-11.json": {
+      "bytes": 14479,
+      "sha256": "4fe300e9e9ffe4ee56bd4018692aec2cd795adc34527ef594a4f500aca095017"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2015-12.json": {
+      "bytes": 3024,
+      "sha256": "f870905ae8d6bc3f36494aec7e3ea6dcc407c0336521c537f1be72bf6028e1f9"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2016-01.json": {
+      "bytes": 2025,
+      "sha256": "ccdfd514206fd1e2d552ea6ef4fa95511e7c7a049f592ef4dcb5e32a1818a584"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2016-02.json": {
+      "bytes": 1068,
+      "sha256": "3f963c6a2340a0a5abe94132d79a06fdfb9f00072c0bcbc15d93a715873d4f80"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2016-03.json": {
+      "bytes": 1118,
+      "sha256": "86d1d8112aef9c6137c0264fb304a87725575decceb80a4023fce29a6479e658"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2016-04.json": {
+      "bytes": 11739,
+      "sha256": "ac8a6a55c7a234cb7e6454ea6808989e9e3eb195b8bcc5e102229adad147f839"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2016-05.json": {
+      "bytes": 16308,
+      "sha256": "689e2e7d46c6dea8554c106edc22bf14daf0c1ab8bad0349214a808fab37538b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2016-06.json": {
+      "bytes": 6352,
+      "sha256": "3dd7d834c9d00cfc1235d17170bcf8d2034e5c5ad019d30847b1f6642bc6e7f4"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2016-07.json": {
+      "bytes": 11417,
+      "sha256": "8bed7c80534d3f75ad0384dfd23c60425b672af37c2819a6e76dfb96b6077190"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2016-08.json": {
+      "bytes": 5284,
+      "sha256": "957ed444240f466eaeae6fe8aabba82f852182741bcac444f10a8324907ab5e1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2016-09.json": {
+      "bytes": 6283,
+      "sha256": "b03316f768ea13e508b13c4b76f60e9261e620b9a906d1240113b5c5ab3cada1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2016-10.json": {
+      "bytes": 10148,
+      "sha256": "cd914bab8154f34473e5c4b03de7b2a420d13a6400ed992192503fdb22df6a10"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2016-11.json": {
+      "bytes": 14185,
+      "sha256": "9ad8e79aadb2c0279f637ddf66fec7458a9cec4008865382bc1a371252e7bbae"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2016-12.json": {
+      "bytes": 1864,
+      "sha256": "833f6f594d1f11ee0cc94fbdec482c651a6f619934db4b83c0bfa2412a5d3027"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2017-01.json": {
+      "bytes": 2506,
+      "sha256": "f748fe81cda3856f0f4c4011d145fba29aff33602ccbfa0233647c9cd24ebe8c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2017-02.json": {
+      "bytes": 1004,
+      "sha256": "0ce76f24e559688587e8c347cea550ad79d36f72147c9ea1637f65436534a59e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2017-03.json": {
+      "bytes": 593,
+      "sha256": "533d84a466d3203a9bb6552ddd1f546388550c83684a1664cc5da6cc4f2f00c4"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2017-04.json": {
+      "bytes": 4281,
+      "sha256": "d0e14167a517ebe0aa5db3de9165a5807cb4f1cfd24bee9d258ecc7ece1838cc"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2017-05.json": {
+      "bytes": 17121,
+      "sha256": "240ee3a6b43eb2ce0938f220001c31c0c351df4f78febac9c9d97c0584a76d2b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2017-06.json": {
+      "bytes": 7160,
+      "sha256": "b0ff65dc928b98e78d8a2610f5310ca59e84c45877e548ef8ab156423a400d9b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2017-07.json": {
+      "bytes": 29855,
+      "sha256": "e2ea2795aa9baeab7e9d64365d54b239ec1af96638469d0ce28602f38d29a032"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2017-08.json": {
+      "bytes": 56295,
+      "sha256": "50c308f84ff7c1cfe81e0e18d6d31dbf5e2e20e188e0e5741b7f842fc882ef7a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2017-09.json": {
+      "bytes": 17664,
+      "sha256": "11102220ca4fc4b9c65e60216d7d4f813a4895c680c2a823b4ea4bfb301cb7a1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2017-10.json": {
+      "bytes": 29327,
+      "sha256": "8792d7bb00c323e713c5d599c9586befb9f7d47dde890ddab17350e253d7a205"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2017-11.json": {
+      "bytes": 5253,
+      "sha256": "b77c28f490402fbfdac3f20355057e69153f5da63e5f5a5031acdb45044cd3c6"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2017-12.json": {
+      "bytes": 4211,
+      "sha256": "f28a1a5ddd97f249abefda7a1c278b7ea7e24bbd0682e72505ff8ad16d42da6a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2018-01.json": {
+      "bytes": 2119,
+      "sha256": "ea8a4f95d6e7653ec87d0fbc846aa735564bc150e95c964981ca0f772d8d7813"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2018-02.json": {
+      "bytes": 301,
+      "sha256": "04f1d19ac1d90e00f13604defc8cbc27e063a9ca3b4708473ac4a9ba3dc0e1bc"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2018-03.json": {
+      "bytes": 648,
+      "sha256": "3d3cd2c07f327b3680e82d8457312a375f36d0796e1bd201dd7d1b2bbd8fe75b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2018-04.json": {
+      "bytes": 4758,
+      "sha256": "7cc7be3449298c433b52ea0f76f25c0732d3e3327967a0cc5d0749265af1553a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2018-05.json": {
+      "bytes": 13114,
+      "sha256": "f44ce586a858da2c01da59df454f79c4fe3bb3d72df914c08ba0217ff918cc99"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2018-06.json": {
+      "bytes": 7373,
+      "sha256": "ffca2c2f9a817bc7f9f1605542f3b6f2ed462594bf480be2e5dd334fa62d10ab"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2018-07.json": {
+      "bytes": 13665,
+      "sha256": "86801f80b54a39ccbf438366ab43299f534879a252b6369f3c9d90db69ae2819"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2018-08.json": {
+      "bytes": 47419,
+      "sha256": "252cab5780fb578fbde621ab3f7f31407bf6cca0eaaaaf9317e41ae00ccdbbe3"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2018-09.json": {
+      "bytes": 5194,
+      "sha256": "effb7d432ffc33e4f6994caa9d4254d5c537f080edce8bfbde045ad478916c10"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2018-10.json": {
+      "bytes": 20435,
+      "sha256": "ee18a28e00ac12654545087ffcb4a62671c7ecf797c5c5c9e0ea569559c6cd6c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2018-11.json": {
+      "bytes": 9010,
+      "sha256": "d094f796e6a5c80a897eb8bb95c3944a5c7d3ac0b5b9b3ee288793824eca5472"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2018-12.json": {
+      "bytes": 3332,
+      "sha256": "0d4ca7151244954af534a12c0614bdae95a3cbeccd37bceb2d9a7fc077aa5944"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2019-01.json": {
+      "bytes": 1134,
+      "sha256": "0ac3a4b8103cae43187f5b574e500e4b4bcaaad154a8c9a0d881f27e2b07ea6b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2019-02.json": {
+      "bytes": 227,
+      "sha256": "a458d9776f9ddce8b82dd3f019a8795a0aede552c2e66dc01d804c41e94342b7"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2019-03.json": {
+      "bytes": 1476,
+      "sha256": "1db73b07b08f15cb6d5adbfe4104f5a85476e4e0a8f634a463226a6b9a4aa9b6"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2019-04.json": {
+      "bytes": 5153,
+      "sha256": "b1d2b92c3784583e4b578b70c7f2aa4a2d88e3a26c898b8937fb40ce1d83701f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2019-05.json": {
+      "bytes": 17113,
+      "sha256": "a8d252d8116f56aa9e97e289c3220d5116de7d15e0a7ef5ef9176607d70be2ad"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2019-06.json": {
+      "bytes": 7895,
+      "sha256": "80f0fb7ec313192f3f576a2403eed9c8738f06048a188737d291ed49f6b2b960"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2019-07.json": {
+      "bytes": 18502,
+      "sha256": "b6e65a009b46aef9e9956bbd755ae988ff6e4c83b3b410f86f472d8594ad4a7e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2019-08.json": {
+      "bytes": 3648,
+      "sha256": "30c75c131c361d278b754841f9952ec5423ea10f4cd2f828cb338cabdd0198ad"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2019-09.json": {
+      "bytes": 4980,
+      "sha256": "c186e64a27f438b204d9bec324a6667694233b56c4e28278a7a33b8571ebcc1c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2019-10.json": {
+      "bytes": 12572,
+      "sha256": "7bcd7ca78babb7f2da6cf5e6bd3f2d246eb282f2a4091e5dee849df307ce8d6f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2019-11.json": {
+      "bytes": 5976,
+      "sha256": "57c2fa4a41fe3df321e9d177afe73eae7cdf187ae9d2de7b8dffe584c89e2e27"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2019-12.json": {
+      "bytes": 1388,
+      "sha256": "d387fd77558892783ccb1ae3bf00ee39b0a11937482202b86a7110928117c92a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2020-01.json": {
+      "bytes": 1537,
+      "sha256": "2df3f624aca722dc3afd49c8ddbe5df037c62790295dafc1b57541349bb7c0e3"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2020-02.json": {
+      "bytes": 1119,
+      "sha256": "d16301efe83d29dd8b27945c230152081486a42bc3c217133009adc099f87a8d"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2020-03.json": {
+      "bytes": 785,
+      "sha256": "1ece1fb8b3472d4af6409809385d66dfe0ea6c1260a8b85816a63d382965a798"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2020-04.json": {
+      "bytes": 3719,
+      "sha256": "744acab909e5692d568eb10538cd157fbd26336fbb931c4e77f8d6531cc72e4b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2020-05.json": {
+      "bytes": 15663,
+      "sha256": "a1f81feb9e4a43c2f0191ab7a642c2a15b8084fc5769b0e5187340af58260d23"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2020-06.json": {
+      "bytes": 4648,
+      "sha256": "ff2c3fa7a36eae2257d17d83cc8e1edd8fd135459c572184af1c6735160d2359"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2020-07.json": {
+      "bytes": 3581,
+      "sha256": "fc58c857398c66dcfeac27e6aa6fd3682910d2599bf9f40963b2c6bf84d31672"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2020-08.json": {
+      "bytes": 3519,
+      "sha256": "b14456aba7e3d5c742bcd6ddb798ece77e70b6d7c7f5cf46b04f9cff1fbb1744"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2020-09.json": {
+      "bytes": 3996,
+      "sha256": "381e5372fad924f89f281672d1c71c781f018515c32bc162a6e0884c1be1a090"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2020-10.json": {
+      "bytes": 13840,
+      "sha256": "98196204297d37a4d247f032e430bcc0ff047850387531d4fccccb1143bda51c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2020-11.json": {
+      "bytes": 10187,
+      "sha256": "efbf135dd26b579260ed429d7c609e9352d354cc460f693afdebd5c707033f1f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2020-12.json": {
+      "bytes": 3662,
+      "sha256": "db610775648ca9a7bcc3da2ef277badc41c74fa4417f51ecc178c9a572b1562b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2021-01.json": {
+      "bytes": 2200,
+      "sha256": "347606e8cbcc8a33717779e78c9a847b382d1ca698f48c3a01433937762d99a5"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2021-02.json": {
+      "bytes": 444,
+      "sha256": "83f845505e83a0671b7dad606f9053a16751c70c1cb9ff8b412f1a9c77bac90f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2021-03.json": {
+      "bytes": 2247,
+      "sha256": "b9d56a4774d7d3d6ea311817ae8608b01253029ec7768eaebf56be5dc4905fc7"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2021-04.json": {
+      "bytes": 6540,
+      "sha256": "81cb788021917089146fc3679e58c981f0b8b8234846d362d7be2069a228a6a8"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2021-05.json": {
+      "bytes": 8549,
+      "sha256": "cc8a2f38f713b38b2b8aeeb0ffa1ec071a7947997120ac873f80c9ab5dfea5fe"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2021-06.json": {
+      "bytes": 6166,
+      "sha256": "2e26c1465ee38b3e7ffb82a9a2be40ca400e2f1c61bb7de06773e97e210c0920"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2021-07.json": {
+      "bytes": 69788,
+      "sha256": "043491363bfe1cd72e64de14f48092d3c53291d56e0f2fdc2a54caf4d1adbdb6"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2021-08.json": {
+      "bytes": 34529,
+      "sha256": "27a1293c47c8d5cd756c246cf11ddc62cf98a54825ce8d483c04fde539e751e0"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2021-09.json": {
+      "bytes": 5979,
+      "sha256": "45fcd511980d1abbcf35a8b4543004661d87d9a89ffdb0c03848e6829f891b06"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2021-10.json": {
+      "bytes": 19865,
+      "sha256": "a1500422f9165a593d13f7827b6661519872387b2cb96328fb2e16b6d46dd46e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2021-11.json": {
+      "bytes": 11212,
+      "sha256": "e74b8ea610c5797c014736dcd7fa0efd4bc107eef25ff4a9e190facc21f6b42b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2021-12.json": {
+      "bytes": 1084,
+      "sha256": "f8b4375f611744e0fdf711b4b94edef9bd651c30d49a90245bfd1a7246799a0c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2022-01.json": {
+      "bytes": 895,
+      "sha256": "405e376fc21dc0373cb980107dedeecf98bb735a9c97a0fb1921bd7e5bd0cf3b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2022-02.json": {
+      "bytes": 899,
+      "sha256": "c940eaceecbf42f04e1ef3dc0dcc5a86ba4253241fd277564e105bc614ce201e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2022-03.json": {
+      "bytes": 881,
+      "sha256": "4baf6306ebd41301d89700b955221d9902f327ddb15226baf3a89b3bf33a38d9"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2022-04.json": {
+      "bytes": 718,
+      "sha256": "cb4e411fccac62ae565ed44a14863591ae479e3d13ca67eb6f6b4757f5ac7d7c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2022-05.json": {
+      "bytes": 2104,
+      "sha256": "7b03be8951c708a1df38197bda965918df6f830a6328f80198df120a8914dd63"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2022-06.json": {
+      "bytes": 5644,
+      "sha256": "898a30797d05daf58aa5a263d2ba4ac7471c37d9ae85919d13272dbec32f5075"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2022-07.json": {
+      "bytes": 23696,
+      "sha256": "52b5600697da69f0656e7f6d03676503c91b6c9c5095101d1f79df761eadb831"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2022-08.json": {
+      "bytes": 15496,
+      "sha256": "df6de4bc7815fd64ef62d12cda7627249595ae9645d1710fb258ff1344ebcf1e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2022-09.json": {
+      "bytes": 10471,
+      "sha256": "7137cc31f7b3549bd3611f4aa1929ba919029b14b6154190b1f68e4b7813baa3"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2022-10.json": {
+      "bytes": 14401,
+      "sha256": "121cf358df3c3d2dc7148ac31b355f20b594a05f8d7674515c81244f3a50140c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2022-11.json": {
+      "bytes": 10054,
+      "sha256": "cbce1629e8859a4421881f55dc8786aa2ef072906d129cc20b3ca022763b396a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2022-12.json": {
+      "bytes": 1809,
+      "sha256": "935f4512c96439c57609400e3c4e25ecacefa786c0572d3ec73986e4c205ada3"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2023-01.json": {
+      "bytes": 2492,
+      "sha256": "fd1b0a338a994ec900e0a8044474b581417c3389a6377afe834157015f6f4a6f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2023-02.json": {
+      "bytes": 1449,
+      "sha256": "45549f840e30a18989d2671c1e48922aa5cecfab62f384dca07dbcfdfcfba622"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2023-03.json": {
+      "bytes": 757,
+      "sha256": "a8d28208c77c1e5e8e353b980faf78f236281109fb920c4735baa05bfe5be974"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2023-04.json": {
+      "bytes": 2971,
+      "sha256": "5293ef2ef1f9406b9bb99df2497a269d8d7b9c41983ecbdc5e75471fb25ceb5c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2023-05.json": {
+      "bytes": 44487,
+      "sha256": "61febc287d7c125952e3558911fc3a83bd331299b935cf4c413b6489093f7abf"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2023-06.json": {
+      "bytes": 74474,
+      "sha256": "9e6580e20fb2a066c963529f85dd9de5a27c69c99cf40174b92a71c0315269a6"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2023-07.json": {
+      "bytes": 100077,
+      "sha256": "f89bdf817a6eb14b01a3924582ee6720457da96ee6858142cfd5f74a87397860"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2023-08.json": {
+      "bytes": 92806,
+      "sha256": "cb87da79ac2bb0ccd796f03704b066ea1d2da3156b57680ab3ca1abdb83603ca"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2023-09.json": {
+      "bytes": 64869,
+      "sha256": "f08ec7fd4a2969ac7a0aa6a477a5db66a8db0a0fce9912596d28ec9f01e7dbfa"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2023-10.json": {
+      "bytes": 11574,
+      "sha256": "8d0f4be28f5a0e7f7b763a1c566ed78e6a87f56d359c43d899296223ba204395"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2023-11.json": {
+      "bytes": 8471,
+      "sha256": "5058180913ffe7f90a30da192bbabd0d3981964c4bdf6682301f2533f4ad5b4e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2023-12.json": {
+      "bytes": 2675,
+      "sha256": "29c55e7992d4fb274d621a4abe3e64d79b2cc4ffa9b858b67c66243d533783a3"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2024-01.json": {
+      "bytes": 1544,
+      "sha256": "144570117a108f58195ab09537ad8a4614a885174e83699b9a6d058569eb0d71"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2024-02.json": {
+      "bytes": 1562,
+      "sha256": "e70d0a18c984cefe6233f074aa83ff567db2c6d0fe9aad7a9a2d621407356d26"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2024-03.json": {
+      "bytes": 1372,
+      "sha256": "ba30cff26fdd6e6cd97cb06d6c912c6a41319977bea9734551daaf69cb75bbc7"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2024-04.json": {
+      "bytes": 4290,
+      "sha256": "83f0e3ac21c6cf876c4f12f81a0f507f0d975c191c5331cfdd5104a8d2bfce70"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2024-05.json": {
+      "bytes": 10054,
+      "sha256": "56bcf69eea0c60e5458b9d07b1a0aaf9da70f327fccb94438a82b041c6d009c5"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2024-06.json": {
+      "bytes": 13206,
+      "sha256": "19b639165f978b8ea3a1eed2a24bb9415a1c0dad8728bf89797a8af7385284ea"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2024-07.json": {
+      "bytes": 59907,
+      "sha256": "d648e98a017a73a3e3b8298efbb81d82e20bb4962ee33d936d33ad5f5a26ad0d"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2024-08.json": {
+      "bytes": 68200,
+      "sha256": "d6660babe3e218836368f04c033d1974f180067d27cf17b578cc8aa05d61163a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2024-09.json": {
+      "bytes": 19234,
+      "sha256": "f06cf7b00d94ff4a544eafaf3debf769f7fec14f51fdc97a478bd9f4aae13150"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2024-10.json": {
+      "bytes": 14923,
+      "sha256": "31ed479ea1a217c760fce047f02fc529d5f728b0893294ead9fc86b9f5daef2a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2024-11.json": {
+      "bytes": 7813,
+      "sha256": "4a781c1c051eaaee14041f7944524fa447d5a043bdfc096357bd2d2b5defd788"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2024-12.json": {
+      "bytes": 1994,
+      "sha256": "428a09008d842f9bb413d976fb8bf759436ac07f5117d2abce4fe223fe5398f2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2025-01.json": {
+      "bytes": 3550,
+      "sha256": "9b63c9c7ec57421181d984fe5f47a83413fefaec296d513cada543550ea14373"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2025-02.json": {
+      "bytes": 1029,
+      "sha256": "60b3a89e4108d5684ad865d082777f6c90fa0a1aafe16fac3bd0341ba5b25125"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2025-03.json": {
+      "bytes": 961,
+      "sha256": "381bb5f532738dbae553b53f91ba05943fe91c9f73ba4827f5f7b1ac081f068d"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2025-04.json": {
+      "bytes": 4819,
+      "sha256": "87a827c57b13d515530da2e11c978f4fe33008c7ed938a385e0eeee0782cca17"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2025-05.json": {
+      "bytes": 25394,
+      "sha256": "32b5f1431342becbaf27c5f309efaa6085832904d48913ec0b69d92c02b27895"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2025-06.json": {
+      "bytes": 35550,
+      "sha256": "958c6489ffc32fd00014351f548753cea69f43ae237469749d5992a1e2b41a1a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2025-07.json": {
+      "bytes": 64197,
+      "sha256": "cbea40cbb0a8020cbddf02a17c1017f205452a91e3b6ee5f024fa9a953df5364"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2025-08.json": {
+      "bytes": 53616,
+      "sha256": "23e29e53b2a1fde9ae6cf10e0cf4139ff49a6a0bad66d0d17508ab71b0aea548"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2025-09.json": {
+      "bytes": 20640,
+      "sha256": "eb0bf49d0c9f68b11b18b762d210a0f383f7f82e78d0857b36dc5bd89301c15b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2025-10.json": {
+      "bytes": 10381,
+      "sha256": "0327b71aa8822bf391e50aed98e6a0d95c46ada520a92f882d0595564dff45bd"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2025-11.json": {
+      "bytes": 9451,
+      "sha256": "d2e695e8fdec08065728a9a0c9715fa566576d436669d458a5a3338a597db793"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2025-12.json": {
+      "bytes": 944,
+      "sha256": "ee1064cb0b295740b8d98dd07ae284bdb08c4326bdd15420da3a9522610ed06e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2026-01.json": {
+      "bytes": 2859,
+      "sha256": "02bd75627938c6901e7e79072390a4745ae2bfc69a5a8c769e47cf88a953037f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2026-02.json": {
+      "bytes": 1834,
+      "sha256": "1313d665929856b596ec90f9a019b242fce6293a9f9a5ed47b88e1eeeb5d7532"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2026-03.json": {
+      "bytes": 656,
+      "sha256": "d14088bcdfea980b660eb3e620049a5654f8558192bdd8bf5c79a7cd4145bf02"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2026-04.json": {
+      "bytes": 1877,
+      "sha256": "7f075dae0635d1df6e2961f5161238d050f5a8bcf3fe70a71f4c38827e2ebfe2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2026-05.json": {
+      "bytes": 5844,
+      "sha256": "a997b896cd07a9c0b900fbe36e2018766e04f3d70ef4ecd12a04722bc32a9cac"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2026-06.json": {
+      "bytes": 24504,
+      "sha256": "36778dd0aae400d617f749ba42ff7e8ea8f5953c5357c49fda8af52986d7c8ed"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2026-07.json": {
+      "bytes": 66191,
+      "sha256": "c82565c558aa74ec42bd0b945016b684192ef9ad4ca63bb517f2902335e5ebc4"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/AQUA_MODIS-SP-2026-08.json": {
+      "bytes": 28235,
+      "sha256": "17028a9fb11ecbe66255a375e2b7ee2f4a3fef102639a9b5ef8c14054967d652"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-NRT-2026-08.json": {
+      "bytes": 63469,
+      "sha256": "3ffa82670bc2564ddfbf8ff7d4b7ac13c8e83543578412e30397f27864cb3d45"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-NRT-2026-09.json": {
+      "bytes": 17010,
+      "sha256": "451cc940b8bb69881c60e23e16d2299f491bbfad08467355da1e2451fb0a8f86"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-NRT-2026-10.json": {
+      "bytes": 31658,
+      "sha256": "da25ff0a31040ba71a68ad9614e4e5663ca5c9d6aa9686cec79418d39cca9a48"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-NRT-2026-11.json": {
+      "bytes": 2222,
+      "sha256": "7f035b966a77bed222b934b9ff9d2b0dc0355613e8db030399aa60bc38ff4124"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2012-01.json": {
+      "bytes": 3577,
+      "sha256": "ffd5347607e95b18eca45447430ac45633d2f5c5692172d2dd42e38a9e9f6f70"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2012-02.json": {
+      "bytes": 10730,
+      "sha256": "874f9f8d6e477a42b92e4df70e3f2b905c942881339704844e2580b7c3534955"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2012-03.json": {
+      "bytes": 14369,
+      "sha256": "b67dd52d9064ffc6c85010717590d540227d0788c3f18432f3b171cae0b96375"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2012-04.json": {
+      "bytes": 26300,
+      "sha256": "b70f9c1787d1c8fff2037fe06813dd214042ea2b604235819d1aa2867856bc95"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2012-05.json": {
+      "bytes": 26661,
+      "sha256": "54e598c099562f876380107c935c9b3e5a2adc96a35cba247387f88ab1588e95"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2012-06.json": {
+      "bytes": 30543,
+      "sha256": "699fde1eac0f9afb89a0afa52539155e51c5915f8a36cee41fefc3256e33eb02"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2012-07.json": {
+      "bytes": 66723,
+      "sha256": "07b355c0a06ccaaaab7e0db54396895f52b6af175eb394fff4dd806ad6630894"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2012-08.json": {
+      "bytes": 43164,
+      "sha256": "2e7d20fb5997c0991449f24752def36f9c17cb82d59c21ede83c0ac5c0b0d453"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2012-09.json": {
+      "bytes": 42840,
+      "sha256": "434e56cc3eb2ac58388fb63e19e86626d033417d5b7751bbfe58a2fe1dd564e2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2012-10.json": {
+      "bytes": 33730,
+      "sha256": "a260bedeff52ae1099b941fa3159b2bbd4821536891dc96dd093cee54e10e359"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2012-11.json": {
+      "bytes": 23575,
+      "sha256": "5e9eb1fe538889d7a19d9bd8730a186a6a3cfd6feb4bbb66dc09c29348ab597a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2012-12.json": {
+      "bytes": 5798,
+      "sha256": "880ae2303e7e6084e542dcb0b223b9471f8ad5d299db871c9c020b400c793855"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2013-01.json": {
+      "bytes": 6101,
+      "sha256": "51a0a89982ac117ecc8d10b2676af0c1786a8a0d113f6d6db321da7fa3d6ced2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2013-02.json": {
+      "bytes": 6951,
+      "sha256": "6e0be9e8876ef84c08184704657681925503629aeaf3f94580985a38fe6bbcb4"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2013-03.json": {
+      "bytes": 8542,
+      "sha256": "e0a9ff9bf3eb845751278f3d1a5fd1c57674dd581e13974d1e2d12df06c1199b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2013-04.json": {
+      "bytes": 10403,
+      "sha256": "91d3cd137c8bbfe893b8ea48f574538538a6547719c7a6884b92baeb93a51ad4"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2013-05.json": {
+      "bytes": 36673,
+      "sha256": "54fa25f8b25b2d1082e54d5120567d2bdd6247220ace8ab13c98493aef2f540c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2013-06.json": {
+      "bytes": 51148,
+      "sha256": "88159a4bd1b8ba370303e8da82c5728a1ea7fda6cf0195ffaa786b16b092703d"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2013-07.json": {
+      "bytes": 90630,
+      "sha256": "37159b71f0df9beb3f253c7cd9149ce50d7cc7fec4efeb876683301c14d9ab84"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2013-08.json": {
+      "bytes": 60309,
+      "sha256": "7babd0acde3c8809de89e6a337f43abfd7f92a9dd3caf65f906425d6fa35dc1d"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2013-09.json": {
+      "bytes": 28211,
+      "sha256": "a3fcbc54a58975255f34cf86e3a5fb811e35c122b64786fa26a2c279ea8c1313"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2013-10.json": {
+      "bytes": 55174,
+      "sha256": "20d361ae6b8ccb2a7a2c380d956d5068dfeae24a37bc1062a8cbd02b958c5cd7"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2013-11.json": {
+      "bytes": 37613,
+      "sha256": "fad24b17e97443102f3d6f20cd0d0c8a6730e70cfdd640bcd7cb8732b016a5a1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2013-12.json": {
+      "bytes": 6286,
+      "sha256": "34f8588e6ad13abfa9d06060a4a6682326c8ca457f1dc787ed3c8f2b39cc250e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2014-01.json": {
+      "bytes": 10143,
+      "sha256": "de4bd2d699e505ac401c7d38877b21bd39fe16fd491e9aa6d349fe82a8a9e4d7"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2014-02.json": {
+      "bytes": 4905,
+      "sha256": "be1edba804065d9437809580615cf90a2db756aef6aa5de9ae56287e4489a57f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2014-03.json": {
+      "bytes": 7364,
+      "sha256": "82ad8e6e773519d4016fd7c3ed8509a8b6e261f15feeed93d6bae8c520037da3"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2014-04.json": {
+      "bytes": 12120,
+      "sha256": "971d2cb4117ad24616d5f7864f29a5a04e7dfec809b9ae1059caf613344058b9"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2014-05.json": {
+      "bytes": 44346,
+      "sha256": "b882b09d6c055f50d5310757a0db9575413bf83f0554ce9ae3e4b9695fe81540"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2014-06.json": {
+      "bytes": 34907,
+      "sha256": "d2ddfd7d9cba0e04727f954c796d31855dc6485081b2b0173ba5672bfdfc1d7e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2014-07.json": {
+      "bytes": 109006,
+      "sha256": "997e04c26567918b9f04d78a579d1efe2fbee371cf968964f69d8e74cd006860"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2014-08.json": {
+      "bytes": 101813,
+      "sha256": "8d3a203c788ed5fb137fe02bb320ff6b122db9923f01c72c47a1dfdf9f530f3f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2014-09.json": {
+      "bytes": 23825,
+      "sha256": "ebd1e5600681d1828f1264357716efc6bd74cd94a775aefcfc84356961d1c3cf"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2014-10.json": {
+      "bytes": 47183,
+      "sha256": "b69a0a2e50390688bafe27423aa706070d5837bb90872cb2c0bdd8a78fc4ce32"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2014-11.json": {
+      "bytes": 37424,
+      "sha256": "d59d424db83b5bc11d83b0ae82060f139720751ac0bde3cb55598ae3a0873a3b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2014-12.json": {
+      "bytes": 13034,
+      "sha256": "5e854720c28736ac2985eb416695a66b5a62f7d7608d249265b7a3222b3b541f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2015-01.json": {
+      "bytes": 8174,
+      "sha256": "4a53ccf248b78ea46bf1151ecba856c58f3e656f8b305a746bd96fbc91981bf6"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2015-02.json": {
+      "bytes": 5892,
+      "sha256": "c044117dfcdc101521d284fa273792e9579517474e72f47a20189dfabb051dc2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2015-03.json": {
+      "bytes": 11416,
+      "sha256": "f2747a7cba120e0c5141e33f4ed2ebfce482611710df49bf975b107d03590e99"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2015-04.json": {
+      "bytes": 32074,
+      "sha256": "e60d78a2d3c846ab7483251d458e3c1a058b8426898e577615635798769f1c40"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2015-05.json": {
+      "bytes": 60884,
+      "sha256": "7788343214fb06d0dbf321c9a8179476f897950bc410938fe97896637ab6bc8f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2015-06.json": {
+      "bytes": 66629,
+      "sha256": "ba18389530d218ca38749812ff7e5c0cd10884e08d7b4e7ac2a642bab888fcf0"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2015-07.json": {
+      "bytes": 86623,
+      "sha256": "0c56f1199bdb72524d5bb1f5e1c3b98e3c26c751887cfa1ae96d87aa8031aa0f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2015-08.json": {
+      "bytes": 32132,
+      "sha256": "0bc0d7f79f8fe4bd84e67c8e888ec3b5a3296fcf2deb0e6a1ca517a403b5a175"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2015-09.json": {
+      "bytes": 27728,
+      "sha256": "64eb8a05a1f210ac8895e923c73a13e45fec2e3ce99fe3c1b12a16a735da0b4b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2015-10.json": {
+      "bytes": 64203,
+      "sha256": "b9b2729ae4657268396aff54d862d12bdef669dfbec148e0d86e40dfe2471d1f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2015-11.json": {
+      "bytes": 50532,
+      "sha256": "fd78dd20094cd83c41c3c200a4470b999f3272e4b91dcb22bd06815e5b25ca91"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2015-12.json": {
+      "bytes": 14241,
+      "sha256": "d79ce2065e398dbc2dca956f487ddab7edc063fa475736c8b4db5dc0d92016b2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2016-01.json": {
+      "bytes": 7772,
+      "sha256": "2e9b9cc752b0e4e61b74d710983981c20f7180b5b83de9cafbe71ae69a28b395"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2016-02.json": {
+      "bytes": 8129,
+      "sha256": "5abe1e22738f99977b430139ab43870b44800c121742b8d12799a0cbe7909905"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2016-03.json": {
+      "bytes": 9174,
+      "sha256": "e78d70fb30fbd74c9f2efebe65767b172d00614beb090f00bf7c3ef57a95c159"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2016-04.json": {
+      "bytes": 33465,
+      "sha256": "79b1a06adf00240cbd3508a047b69f49a019a3699975e1cce8b220e8a87fa4ed"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2016-05.json": {
+      "bytes": 50110,
+      "sha256": "24ab89f8ccbfb3c3f9f51e64cb238764dd5b3d1bef45ffa300ce3f72bc446213"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2016-06.json": {
+      "bytes": 25564,
+      "sha256": "582bc344dc3d492b8024d23112ff67bd56bc31499032042c9701b1441f1b9e04"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2016-07.json": {
+      "bytes": 35872,
+      "sha256": "e4335f473b25dec2831dae548837313fa6768dfadd1966923f29ec412396b6ea"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2016-08.json": {
+      "bytes": 23221,
+      "sha256": "7518ec465da76db9b0bee6f7e168c9c9c01b6fd868017bfef47ad1deefa4c618"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2016-09.json": {
+      "bytes": 23482,
+      "sha256": "3c8ad4f125143841eb0feddf447c8c76bfea578b5b2ec02a11b98839ea0d9267"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2016-10.json": {
+      "bytes": 30849,
+      "sha256": "4c5b64aaf49d94813352306e8b19bfe40de7b030cfe557576efaedbc24c1cb93"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2016-11.json": {
+      "bytes": 42830,
+      "sha256": "26860ea83cffa6fc853b9adcbb3de58d6cff0a677b34ffbb651c141dd7761a31"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2016-12.json": {
+      "bytes": 9122,
+      "sha256": "b0e4097c35afbb601323281adff6cb4a858ae3ea3fcf14042bf46538f59efdee"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2017-01.json": {
+      "bytes": 9808,
+      "sha256": "239c10cf9b47bc9943e32334f7364e57c3129cd53b398a02911c1a9032d1b72f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2017-02.json": {
+      "bytes": 5946,
+      "sha256": "d59c460fa29a61ffc98084cd29e463cc7ec63d34c9c3dba799b653f5348f3863"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2017-03.json": {
+      "bytes": 6549,
+      "sha256": "925901bdeefd76c43b210eec3898d762d9230988fa07d6541c1a4a1acacd5e9b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2017-04.json": {
+      "bytes": 16124,
+      "sha256": "de8a0a4d7d773827f35759139cb999a700a0d9816daf42d8cf9ac2c22105bdb3"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2017-05.json": {
+      "bytes": 50892,
+      "sha256": "91dc727a313f46b91f8f24f1d18893973c573cb8077d2ebd2b00c34265714efe"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2017-06.json": {
+      "bytes": 27879,
+      "sha256": "10c83c9d3b26920db7bb258a348d8219dfdf823435a6b84c24279f4852c21060"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2017-07.json": {
+      "bytes": 69776,
+      "sha256": "82c2cad5150cc47b6078036db735416f05bccc051e1b3f829e6e33f0f62d5f8e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2017-08.json": {
+      "bytes": 120779,
+      "sha256": "c11eafc0667a647ffbf546cfdc2497cde2f4b794cef7c75e43e76b02a17ffaa6"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2017-09.json": {
+      "bytes": 51258,
+      "sha256": "b32f35e57fcac19cf164534357dda61aaad01795cc7fc2bfb3da10a1dfb15fd8"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2017-10.json": {
+      "bytes": 69501,
+      "sha256": "21b45625baf517d8a0b295ea442e9ebe4af0b0f9afbd8c91e305d24493eb7822"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2017-11.json": {
+      "bytes": 23638,
+      "sha256": "1b6be2ead161ef946dfd5ae28eca63cbc1be9317583483ad743c005a1e0a8044"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2017-12.json": {
+      "bytes": 16935,
+      "sha256": "d93779fded5b695ad74fdad3132b4566c807becbea3ab38293b45456ef3617a8"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2018-01.json": {
+      "bytes": 9527,
+      "sha256": "7261f89c0272eeda11af78891007cba53a8073cd00cb01a83a8c9f61b4970479"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2018-02.json": {
+      "bytes": 2946,
+      "sha256": "25fa35378566d91a26703aaf3d0f639da1e52b4750788414e2a3e8309c7f6b4c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2018-03.json": {
+      "bytes": 6519,
+      "sha256": "c024f11a3a6120e5ef412ed6a7b5e82e447e8d2c46d253da39e53104fb85c1a3"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2018-04.json": {
+      "bytes": 18105,
+      "sha256": "9144029ac7cbabc06164d710fa6dbd568845424ddda072b27154f67c574e32aa"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2018-05.json": {
+      "bytes": 42920,
+      "sha256": "f0ea4286a4bddc91250356f97299038e7cdb2248b87a65d8f917f9796b0f8aa2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2018-06.json": {
+      "bytes": 26801,
+      "sha256": "5b945a39cc0ddb193812304bc3eb086c1ca0022e999484807127efda1e3b9a2e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2018-07.json": {
+      "bytes": 40754,
+      "sha256": "c40e4fe6a261b26284a0f177a3c32b70627a222080693dd7674a866787d25730"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2018-08.json": {
+      "bytes": 100800,
+      "sha256": "37314dfc206c5e0ee761643124d0b1859c149ab62ca3bff6c634b172ca6b8e85"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2018-09.json": {
+      "bytes": 22646,
+      "sha256": "07f86ec210bdfd71281d3461624228a6217db28978bc36f820393c8794cf4c27"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2018-10.json": {
+      "bytes": 55473,
+      "sha256": "72a8461ce574159dd086ff8710fa7e26af819849581ae97e65e1a54ee9f45213"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2018-11.json": {
+      "bytes": 32874,
+      "sha256": "75e2b41ccb7af856cd0b2383780957b5a6c758472c1c661f759cc2d7a77e7e3b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2018-12.json": {
+      "bytes": 13526,
+      "sha256": "c281513ef21d142406113aa87c71a461c754750c589b01011470a761cc804ae4"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2019-01.json": {
+      "bytes": 6238,
+      "sha256": "3a61ae580dcfba188bfc5aa07699f93da1147e3f53875c7800e46a8b637d68d7"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2019-02.json": {
+      "bytes": 3247,
+      "sha256": "d6290628200ac0902a86cb209008e65eff4005ab5ae01fe963b13ea20e9988b1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2019-03.json": {
+      "bytes": 11078,
+      "sha256": "3de587a8a907b6d6aeacb54c0dd2692e28b74ed54d7f91795958356ac96ce41e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2019-04.json": {
+      "bytes": 19593,
+      "sha256": "38c49e1d02232e1062aa9ec2050a2835eabbcebc65ddc164ded6dcb950a6690b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2019-05.json": {
+      "bytes": 44453,
+      "sha256": "467658868f1bc01a1d05a8dbeb166ddfa3d26b9b879e52885c0923c4131a3840"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2019-06.json": {
+      "bytes": 27685,
+      "sha256": "b6cf6d7ac54dd32d2cde703b89019e7ec2445013a941b1997f92751191da13dc"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2019-07.json": {
+      "bytes": 47484,
+      "sha256": "2732cc98cd505b21ee5ef940b7a3f2ee3e4173cabbf1e969c2ac06e8c2684eca"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2019-08.json": {
+      "bytes": 20606,
+      "sha256": "487fe136fdf8ef15a8765baeb77f58f89c38b684c36cf65f05150d851bd6a19d"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2019-09.json": {
+      "bytes": 20476,
+      "sha256": "700b1e239719f0fa6c66231022581589f2797a2a8c3f1c4382f8a9cdc5a9dbd3"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2019-10.json": {
+      "bytes": 38395,
+      "sha256": "49fbb9ced99c25b6dc4dc71b398750defa8f1d75bc888ecc78a3b546e64d3c60"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2019-11.json": {
+      "bytes": 25591,
+      "sha256": "e0e2dc4243d1f5d559ff8cdb55575b978db33862a1562a471f57349c28ba9e31"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2019-12.json": {
+      "bytes": 8395,
+      "sha256": "3184a345a57fd0df67e1f74ec242b3a0e7b22f3b60f38d9cb2c2049e996ec2e3"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2020-01.json": {
+      "bytes": 7563,
+      "sha256": "3b81ab7fc892ba0f4ff25815995f4d2165265c8580fb04ce5bc78b0616405e50"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2020-02.json": {
+      "bytes": 6666,
+      "sha256": "7c7456e635c0c00a71f7bbd406d3c3b5f73a5ea7fc0ca59db055b8f2270240d2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2020-03.json": {
+      "bytes": 7400,
+      "sha256": "f8f8b975024730bee0afaa45223a834ea68380ad5aacd3b3e000c085b8aaa460"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2020-04.json": {
+      "bytes": 14235,
+      "sha256": "f7615f2098ca0d2621dab9991abaa5108f34269558cb2bf4c229f0ac37901956"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2020-05.json": {
+      "bytes": 40935,
+      "sha256": "f048c711f3496e30dad54754a72f7f157a8e4d59e691b5172797bcf6e84ea1d6"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2020-06.json": {
+      "bytes": 20034,
+      "sha256": "e018f2db303b7959667ddd1b679155106854f360a8fab6e70028bed07f6d62bf"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2020-07.json": {
+      "bytes": 19644,
+      "sha256": "3e0033fb656fd5a9f1cc543debddb79753d0820d8647882e5c18de898f13a3b4"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2020-08.json": {
+      "bytes": 22594,
+      "sha256": "d517c4dbb3c2ce021026a3267e5e32829a93983b2f5f6c8ec71165403bf42af6"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2020-09.json": {
+      "bytes": 18702,
+      "sha256": "3211d1735bcba5bd074f80c88db0bb52ff443113a48878444de73e82e18d4222"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2020-10.json": {
+      "bytes": 39335,
+      "sha256": "5c0dab37c3dfde088a8e38256397c8fefa4a95ff8a99b2d32f2f58c83747edfe"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2020-11.json": {
+      "bytes": 33394,
+      "sha256": "02403ebe66a5d6de4a8dccf2dbee10495144e76978bf0400edac215e4f3279fb"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2020-12.json": {
+      "bytes": 14902,
+      "sha256": "736b7f91942c47a53603dc97d5aa897ceece544091803f328085937fad8c5577"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2021-01.json": {
+      "bytes": 9452,
+      "sha256": "91feb1ef816d0ef28376817f9b4b2be3e47dfc724e4e9e6f4e7f8a5d059e3206"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2021-02.json": {
+      "bytes": 4973,
+      "sha256": "16445a6801e6c569c78eeb400d544863a093b66af8cd1f5eaa4aedb8128dedc7"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2021-03.json": {
+      "bytes": 14074,
+      "sha256": "b53bd475ee32cc18e2c647102a60f7cd8e87fc390189f0601a18ba1e60889ba2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2021-04.json": {
+      "bytes": 22121,
+      "sha256": "dc3d89b6c6bcbf388f7286785de288995820dd567d2df0035c609c6bb7b14d45"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2021-05.json": {
+      "bytes": 27969,
+      "sha256": "204b541c3daf06d670fa0051aee450f899f7d05bca6bd3b56dd9d0f6db6890ce"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2021-06.json": {
+      "bytes": 23486,
+      "sha256": "239f2455439ff2b7170bca173d82b70c39f923a4cc63d75e7387ce892a4bfaff"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2021-07.json": {
+      "bytes": 137489,
+      "sha256": "91d96d7b301993625737656823cc4df858005c9b622a83b7f6cd2cb20b1383e9"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2021-08.json": {
+      "bytes": 73282,
+      "sha256": "723742df0006f23f2e15b7af401d0b234a5b1d3db93817239ab2ebc39f277818"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2021-09.json": {
+      "bytes": 22893,
+      "sha256": "49a8aa0efcbb462e7d5e8bd9b6dc22823219357f71e4ec45162c2dde07c32eaa"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2021-10.json": {
+      "bytes": 56897,
+      "sha256": "bc9dad7ba80f16e39c14398a0004a10e6016a06b087e52aa8d7f710334c73b75"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2021-11.json": {
+      "bytes": 40174,
+      "sha256": "53eebb66dc24f1ecc8042ce07af3c6b2716ec89c926f0a0b583dee7324e5ab3d"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2021-12.json": {
+      "bytes": 8418,
+      "sha256": "565dfb357a84e76d46cb0aa916444bb8f1f076206a28c56720347edd26e74188"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2022-01.json": {
+      "bytes": 5796,
+      "sha256": "dcff4c044393c152b31743bdd43776ae0bd0aa1ad80695f63e237bf45821a706"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2022-02.json": {
+      "bytes": 5943,
+      "sha256": "1cf16abd482f7984b27672ef0844c203129669f74da173b36638926f0a4a6279"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2022-03.json": {
+      "bytes": 7556,
+      "sha256": "0681a49fda911e062ff252a453470e45bc15f6a41fb9a5caa3c3a16db2c0f95b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2022-04.json": {
+      "bytes": 8866,
+      "sha256": "24f39e7b93abf73c4f64efde308414294e063cf7c16198388aaf4a091fb43a2b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2022-05.json": {
+      "bytes": 13872,
+      "sha256": "f485f9f2ca3c3bb4e809d4bee4efbebf1ede5bdda78ba52bca4f2b7bee981613"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2022-06.json": {
+      "bytes": 21986,
+      "sha256": "fa644b7c55d7a8a61785c0094023e4cd837001e638e5d19af539a035e3a7eb00"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2022-07.json": {
+      "bytes": 48771,
+      "sha256": "4cdb53fbf57f2ec4c8947184e04af1b6ef31a8892904172de020641d075ac228"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2022-08.json": {
+      "bytes": 37999,
+      "sha256": "a60afc76a5a616c229de8a11e61e502d4780d50ca21987fca78fc0ad57603a71"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2022-09.json": {
+      "bytes": 31251,
+      "sha256": "ed92d0b7ff563b9f468c193c42dc56b4a8a19484e6f4428bcc7f887217ab0d11"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2022-10.json": {
+      "bytes": 44641,
+      "sha256": "d4d87aa23486edc367ec5351daa645e4674299b9e6e1d99ca10768bd61491360"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2022-11.json": {
+      "bytes": 37325,
+      "sha256": "5ef26de02373a41723f0a1f1c33b7b0ef12dcdd5fde6cfeb510c2c4076e46938"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2022-12.json": {
+      "bytes": 7911,
+      "sha256": "c23529acf7f9d1aa220bdd4d091ee1c86c40c466dc3ec879c7c97c8bc3f55ab1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2023-01.json": {
+      "bytes": 10454,
+      "sha256": "a6f05f9773feda6c047e466b2471fa1f93925049e14255ef78cccabfffe58b3f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2023-02.json": {
+      "bytes": 6689,
+      "sha256": "6eb8307e61e8a99ee4faf37c76497a79c207667edeb820dd1ad396ca2c65da6a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2023-03.json": {
+      "bytes": 7292,
+      "sha256": "7dc9c982566eda6f8417ce200324cdba440918b11799fe962535f946d777cf7d"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2023-04.json": {
+      "bytes": 14681,
+      "sha256": "1e6e47b919c26f2f15da7473d9ccd9e5118d5f775fd6ce5dd0a18009d9cb5e5e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2023-05.json": {
+      "bytes": 84210,
+      "sha256": "f0d39003093779d6293f2b2bcd86fc82f100e938a2e138275d54551023199a9d"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2023-06.json": {
+      "bytes": 141843,
+      "sha256": "2603fd4a77a9501786fe19eced7744f838cc65f85a224b3d48fc09aa3edeadd6"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2023-07.json": {
+      "bytes": 194274,
+      "sha256": "cdd00223cb838eb097caf213670bd6a2bf089f418b9cdc5a3f5f912d6b9a77a6"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2023-08.json": {
+      "bytes": 188588,
+      "sha256": "577a0671799b30293e9e82fd94b1469e4e58951c27e64009ac8b4e0fa054c805"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2023-09.json": {
+      "bytes": 139238,
+      "sha256": "ac374fcbcaac7baa8f87beedc47e749c7229cffd2b9d8caf90f31ce46e314e8c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2023-10.json": {
+      "bytes": 39958,
+      "sha256": "50331cf3a4f2de632828b610c7890e3cf335fd13d484d7c7af1e767c64b9f1bb"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2023-11.json": {
+      "bytes": 35888,
+      "sha256": "3fbd2ceb01a2c03c442eb42bc8a2a27138051e51b807dd9318273fd86b7765d8"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2023-12.json": {
+      "bytes": 13772,
+      "sha256": "8e330c24bb513a946f242cbeec1b51857840e91028e60d5e262defc176d795cd"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2024-01.json": {
+      "bytes": 7838,
+      "sha256": "de094d0b22662659ff1b331f7d7d7f89bd1b6e2b6420d774984739fc160199e2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2024-02.json": {
+      "bytes": 10051,
+      "sha256": "3e84bc422394c55010885e48d339683354ebc27c0ab630c36894b7f2e303ee3c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2024-03.json": {
+      "bytes": 10085,
+      "sha256": "3f91cb2289a77f6669aede616f644f8d36cf606ff8159e294a2e02ee285d3ea7"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2024-04.json": {
+      "bytes": 15584,
+      "sha256": "eb77caf1857060ceee7aebf7fa959a994eabaea5023fc0cced06acb35d18eea8"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2024-05.json": {
+      "bytes": 25932,
+      "sha256": "6eeedea59d09d9d037c9f21a0981a43e05d31c1c479f87152e2e082f915f28cd"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2024-06.json": {
+      "bytes": 29528,
+      "sha256": "0f54e23e74b71fb2f096c637de437ea75678380b66622e4dd096b5871887c29f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2024-07.json": {
+      "bytes": 84070,
+      "sha256": "4e5b486e3cc0f1a8dc030628669f505ae21b24b263dbea961ad0be2e71891992"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2024-08.json": {
+      "bytes": 135306,
+      "sha256": "207fd26614331ed30a35b4ab5b0ae9cab359710b1663a84006879d1c925bb0cf"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2024-09.json": {
+      "bytes": 50100,
+      "sha256": "db0e8c5693757aa0a3d9280f294aa09d2cd5ed586a54473e8d644d3e3f9adb0f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2024-10.json": {
+      "bytes": 47124,
+      "sha256": "1826ecd963df752d2b9ca94949534a7589a5e8291796228c9683fa825f590a76"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2024-11.json": {
+      "bytes": 26714,
+      "sha256": "a611a04e9ca261749ee24832e8ae746871b4a15f95a5c6b76f4e2de97e40870b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2024-12.json": {
+      "bytes": 10176,
+      "sha256": "6e63913e24471f8695d957046286b768de805468ce63dee2901336818d28dc93"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2025-01.json": {
+      "bytes": 11559,
+      "sha256": "81597ebc56bef56fe2c687c7e39c9cde6c5bcb1af63d0d580b85c7421b55fa03"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2025-02.json": {
+      "bytes": 6973,
+      "sha256": "e2381bae82bdd1bb887ac8c6e07081d18354f40b3632bca2fb8731cded494bba"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2025-03.json": {
+      "bytes": 8599,
+      "sha256": "47b830c09976ad3282d31b8b218ada3ebfda8203ad3d159a945fd43c861b2ea5"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2025-04.json": {
+      "bytes": 17926,
+      "sha256": "f426e0a1e7bfc06245c7c8457400f35d36a9afa47a0fc36553e4d8cf067218d3"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2025-05.json": {
+      "bytes": 49359,
+      "sha256": "fb51d6d40c426ae333c949296f0ea2875d69d093db6fba90c3d700dcc7852f73"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2025-06.json": {
+      "bytes": 79632,
+      "sha256": "0a5f133e647db00c61b39c38bd314da1566d692efdec79d5d6c8665631b17450"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2025-07.json": {
+      "bytes": 127050,
+      "sha256": "ccd9f9f3a36096a335ac4cf990e11886fcceb6cf2c57e4b97f861ca9fc2c4f3a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2025-08.json": {
+      "bytes": 108517,
+      "sha256": "6427e4e8042dc42e8d38d41f387e87564d460c06daf5aac4eff370e6b4eeda50"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2025-09.json": {
+      "bytes": 51712,
+      "sha256": "4f20f4d5b42b82932067f433e94118b3e3574038ee019fc82f3910e48866be9f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2025-10.json": {
+      "bytes": 36246,
+      "sha256": "3a67e684f0d53a1c77cccc4622ad913a9ddf28c535dbdcda7f278aa576dcb38e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2025-11.json": {
+      "bytes": 37288,
+      "sha256": "e216212c4841eba4095cddfcc7accbe4040e185b9793774d9e049724f9e6dbd8"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2025-12.json": {
+      "bytes": 6364,
+      "sha256": "c3be56944c6c21bb04b990d158bc39423b7d01d585db9cad856ef345f9ff8f2e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2026-01.json": {
+      "bytes": 12017,
+      "sha256": "bc084ec5a97f73d809459b4da2c1996e0213ac2fc20cedf547bc2ea877f6adb9"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2026-02.json": {
+      "bytes": 9258,
+      "sha256": "c76aeb8679dd3e92e3513eac5f8e3593b5a218ca9cbec8a731aa5bae93b10895"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2026-03.json": {
+      "bytes": 4595,
+      "sha256": "656143865f8918f02b182f02840a6e5218ad2fd51d834a4902ac24214870fadc"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2026-04.json": {
+      "bytes": 8742,
+      "sha256": "3c36aa523e774db47e066582147c7b3fcba8e223d00b4ff10b10214fa75569db"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2026-05.json": {
+      "bytes": 19056,
+      "sha256": "cbc196e94bb5af6b1dacd5befc7ebdbd69bce1dc3df8f0119ba628ede15e884b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2026-06.json": {
+      "bytes": 49542,
+      "sha256": "3a5b86a7fcd7421417a8d3a94eec5fd758bf1021f9fa7c78c268c9a5a4f619b1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/SNPP_VIIRS-SP-2026-07.json": {
+      "bytes": 95573,
+      "sha256": "e548753419686da88074510d86c9fdca049f451086a654ba0e8c6e0f420d206b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-NRT-2026-09.json": {
+      "bytes": 2422,
+      "sha256": "399c0ccef0b8e196a37889b00269695b068411436cc17b6f831e5a02fda2771a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-NRT-2026-10.json": {
+      "bytes": 6388,
+      "sha256": "8612f502157f2c061fe0de2438ac46ff334cfa24d8b7ea76512e312f593e5607"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-NRT-2026-11.json": {
+      "bytes": 2794,
+      "sha256": "21afc9a6dcc06c55e79cfe24480a442e2e84a137d0198a37c084dc0a1ddaee52"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2010-01.json": {
+      "bytes": 1301,
+      "sha256": "1f06addf65beedd2129219a044ed54d8765ba84a9799a96cc9a8527b39f2fe0f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2010-02.json": {
+      "bytes": 1710,
+      "sha256": "1bd5757e0566e21aff7b7a498299eff7abb650410c3678885e020bff35a40901"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2010-03.json": {
+      "bytes": 3020,
+      "sha256": "376d53a33e6bae9cb99395dd38a79bd2a3d3a9e96f9d6702088fd09d7e1c78a1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2010-04.json": {
+      "bytes": 9212,
+      "sha256": "b0c4d083bee93c7a9a223e9bb921b7180e016d4fa99f2b0195d20c57b72c1205"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2010-05.json": {
+      "bytes": 12775,
+      "sha256": "9cf5b56eed53f01481b4d73ce1b023605b948660533d48279166e8d1ad26b6e5"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2010-06.json": {
+      "bytes": 21804,
+      "sha256": "16eafe847df38e7c38b1935473f05366a73ecf18a400c99acbf11a6cfb405888"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2010-07.json": {
+      "bytes": 24978,
+      "sha256": "50d8e7fc15e5550ab5abcc888386d3b2255d8e96f27707e9c3399fedb90c2aee"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2010-08.json": {
+      "bytes": 23499,
+      "sha256": "461d7ee59cc8dc1a78ba182f97f59f74d03f9c8c6ebb78d92c7646b36ac2b64d"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2010-09.json": {
+      "bytes": 3743,
+      "sha256": "f70e58bfdd057c31bfe21ef0cf5fdd0f5b33bf888f4b8c894248d0e414468d40"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2010-10.json": {
+      "bytes": 14982,
+      "sha256": "f0915ea45726db3f6d97dde58a7358631274ce52e78a147f9bf041c77daab6da"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2010-11.json": {
+      "bytes": 10051,
+      "sha256": "d2a72df64dc5d0bd375ed9d59167ebb8cbeb1a3d96f25233fb47e67845d26d98"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2010-12.json": {
+      "bytes": 1049,
+      "sha256": "82e9319dc950e77770393dd4fc87d138d31409a237b91a6fee1f3dcaa5ea5082"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2011-01.json": {
+      "bytes": 662,
+      "sha256": "6c63a2944ca4739ee1bdc83bb9af561c1e1a7d353649f0cd4ed7742f1a08a272"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2011-02.json": {
+      "bytes": 714,
+      "sha256": "38d8f344b0ef4c7a55c7ae146a4fcc9b2958187fa420020b09cc8ff68fdef231"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2011-03.json": {
+      "bytes": 833,
+      "sha256": "779795eabfb4243ea1d98f96b6667b049b1706e24110dc8944f61380df58cef7"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2011-04.json": {
+      "bytes": 1919,
+      "sha256": "5095854b5350770ff9b84aaa69cf8d3c4e20f8cfb810c0d58b925fc35b22cabb"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2011-05.json": {
+      "bytes": 13947,
+      "sha256": "5742a6fd611399d20ff78768f6dcd2deba0f5effc25ea42df35b0c5474d8df5c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2011-06.json": {
+      "bytes": 17363,
+      "sha256": "b63c99875f04481bd7a95142129177d88e23bc2d3dc897a4dc2e7118d3a6d126"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2011-07.json": {
+      "bytes": 16071,
+      "sha256": "aedf376f729dae4fa0d9f0b39b504bb2d5ee6306cd7c3b2405ab23b7ff11f07b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2011-08.json": {
+      "bytes": 6358,
+      "sha256": "7b3d46053b79ad2f0a9fe0f49c440c85e7561e1fd275db262b97e81f6070f37b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2011-09.json": {
+      "bytes": 8405,
+      "sha256": "5e625b61e779adc56bce6fb6a92c14f0d43e5159b4ce3e70be2791bfbc935bd5"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2011-10.json": {
+      "bytes": 16008,
+      "sha256": "1c4902d5161ba8eeeaf4c8743567c6e42d0ad6a1b3696ca7ab7e2132fc1f10c1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2011-11.json": {
+      "bytes": 8435,
+      "sha256": "ceda4936921641f15c08cc9d06c81a34ba34288c3744797e82bf3234aacbc14b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2011-12.json": {
+      "bytes": 3180,
+      "sha256": "834c4854593ee7958f860fad1740a69d715ccb16fbd833950728b656d4a3608a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2012-01.json": {
+      "bytes": 1671,
+      "sha256": "e37d26615c08edd3de9974ad7f1ff4d2e0fd3459c6ea3457a6312a71ca639f76"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2012-02.json": {
+      "bytes": 2231,
+      "sha256": "1b35fca34b3befa4cfb821d4d61ea1c50afe61e85d93a8aa216b341bdc006a92"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2012-03.json": {
+      "bytes": 2695,
+      "sha256": "11bea33af31da289c2f8090ccc1dd7a72a2ff0d419ddc81b97f8c60ca8c5eda1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2012-04.json": {
+      "bytes": 5479,
+      "sha256": "b478ad28ddbde2b0e97f1d27d160f1e49f2a7ef1672c34a7b1a4702819b01e35"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2012-05.json": {
+      "bytes": 7603,
+      "sha256": "7f5fb18934d00bf811dbc18ba5c8727ee8d81672fa37dcc93c6ef4c3ca17aa31"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2012-06.json": {
+      "bytes": 12935,
+      "sha256": "f154168f553b1e84a254b4ce9da64f86bcd272e153b9174e8fd217eb0a0cd704"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2012-07.json": {
+      "bytes": 28367,
+      "sha256": "e8c04fbbd8c268db71d1f1ec784496013decb8bebd4d7dcf7b5576ee7aa2505e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2012-08.json": {
+      "bytes": 12955,
+      "sha256": "077912d7dd35266a17df2923922ede85b4a91c76687d7c30edbcdcf257c5a194"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2012-09.json": {
+      "bytes": 12585,
+      "sha256": "380a2a09c58cb96ca7926e7170d29e6ed804df7cd281b8e540b5dde09b17312a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2012-10.json": {
+      "bytes": 9712,
+      "sha256": "04ac40e86e2a5b0a9a1e6b09d202f21ad49bcd2febb11224364de025bd246463"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2012-11.json": {
+      "bytes": 5500,
+      "sha256": "c735c8a8862bd3ff8d09d3cca2df5b1885c003e7a51d1a1f9edb0766054989e6"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2012-12.json": {
+      "bytes": 1231,
+      "sha256": "4ad33cbc7e4ac8dcc1faf13ef522e4300ebb20ede6078c2a3d3c0f72c417feaa"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2013-01.json": {
+      "bytes": 1283,
+      "sha256": "512377a3e30d5395ffbffb471a1d35b76bbe0064731cb1d482fe5805eefa25f5"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2013-02.json": {
+      "bytes": 1043,
+      "sha256": "6cab0c40ea65727a334b938dda83206a78d861fb5d7645e16a8a0b7473448192"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2013-03.json": {
+      "bytes": 1054,
+      "sha256": "a85b96aad632d1bc509217eb8df90f9acc99aa7daa11e9533281e42fd7d322e1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2013-04.json": {
+      "bytes": 1688,
+      "sha256": "e0db764139ffafb1a35834b1aa13b0ec373dcd2e3f0d2d8dd37a9874366d14c0"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2013-05.json": {
+      "bytes": 9585,
+      "sha256": "7ea9b83c15bba39f1e19f286b03d06f3a0d44b4abd39c92c8d02c9d04e07e9d5"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2013-06.json": {
+      "bytes": 24163,
+      "sha256": "93d43326bb28f20250f73e73a70e81225f8119457286bacb4b3d50f5e4653a0c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2013-07.json": {
+      "bytes": 41505,
+      "sha256": "183148cf4faae8ea477f437d1db77bdc656e463bb276b27c4aabce8927f0b72c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2013-08.json": {
+      "bytes": 22362,
+      "sha256": "b9577fd43941507841f8bc40a34666089dc7766d61c1799d9b784ff82c0c7270"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2013-09.json": {
+      "bytes": 7261,
+      "sha256": "f24e5b5812e24cfb05bab3e488291e04a890bc8f17f1ffcbc35e3bdfd249b781"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2013-10.json": {
+      "bytes": 17795,
+      "sha256": "f16546ad696fc56b09ded1059619a36f249274f921186c12830ed7131594bff4"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2013-11.json": {
+      "bytes": 10286,
+      "sha256": "5a828bbcb7cf80dc2251c274477c6f4d49edb5ba60c6d1e0846d2d826b1ccce2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2013-12.json": {
+      "bytes": 963,
+      "sha256": "be47815dec2514a4660e08989249a968cfea90a77783e8566070cf1e2ccc5f72"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2014-01.json": {
+      "bytes": 1968,
+      "sha256": "6f3fe702e4a71e09961f64123f0e8b92c491cceba7e54a8982928354178863cf"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2014-02.json": {
+      "bytes": 439,
+      "sha256": "937b04d36f2515b251a5bf1d6a652c7dafb38a264b50a6707fb831285a6de60e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2014-03.json": {
+      "bytes": 842,
+      "sha256": "d8fb5986136d363083e0fdd227e92fee80f9cb6e5902f88b6c8031e0e005ae1e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2014-04.json": {
+      "bytes": 1773,
+      "sha256": "65d277910058c2e84a963a50f87aee945151db1c0d05c63fe409339bdfa14f40"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2014-05.json": {
+      "bytes": 14482,
+      "sha256": "0ec74309a42aed4017d0a4867fc7f5d2bde4d9712ab253d6dd204cad3eec3daf"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2014-06.json": {
+      "bytes": 13335,
+      "sha256": "7c11404f1abd4d9d95914ef7df70c144f1c584ed8e511707a9dba5d3461562ea"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2014-07.json": {
+      "bytes": 50178,
+      "sha256": "93a8485eef6e1639926007f1051e73e7d423a6fb82a4a0169dc5662de3136e91"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2014-08.json": {
+      "bytes": 40597,
+      "sha256": "7262d93482cac2b3a4103cdf95b5a5ef45d114474e85be5df71bc637aed4d621"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2014-09.json": {
+      "bytes": 5311,
+      "sha256": "3fa3bfaa959c777d226302c56d216eeeb20409a4f190f9e2d443910611a625c1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2014-10.json": {
+      "bytes": 15925,
+      "sha256": "57d9f1f644c4f3c752fe00623efb9e8b2f762008abc8bbdb4470c1a78bb8d1a2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2014-11.json": {
+      "bytes": 9284,
+      "sha256": "36f03952ceb41d3cd1bc4e690acd7a9f1f4d8d96fee091d9dade79d4405168a4"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2014-12.json": {
+      "bytes": 2346,
+      "sha256": "9a520b7e6d49a64273e773baf3fa0fcca39953b380f02577f293a940a45d03a5"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2015-01.json": {
+      "bytes": 1672,
+      "sha256": "d3a450b7b319a1b6130a3f53ad59558c23bddb0a1852c69e99b40647135db3e9"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2015-02.json": {
+      "bytes": 1010,
+      "sha256": "efd6461b1f406b4f3ce12c5e2fea6a9b3c562c0727a58a84998431e365688b2c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2015-03.json": {
+      "bytes": 1710,
+      "sha256": "a41cffe63e5505ca69922b4c2ee1a1bc891fb93b7a89a2716a58f3dce2aaa516"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2015-04.json": {
+      "bytes": 8040,
+      "sha256": "f0231f12f36d6ee77af6632a5c96eb82d45f272cc766da711425c512a76d8cdb"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2015-05.json": {
+      "bytes": 23465,
+      "sha256": "54f021ff70e2ebf6dea844047e371fca6f9ad74683ab12ff3abda60cc2dcb741"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2015-06.json": {
+      "bytes": 35585,
+      "sha256": "73aa06968b1a0733da880aa1985923e19ae5a154d4924069f8dbaa480b150335"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2015-07.json": {
+      "bytes": 39216,
+      "sha256": "202c7d9ef94675c87eb05c70e07caa50713526aa86e00fcd46e763c18a338df1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2015-08.json": {
+      "bytes": 9318,
+      "sha256": "b8db75c76d11d8dca9c243ff36db4fa62b88a93ad57967ed4bf5891d5946c2f8"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2015-09.json": {
+      "bytes": 6776,
+      "sha256": "e76d97cb98815117d360df59ed4e7ddee053899b67d07f5e5172286f38cbe89a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2015-10.json": {
+      "bytes": 20216,
+      "sha256": "f0e040e013a8e2cc17078ed3a6049747a5092886f44077e014da72381d596fef"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2015-11.json": {
+      "bytes": 14959,
+      "sha256": "539226c578f856e547d61886d96725811fd2c2fc00768e9b12359719c5c27dc6"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2015-12.json": {
+      "bytes": 2765,
+      "sha256": "70ead220a60e03354fc56536b4771c5b6a2bd1c84fdd042656b744a9694ba1a3"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2016-01.json": {
+      "bytes": 1527,
+      "sha256": "e2f0f6405e5cb9bdcb8a3858946c9278d0ca406a06c7dba1f70b3e9f0ed48163"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2016-02.json": {
+      "bytes": 525,
+      "sha256": "086d168b47382335a18800c9619cb51af1a5ee2ce12fabcf7e49037db519ce71"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2016-03.json": {
+      "bytes": 1148,
+      "sha256": "e361387527083ce825894167e8376b93ea4df236ae14b4765222c76f563b59fa"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2016-04.json": {
+      "bytes": 8571,
+      "sha256": "7dfcb0a4d19cbbd9826a78fc1095009fab757ebab1d0adeca906468c32d26fa2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2016-05.json": {
+      "bytes": 18337,
+      "sha256": "0407a67beaddb91b0f77ce496db78e8f0c14c4ed7f0597975b7a51a1c05420e4"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2016-06.json": {
+      "bytes": 6757,
+      "sha256": "966ed1bfa0300918ff0a8f613a1cc806448eaa4e464c112e625ed2a909fa5870"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2016-07.json": {
+      "bytes": 13613,
+      "sha256": "606f986dcd8894be79c8776e099eda41f9ac58a52ff2e7e3f8c4ba00b5bc7f3b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2016-08.json": {
+      "bytes": 5986,
+      "sha256": "95921f6e5e191307b82ab6d78d0c2b61d87b8dc4f17f844d6d006018d7f10195"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2016-09.json": {
+      "bytes": 5460,
+      "sha256": "9967392baa9b4f822296cfe512d7b4f98c305289835f026050dc94e0a266afef"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2016-10.json": {
+      "bytes": 10888,
+      "sha256": "3fc74fae32e39aede87aab33cd58f14c731a739214ce8090e83763211e821a8f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2016-11.json": {
+      "bytes": 11585,
+      "sha256": "1ce19f6dd18b2e90078ed53c8ba8702238bfb718ff4fb71498a966dde5df809a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2016-12.json": {
+      "bytes": 1480,
+      "sha256": "36dd018f728bc33ba26390bc790da57891a5474ee610186442f8dad69b7e010e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2017-01.json": {
+      "bytes": 1764,
+      "sha256": "cd1d6f090b488aa4a488974790dd7565533561ca34f1303334c7ba924a8beb39"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2017-02.json": {
+      "bytes": 824,
+      "sha256": "f738a750f7a8ebdc7a2e4e6b1649b175b0a73c0d28fd76f98680a2e2ec7b202e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2017-03.json": {
+      "bytes": 769,
+      "sha256": "433b848cc30fb22c08b2c1854e5f9a1a04cf4aca0bd399939a0807ec771fc42b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2017-04.json": {
+      "bytes": 2810,
+      "sha256": "d9d517cb37c69d1bd70980179404941be821a6a5ce40b77d3ac2f08a1ec11fa1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2017-05.json": {
+      "bytes": 16543,
+      "sha256": "223cf8044659addc718c0b147a61661176d17726e1144ff8661bc24a4985b7fc"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2017-06.json": {
+      "bytes": 8741,
+      "sha256": "c9447aa2597acde5e58b2e14bee5fec4b75fba4c8018c2fa884628634bd13c61"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2017-07.json": {
+      "bytes": 33134,
+      "sha256": "1af46e3644e216e0a7442be4aa2f7b73bbd135f4324a799985f503aeef323adf"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2017-08.json": {
+      "bytes": 56474,
+      "sha256": "8637fc400143f058d17e16b9200f7eca33af46b53ef52ff1c740c15271701bf8"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2017-09.json": {
+      "bytes": 17808,
+      "sha256": "28585a041b6bdfe0f7fbc4be8e6e8b6f027bc985f775a1a8b73b02cdd7f03e2e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2017-10.json": {
+      "bytes": 26243,
+      "sha256": "f12831770127312e1e24e823e44361e93a48f107e6035c78c10098b60bd15bc5"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2017-11.json": {
+      "bytes": 4972,
+      "sha256": "5fa145ff372d39880ba0bc650282695acfae1ec4f3af90e44a2741bc12a4c51d"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2017-12.json": {
+      "bytes": 3603,
+      "sha256": "96df0a08364d5934d1a4b6e4bf399ea29a531d10431243ad85293826dc7d976a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2018-01.json": {
+      "bytes": 2078,
+      "sha256": "b8b82757c707d6360df8dabb08e4399ed196aeca093d66d02f944ebf628a5406"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2018-02.json": {
+      "bytes": 248,
+      "sha256": "cec635dbeaa7ade7f0f545b4f9d823b772c749b7925313c469a33acbd929f974"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2018-03.json": {
+      "bytes": 580,
+      "sha256": "bdd61718531b554ed68c16903a87b5dd36baeb79d871f104d78b869487fd2602"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2018-04.json": {
+      "bytes": 4073,
+      "sha256": "5cab88415ec33dde32b6b1eb2934d35ad444ff60ef42b6304fb293650698321f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2018-05.json": {
+      "bytes": 13809,
+      "sha256": "fb50456e048a65e4250311252443cca2e1c6a3bb2dcd77a32a30210e9aa790fe"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2018-06.json": {
+      "bytes": 8552,
+      "sha256": "47dd340d5cab0e21af8eb2ca99d1806504a9857b1ef77e0bfcbca2e0a86d74f9"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2018-07.json": {
+      "bytes": 14985,
+      "sha256": "78648e2d74ba9e925d279a8283137a998a8f56ad1115c4e187f449bb4a43c046"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2018-08.json": {
+      "bytes": 48965,
+      "sha256": "0e0dbd033011ebb29aa2bf89bff1ace5bc22684eebb37ebd9c3bbfa4ef1e7ddd"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2018-09.json": {
+      "bytes": 5485,
+      "sha256": "8775590455b861a091cdb5658900318b815691c2ff0e4aa881c5a96cda6b96ab"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2018-10.json": {
+      "bytes": 16178,
+      "sha256": "573bb788f4f61cbe71067dfd94cb773410d79a0ac537536434a07f0ef4a29bed"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2018-11.json": {
+      "bytes": 9731,
+      "sha256": "e2ecedc44575848d43d4c81852a502f85f8e2caeb7119216685c3d23e1581da4"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2018-12.json": {
+      "bytes": 2850,
+      "sha256": "474275c2685fb20b4dcec74cc3281b4517f33d8c09dff0b4a2cbabd8cc0b76a0"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2019-01.json": {
+      "bytes": 793,
+      "sha256": "ed4d2d2812a1663a2d0df5321a97d48116969bcd8c37fead0483434be09b6240"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2019-02.json": {
+      "bytes": 270,
+      "sha256": "bb8a9856ebfe28d98bc414cfe14ea4e9edf34df9cd90580bada117bdc48dddc5"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2019-03.json": {
+      "bytes": 1487,
+      "sha256": "bedb8549be686417228876ef672932cf2e431824fcc436f07d047e445dd33b8b"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2019-04.json": {
+      "bytes": 4896,
+      "sha256": "dadcacbe3fba6f303016f8cc798e43f8906f6fadae8ba968125a4e891be2b52a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2019-05.json": {
+      "bytes": 17374,
+      "sha256": "205096bb65faa9fa8893c9fce113e8f4795ccd6af6a6fd6f46db4a996416dac3"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2019-06.json": {
+      "bytes": 9074,
+      "sha256": "90c5e4b34525d119cafa9153ac30c7a861bb4da096b599570216c48c03271abf"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2019-07.json": {
+      "bytes": 20599,
+      "sha256": "706ab278eb8f9ed8d74ea8c3941cf8fa0db63efb3b478660549fb449dc04ac3c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2019-08.json": {
+      "bytes": 4436,
+      "sha256": "371bd48b211259d547a934d20be0bc55c58171a0c0f1d8e7fb4aafb401e1a1f5"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2019-09.json": {
+      "bytes": 5875,
+      "sha256": "16bcdacc2737fc6905dd20aefc45f17be9461dc88a77f713f8f8d34058da4e7a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2019-10.json": {
+      "bytes": 13312,
+      "sha256": "c0a1273db5c24cfce400c85f8b38dea048e4a4df2475f3d0eb8b7fdad2fe3bbd"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2019-11.json": {
+      "bytes": 5164,
+      "sha256": "51a26d8b2ae4c03763765d8f6fedb9edc09364fecaeaf6434ce5f265aee618da"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2019-12.json": {
+      "bytes": 1391,
+      "sha256": "209273c14922877285477b2a3d17077704e3ec19b5878e6c5c4d55f5e801f6eb"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2020-01.json": {
+      "bytes": 1262,
+      "sha256": "4c9418b4aadc255f558300c925a38ac286783d127f2e952942741d69b17765d1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2020-02.json": {
+      "bytes": 1154,
+      "sha256": "06d5d00f25e5b9b2f5146ebb3c1afa0675bc67b99a2a0eefae0b53ed6e35de46"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2020-03.json": {
+      "bytes": 627,
+      "sha256": "4c7d7cc715dbecfb16b3b471859b8374279e27e68a0866f95f076b96c6ebcecd"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2020-04.json": {
+      "bytes": 3031,
+      "sha256": "6165ba241bc3742d6289f2e5e7081bc9172ea79a75c89126e4c4860245e9b529"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2020-05.json": {
+      "bytes": 14726,
+      "sha256": "84c471d85bb9c8c3a4289d7cca6dd69788b803e6dd19d5ee32e3be111525e596"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2020-06.json": {
+      "bytes": 5991,
+      "sha256": "a332fa118f405722d2b7f6b55708a71c1dc79d857945ddf045c41dc4e4aabd80"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2020-07.json": {
+      "bytes": 4319,
+      "sha256": "ad18d67e7418829f15ef48996ddd7fad392900c56dbb7b1b87b93b0021bf2735"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2020-08.json": {
+      "bytes": 4462,
+      "sha256": "ec308ba89b30228ae73869507c94b66139c8f1b72d4f2e1bf845a0a3c8ee9e37"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2020-09.json": {
+      "bytes": 3964,
+      "sha256": "047bd8bb9a0a6ad4e861ebaea69b21051f7cfcb456ca8a9251ec64d1d9ce92ba"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2020-10.json": {
+      "bytes": 11005,
+      "sha256": "ca945660afd42908b2075a2fec15ac1710c9791894af9ddd3f9de955d2946dc2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2020-11.json": {
+      "bytes": 9286,
+      "sha256": "b1a036abad0d83bba917a83addef6b11f49fbcce146a30dd2e8e81b33cb0c473"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2020-12.json": {
+      "bytes": 3536,
+      "sha256": "c0380473ae174fcd418b22a80bf592bb12ef40dd1fa314a5095a337b60c50b03"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2021-01.json": {
+      "bytes": 1703,
+      "sha256": "7d0d91edb22b4a2f71f744b7526b1ad738e1e850ef7358ed8a6de2744a83486d"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2021-02.json": {
+      "bytes": 445,
+      "sha256": "2e7071acf43d70a22d51d4c2a0d3141b7bf493e8fe7e2c328279e4150b1b7f12"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2021-03.json": {
+      "bytes": 1893,
+      "sha256": "c1f974750922490edbb35ce2279b410ad5e77fea64aca78b5d6b1bc11336bf15"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2021-04.json": {
+      "bytes": 5229,
+      "sha256": "58d6a65d97857726c8756688983164fb1d6ba096554ddbd92637274b20abb428"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2021-05.json": {
+      "bytes": 8816,
+      "sha256": "89be46e2853ff861df92cc56b2f9991920b06cc4d15c069a1f814529ef622da1"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2021-06.json": {
+      "bytes": 6632,
+      "sha256": "febe083bf79e6eeac3f0211b2a68babae573e6654e9f7eafd7de9631039e6f6c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2021-07.json": {
+      "bytes": 74742,
+      "sha256": "27380061884ceee13796e0d3157f37436466b06515a09304b44615b047402ff2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2021-08.json": {
+      "bytes": 35951,
+      "sha256": "db83a765e30798e7d9e6f4d66e19cda35765444c2c40c4d8ecf441531fb55ac4"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2021-09.json": {
+      "bytes": 5881,
+      "sha256": "e3b3e1381d4604b15f2f8134b0089ffb79e2d00f5046ba0bd6073a8de9d08bc3"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2021-10.json": {
+      "bytes": 18479,
+      "sha256": "23f5ae8ea3c4e92a54b0213b56e78c234f58a5e0c64f2ced47cb83140cf9164f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2021-11.json": {
+      "bytes": 10952,
+      "sha256": "77112cdc3e8be7c43e4c80a4630cf0fe243d051bee5e3e12efe59c5b9259a406"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2021-12.json": {
+      "bytes": 935,
+      "sha256": "974c1ab121b500661ecb1a3336b0e6bb54743905bc07987c72ff88403e60cde9"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2022-01.json": {
+      "bytes": 1007,
+      "sha256": "24bb184b51d71231bb7875b53257e84608fd06ec0e5ea78ffeb2c3a9948463ee"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2022-02.json": {
+      "bytes": 792,
+      "sha256": "51be38671a63b1b0d6e5985a112d30f8e176469431cc275df28fd0c9841049e0"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2022-03.json": {
+      "bytes": 1077,
+      "sha256": "8876297be3992230e65bbb59a891043517e8594734a7fb5d93ba6e5bfdceb1a9"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2022-04.json": {
+      "bytes": 1417,
+      "sha256": "0cab0a725b99633ffd3577f7df8ca751158ad41721cf0517ea78151ace587d7c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2022-05.json": {
+      "bytes": 2588,
+      "sha256": "308a3f06fc8eaf72ad76d22d1d94819a7ba2e878e26726927f4ce5c30c6e7874"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2022-06.json": {
+      "bytes": 7894,
+      "sha256": "10e48cfd1794db27ba8f61e97cc8f6b98a9c4b4d2b7360bf791347ad572bff15"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2022-07.json": {
+      "bytes": 25492,
+      "sha256": "eb0c4a35f0aff3dd93901ad5dabb0643d333a5edd2b5f8faa1a84c0f5109060d"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2022-08.json": {
+      "bytes": 16193,
+      "sha256": "988d7edbaf4e105a1972c8ba8b286c7854767f88ba50f536452dd95f8c774e2f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2022-09.json": {
+      "bytes": 9349,
+      "sha256": "e0b387030d6c7614c2805c2c7f3100d9c63c40320389a3b12a2c62b8c8d48441"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2022-10.json": {
+      "bytes": 6451,
+      "sha256": "02c35b5504aa4bbf8245743996256564f9d31f04faa0245a8b87a1afc7f32757"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2022-11.json": {
+      "bytes": 7371,
+      "sha256": "5263e9bfcd9a7b7cd2eeb4b2f75c5c9f1f49400395e926b86c826aa152bc2a42"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2022-12.json": {
+      "bytes": 1228,
+      "sha256": "77fa362d59e4f11cdd1a61f273913a536dc9ef2d2c526370d9bc8bdc1ca77588"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2023-01.json": {
+      "bytes": 2052,
+      "sha256": "044c3ad2d021e11a0c3380b0ddc2963bf9c1f40df6b45a102faa40ee5ce1f186"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2023-02.json": {
+      "bytes": 996,
+      "sha256": "22b1a2cf6c788742d9de0378898aaad5e22dfac50fa2ccbc596f2990e7ccca9f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2023-03.json": {
+      "bytes": 692,
+      "sha256": "8f294f61a1c975184fec1f8c2e05881561b58dfb20e208b09320cd81947d6785"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2023-04.json": {
+      "bytes": 2615,
+      "sha256": "ac376d5c65fe82c0a4b9a4cba70a9d26372809cb5a8b81338dea1cd973fd327a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2023-05.json": {
+      "bytes": 44813,
+      "sha256": "f5e87707b670db1004f01dbd2f2faeca32197700bd72c9eeae87211b5cf8282e"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2023-06.json": {
+      "bytes": 75518,
+      "sha256": "86461988ba38b850dc7632998b8bf498ad6300f4daebc7451e5f5e3d6bab9e83"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2023-07.json": {
+      "bytes": 105806,
+      "sha256": "10e6585c299c09e665e30f4f3987d116f12754203223cbf728b4820fd54d3555"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2023-08.json": {
+      "bytes": 91764,
+      "sha256": "87eadbc2fa2be2f269f36aec7b0d2379a98aa1a8efdea8a1d1c8947be5478945"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2023-09.json": {
+      "bytes": 57641,
+      "sha256": "81c98a368eb1db92048c005219978e7dd5bf5683d055b4fc03e0dba37fe7c4c4"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2023-10.json": {
+      "bytes": 9288,
+      "sha256": "a82f636d7c7605e5d9fd063b9738b4dd024cbf1dea10576406d780784725f56f"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2023-11.json": {
+      "bytes": 8756,
+      "sha256": "5ae80665157654ede4f244e62498ba8446075002629335274f03332b2be6b521"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2023-12.json": {
+      "bytes": 2286,
+      "sha256": "cda5cc897517d5528e8fc9dcf943acbd75d36f6993127b44a51c1fa0b8d5df4a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2024-01.json": {
+      "bytes": 1295,
+      "sha256": "d38d55c186456ab9993c6985060e1c3abb2f1ce46592062d944309e4aa1752a3"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2024-02.json": {
+      "bytes": 829,
+      "sha256": "c36195c7e17f2975212d4aadff066173c9dda6e99d1ccf0c1a9807b6da12899c"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2024-03.json": {
+      "bytes": 969,
+      "sha256": "e0e4a574c663d1b4eefd7ec49518231952a964a58016328542c4d382433924b0"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2024-04.json": {
+      "bytes": 3157,
+      "sha256": "462c9753dfc6dc4ac9e6a32fb3895cdfa86c8debf66464ebd657f74c3dfdebc3"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2024-05.json": {
+      "bytes": 8653,
+      "sha256": "299df9292ff73aa280187ab22e477ba595e33147c31b394fed1aba347d31b535"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2024-06.json": {
+      "bytes": 13732,
+      "sha256": "c81cec80ad1f14725ef5dd153b8b7ed624ab604dab5e013fa606f35f705c2994"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2024-07.json": {
+      "bytes": 59353,
+      "sha256": "a6275b80839e54bf081a04efe032e671ab9c41344784c2006237f989004a6d59"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2024-08.json": {
+      "bytes": 65307,
+      "sha256": "e2b04d5527e8e648075d61e4dc76a9f4a23384909c2054e6455a5aedef305884"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2024-09.json": {
+      "bytes": 15885,
+      "sha256": "763bd55b4dc09ab29d7d3fa0def629d2ff5995cf6fdc6e7a995c35457ee7e600"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2024-10.json": {
+      "bytes": 10195,
+      "sha256": "4aedf9675a17265179efb74f9ef4ae592579e2b34ed347df021d5673225844b4"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2024-11.json": {
+      "bytes": 5123,
+      "sha256": "2bf8e5361b784f95ba91949a43cef4179f98f4f3aa5dbdbd6ba35e7d28adbdb6"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2024-12.json": {
+      "bytes": 1653,
+      "sha256": "1c37a9690bad5964c898406b28c2c7423ef3a839160c4b419b17ea8010438227"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2025-01.json": {
+      "bytes": 2613,
+      "sha256": "4f60b44a7a3673645f57136a2b32cc6471f656f5048ced29b1e7f007c8a506ac"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2025-02.json": {
+      "bytes": 781,
+      "sha256": "1ef74f493cf1d6caaef4ea2b6a64f18a9bb1764a079cff0dd4ff55b5ecf223f8"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2025-03.json": {
+      "bytes": 866,
+      "sha256": "21a5d93f7fbf9bf5cfc9d12798183550478422f0cb295bea32ff48a6c2a31cb2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2025-04.json": {
+      "bytes": 3234,
+      "sha256": "dbc16f308b2bbb82c056ffdbf2566712fe53298f4318903fbfac4810c9d103ba"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2025-05.json": {
+      "bytes": 23594,
+      "sha256": "392191b8ab739266e434e847fae11fa7e17ba6e44c246a2112799c40b52a3a4a"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2025-06.json": {
+      "bytes": 38541,
+      "sha256": "e5eb77e81545dfa1497710151d4a50080fc60808098a87fe219b05995159b524"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2025-07.json": {
+      "bytes": 64407,
+      "sha256": "77430e785f6196c38fe301d33793492972c0de1c7f179bf731b23d4fdf5f58d4"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2025-08.json": {
+      "bytes": 49194,
+      "sha256": "6b0f651e08ca9e114ebb41db784e3ff80ffa40d7517fbfb2f310950c00763efe"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2025-09.json": {
+      "bytes": 17002,
+      "sha256": "37e07980dae005e45d02c3b2fb2464c37212957e61dfe4c1f04f8fcf187f87c0"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2025-10.json": {
+      "bytes": 7951,
+      "sha256": "4392a4b3da205bb0e88e75fd413dfcc3c2f3398e9d46f95ed86b70b22aa7b4f2"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2025-11.json": {
+      "bytes": 6729,
+      "sha256": "9224f961b97343a33fe10f46aeb1d42bde5f786720828a083e917457e653c3fa"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2025-12.json": {
+      "bytes": 753,
+      "sha256": "e1984cb5ddca96d344fe0c3367cd5b59e70069f478d479c54566f7310c55e030"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2026-01.json": {
+      "bytes": 1638,
+      "sha256": "16b42fd151b052cc78388591d93e7e81e87490b485e637ce5b74f32ea93a7652"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2026-02.json": {
+      "bytes": 1293,
+      "sha256": "87787122bfb10b14c5915540f19bc7168d43dd0cecf34afb79c6a1d706b62051"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2026-03.json": {
+      "bytes": 344,
+      "sha256": "6f9dc908ce2ad2b1e858fb3f596da4f517208da907323d5e1e7ac86592044f79"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2026-04.json": {
+      "bytes": 1085,
+      "sha256": "be803a4a35ddcdccf9f1aca09df290ca26486564c81e3a18c3f3bb04c460d624"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2026-05.json": {
+      "bytes": 4494,
+      "sha256": "0939cfa159bbdec763d038f66bdbcfe3cb007a67966d32a08e298ad40c04b997"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2026-06.json": {
+      "bytes": 23857,
+      "sha256": "7c7163323098b6908223c8156887f73e5e7417980b858dd4cbccd0e7e697f4f6"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2026-07.json": {
+      "bytes": 61568,
+      "sha256": "cb663b7f29fc56a082133ced884ce5cddcb76ad744d92e2279f23b0fc3b22275"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/TERRA_MODIS-SP-2026-08.json": {
+      "bytes": 26545,
+      "sha256": "cacb1d84911776ab4efa0e30d67d914672d90248d2e82a388afe395e337972a6"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/catalog.json": {
+      "bytes": 1568686,
+      "sha256": "ecebbb2614b6e60825752210cdc672a29b3e7e6ef956d59057ade4baa4cf1938"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/context.json": {
+      "bytes": 454282,
+      "sha256": "9be1a8c4f17331b940e9ee9351e9a196fc11a553f6f7ae0369a8b84cccc61a98"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/examples.json": {
+      "bytes": 35994,
+      "sha256": "be9fcd6817b64cebc9273145442ac1fc62efcc4b25d5f151b296609528607a24"
+    },
+    "/data/canada/ca-92a935da01aecfa3e1d130b3/native-oracle.json": {
+      "bytes": 1544,
+      "sha256": "9ff195b400d62e3c2390636663ac23357d4bed71c76d0359be7eaefb8d75fa80"
+    },
+    "/data/canada/index.json": {
+      "bytes": 182,
+      "sha256": "fc520edb986f317b3d8b239324a780626abf3c6574de4eefe9eae7c15ff2dace"
+    },
+    "/data/canada/oracle-index.json": {
+      "bytes": 188,
+      "sha256": "dd5c2b6e93107a8938f08df0c324c85f0f140c0dbf9efb250d3b090ff5352442"
+    },
+    "/data/catalog.json": {
+      "bytes": 166,
+      "sha256": "8b3aef6eba7e495444862be01e4d80abd0c5525fb50f8c202f6ff504b4128728"
+    },
+    "/data/eg-9a6ad9ccfda103bf80926db6.json": {
+      "bytes": 931629,
+      "sha256": "e256a172f3c61b82f088428cc0b50554605fb0bdb4648f5410982be90a5f45ed"
+    },
+    "/data/phase10/index.json": {
+      "bytes": 200,
+      "sha256": "81737f1262ca2a01d771da387eca6890d766c4172b88e3dd0de86ca724b44722"
+    },
+    "/data/phase10/p10-566eeb108fd9-e25a510e4ce0/GEOLOCATION_COMPARISON.json": {
+      "bytes": 2351,
+      "sha256": "61f1ec3e65adc0b9c7593da5d6b97877ca2d284f0925520586163dcbd2055414"
+    },
+    "/data/phase10/p10-566eeb108fd9-e25a510e4ce0/INDEPENDENT_VALIDATION.json": {
+      "bytes": 1287,
+      "sha256": "0071293ade95f603d30ba18a35ac6f45512700c90cb646628231c2c7036b1cbd"
+    },
+    "/data/phase10/p10-566eeb108fd9-e25a510e4ce0/NASA_SUPPORT_QUESTION.md": {
+      "bytes": 2368,
+      "sha256": "c0e5b072e53fad507a2e87e732f70cc8de073f0987bb5f86f279e3e0aa81a60c"
+    },
+    "/data/phase10/p10-566eeb108fd9-e25a510e4ce0/QA_APPLICABILITY.json": {
+      "bytes": 23566,
+      "sha256": "247fe48b064c2a28d1097f62fe403f2b7c414d36c80fcf6a5e1680a7b6da5034"
+    },
+    "/data/phase10/p10-566eeb108fd9-e25a510e4ce0/QUALIFICATION_CONTRACT.json": {
+      "bytes": 2140,
+      "sha256": "566eeb108fd90e86c4e784e41a7d03fbd9c790ee671413308011e12d5527176e"
+    },
+    "/data/phase10/p10-566eeb108fd9-e25a510e4ce0/QUALIFICATION_RESULT.json": {
+      "bytes": 20238,
+      "sha256": "e25a510e4ce08689b827fed14c01108f646fb7645b1c1da27b24a0e51daf3fc2"
+    },
+    "/data/phase10/p10-566eeb108fd9-e25a510e4ce0/SIXTEEN_CLASSIFICATIONS.csv": {
+      "bytes": 5539,
+      "sha256": "dee823805f948cdd539ebe9882bd37dd3aa731213db44c126cf62b12585c7d07"
+    },
+    "/data/phase10/p10-566eeb108fd9-e25a510e4ce0/SOURCE_QUALIFICATION.json": {
+      "bytes": 5204,
+      "sha256": "59c9c6c990317a3200c7114b894fc86723f9d86faf1094d3ca52d844fa6a0d2d"
+    },
+    "/data/phase10/p10-566eeb108fd9-e25a510e4ce0/qualification.json": {
+      "bytes": 51144,
+      "sha256": "c6817799e7fccbde0b690d887fc60d10a7a213c6e275759856c0dee2653acfaa"
+    },
+    "/data/phase11/BOUNDED_UNCERTAINTY.json": {
+      "bytes": 3536,
+      "sha256": "9294c9998d885c489a27eead224f9f1c846cd30b85d95682fddbce97a75695f0"
+    },
+    "/data/phase11/NASA_SUPPORT_DRAFT.md": {
+      "bytes": 3122,
+      "sha256": "863a4bd67fd2843d8034f19c49fdc2b90e5dd4ff17b1a792eb8ad0b6e990fd76"
+    },
+    "/data/phase12/INDEPENDENT_PARTITION.json": {
+      "bytes": 625,
+      "sha256": "50b186d978fa7e287218d58ed8fea198286d8b1038dabd2d31b469e2fd4ae1e2"
+    },
+    "/data/phase12/PARTITION.json": {
+      "bytes": 262748,
+      "sha256": "e8b76d1bbe1c24e166dece3d54f22122fcc3076fe887d0eed1e65546057c7887"
+    },
+    "/data/phase12/PARTITION_CONTRACT.json": {
+      "bytes": 1270,
+      "sha256": "7bf29c5a33616540a6935bcfaa7838fdd928d8b56e0bc0215e9e6ed8b50350c6"
+    },
+    "/data/phase12/index.json": {
+      "bytes": 298,
+      "sha256": "bcd5f7c3dce229fd9537d7ab2f122c16e0ca25bfddc32b06a14a4b58870b8fdc"
+    },
+    "/data/phase6/index.json": {
+      "bytes": 214,
+      "sha256": "f15fd14efa33e6eeb8f170f79f8c0fcaf7574a036f8cd3dfbb17bde9e4c3d014"
+    },
+    "/data/phase6/p6-ab874a4a4d03-6e562cb1cbc4/ACCESS_AUDIT.json": {
+      "bytes": 92625,
+      "sha256": "7b5444d6533eff11fc61351671747441f25e659fb59ab8578ac671d2a581c0cd"
+    },
+    "/data/phase6/p6-ab874a4a4d03-6e562cb1cbc4/COHORT_CONTRACT.json": {
+      "bytes": 3792,
+      "sha256": "ab874a4a4d038e30d2835829ace7a99d7276ee4fda16e9bee51207f88a95404a"
+    },
+    "/data/phase6/p6-ab874a4a4d03-6e562cb1cbc4/COMMON_SUPPORT_AUDIT.json": {
+      "bytes": 19715,
+      "sha256": "1e0dfe0b532d8c1fee32a84c2a1ccd92ee4fab131da6012073f4c813723ad21b"
+    },
+    "/data/phase6/p6-ab874a4a4d03-6e562cb1cbc4/INDEPENDENT_VALIDATION.json": {
+      "bytes": 3876,
+      "sha256": "a6517f4293baa22ab5863e89404c81803afd9901b8710c5473c5299638f889a0"
+    },
+    "/data/phase6/p6-ab874a4a4d03-6e562cb1cbc4/L2_DOWNLOAD_MANIFEST.json": {
+      "bytes": 7920,
+      "sha256": "a3590eeed9d7e25009c4c876150fff2bed4b254a798a3483a71ea647c17b270d"
+    },
+    "/data/phase6/p6-ab874a4a4d03-6e562cb1cbc4/L2_INDEPENDENT_VALIDATION.json": {
+      "bytes": 1501,
+      "sha256": "d8ed8669d6fae4ec1c41732597a240f9ce672b26d7a1301a996092dce83c377d"
+    },
+    "/data/phase6/p6-ab874a4a4d03-6e562cb1cbc4/L2_SUPPORT_AUDIT.json": {
+      "bytes": 1853393,
+      "sha256": "6e562cb1cbc45e6aa85b096a9adef5b6aaec53f58ba148727768c61a811c622b"
+    },
+    "/data/phase6/p6-ab874a4a4d03-6e562cb1cbc4/RAW_FIELD_AUDIT.json": {
+      "bytes": 10423,
+      "sha256": "72d48563041b0cb9c2224f1693b6b590b0569100bdab442995fcef088af3e559"
+    },
+    "/data/phase6/p6-ab874a4a4d03-6e562cb1cbc4/RESEARCH_FRP.csv": {
+      "bytes": 17057,
+      "sha256": "856de421d002ec015dfc0b144af330548297c92380c76abba05a7100ce0ecf24"
+    },
+    "/data/phase6/p6-ab874a4a4d03-6e562cb1cbc4/RESEARCH_ROWS.json": {
+      "bytes": 61470,
+      "sha256": "7ef6f3fd5d53665343c1ce6b9237c15f8d779bbc5472bb63af17fef2531344d9"
+    },
+    "/data/phase6/p6-ab874a4a4d03-6e562cb1cbc4/bridge.json": {
+      "bytes": 89336,
+      "sha256": "caa8c20a6c37230f772b0301d3278d4df5c82d62c1be3b9a6ce1f8dc81b222e7"
+    },
+    "/data/phase6/p6-ab874a4a4d03-8218b6e3ca49/ACCESS_AUDIT.json": {
+      "bytes": 92625,
+      "sha256": "7b5444d6533eff11fc61351671747441f25e659fb59ab8578ac671d2a581c0cd"
+    },
+    "/data/phase6/p6-ab874a4a4d03-8218b6e3ca49/COHORT_CONTRACT.json": {
+      "bytes": 3792,
+      "sha256": "ab874a4a4d038e30d2835829ace7a99d7276ee4fda16e9bee51207f88a95404a"
+    },
+    "/data/phase6/p6-ab874a4a4d03-8218b6e3ca49/COMMON_SUPPORT_AUDIT.json": {
+      "bytes": 19715,
+      "sha256": "1e0dfe0b532d8c1fee32a84c2a1ccd92ee4fab131da6012073f4c813723ad21b"
+    },
+    "/data/phase6/p6-ab874a4a4d03-8218b6e3ca49/INDEPENDENT_VALIDATION.json": {
+      "bytes": 3877,
+      "sha256": "ce9187e674a0ca71faf24a46808c93f5aab38eed932bfbe56997917cb6b0642e"
+    },
+    "/data/phase6/p6-ab874a4a4d03-8218b6e3ca49/L2_DOWNLOAD_MANIFEST.json": {
+      "bytes": 7920,
+      "sha256": "a3590eeed9d7e25009c4c876150fff2bed4b254a798a3483a71ea647c17b270d"
+    },
+    "/data/phase6/p6-ab874a4a4d03-8218b6e3ca49/L2_INDEPENDENT_VALIDATION.json": {
+      "bytes": 1500,
+      "sha256": "7c9cddd6f4470f3cc3f182eb1482a634663280b10c7c1f6a8ef7bb5e7dee97c0"
+    },
+    "/data/phase6/p6-ab874a4a4d03-8218b6e3ca49/L2_SUPPORT_AUDIT.json": {
+      "bytes": 1853356,
+      "sha256": "8218b6e3ca49edf12cd4a5b7cfd53099f62e87f85c6b3c618382f8ae7a83069b"
+    },
+    "/data/phase6/p6-ab874a4a4d03-8218b6e3ca49/RAW_FIELD_AUDIT.json": {
+      "bytes": 10423,
+      "sha256": "72d48563041b0cb9c2224f1693b6b590b0569100bdab442995fcef088af3e559"
+    },
+    "/data/phase6/p6-ab874a4a4d03-8218b6e3ca49/RESEARCH_FRP.csv": {
+      "bytes": 17057,
+      "sha256": "856de421d002ec015dfc0b144af330548297c92380c76abba05a7100ce0ecf24"
+    },
+    "/data/phase6/p6-ab874a4a4d03-8218b6e3ca49/RESEARCH_ROWS.json": {
+      "bytes": 61470,
+      "sha256": "7ef6f3fd5d53665343c1ce6b9237c15f8d779bbc5472bb63af17fef2531344d9"
+    },
+    "/data/phase6/p6-ab874a4a4d03-8218b6e3ca49/bridge.json": {
+      "bytes": 89299,
+      "sha256": "4d1e61a338923bafb7a28b213fe118e99d4e87c1ed52ba32693cadce60d4675c"
+    },
+    "/data/phase7/index.json": {
+      "bytes": 190,
+      "sha256": "70c94e9f9338e66ca7c2ac03bf11dd7d75b2dadfbb4485347aac87d9ec562767"
+    },
+    "/data/phase7/p7-eab85cbb827d-8ee8d0e6d8d0/ACQUISITION_SCOPE.json": {
+      "bytes": 727,
+      "sha256": "fe2180c42ee6b7df73e4ae880b2d0251efc07fce263a31a86193af27db4cc0e5"
+    },
+    "/data/phase7/p7-eab85cbb827d-8ee8d0e6d8d0/DEVELOPMENT_CANDIDATE.json": {
+      "bytes": 11395,
+      "sha256": "a059f386c5dda016000fac7e43d68ab4629b6d305396d3967a25b5dcfb6820ee"
+    },
+    "/data/phase7/p7-eab85cbb827d-8ee8d0e6d8d0/EXACT_GEO_ACCESS.json": {
+      "bytes": 1371,
+      "sha256": "c67aecbef86ff2b0e9b6c73499ee471d5e11546b5358d3bd1d722e7cc41ffddb"
+    },
+    "/data/phase7/p7-eab85cbb827d-8ee8d0e6d8d0/INDEPENDENT_VALIDATION.json": {
+      "bytes": 3116,
+      "sha256": "eab378147e372c95dee628763dc4b4c5a91b68d90652e43fe49e714c38e6a49f"
+    },
+    "/data/phase7/p7-eab85cbb827d-8ee8d0e6d8d0/L2_DOWNLOAD_MANIFEST.json": {
+      "bytes": 9506,
+      "sha256": "0e52cfd17bbd0ffb833a77a666edfb1c99d1a8296b9c0922ac8a4508cadb088a"
+    },
+    "/data/phase7/p7-eab85cbb827d-8ee8d0e6d8d0/PRESEARCH_GEOMETRY_AMENDMENT.json": {
+      "bytes": 516,
+      "sha256": "73c50ebbbb8f50c14a799eabbb4dfff26238f66a64b20ca133e53555a16434d4"
+    },
+    "/data/phase7/p7-eab85cbb827d-8ee8d0e6d8d0/PROVIDER_CONTROLS.json": {
+      "bytes": 1521,
+      "sha256": "882ecdc7ac81a21a7309ba71b10cdfe86ebd1c80c81fb07b041a52fd940f2bec"
+    },
+    "/data/phase7/p7-eab85cbb827d-8ee8d0e6d8d0/QUALIFICATION_SENSITIVITY.json": {
+      "bytes": 1243,
+      "sha256": "d6b2c0c40af1983ae142a8f1e6cefec5f6b2ab19b68739b493b5ce4fc546b3e1"
+    },
+    "/data/phase7/p7-eab85cbb827d-8ee8d0e6d8d0/REPLICATION_CANDIDATE.json": {
+      "bytes": 11384,
+      "sha256": "1f14ac89156a90dbbcd539c8694cec0db46195ed0241a7a3015b4a8cdc984a57"
+    },
+    "/data/phase7/p7-eab85cbb827d-8ee8d0e6d8d0/SEARCH_CONTRACT.json": {
+      "bytes": 4499,
+      "sha256": "eab85cbb827d4f291eba66b29bb29f9fe42c423876cf844c7daa9194730dace0"
+    },
+    "/data/phase7/p7-eab85cbb827d-8ee8d0e6d8d0/SUPPORT_AUDIT.json": {
+      "bytes": 112509,
+      "sha256": "8ee8d0e6d8d09bf853be82efea14f193d9a4a11705dc439913a9afa859e72441"
+    },
+    "/data/phase7/p7-eab85cbb827d-8ee8d0e6d8d0/bridge.json": {
+      "bytes": 10585,
+      "sha256": "9acf8fe04d9c2ceeb417125a4a1b28e0e8fac86612db946292d7058472322e2c"
+    },
+    "/data/phase7/p7-eab85cbb827d-8ee8d0e6d8d0/development-MYD14.json": {
+      "bytes": 515730,
+      "sha256": "97d5120f4d137e14471234d8fc12a1e4d45d1ae73dc4a9e31e5771563b7679a3"
+    },
+    "/data/phase7/p7-eab85cbb827d-8ee8d0e6d8d0/development-VNP14.json": {
+      "bytes": 1058953,
+      "sha256": "2f915708c1184008600850468ff52aad40d6f89d81758ee106f97deb80a6457a"
+    },
+    "/data/phase7/p7-eab85cbb827d-8ee8d0e6d8d0/replication-MYD14.json": {
+      "bytes": 840541,
+      "sha256": "b74491a0894cca4900bec7b7a7304f9c5509f955524f46d47095682ef8d31cb9"
+    },
+    "/data/phase7/p7-eab85cbb827d-8ee8d0e6d8d0/replication-VNP14.json": {
+      "bytes": 1386208,
+      "sha256": "5742a4d36113a2076381e350bf8516df07b33db308fb897a096d73ae5d61c46d"
+    },
+    "/data/phase7/p7-eab85cbb827d-8ee8d0e6d8d0/replication-VNP14IMG.json": {
+      "bytes": 5544224,
+      "sha256": "dc8af2aa10ecd08f0d0deebcadf163f0102bc5edc8984524dc9db21e50b9f8bf"
+    },
+    "/data/phase7/p7-eab85cbb827d-c733b4e1776b/ACQUISITION_SCOPE.json": {
+      "bytes": 727,
+      "sha256": "fe2180c42ee6b7df73e4ae880b2d0251efc07fce263a31a86193af27db4cc0e5"
+    },
+    "/data/phase7/p7-eab85cbb827d-c733b4e1776b/DEVELOPMENT_CANDIDATE.json": {
+      "bytes": 11395,
+      "sha256": "a059f386c5dda016000fac7e43d68ab4629b6d305396d3967a25b5dcfb6820ee"
+    },
+    "/data/phase7/p7-eab85cbb827d-c733b4e1776b/EXACT_GEO_ACCESS.json": {
+      "bytes": 1371,
+      "sha256": "c67aecbef86ff2b0e9b6c73499ee471d5e11546b5358d3bd1d722e7cc41ffddb"
+    },
+    "/data/phase7/p7-eab85cbb827d-c733b4e1776b/INDEPENDENT_VALIDATION.json": {
+      "bytes": 2708,
+      "sha256": "438e7ae6ad03cc19db48d96029cbfabee12fe1ed5739c660a5c14a61fcf9a585"
+    },
+    "/data/phase7/p7-eab85cbb827d-c733b4e1776b/L2_DOWNLOAD_MANIFEST.json": {
+      "bytes": 6912,
+      "sha256": "97d5cb3b0fecc4f796c7b9aa1c47f7b3b3a8dfe9e0468b3963e4f93e9d93ea5b"
+    },
+    "/data/phase7/p7-eab85cbb827d-c733b4e1776b/PRESEARCH_GEOMETRY_AMENDMENT.json": {
+      "bytes": 516,
+      "sha256": "73c50ebbbb8f50c14a799eabbb4dfff26238f66a64b20ca133e53555a16434d4"
+    },
+    "/data/phase7/p7-eab85cbb827d-c733b4e1776b/REPLICATION_CANDIDATE.json": {
+      "bytes": 11384,
+      "sha256": "1f14ac89156a90dbbcd539c8694cec0db46195ed0241a7a3015b4a8cdc984a57"
+    },
+    "/data/phase7/p7-eab85cbb827d-c733b4e1776b/SEARCH_CONTRACT.json": {
+      "bytes": 4499,
+      "sha256": "eab85cbb827d4f291eba66b29bb29f9fe42c423876cf844c7daa9194730dace0"
+    },
+    "/data/phase7/p7-eab85cbb827d-c733b4e1776b/SUPPORT_AUDIT.json": {
+      "bytes": 91277,
+      "sha256": "c733b4e1776b39fdd0b635ab552f8d386175d7b7d9c77aeea56add6ad8551e83"
+    },
+    "/data/phase7/p7-eab85cbb827d-c733b4e1776b/bridge.json": {
+      "bytes": 8908,
+      "sha256": "e4857396c0176dbc965026d296bd77deadd9b9640afa6de165b8d17207c05e6f"
+    },
+    "/data/phase7/p7-eab85cbb827d-c733b4e1776b/development-MYD14.json": {
+      "bytes": 515867,
+      "sha256": "fa31f99f7b6176665d34ab07b57b0353e91879a19431f8e2dfe02381ca92b46f"
+    },
+    "/data/phase7/p7-eab85cbb827d-c733b4e1776b/development-VNP14.json": {
+      "bytes": 1058953,
+      "sha256": "2f915708c1184008600850468ff52aad40d6f89d81758ee106f97deb80a6457a"
+    },
+    "/data/phase7/p7-eab85cbb827d-c733b4e1776b/replication-MYD14.json": {
+      "bytes": 840415,
+      "sha256": "a68744a57a81f9b62e1605842f5fadc0d34db6ecb75041969596e0601e085adf"
+    },
+    "/data/phase7/p7-eab85cbb827d-c733b4e1776b/replication-VNP14.json": {
+      "bytes": 1386208,
+      "sha256": "5742a4d36113a2076381e350bf8516df07b33db308fb897a096d73ae5d61c46d"
+    },
+    "/data/phase8/index.json": {
+      "bytes": 190,
+      "sha256": "45cbab0b5ed15997395cb893154db146cc51a160fff1d91ad31770d3d513704b"
+    },
+    "/data/phase8/p8-d812887c0f4c-1c52a49e5c14/CANDIDATE_1.json": {
+      "bytes": 11389,
+      "sha256": "c52fd918d32881f40369520814a61774eb95f3d9830b3670c064624a0ce0e46a"
+    },
+    "/data/phase8/p8-d812887c0f4c-1c52a49e5c14/COHORT_CONTRACT.json": {
+      "bytes": 6750,
+      "sha256": "d812887c0f4cae5ca6db22561af8f19ff15596ca66506827e4055ce2791fdbb9"
+    },
+    "/data/phase8/p8-d812887c0f4c-1c52a49e5c14/DETAIL_DOWNLOAD_MANIFEST.json": {
+      "bytes": 4256,
+      "sha256": "02b7c2c738efe39d32f24be2904c0182a5072f1a9fcf22b5fe6dd487975cddde"
+    },
+    "/data/phase8/p8-d812887c0f4c-1c52a49e5c14/INDEPENDENT_VALIDATION.json": {
+      "bytes": 2466,
+      "sha256": "63bb1f1391a1e2b5a89ec305f27b4ea290ab319a03f170fe0c5e91b3684e5240"
+    },
+    "/data/phase8/p8-d812887c0f4c-1c52a49e5c14/NATIVE_HISTORY.json": {
+      "bytes": 5049,
+      "sha256": "ca58605f4616fd2bb4dce863ae7603a77c267648acd35ba9cf7f8ba3d1391478"
+    },
+    "/data/phase8/p8-d812887c0f4c-1c52a49e5c14/NATIVE_RECORDS.json": {
+      "bytes": 534319,
+      "sha256": "36f1f6a2a4fdb98e5b69014daba761fbaabd06d185c017d399e85d4279b7abfe"
+    },
+    "/data/phase8/p8-d812887c0f4c-1c52a49e5c14/SUPPORT_AUDIT.json": {
+      "bytes": 60964,
+      "sha256": "1c52a49e5c14c2b85c129ac7ba23ce1ce0963f0d79863909dd8ce00523fa0d6c"
+    },
+    "/data/phase8/p8-d812887c0f4c-1c52a49e5c14/bridge.json": {
+      "bytes": 14724,
+      "sha256": "7305ec9be76d18e06d9aec331d5083e36d2e670ff9e5316e15cc9d0100612842"
+    },
+    "/data/phase8/p8-d812887c0f4c-1c52a49e5c14/development-MYD14.json": {
+      "bytes": 136709,
+      "sha256": "cdea2014b7e08c62d55ec69e91327abe011b0c5b4a5f161d2c7bcb8501bdbde3"
+    },
+    "/data/phase8/p8-d812887c0f4c-1c52a49e5c14/development-VNP14.json": {
+      "bytes": 272362,
+      "sha256": "ef2baf500d651b93dfbaa819b5a276adc3ef903ca90807f59eb95f7abf9d0bbc"
+    },
+    "/data/phase8/p8-d812887c0f4c-1c52a49e5c14/development-VNP14IMG.json": {
+      "bytes": 1089846,
+      "sha256": "bb980d3c525eae268e4af9fc65d810414da8baead515503bb423012d2268d821"
+    },
+    "/data/phase9/index.json": {
+      "bytes": 192,
+      "sha256": "c5b1cf76c74e4a2ee31396c803cd2763d52a68286c2d052d367c53b97168ead5"
+    },
+    "/data/phase9/p9-6bf2cedaf20f-8fce69a95ef1/ANALYSIS_CONTRACT.json": {
+      "bytes": 2923,
+      "sha256": "6bf2cedaf20fd910c7d9bad539aa06029a1f0ba1a656e1a6705652d67481eecf"
+    },
+    "/data/phase9/p9-6bf2cedaf20f-8fce69a95ef1/INDEPENDENT_VALIDATION.json": {
+      "bytes": 6416,
+      "sha256": "60fd57e5385090418d25c8a3559164ec66c03e91b62ef09bbfad32ca78ed478d"
+    },
+    "/data/phase9/p9-6bf2cedaf20f-8fce69a95ef1/POSITIVE_EVIDENCE.csv": {
+      "bytes": 9917,
+      "sha256": "ae0a900a8cb8c3f2c35d72177ce3bc829743a999964eed8c436faac3745910d3"
+    },
+    "/data/phase9/p9-6bf2cedaf20f-8fce69a95ef1/TRIANGULAR_ANALYSIS.json": {
+      "bytes": 116406,
+      "sha256": "8fce69a95ef12ec8aa623fa69ce8eacbd258240d567811d96289f59b8502322f"
+    },
+    "/data/phase9/p9-6bf2cedaf20f-8fce69a95ef1/triangle.json": {
+      "bytes": 131154,
+      "sha256": "39e18eef718826fa0a1efa7ced1b38c9096fa40d520c6dee748f557910866491"
+    },
+    "/data/release.json": {
+      "bytes": 931629,
+      "sha256": "e256a172f3c61b82f088428cc0b50554605fb0bdb4648f5410982be90a5f45ed"
+    },
+    "/identity/insider-lens-preview.png": {
+      "bytes": 183224,
+      "sha256": "69ec3fe3cae07150f5a1b3eb31e848abc1c894291d824de63faf1a1e80651097"
+    },
+    "/identity/insider-lens.svg": {
+      "bytes": 354,
+      "sha256": "f4f9872150e49053afd5b950fb86767b3bd49feb0e39fc53c2320cba0e990455"
+    },
+    "/submission/AI_DISCLOSURE.json": {
+      "bytes": 934,
+      "sha256": "5f4f1a34ab2b2ab2b21871cc14aa516c5fd81308d514fa4cc6f2022ad475e181"
+    },
+    "/submission/README.md": {
+      "bytes": 6434,
+      "sha256": "d266456b4fe1d1a8455d000fd1a78636232e937c0f7cbb1dd96c6d6aebc9dcb7"
+    },
+    "/submission/SOURCES_AND_RULES.md": {
+      "bytes": 5559,
+      "sha256": "06f461b475d9cc843467f873f0cda394454cf9778c923ff28a429ed8650f011d"
+    },
+    "/submission/THIRD_PARTY_SOFTWARE.json": {
+      "bytes": 43924,
+      "sha256": "f569ea2a60eec7f3242a8bef9da53e0aaaf93f78e0467f87d162d0058c3c1ebb"
+    },
+    "/submission/licenses/@babel/code-frame/LICENSE": {
+      "bytes": 1106,
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    },
+    "/submission/licenses/@babel/compat-data/LICENSE": {
+      "bytes": 1106,
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    },
+    "/submission/licenses/@babel/core/LICENSE": {
+      "bytes": 1106,
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    },
+    "/submission/licenses/@babel/generator/LICENSE": {
+      "bytes": 1106,
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    },
+    "/submission/licenses/@babel/helper-compilation-targets/LICENSE": {
+      "bytes": 1106,
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    },
+    "/submission/licenses/@babel/helper-globals/LICENSE": {
+      "bytes": 1106,
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    },
+    "/submission/licenses/@babel/helper-module-imports/LICENSE": {
+      "bytes": 1106,
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    },
+    "/submission/licenses/@babel/helper-module-transforms/LICENSE": {
+      "bytes": 1106,
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    },
+    "/submission/licenses/@babel/helper-plugin-utils/LICENSE": {
+      "bytes": 1106,
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    },
+    "/submission/licenses/@babel/helper-string-parser/LICENSE": {
+      "bytes": 1106,
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    },
+    "/submission/licenses/@babel/helper-validator-identifier/LICENSE": {
+      "bytes": 1106,
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    },
+    "/submission/licenses/@babel/helper-validator-option/LICENSE": {
+      "bytes": 1106,
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    },
+    "/submission/licenses/@babel/helpers/LICENSE": {
+      "bytes": 1189,
+      "sha256": "4be9d87b56a306293223b490c0d0b245e9e94f39884147bf051a6c7b825aeb30"
+    },
+    "/submission/licenses/@babel/parser/LICENSE": {
+      "bytes": 1086,
+      "sha256": "2e97627cb278aa7556fb9e8817368302301a595b6c7582512b8d74c57b773652"
+    },
+    "/submission/licenses/@babel/plugin-transform-react-jsx-self/LICENSE": {
+      "bytes": 1106,
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    },
+    "/submission/licenses/@babel/plugin-transform-react-jsx-source/LICENSE": {
+      "bytes": 1106,
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    },
+    "/submission/licenses/@babel/template/LICENSE": {
+      "bytes": 1106,
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    },
+    "/submission/licenses/@babel/traverse/LICENSE": {
+      "bytes": 1106,
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    },
+    "/submission/licenses/@babel/types/LICENSE": {
+      "bytes": 1106,
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    },
+    "/submission/licenses/@jridgewell/gen-mapping/LICENSE": {
+      "bytes": 1080,
+      "sha256": "769d154fbde32a915af110b1123650bc79f4cbe675acc66e005265bf069c6c6c"
+    },
+    "/submission/licenses/@jridgewell/remapping/LICENSE": {
+      "bytes": 1080,
+      "sha256": "769d154fbde32a915af110b1123650bc79f4cbe675acc66e005265bf069c6c6c"
+    },
+    "/submission/licenses/@jridgewell/resolve-uri/LICENSE": {
+      "bytes": 1079,
+      "sha256": "b8778b155bfde5a28b023a558753c0fa058a52bb9de35c343c250be1bbcdedab"
+    },
+    "/submission/licenses/@jridgewell/sourcemap-codec/LICENSE": {
+      "bytes": 1080,
+      "sha256": "769d154fbde32a915af110b1123650bc79f4cbe675acc66e005265bf069c6c6c"
+    },
+    "/submission/licenses/@jridgewell/trace-mapping/LICENSE": {
+      "bytes": 1080,
+      "sha256": "769d154fbde32a915af110b1123650bc79f4cbe675acc66e005265bf069c6c6c"
+    },
+    "/submission/licenses/@mapbox/jsonlint-lines-primitives/LICENSE": {
+      "bytes": 1071,
+      "sha256": "5dcae6b71018b5454d00228bd08ccbcd9801ee27b19959b88ebcb55602604e6d"
+    },
+    "/submission/licenses/@mapbox/point-geometry/LICENSE": {
+      "bytes": 725,
+      "sha256": "0c0ede0036a425ff8b2d49341ea9aa8eccbeeae1ac4eb59874c9dd8bcf5186d3"
+    },
+    "/submission/licenses/@mapbox/tiny-sdf/LICENSE.txt": {
+      "bytes": 1290,
+      "sha256": "4f78063c6c0757df950aa3440cef9a2a6bd1c552c994c32237c3acc283e72ee6"
+    },
+    "/submission/licenses/@mapbox/unitbezier/LICENSE": {
+      "bytes": 1387,
+      "sha256": "f0dc305ad097eddbc66eebb79288c92d8a5043818ace81206383a4c1a3268fe3"
+    },
+    "/submission/licenses/@mapbox/vector-tile/LICENSE.txt": {
+      "bytes": 1500,
+      "sha256": "5b09a507df6f21d6c2112c46dcaf2927b9dbd8b580a08b542d8ec2f9191d783d"
+    },
+    "/submission/licenses/@maplibre/geojson-vt/LICENSE": {
+      "bytes": 1909,
+      "sha256": "9eb90e1c920aeccc6d630bd48c1512683d454c669701d46ff8c4c41f922dc4f3"
+    },
+    "/submission/licenses/@maplibre/maplibre-gl-style-spec/LICENSE.txt": {
+      "bytes": 5984,
+      "sha256": "bfd4cb919eec574e9213e1e61f880831eb5fc372d467be429fd0a8d51d1df890"
+    },
+    "/submission/licenses/@maplibre/mlt/LICENSE.txt": {
+      "bytes": 11978,
+      "sha256": "3c0a2cc8dfe44b856c2577b4d6fe30a999557c795686d52b159a6e1659ea8023"
+    },
+    "/submission/licenses/@maplibre/vt-pbf/LICENSE": {
+      "bytes": 2785,
+      "sha256": "4c61c5753d4b021bc3b07f21d2a830506974ce200c19cfadf3d4a25e747fc853"
+    },
+    "/submission/licenses/@playwright/test/LICENSE": {
+      "bytes": 11601,
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb"
+    },
+    "/submission/licenses/@playwright/test/NOTICE": {
+      "bytes": 254,
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d"
+    },
+    "/submission/licenses/@rolldown/pluginutils/LICENSE": {
+      "bytes": 1302,
+      "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734"
+    },
+    "/submission/licenses/@types/babel__core/LICENSE": {
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    "/submission/licenses/@types/babel__generator/LICENSE": {
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    "/submission/licenses/@types/babel__template/LICENSE": {
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    "/submission/licenses/@types/babel__traverse/LICENSE": {
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    "/submission/licenses/@types/estree/LICENSE": {
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    "/submission/licenses/@types/geojson/LICENSE": {
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    "/submission/licenses/@types/react-dom/LICENSE": {
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    "/submission/licenses/@types/react/LICENSE": {
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    "/submission/licenses/@vitejs/plugin-react/LICENSE": {
+      "bytes": 1103,
+      "sha256": "29b68325fe026047d13e187b44c33b2acacf7dc647dec4583702e59f235e13b5"
+    },
+    "/submission/licenses/baseline-browser-mapping/LICENSE.txt": {
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "/submission/licenses/bidi-js/LICENSE.txt": {
+      "bytes": 1071,
+      "sha256": "49d4d143fed599deb502a0fe6e02f49832f87e9a3a4cd0502e469596d50faa6d"
+    },
+    "/submission/licenses/browserslist/LICENSE": {
+      "bytes": 1118,
+      "sha256": "21c2679a63d7699c0e644409e2f17d0adbc7a965003feb06b3ff4b833d21f722"
+    },
+    "/submission/licenses/caniuse-lite/LICENSE": {
+      "bytes": 18651,
+      "sha256": "fd3a263fe19ed8faa9068b43abaebafc02c77897b0c6fc09abc04bb592e5f16e"
+    },
+    "/submission/licenses/convert-source-map/LICENSE": {
+      "bytes": 1078,
+      "sha256": "1fa6ee8bb95a81ae3d73a5bd074a3ac380ffec13697051063ca1a601921b91db"
+    },
+    "/submission/licenses/csstype/LICENSE": {
+      "bytes": 1062,
+      "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e"
+    },
+    "/submission/licenses/debug/LICENSE": {
+      "bytes": 1139,
+      "sha256": "3a61c6c96caf5c1d9b623fb9b04c822b783dfcb78aa7e49c76a3f643e6ed7f95"
+    },
+    "/submission/licenses/earcut/LICENSE": {
+      "bytes": 738,
+      "sha256": "0b348fff56384b43dbb37593906904e56d0f9deb51eae590d4dc6d427fbf1808"
+    },
+    "/submission/licenses/electron-to-chromium/LICENSE": {
+      "bytes": 728,
+      "sha256": "25ba5c59dad3e0dd8f9540beaa0f0a86a10e3aec35af5fdc8e88c5f6a5c0d8c6"
+    },
+    "/submission/licenses/esbuild/LICENSE.md": {
+      "bytes": 1069,
+      "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+    },
+    "/submission/licenses/escalade/license": {
+      "bytes": 1104,
+      "sha256": "9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97"
+    },
+    "/submission/licenses/fdir/LICENSE": {
+      "bytes": 1053,
+      "sha256": "9a39f2aadab11a3697edd668ff2d8ad885b649737b7ab4d3bf12b34e5ada0c86"
+    },
+    "/submission/licenses/gensync/LICENSE": {
+      "bytes": 1075,
+      "sha256": "e3a956681ee067f971ac413994171b3d90ca801ec6324e76c9c55366cfe31cb0"
+    },
+    "/submission/licenses/gl-matrix/LICENSE.md": {
+      "bytes": 1083,
+      "sha256": "af62d31a0cdc1bf95d5e19428c3e0de368b727d9d5b6b6cdb466f8a52e68ad06"
+    },
+    "/submission/licenses/js-tokens/LICENSE": {
+      "bytes": 1103,
+      "sha256": "2213d91c606205c71eb051a199478cdc2adde945893404d7f1421436dd6d5cc1"
+    },
+    "/submission/licenses/jsesc/LICENSE-MIT.txt": {
+      "bytes": 1077,
+      "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a"
+    },
+    "/submission/licenses/json-stringify-pretty-compact/LICENSE": {
+      "bytes": 1109,
+      "sha256": "2d51145876dda3dd13253463b852aa83b78aa598b90fca1709f39f1740ff9a2f"
+    },
+    "/submission/licenses/json5/LICENSE.md": {
+      "bytes": 1145,
+      "sha256": "53e59feb13058722d977c699eb0407c7bce2f93c949b681bbd2ff31698535927"
+    },
+    "/submission/licenses/kdbush/LICENSE": {
+      "bytes": 750,
+      "sha256": "0aba693a2c2e5b1b1465f9e06d29c21769450add9dbb7dc915b41a60e900196f"
+    },
+    "/submission/licenses/lru-cache/LICENSE": {
+      "bytes": 765,
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+    },
+    "/submission/licenses/maplibre-gl/LICENSE.txt": {
+      "bytes": 5984,
+      "sha256": "ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2"
+    },
+    "/submission/licenses/minimist/LICENSE": {
+      "bytes": 1073,
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b"
+    },
+    "/submission/licenses/ms/license.md": {
+      "bytes": 1079,
+      "sha256": "1662fae9b5314d11cf51284e2dcd1f006a354f7343f08712a730fcff9a359801"
+    },
+    "/submission/licenses/nanoid/LICENSE": {
+      "bytes": 1095,
+      "sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987"
+    },
+    "/submission/licenses/node-releases/LICENSE": {
+      "bytes": 1107,
+      "sha256": "3706296ed611888111ceccc1dff4712844dea4bde0b185c82d718c3b69895abe"
+    },
+    "/submission/licenses/pbf/LICENSE": {
+      "bytes": 1467,
+      "sha256": "fdf1d5279107d760c7df8c6edab1faab2b72ba17528273a8b417b08f1e12ebbe"
+    },
+    "/submission/licenses/picocolors/LICENSE": {
+      "bytes": 787,
+      "sha256": "6582629e2979466878f6014313dcc2f3756c9616148682227ce3063dde310750"
+    },
+    "/submission/licenses/picomatch/LICENSE": {
+      "bytes": 1091,
+      "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9"
+    },
+    "/submission/licenses/playwright-core/LICENSE": {
+      "bytes": 11601,
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb"
+    },
+    "/submission/licenses/playwright-core/NOTICE": {
+      "bytes": 254,
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d"
+    },
+    "/submission/licenses/playwright/LICENSE": {
+      "bytes": 11601,
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb"
+    },
+    "/submission/licenses/playwright/NOTICE": {
+      "bytes": 254,
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d"
+    },
+    "/submission/licenses/postcss/LICENSE": {
+      "bytes": 1095,
+      "sha256": "5be1f3465bba68a626777f984878814aaf35e7ef8e9fd314d469bcf887050fb8"
+    },
+    "/submission/licenses/potpack/LICENSE": {
+      "bytes": 738,
+      "sha256": "cfec0482fb785fe27e3b368a2d9e84bf7a61b275e83ec582bf288e98cd530bb0"
+    },
+    "/submission/licenses/protocol-buffers-schema/LICENSE": {
+      "bytes": 1078,
+      "sha256": "3fe8d55a98dbf260eace67c00cf9bc53edb46234e840098a0b93df3096b97fb6"
+    },
+    "/submission/licenses/quickselect/LICENSE": {
+      "bytes": 750,
+      "sha256": "238ddb00e12a420a54e060afa19bdab4f70bf49e0e2a8ebb1a5e851f9ef447df"
+    },
+    "/submission/licenses/react-dom/LICENSE": {
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    "/submission/licenses/react-refresh/LICENSE": {
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    "/submission/licenses/react/LICENSE": {
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    "/submission/licenses/require-from-string/license": {
+      "bytes": 1128,
+      "sha256": "6ee0feb1f6ef996ff5a68600f8cf98909cf412d39ef3cdceaefd87d636fa1b7f"
+    },
+    "/submission/licenses/resolve-protobuf-schema/LICENSE": {
+      "bytes": 1079,
+      "sha256": "c0993ca46cd47c09710a977d3a3d51602cff96f19e8d2eb8d5887aa20a7beead"
+    },
+    "/submission/licenses/rollup/LICENSE.md": {
+      "bytes": 35231,
+      "sha256": "fa1bd040c5bdeefe65b3821cebf474f2733ce65df13089bd151dda1778e62fe8"
+    },
+    "/submission/licenses/scheduler/LICENSE": {
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    "/submission/licenses/semver/LICENSE": {
+      "bytes": 765,
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+    },
+    "/submission/licenses/source-map-js/LICENSE": {
+      "bytes": 1526,
+      "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd"
+    },
+    "/submission/licenses/tinyglobby/LICENSE": {
+      "bytes": 1076,
+      "sha256": "22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f"
+    },
+    "/submission/licenses/tinyqueue/LICENSE": {
+      "bytes": 750,
+      "sha256": "780453e05abdc22307ee01c706a2e73f508d3e484fc4c804485ebf6fe0964694"
+    },
+    "/submission/licenses/typescript/LICENSE.txt": {
+      "bytes": 9197,
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47"
+    },
+    "/submission/licenses/update-browserslist-db/LICENSE": {
+      "bytes": 1118,
+      "sha256": "9877e90da14aa8c931a1f9d07cc2a20ce119106e5dab1ebb41af865266d0cd2a"
+    },
+    "/submission/licenses/vite/LICENSE.md": {
+      "bytes": 115624,
+      "sha256": "008938a3441801ca3960f8e3ccb4c0738e7996442a53063141d57d3769a7344d"
+    },
+    "/submission/licenses/yallist/LICENSE": {
+      "bytes": 765,
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+    }
+  }
+}

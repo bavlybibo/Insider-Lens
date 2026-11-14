@@ -1,0 +1,25 @@
+{
+  "repository": "https://github.com/bavlybibo/Insider-Lens",
+  "sha": "cb221e16d968ab9409d98b243ec1471f71d71863",
+  "truncated": false,
+  "counts": {
+    "public/data/canada/": {
+      "files": 590,
+      "bytes": 11773665
+    },
+    "public/data/": {
+      "files": 680,
+      "bytes": 34027836
+    },
+    "public/": {
+      "files": 784,
+      "bytes": 34643385
+    }
+  },
+  "missing_receipts": [
+    "public/data/canada/ca-92a935da01aecfa3e1d130b3/catalog.json",
+    "public/data/phase6/p6-ab874a4a4d03-6e562cb1cbc4/bridge.json",
+    "public/data/phase6/p6-ab874a4a4d03-8218b6e3ca49/bridge.json"
+  ],
+  "raw_science_files_tracked": 0
+}

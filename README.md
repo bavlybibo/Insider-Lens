@@ -60,6 +60,18 @@ All images are genuine desktop captures from this repository using NASA observat
 
 ## Run and reproduce
 
+### Complete static release / Cloudflare Pages
+
+```sh
+npm ci
+npm run build:cloudflare
+npm run preview
+```
+
+Use **Node.js 22**, production branch **main**, build command **`npm run build:cloudflare`**, output **`dist`**, and **`SKIP_DEPENDENCY_INSTALL=1`**. With that variable, this command installs only lockfile-pinned JavaScript dependencies. It restores three allowlisted, already public immutable receipts over verified HTTPS, checks their exact sizes and SHA-256 values, verifies every public runtime asset and catalog dependency, then builds and verifies the complete static output. A download, integrity or dependency failure stops the build. Python, Earthdata credentials, NASA ZIP/HDF files and research databases are not needed for deployment or browser operation.
+
+Cloudflare publication is pending verification; the live link above remains the existing working demo. [Deployment and integrity checks](docs/CLOUDFLARE_PAGES.md).
+
 Node 22+ and Python 3.12+ recommended. The lockfiles pin tested dependencies.
 
 ```sh
