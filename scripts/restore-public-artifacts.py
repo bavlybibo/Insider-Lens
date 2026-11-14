@@ -2,7 +2,9 @@
 from pathlib import Path
 import hashlib
 import json
+import ssl
 import urllib.request
+import certifi
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -15,7 +17,10 @@ def run():
         if path.exists():
             assert hashlib.sha256(path.read_bytes()).hexdigest() == item['sha256'], 'Existing artifact differs; refusing overwrite'
             continue
-        with urllib.request.urlopen(item['url'], timeout=60) as response:
+        request = urllib.request.Request(item['url'], headers={'User-Agent': 'Insider-Lens-public-artifact-restore/1.0'})
+        # Use the pinned CA bundle; never disable TLS certificate verification.
+        context = ssl.create_default_context(cafile=certifi.where())
+        with urllib.request.urlopen(request, context=context, timeout=60) as response:
             raw = response.read(item['bytes'] + 1)
         assert len(raw) == item['bytes'] and hashlib.sha256(raw).hexdigest() == item['sha256'], 'Public artifact integrity failed'
         path.parent.mkdir(parents=True, exist_ok=True)

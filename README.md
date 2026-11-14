@@ -37,6 +37,9 @@ These are independently reconciled **reported-positive fixed spatial-cell/UTC-da
 Node 22+ and Python 3.12+ are recommended. `package-lock.json` and `requirements.lock.txt` pin the tested dependencies.
 
 ```sh
+python -m venv .venv
+# Activate .venv for your shell, then:
+python -m pip install -r requirements.lock.txt
 python scripts/restore-public-artifacts.py
 npm ci
 npm run dev
@@ -48,9 +51,6 @@ Open the printed local URL, then `/?region=canada&view=retention`. The restore c
 npm run build
 npx playwright install chromium
 npx playwright test --config playwright.public.config.ts
-python -m venv .venv
-# Activate .venv for your shell, then:
-python -m pip install -r requirements.lock.txt
 python -m unittest discover -s science -p test_science.py -v
 python scripts/verify-public-release.py
 ```
