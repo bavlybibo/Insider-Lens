@@ -16,3 +16,5 @@ Completed public remote-clone verification: dependency install and production bu
 ## Final desktop judge release audit — 14 November 2026
 
 Production build PASS. Full scientific suite72PASS (87.624s); selected contracts/browser regressions54PASS; seven latest desktop finding/scope/copy tests PASS after the scroll-bound adjustment. Exactly one narrow-layout smoke test protects shared behavior; no mobile feature, style or showcase capture was added. The original151/150 browser counts above describe the earlier full publication runs, not this new selected regression execution. Current clone and remote results are in reports/FINAL_INSIDER_LENS_RELEASE_AUDIT.md.
+
+Current fresh remote candidate clone: build PASS; eight portable scientific tests PASS;771-file integrity and12-case production replay PASS;53 selected browser/contracts PASS in133.328s. One non-runtime private receipt test is explicitly excluded. Live demo remains earlier deployed build and was verified separately; no redeployment occurred.
