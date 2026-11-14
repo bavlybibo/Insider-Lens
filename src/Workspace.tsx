@@ -15,6 +15,19 @@ import { loadRelease, scientificCsv, select, selectedMonth, selectionId, SOURCES
 const format = (n: number) => n.toLocaleString('en-US');
 const FireMap = lazy(() => import('./FireMap').then(module => ({ default: module.FireMap })));
 const CanadaWorkspace = lazy(() => import('./CanadaWorkspace'));
+type Region = 'portugal' | 'canada';
+function readRoute() {
+  const params = new URLSearchParams(location.search);
+  const region: Region = params.get('region') === 'canada' ? 'canada' : 'portugal';
+  return { region, key: [region, params.get('view'), params.get('lab'), params.get('study')].join('|') };
+}
+class WorkspaceBoundary extends Component<{ children: ReactNode }, { failed: boolean }> {
+  state = { failed: false };
+  static getDerivedStateFromError() { return { failed: true }; }
+  render() {
+    return this.state.failed ? <main className="load-screen" data-testid="workspace-error"><Brand/><h1>Investigation unavailable</h1><p role="alert">The investigation could not render. Scientific results are withheld; no replacement observations are shown.</p><p>Reload to request the current application and verified evidence again.</p><button onClick={() => location.reload()}>Reload investigation</button><a href="/">Open Portugal release</a></main> : this.props.children;
+  }
+}
 class MapBoundary extends Component<{ children: ReactNode }, { failed: boolean }> {
   state = { failed: false };
   static getDerivedStateFromError() { return { failed: true }; }
@@ -23,7 +36,23 @@ class MapBoundary extends Component<{ children: ReactNode }, { failed: boolean }
 const monthLabel = (month: string) => new Intl.DateTimeFormat('en', { timeZone: 'UTC', month: 'long', year: 'numeric' }).format(new Date(`${month}-01T12:00:00Z`));
 
 export default function App() {
-  const [region,setRegion]=useState(()=>new URLSearchParams(location.search).get('region')==='canada'?'canada':'portugal');
+  const [route, setRoute] = useState(readRoute);
+  useEffect(() => {
+    const pop = () => setRoute(readRoute());
+    addEventListener('popstate', pop);
+    return () => removeEventListener('popstate', pop);
+  }, []);
+  function navigate(region: Region) {
+    const url = new URL(location.href);
+    if (region === 'canada') url.searchParams.set('region', 'canada');
+    else for (const key of ['region', 'view', 'lab', 'study']) url.searchParams.delete(key);
+    history.pushState(null, '', url.pathname + url.search + url.hash);
+    setRoute(readRoute());
+  }
+  return <WorkspaceBoundary key={route.key}>{route.region === 'canada' ? <Suspense fallback={<main className="load-screen" role="status"><Brand/><h1>Opening Canada native history…</h1></main>}><CanadaWorkspace onPortugal={() => navigate('portugal')}/></Suspense> : <PortugalWorkspace onCanada={() => navigate('canada')}/>}</WorkspaceBoundary>;
+}
+
+function PortugalWorkspace({onCanada}: {onCanada: () => void}) {
   const [release, setRelease] = useState<Release | null>(null), [error, setError] = useState('');
   useEffect(() => {
     const controller = new AbortController();
@@ -32,8 +61,7 @@ export default function App() {
   }, []);
   if (error) return <main className="load-screen"><Brand/><h1>Scientific data unavailable</h1><p role="alert">{error}</p><p>Totals are withheld. Restore the verified artifact, then reload.</p></main>;
   if (!release) return <main className="load-screen" role="status"><Brand/><h1>Opening the evidence record</h1><p>Checking source-artifact SHA-256 and numerical reconciliation…</p></main>;
-  if(region==='canada')return <Suspense fallback={<main className="load-screen" role="status">Opening Canada native history…</main>}><CanadaWorkspace onPortugal={()=>setRegion('portugal')}/></Suspense>;
-  return <Investigation release={release} onCanada={()=>setRegion('canada')}/>;
+  return <Investigation release={release} onCanada={onCanada}/>;
 }
 
 function Investigation({ release,onCanada }: { release: Release;onCanada:()=>void }) {

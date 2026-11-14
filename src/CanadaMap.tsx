@@ -86,11 +86,11 @@ export function CanadaMap({catalog,chunks,query,lens,metric,theme,onCell,points=
       for(const id of ['eg-research-aoi','eg-research-draft'])map.addLayer({id,type:'line',source:id,paint:{'line-color':id==='eg-research-aoi'?'#253f37':'#9a6b2b','line-width':2,'line-dasharray':[3,2]}});
       applyCartography(map,latest.current.theme,memory.current);setReady(true);setEpoch(v=>v+1);
     });
-    const checkGeography=()=>{if(!baseLayers.length)return;
+    const checkGeography=()=>{const activeLayers=baseLayers.filter(id=>map.getLayer(id));if(!activeLayers.length)return;
       // First geography is checked during rendering; later provider/fallback
       // changes only at idle. Never repeatedly serialize base features while
       // a user is changing source policy or the GPU is painting an interaction.
-      const f=map.queryRenderedFeatures({layers:baseLayers});if(f.length){if(!geography){geography=true;setStatus('Geographic basemap rendered');}const kind=providerInstalled&&f.some(f=>f.source!=='ca-context')?'detail':'coarse';if(kind!==baseKind){baseKind=kind;setCoarse(kind==='coarse');}}
+      const f=map.queryRenderedFeatures({layers:activeLayers});if(f.length){if(!geography){geography=true;setStatus('Geographic basemap rendered');}const kind=providerInstalled&&f.some(f=>f.source!=='ca-context')?'detail':'coarse';if(kind!==baseKind){baseKind=kind;setCoarse(kind==='coarse');}}
     };
     map.on('render',()=>{if(!geography&&performance.now()-lastGeoCheck>=100){lastGeoCheck=performance.now();checkGeography();}});
     map.on('idle',checkGeography);
