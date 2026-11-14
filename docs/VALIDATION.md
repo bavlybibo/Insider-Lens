@@ -10,3 +10,5 @@
 - Production npm dependency audit: zero reported vulnerabilities at publication time (not a guarantee of future security).
 
 The clean public-clone reproduction boundary and one explicitly excluded historical non-runtime audit test are in REPRODUCIBILITY.md. Final remote-clone and anonymous deployment receipts are recorded in the final publication report; do not equate these workspace results with a new raw-data reparse on a clone.
+
+Completed public remote-clone verification: dependency install and production build PASS; eight synthetic science tests PASS;771 scientific file hashes and12-case production replay PASS; public browser profile150PASS with one explicitly excluded non-runtime audit binding test. Full-workspace151PASS remains distinct. Anonymous public desktop/mobile source-policy and export smoke PASS. Initial restore TLS/user-agent failure was fixed and reverified with certificate verification enabled. See reports/FINAL_GITHUB_PUBLICATION_AND_SUBMISSION.md for exact scope and submission fields.
