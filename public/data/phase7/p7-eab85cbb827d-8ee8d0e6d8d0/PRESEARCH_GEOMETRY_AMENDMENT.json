@@ -1,0 +1,7 @@
+{
+  "change": "proxy axis joins midpoints of longer opposing GRing edges, not shorter",
+  "limits": "heuristic only; unknown VZA remains null. No eligibility threshold changed.",
+  "parent_sha256": "eab85cbb827d4f291eba66b29bb29f9fe42c423876cf844c7daa9194730dace0",
+  "reason": "cross-swath width exceeds nominal along-track granule length for these products; shorter-edge join would estimate cross-track axis instead of along-track centerline",
+  "timing": "before first Phase7 CMR request or outcome inspection"
+}

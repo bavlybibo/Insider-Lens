@@ -1,0 +1,118 @@
+{
+  "aoi_wsen": [
+    -120,
+    49,
+    -110,
+    55
+  ],
+  "bridge_sources": [
+    "AQUA_MODIS",
+    "SNPP_VIIRS"
+  ],
+  "candidate_model_family": "none until opportunity and units qualified; no count ratio or FRP coefficient transfer",
+  "development": [
+    "2022-06-01",
+    "2022-06-02",
+    "2022-06-03"
+  ],
+  "frozen_before": "Phase6 bounded native selection and CMR discovery; Phase5 national inventory already public",
+  "gate": "ADJUSTMENT_WITHHELD",
+  "grid": {
+    "counting_m": 10000,
+    "crs": "+proj=laea +lat_0=60 +lon_0=-100 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs +type=crs",
+    "id": "ca-laea60n100w-wgs84-o0-v1",
+    "origin_m": [
+      0,
+      0
+    ],
+    "widths_m": [
+      5000,
+      10000,
+      20000
+    ]
+  },
+  "holdouts": "original Portugal/California and Canada2024 untouched; no evaluation access",
+  "id": "ca-common-support-2022-v1",
+  "l2_discovery_days": [
+    "2022-06-01",
+    "2022-06-08"
+  ],
+  "l2_sample_policy": "first chronological Aqua fire granule with CMR-linked data URL per day, then all same-platform geolocation / VIIRS metadata candidates; no selection by positive outcomes",
+  "max_download_bytes": 512000000,
+  "membership": "raw WGS84 pixel center within west/south inclusive east/north exclusive box; not footprint coverage",
+  "minimum_for_fit": {
+    "distinct_7day_blocks": 5,
+    "qualified_matched_passes": 30,
+    "reason": "feasibility floor, not statistical power guarantee; this bounded pilot cannot authorize fitting",
+    "spatial_blocks_km": 50
+  },
+  "offset_minutes": [
+    15,
+    30,
+    60
+  ],
+  "parent_matching_change": "Phase5 5/10/15 min superseded ONLY for this exploratory geometry/time feasibility test, before Phase6 outcomes; no gate relaxation or model eligibility",
+  "parent_protocol": "reports/CANADA_PREREGISTRATION.json",
+  "pc": "SP",
+  "products": {
+    "MYD03": [
+      "C1379841358-LAADS",
+      "6.1"
+    ],
+    "MYD14": [
+      "C2278858993-LPCLOUD",
+      "061"
+    ],
+    "VNP03IMG": [
+      "C2105092163-LAADS",
+      "2"
+    ],
+    "VNP03MOD": [
+      "C2105092427-LAADS",
+      "2"
+    ],
+    "VNP14": [
+      "C2545314536-LPCLOUD",
+      "002"
+    ],
+    "VNP14IMG": [
+      "C2734202914-LPCLOUD",
+      "002"
+    ]
+  },
+  "quality": {
+    "native_baseline": "all native Types and valid native confidence; zero FRP retained",
+    "opportunity": "compatible geolocated masks and algorithm QA; clear valid pixels; no bowtie/non-nominal; view zenith <=40 with 30/50 sensitivity; actual shared footprints required",
+    "sensitivity": "literal Type 0 only (presumed vegetation, production vintage unverified); MODIS confidence >=30 / VIIRS n,h; FRP strictly >0 in separate MW research lane"
+  },
+  "replication": [
+    "2022-06-08",
+    "2022-06-09",
+    "2022-06-10"
+  ],
+  "row_versions": {
+    "AQUA_MODIS": [
+      "6.03"
+    ],
+    "SNPP_VIIRS": [
+      "2"
+    ],
+    "TERRA_MODIS": [
+      "6.03"
+    ]
+  },
+  "sources": [
+    "AQUA_MODIS",
+    "TERRA_MODIS",
+    "SNPP_VIIRS"
+  ],
+  "split": "descriptive development replication only, no fitted model; four full UTC days excluded; not guaranteed independent fire episodes",
+  "targets": {
+    "B0": "exact source-separated positive 10km cell UTC days",
+    "B1": "same-cell same-native-DN acquisition-time candidate keys, not matched valid opportunity",
+    "B2": "750m VNP14 vs 375m VNP14IMG on actual qualified common support, otherwise BLOCKED",
+    "B3": "FRP MW correction only with method-specific QA, footprints and viewing geometry, otherwise BLOCKED"
+  },
+  "time_convention": "UTC, native minute precision; no exact scan-time claim",
+  "uncertainty": "enumerated finite-catalog descriptive counts exact; geolocation/Type/vintage uncertain. No CI for unidentifiable exposure or predictions; no fitted calibration."
+}

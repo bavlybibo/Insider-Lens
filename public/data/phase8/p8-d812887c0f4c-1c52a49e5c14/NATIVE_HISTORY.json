@@ -1,0 +1,194 @@
+{
+  "L2_ancestry": "not established; monthly delivery vintage and current L2 are not joined as the same processed observations",
+  "aoi_wsen": [
+    -117.2,
+    54.75,
+    -116.4,
+    55.0
+  ],
+  "calendar": [
+    {
+      "date": "2023-06-07",
+      "sources": {
+        "AQUA_MODIS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 0,
+          "raw_frp_mw_sum": 0.0,
+          "records": 0
+        },
+        "SNPP_VIIRS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 0,
+          "raw_frp_mw_sum": 0.0,
+          "records": 0
+        },
+        "TERRA_MODIS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 0,
+          "raw_frp_mw_sum": 0.0,
+          "records": 0
+        }
+      }
+    },
+    {
+      "date": "2023-06-08",
+      "sources": {
+        "AQUA_MODIS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 2,
+          "raw_frp_mw_sum": 3832.0,
+          "records": 8
+        },
+        "SNPP_VIIRS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 2,
+          "raw_frp_mw_sum": 724.14,
+          "records": 19
+        },
+        "TERRA_MODIS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 2,
+          "raw_frp_mw_sum": 24.1,
+          "records": 2
+        }
+      }
+    },
+    {
+      "date": "2023-06-09",
+      "sources": {
+        "AQUA_MODIS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 2,
+          "raw_frp_mw_sum": 6476.5,
+          "records": 30
+        },
+        "SNPP_VIIRS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 4,
+          "raw_frp_mw_sum": 11255.01,
+          "records": 318
+        },
+        "TERRA_MODIS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 2,
+          "raw_frp_mw_sum": 2987.2,
+          "records": 29
+        }
+      }
+    },
+    {
+      "date": "2023-06-10",
+      "sources": {
+        "AQUA_MODIS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 4,
+          "raw_frp_mw_sum": 1134.9,
+          "records": 18
+        },
+        "SNPP_VIIRS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 8,
+          "raw_frp_mw_sum": 1865.83,
+          "records": 270
+        },
+        "TERRA_MODIS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 6,
+          "raw_frp_mw_sum": 3454.6,
+          "records": 60
+        }
+      }
+    },
+    {
+      "date": "2023-06-11",
+      "sources": {
+        "AQUA_MODIS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 0,
+          "raw_frp_mw_sum": 0.0,
+          "records": 0
+        },
+        "SNPP_VIIRS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 2,
+          "raw_frp_mw_sum": 54.69,
+          "records": 41
+        },
+        "TERRA_MODIS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 0,
+          "raw_frp_mw_sum": 0.0,
+          "records": 0
+        }
+      }
+    },
+    {
+      "date": "2023-06-12",
+      "sources": {
+        "AQUA_MODIS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 1,
+          "raw_frp_mw_sum": 517.3,
+          "records": 7
+        },
+        "SNPP_VIIRS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 2,
+          "raw_frp_mw_sum": 444.18,
+          "records": 28
+        },
+        "TERRA_MODIS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 1,
+          "raw_frp_mw_sum": 22.5,
+          "records": 1
+        }
+      }
+    },
+    {
+      "date": "2023-06-13",
+      "sources": {
+        "AQUA_MODIS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 0,
+          "raw_frp_mw_sum": 0.0,
+          "records": 0
+        },
+        "SNPP_VIIRS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 1,
+          "raw_frp_mw_sum": 40.01,
+          "records": 26
+        },
+        "TERRA_MODIS": {
+          "observation_support": "UNKNOWN",
+          "occupied_cell_days": 0,
+          "raw_frp_mw_sum": 0.0,
+          "records": 0
+        }
+      }
+    }
+  ],
+  "contract_sha256": "d812887c0f4cae5ca6db22561af8f19ff15596ca66506827e4055ce2791fdbb9",
+  "g4": "ADJUSTMENT_WITHHELD",
+  "holdouts_opened": false,
+  "independent_store": "preserved oracle.sqlite raw identity + independent scalar EPSG9820 versus PROJ; no re-ingest or database mutation",
+  "meaning": "records and source-separated occupied10kmcell-days; missing rows are not fire-free days, no exposure normalization",
+  "pc": "SP",
+  "raw_identity_checks": 857,
+  "state": "PASS",
+  "totals": {
+    "AQUA_MODIS": {
+      "occupied_cell_days": 9,
+      "records": 63
+    },
+    "SNPP_VIIRS": {
+      "occupied_cell_days": 19,
+      "records": 702
+    },
+    "TERRA_MODIS": {
+      "occupied_cell_days": 11,
+      "records": 92
+    }
+  }
+}

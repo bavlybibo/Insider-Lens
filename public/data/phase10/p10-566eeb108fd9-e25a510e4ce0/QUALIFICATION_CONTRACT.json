@@ -1,0 +1,55 @@
+{
+  "aoi_wsen": [
+    -117.2,
+    54.75,
+    -116.4,
+    55.0
+  ],
+  "budget": {
+    "exact_acquisition_key": "A2023164.1042.002",
+    "max_new_science_files": 1,
+    "max_reference_bytes": 30000000,
+    "max_reference_requests": 18,
+    "max_science_bytes": 64000000,
+    "product": "VNP03MODLL.002"
+  },
+  "date": "2023-06-13",
+  "decision": "source-level QA fields require explicit applicability; raw values and physical support assessed separately; original sixteen candidates retained",
+  "fit": false,
+  "fixed_ids": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16"
+  ],
+  "g4": "ADJUSTMENT_WITHHELD",
+  "geometry": "No nominal-resolution rectangles, no center-spacing Voronoi support. Report documented aggregation/positional bounds only within applicable scope; unknown physical response means UNKNOWN support.",
+  "holdouts_opened": false,
+  "id": "p10-swf095-qualification-v1",
+  "immutable_manifest_sha256": "02b7c2c738efe39d32f24be2904c0182a5072f1a9fcf22b5fe6dd487975cddde",
+  "known_outcome": "Phase9 sixteen positives/22.37004065513611MW, all UNKNOWN_SUPPORT; disclosed follow-up, not blind",
+  "minimum_sample": "inherited30qualified passes/fiveweeks not met",
+  "no_new_outcome_selection": true,
+  "pair_selection": "same acquisition/collection as frozen VNP14; metadata-first, exact instance preferred; never replace original geolocation or candidate set",
+  "phase9_analysis_sha256": "8fce69a95ef12ec8aa623fa69ce8eacbd258240d567811d96289f59b8502322f",
+  "phase9_contract_sha256": "6bf2cedaf20fd910c7d9bad539aa06029a1f0ba1a656e1a6705652d67481eecf",
+  "phase9_oracle_sha256": "60fd57e5385090418d25c8a3559164ec66c03e91b62ef09bbfad32ca78ed478d",
+  "questions": [
+    "Exact VNP14.002 NPP_PR14 1.6.1/PGE2.0.4 QA applicability",
+    "Exact MODLL versus MOD geolocation compatibility",
+    "Detector sampling versus effective response and registration uncertainty"
+  ],
+  "thresholds": "unchanged primary40degree, sensitivity30/50, parent scan bounds and30minute limit; no retrospective relaxation"
+}

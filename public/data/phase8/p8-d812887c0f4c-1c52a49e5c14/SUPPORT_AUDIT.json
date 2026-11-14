@@ -1,0 +1,2510 @@
+{
+  "B0": "actual source-separated native detections; independently recounted",
+  "B1": "WITHHELD_NO_QUALIFIED_DOMAIN",
+  "B2": "INCONCLUSIVE_NO_QUALIFIED_POSITIVE_SAMPLE",
+  "B3": "distinct375m mask decoded, not merged",
+  "B4": "NOT_FITTED",
+  "contract_sha256": "d812887c0f4cae5ca6db22561af8f19ff15596ca66506827e4055ce2791fdbb9",
+  "downloaded_bytes": 260346716,
+  "elapsed_seconds": 5.853169400244951,
+  "failures": [
+    "No independently qualified physical shared footprint boundary/uncertainty",
+    "C2 VNP14 750m QA applicability not established",
+    "One selected pass cannot meet30-pass/5-week fitting floor"
+  ],
+  "fit": false,
+  "g4": "ADJUSTMENT_WITHHELD",
+  "generalization": false,
+  "holdouts_opened": false,
+  "improvement_demonstrated": false,
+  "independent_fire_absence_controls": 0,
+  "manifest_sha256": "02b7c2c738efe39d32f24be2904c0182a5072f1a9fcf22b5fe6dd487975cddde",
+  "matched_positive_observations": null,
+  "maximum_scan_bound_separation_seconds": 75.16694808006287,
+  "metadata_endpoint_bound_seconds": 480,
+  "qualified_shared_support_m2": null,
+  "results": {
+    "MYD14": {
+      "aoi_pixel_centers": 1159,
+      "aoi_sparse_fire_pixels": [],
+      "cells": [
+        {
+          "i": -110,
+          "j": -45,
+          "mask_counts": {
+            "3": 1,
+            "5": 18
+          }
+        },
+        {
+          "i": -110,
+          "j": -44,
+          "mask_counts": {
+            "3": 1,
+            "5": 28
+          }
+        },
+        {
+          "i": -110,
+          "j": -43,
+          "mask_counts": {
+            "5": 7
+          }
+        },
+        {
+          "i": -109,
+          "j": -45,
+          "mask_counts": {
+            "3": 2,
+            "5": 43
+          }
+        },
+        {
+          "i": -109,
+          "j": -44,
+          "mask_counts": {
+            "5": 85
+          }
+        },
+        {
+          "i": -109,
+          "j": -43,
+          "mask_counts": {
+            "5": 84
+          }
+        },
+        {
+          "i": -109,
+          "j": -42,
+          "mask_counts": {
+            "5": 19
+          }
+        },
+        {
+          "i": -108,
+          "j": -45,
+          "mask_counts": {
+            "3": 4,
+            "5": 67
+          }
+        },
+        {
+          "i": -108,
+          "j": -44,
+          "mask_counts": {
+            "5": 80
+          }
+        },
+        {
+          "i": -108,
+          "j": -43,
+          "mask_counts": {
+            "5": 78
+          }
+        },
+        {
+          "i": -108,
+          "j": -42,
+          "mask_counts": {
+            "5": 4
+          }
+        },
+        {
+          "i": -107,
+          "j": -46,
+          "mask_counts": {
+            "5": 10
+          }
+        },
+        {
+          "i": -107,
+          "j": -45,
+          "mask_counts": {
+            "5": 80
+          }
+        },
+        {
+          "i": -107,
+          "j": -44,
+          "mask_counts": {
+            "3": 2,
+            "5": 80
+          }
+        },
+        {
+          "i": -107,
+          "j": -43,
+          "mask_counts": {
+            "5": 66
+          }
+        },
+        {
+          "i": -106,
+          "j": -46,
+          "mask_counts": {
+            "5": 29
+          }
+        },
+        {
+          "i": -106,
+          "j": -45,
+          "mask_counts": {
+            "5": 80
+          }
+        },
+        {
+          "i": -106,
+          "j": -44,
+          "mask_counts": {
+            "5": 80
+          }
+        },
+        {
+          "i": -106,
+          "j": -43,
+          "mask_counts": {
+            "5": 42
+          }
+        },
+        {
+          "i": -105,
+          "j": -46,
+          "mask_counts": {
+            "5": 20
+          }
+        },
+        {
+          "i": -105,
+          "j": -45,
+          "mask_counts": {
+            "5": 55
+          }
+        },
+        {
+          "i": -105,
+          "j": -44,
+          "mask_counts": {
+            "3": 2,
+            "5": 72
+          }
+        },
+        {
+          "i": -105,
+          "j": -43,
+          "mask_counts": {
+            "3": 2,
+            "5": 17
+          }
+        },
+        {
+          "i": -104,
+          "j": -44,
+          "mask_counts": {
+            "5": 1
+          }
+        }
+      ],
+      "downloaded_geolocation": "MYD03.A2023164.1040.061.2023165145910.hdf",
+      "exact_geolocation_input_identity": true,
+      "examples": [
+        {
+          "lat": 54.9985237121582,
+          "line": 1581,
+          "lon": -116.45677947998047,
+          "mask": 5,
+          "qa": 6,
+          "sample": 973,
+          "view_zenith_degrees": 26.900000000000002
+        },
+        {
+          "lat": 54.994903564453125,
+          "line": 1581,
+          "lon": -116.43819427490234,
+          "mask": 5,
+          "qa": 6,
+          "sample": 974,
+          "view_zenith_degrees": 26.990000000000002
+        },
+        {
+          "lat": 54.99128723144531,
+          "line": 1581,
+          "lon": -116.41963195800781,
+          "mask": 5,
+          "qa": 6,
+          "sample": 975,
+          "view_zenith_degrees": 27.09
+        },
+        {
+          "lat": 54.98765563964844,
+          "line": 1581,
+          "lon": -116.40103149414062,
+          "mask": 5,
+          "qa": 6,
+          "sample": 976,
+          "view_zenith_degrees": 27.18
+        },
+        {
+          "lat": 54.999725341796875,
+          "line": 1582,
+          "lon": -116.51691436767578,
+          "mask": 5,
+          "qa": 6,
+          "sample": 970,
+          "view_zenith_degrees": 26.62
+        },
+        {
+          "lat": 54.99617385864258,
+          "line": 1582,
+          "lon": -116.4986801147461,
+          "mask": 5,
+          "qa": 6,
+          "sample": 971,
+          "view_zenith_degrees": 26.71
+        },
+        {
+          "lat": 54.99264907836914,
+          "line": 1582,
+          "lon": -116.48059844970703,
+          "mask": 5,
+          "qa": 6,
+          "sample": 972,
+          "view_zenith_degrees": 26.810000000000002
+        },
+        {
+          "lat": 54.98907470703125,
+          "line": 1582,
+          "lon": -116.4622802734375,
+          "mask": 3,
+          "qa": 4,
+          "sample": 973,
+          "view_zenith_degrees": 26.900000000000002
+        },
+        {
+          "lat": 54.98545837402344,
+          "line": 1582,
+          "lon": -116.44376373291016,
+          "mask": 3,
+          "qa": 5,
+          "sample": 974,
+          "view_zenith_degrees": 26.990000000000002
+        },
+        {
+          "lat": 54.98184585571289,
+          "line": 1582,
+          "lon": -116.42526245117188,
+          "mask": 5,
+          "qa": 6,
+          "sample": 975,
+          "view_zenith_degrees": 27.080000000000002
+        },
+        {
+          "lat": 54.97822189331055,
+          "line": 1582,
+          "lon": -116.40672302246094,
+          "mask": 5,
+          "qa": 6,
+          "sample": 976,
+          "view_zenith_degrees": 27.18
+        },
+        {
+          "lat": 54.997474670410156,
+          "line": 1583,
+          "lon": -116.55928039550781,
+          "mask": 5,
+          "qa": 6,
+          "sample": 968,
+          "view_zenith_degrees": 26.44
+        }
+      ],
+      "fire_metadata": {
+        "MOD03 input file": "/MODAPSops8/archive/f20234/running/PM1M_C61_L1glu/254774486/MYD03.A2023164.1040.061.2023165145910.hdf",
+        "ProcessVersionNumber": "6.2.3"
+      },
+      "geolocation_input_named": [
+        "MYD03.A2023164.1040.061.2023165145910.hdf"
+      ],
+      "mask_counts": {
+        "3": 14,
+        "5": 1145
+      },
+      "mask_legend": {
+        "legend": "Classes:\n0 missing input data\n1 not processed (obsolete)\n2 not processed (obsolete)\n3 non-fire water\n4 cloud\n5 non-fire land\n6 unknown\n7 fire (low confidence)\n8 fire (nominal confidence)\n9 fire (high confidence)"
+      },
+      "meaning": "measured native mask classes at geolocated centers; NOT cloud-free area, complete cell exposure, exact footprints or wildfire absence",
+      "modis_table4_fields": {
+        "adjacent_cloud": {
+          "0": 1159
+        },
+        "adjacent_water": {
+          "0": 1159
+        },
+        "day": {
+          "0": 1159
+        },
+        "glint_level": {
+          "0": 1159
+        },
+        "land_water": {
+          "0": 3,
+          "1": 11,
+          "2": 1145
+        },
+        "potential_fire": {
+          "0": 1159
+        },
+        "rejection_flags": {
+          "0": 1159
+        }
+      },
+      "native_frp_mw_sum": 0,
+      "nonzero_geolocation_quality_centers": null,
+      "positive_mask_centers": 0,
+      "product": "MYD14",
+      "qa_375m_nominal_no_residual_bowtie_centers": null,
+      "qa_375m_residual_bowtie_centers": null,
+      "qa_interpretation": "C6/C6.1 Table4 decoded; complete response boundaries unqualified",
+      "qa_qualified_for_shared_support": false,
+      "qa_word_counts": {
+        "4": 3,
+        "5": 11,
+        "6": 1145
+      },
+      "scan_time_bounds": {
+        "max_scan_bound_seconds": 1.4771180152893066,
+        "meaning": "conservative complete scan bounds, not exact pixel times; no paired footprint assignment",
+        "scan_ids": [
+          158,
+          159,
+          160,
+          161,
+          162
+        ],
+        "scan_quality_counts": null,
+        "tai93_max": 960806651.44271,
+        "tai93_min": 960806644.057146,
+        "utc_end": "2023-06-13T10:44:01.442710Z",
+        "utc_start": "2023-06-13T10:43:54.057146Z"
+      },
+      "shape": [
+        2030,
+        1354
+      ],
+      "support_states_at_centers": {
+        "UNKNOWN_SUPPORT": 1159
+      },
+      "view_decoded_unit_degrees": 0.01,
+      "view_scale_factor_raw": 0.01,
+      "view_sensitivity": {
+        "30": {
+          "aoi_centers_within_view": 1159,
+          "fully_QA_screened_375m_centers": null,
+          "mask_land_or_fire_centers_within_view": 1145
+        },
+        "40": {
+          "aoi_centers_within_view": 1159,
+          "fully_QA_screened_375m_centers": null,
+          "mask_land_or_fire_centers_within_view": 1145
+        },
+        "50": {
+          "aoi_centers_within_view": 1159,
+          "fully_QA_screened_375m_centers": null,
+          "mask_land_or_fire_centers_within_view": 1145
+        }
+      },
+      "view_zenith_max_degrees": 27.82,
+      "view_zenith_min_degrees": 23.580000000000002
+    },
+    "VNP14": {
+      "aoi_pixel_centers": 2310,
+      "aoi_sparse_fire_pixels": [],
+      "cells": [
+        {
+          "i": -110,
+          "j": -45,
+          "mask_counts": {
+            "1": 10,
+            "3": 2,
+            "5": 32
+          }
+        },
+        {
+          "i": -110,
+          "j": -44,
+          "mask_counts": {
+            "1": 2,
+            "3": 1,
+            "5": 46
+          }
+        },
+        {
+          "i": -110,
+          "j": -43,
+          "mask_counts": {
+            "1": 4,
+            "5": 17
+          }
+        },
+        {
+          "i": -109,
+          "j": -45,
+          "mask_counts": {
+            "1": 4,
+            "3": 2,
+            "5": 76
+          }
+        },
+        {
+          "i": -109,
+          "j": -44,
+          "mask_counts": {
+            "1": 28,
+            "5": 151
+          }
+        },
+        {
+          "i": -109,
+          "j": -43,
+          "mask_counts": {
+            "1": 14,
+            "5": 138
+          }
+        },
+        {
+          "i": -109,
+          "j": -42,
+          "mask_counts": {
+            "1": 12,
+            "5": 42
+          }
+        },
+        {
+          "i": -108,
+          "j": -45,
+          "mask_counts": {
+            "1": 20,
+            "3": 5,
+            "5": 119
+          }
+        },
+        {
+          "i": -108,
+          "j": -44,
+          "mask_counts": {
+            "1": 13,
+            "5": 137
+          }
+        },
+        {
+          "i": -108,
+          "j": -43,
+          "mask_counts": {
+            "1": 27,
+            "5": 147
+          }
+        },
+        {
+          "i": -108,
+          "j": -42,
+          "mask_counts": {
+            "5": 6
+          }
+        },
+        {
+          "i": -107,
+          "j": -46,
+          "mask_counts": {
+            "1": 6,
+            "5": 20
+          }
+        },
+        {
+          "i": -107,
+          "j": -45,
+          "mask_counts": {
+            "1": 18,
+            "5": 137
+          }
+        },
+        {
+          "i": -107,
+          "j": -44,
+          "mask_counts": {
+            "1": 29,
+            "3": 3,
+            "5": 145
+          }
+        },
+        {
+          "i": -107,
+          "j": -43,
+          "mask_counts": {
+            "1": 5,
+            "5": 99
+          }
+        },
+        {
+          "i": -106,
+          "j": -46,
+          "mask_counts": {
+            "1": 2,
+            "5": 46
+          }
+        },
+        {
+          "i": -106,
+          "j": -45,
+          "mask_counts": {
+            "1": 23,
+            "5": 140
+          }
+        },
+        {
+          "i": -106,
+          "j": -44,
+          "mask_counts": {
+            "1": 10,
+            "5": 132
+          }
+        },
+        {
+          "i": -106,
+          "j": -43,
+          "mask_counts": {
+            "1": 21,
+            "4": 2,
+            "5": 80
+          }
+        },
+        {
+          "i": -105,
+          "j": -46,
+          "mask_counts": {
+            "1": 3,
+            "5": 33
+          }
+        },
+        {
+          "i": -105,
+          "j": -45,
+          "mask_counts": {
+            "1": 14,
+            "5": 97
+          }
+        },
+        {
+          "i": -105,
+          "j": -44,
+          "mask_counts": {
+            "1": 25,
+            "3": 4,
+            "5": 127
+          }
+        },
+        {
+          "i": -105,
+          "j": -43,
+          "mask_counts": {
+            "1": 1,
+            "3": 2,
+            "5": 29
+          }
+        },
+        {
+          "i": -104,
+          "j": -44,
+          "mask_counts": {
+            "5": 1
+          }
+        },
+        {
+          "i": -104,
+          "j": -43,
+          "mask_counts": {
+            "5": 1
+          }
+        }
+      ],
+      "downloaded_geolocation": "VNP03MOD.A2023164.1042.002.2023164194353.nc",
+      "exact_geolocation_input_identity": true,
+      "examples": [
+        {
+          "lat": 54.99949645996094,
+          "line": 422,
+          "lon": -116.4342041015625,
+          "mask": 5,
+          "qa": 2,
+          "sample": 2279,
+          "view_zenith_degrees": 40.21
+        },
+        {
+          "lat": 54.99639129638672,
+          "line": 422,
+          "lon": -116.42182922363281,
+          "mask": 5,
+          "qa": 2,
+          "sample": 2280,
+          "view_zenith_degrees": 40.25
+        },
+        {
+          "lat": 54.99325942993164,
+          "line": 422,
+          "lon": -116.40934753417969,
+          "mask": 5,
+          "qa": 2,
+          "sample": 2281,
+          "view_zenith_degrees": 40.29
+        },
+        {
+          "lat": 54.998008728027344,
+          "line": 423,
+          "lon": -116.46501159667969,
+          "mask": 5,
+          "qa": 2,
+          "sample": 2277,
+          "view_zenith_degrees": 40.12
+        },
+        {
+          "lat": 54.99488067626953,
+          "line": 423,
+          "lon": -116.45252227783203,
+          "mask": 5,
+          "qa": 2,
+          "sample": 2278,
+          "view_zenith_degrees": 40.160000000000004
+        },
+        {
+          "lat": 54.99175262451172,
+          "line": 423,
+          "lon": -116.44007873535156,
+          "mask": 5,
+          "qa": 2,
+          "sample": 2279,
+          "view_zenith_degrees": 40.21
+        },
+        {
+          "lat": 54.98863220214844,
+          "line": 423,
+          "lon": -116.42768096923828,
+          "mask": 5,
+          "qa": 2,
+          "sample": 2280,
+          "view_zenith_degrees": 40.25
+        },
+        {
+          "lat": 54.98551559448242,
+          "line": 423,
+          "lon": -116.41529083251953,
+          "mask": 5,
+          "qa": 2,
+          "sample": 2281,
+          "view_zenith_degrees": 40.29
+        },
+        {
+          "lat": 54.982398986816406,
+          "line": 423,
+          "lon": -116.4028549194336,
+          "mask": 5,
+          "qa": 2,
+          "sample": 2282,
+          "view_zenith_degrees": 40.34
+        },
+        {
+          "lat": 54.999237060546875,
+          "line": 424,
+          "lon": -116.506591796875,
+          "mask": 5,
+          "qa": 2,
+          "sample": 2274,
+          "view_zenith_degrees": 39.99
+        },
+        {
+          "lat": 54.99625015258789,
+          "line": 424,
+          "lon": -116.49472045898438,
+          "mask": 5,
+          "qa": 2,
+          "sample": 2275,
+          "view_zenith_degrees": 40.03
+        },
+        {
+          "lat": 54.993247985839844,
+          "line": 424,
+          "lon": -116.48278045654297,
+          "mask": 5,
+          "qa": 2,
+          "sample": 2276,
+          "view_zenith_degrees": 40.08
+        }
+      ],
+      "fire_metadata": {
+        "AlgorithmVersion": "NPP_PR14 1.6.1",
+        "DayNightFlag": "Both",
+        "EndTime": "2023-06-13 10:48:00.000",
+        "InputFileGeo": [
+          "/MODAPSops4/archive/f20243/running/VNP_L1glu/35609931/VNP03MOD.A2023164.1042.002.2023164194353.nc"
+        ],
+        "InputPointer": "VNP02CCMOD.A2023164.1042.002.2023164204525.nc, VNP03MOD.A2023164.1042.002.2023164194353.nc",
+        "PGEVersion": "2.0.4",
+        "ProcessVersionNumber": [
+          "1.6.1"
+        ],
+        "ProductionTime": "2023-06-13 20:52:53.000",
+        "StartTime": "2023-06-13 10:42:00.000",
+        "VersionID": "002"
+      },
+      "geolocation_input_named": [
+        "VNP03MOD.A2023164.1042.002.2023164194353.nc"
+      ],
+      "mask_counts": {
+        "1": 291,
+        "3": 19,
+        "4": 2,
+        "5": 1998
+      },
+      "mask_legend": {
+        "legend": "[b'Classes:\\n0 missing input data\\n1 not processed (trim)\\n2 not processed (unused)\\n3 non-fire water\\n4 cloud\\n5 non-fire land\\n6 unknown\\n7 fire (low confidence)\\n8 fire (nominal confidence)\\n9 fire (high confidence)']"
+      },
+      "meaning": "measured native mask classes at geolocated centers; NOT cloud-free area, complete cell exposure, exact footprints or wildfire absence",
+      "native_frp_mw_sum": 0,
+      "nonzero_geolocation_quality_centers": 0,
+      "positive_mask_centers": 0,
+      "product": "VNP14",
+      "qa_375m_nominal_no_residual_bowtie_centers": null,
+      "qa_375m_residual_bowtie_centers": null,
+      "qa_interpretation": "Exact C2 750m bit applicability unresolved; historical C1 bits never promoted",
+      "qa_qualified_for_shared_support": false,
+      "qa_word_counts": {
+        "0": 295,
+        "1": 15,
+        "2": 2000
+      },
+      "scan_time_bounds": {
+        "max_scan_bound_seconds": 0.5638080835342407,
+        "meaning": "conservative complete scan bounds, not exact pixel times; no paired footprint assignment",
+        "scan_ids": [
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "scan_quality_counts": {
+          "0": 5
+        },
+        "tai93_max": 960806583.956641,
+        "tai93_min": 960806576.275762,
+        "utc_end": "2023-06-13T10:42:53.956641Z",
+        "utc_start": "2023-06-13T10:42:46.275762Z"
+      },
+      "shape": [
+        3248,
+        3200
+      ],
+      "support_states_at_centers": {
+        "CLOUD_OR_INVALID": 293,
+        "UNKNOWN_SUPPORT": 2017
+      },
+      "view_decoded_unit_degrees": 0.01,
+      "view_scale_factor_raw": 0.009999999776482582,
+      "view_sensitivity": {
+        "30": {
+          "aoi_centers_within_view": 0,
+          "fully_QA_screened_375m_centers": null,
+          "mask_land_or_fire_centers_within_view": 0
+        },
+        "40": {
+          "aoi_centers_within_view": 1746,
+          "fully_QA_screened_375m_centers": null,
+          "mask_land_or_fire_centers_within_view": 1507
+        },
+        "50": {
+          "aoi_centers_within_view": 2310,
+          "fully_QA_screened_375m_centers": null,
+          "mask_land_or_fire_centers_within_view": 1998
+        }
+      },
+      "view_zenith_max_degrees": 40.9,
+      "view_zenith_min_degrees": 37.92
+    },
+    "VNP14IMG": {
+      "aoi_pixel_centers": 9238,
+      "aoi_sparse_fire_pixels": [
+        {
+          "FP_ViewZenAng": 39.71999740600586,
+          "FP_confidence": 8,
+          "FP_latitude": 54.93645477294922,
+          "FP_longitude": -116.65406799316406,
+          "FP_power": 2.0009613037109375
+        },
+        {
+          "FP_ViewZenAng": 39.66999816894531,
+          "FP_confidence": 8,
+          "FP_latitude": 54.935630798339844,
+          "FP_longitude": -116.66915130615234,
+          "FP_power": 1.2056559324264526
+        },
+        {
+          "FP_ViewZenAng": 39.689998626708984,
+          "FP_confidence": 8,
+          "FP_latitude": 54.93410873413086,
+          "FP_longitude": -116.66303253173828,
+          "FP_power": 1.2056559324264526
+        },
+        {
+          "FP_ViewZenAng": 39.81999969482422,
+          "FP_confidence": 8,
+          "FP_latitude": 54.9211540222168,
+          "FP_longitude": -116.62945556640625,
+          "FP_power": 1.2936846017837524
+        },
+        {
+          "FP_ViewZenAng": 39.849998474121094,
+          "FP_confidence": 8,
+          "FP_latitude": 54.91964340209961,
+          "FP_longitude": -116.62340545654297,
+          "FP_power": 1.5181735754013062
+        },
+        {
+          "FP_ViewZenAng": 39.849998474121094,
+          "FP_confidence": 8,
+          "FP_latitude": 54.9157600402832,
+          "FP_longitude": -116.626220703125,
+          "FP_power": 1.562825083732605
+        },
+        {
+          "FP_ViewZenAng": 39.81999969482422,
+          "FP_confidence": 8,
+          "FP_latitude": 54.91340637207031,
+          "FP_longitude": -116.6351547241211,
+          "FP_power": 1.3613617420196533
+        },
+        {
+          "FP_ViewZenAng": 39.849998474121094,
+          "FP_confidence": 8,
+          "FP_latitude": 54.91188049316406,
+          "FP_longitude": -116.62905883789062,
+          "FP_power": 1.562825083732605
+        },
+        {
+          "FP_ViewZenAng": 39.88999938964844,
+          "FP_confidence": 8,
+          "FP_latitude": 54.90883255004883,
+          "FP_longitude": -116.61688995361328,
+          "FP_power": 0.7082785367965698
+        },
+        {
+          "FP_ViewZenAng": 39.88999938964844,
+          "FP_confidence": 8,
+          "FP_latitude": 54.904945373535156,
+          "FP_longitude": -116.61970520019531,
+          "FP_power": 1.7770336866378784
+        },
+        {
+          "FP_ViewZenAng": 39.90999984741211,
+          "FP_confidence": 8,
+          "FP_latitude": 54.90343475341797,
+          "FP_longitude": -116.6136474609375,
+          "FP_power": 1.7770336866378784
+        },
+        {
+          "FP_ViewZenAng": 39.90999984741211,
+          "FP_confidence": 8,
+          "FP_latitude": 54.88406753540039,
+          "FP_longitude": -116.62800598144531,
+          "FP_power": 0.975152850151062
+        },
+        {
+          "FP_ViewZenAng": 39.93000030517578,
+          "FP_confidence": 8,
+          "FP_latitude": 54.882564544677734,
+          "FP_longitude": -116.62203979492188,
+          "FP_power": 1.6208806037902832
+        },
+        {
+          "FP_ViewZenAng": 39.93000030517578,
+          "FP_confidence": 8,
+          "FP_latitude": 54.87869644165039,
+          "FP_longitude": -116.62492370605469,
+          "FP_power": 1.358726143836975
+        },
+        {
+          "FP_ViewZenAng": 39.95000076293945,
+          "FP_confidence": 8,
+          "FP_latitude": 54.8771858215332,
+          "FP_longitude": -116.61891174316406,
+          "FP_power": 1.358726143836975
+        },
+        {
+          "FP_ViewZenAng": 39.97999954223633,
+          "FP_confidence": 8,
+          "FP_latitude": 54.87567901611328,
+          "FP_longitude": -116.6129379272461,
+          "FP_power": 1.0830657482147217
+        }
+      ],
+      "cells": [
+        {
+          "i": -110,
+          "j": -45,
+          "mask_counts": {
+            "1": 44,
+            "3": 1,
+            "5": 140
+          }
+        },
+        {
+          "i": -110,
+          "j": -44,
+          "mask_counts": {
+            "1": 10,
+            "5": 188
+          }
+        },
+        {
+          "i": -110,
+          "j": -43,
+          "mask_counts": {
+            "1": 13,
+            "5": 67
+          }
+        },
+        {
+          "i": -109,
+          "j": -45,
+          "mask_counts": {
+            "1": 14,
+            "3": 3,
+            "5": 307
+          }
+        },
+        {
+          "i": -109,
+          "j": -44,
+          "mask_counts": {
+            "1": 112,
+            "5": 601
+          }
+        },
+        {
+          "i": -109,
+          "j": -43,
+          "mask_counts": {
+            "1": 55,
+            "5": 559
+          }
+        },
+        {
+          "i": -109,
+          "j": -42,
+          "mask_counts": {
+            "1": 49,
+            "5": 169
+          }
+        },
+        {
+          "i": -108,
+          "j": -45,
+          "mask_counts": {
+            "1": 83,
+            "3": 7,
+            "5": 484
+          }
+        },
+        {
+          "i": -108,
+          "j": -44,
+          "mask_counts": {
+            "1": 50,
+            "5": 546
+          }
+        },
+        {
+          "i": -108,
+          "j": -43,
+          "mask_counts": {
+            "1": 109,
+            "5": 585
+          }
+        },
+        {
+          "i": -108,
+          "j": -42,
+          "mask_counts": {
+            "5": 25
+          }
+        },
+        {
+          "i": -107,
+          "j": -46,
+          "mask_counts": {
+            "1": 22,
+            "5": 77
+          }
+        },
+        {
+          "i": -107,
+          "j": -45,
+          "mask_counts": {
+            "1": 72,
+            "5": 555
+          }
+        },
+        {
+          "i": -107,
+          "j": -44,
+          "mask_counts": {
+            "1": 115,
+            "3": 2,
+            "5": 585
+          }
+        },
+        {
+          "i": -107,
+          "j": -43,
+          "mask_counts": {
+            "1": 17,
+            "5": 402
+          }
+        },
+        {
+          "i": -106,
+          "j": -46,
+          "mask_counts": {
+            "1": 9,
+            "5": 174
+          }
+        },
+        {
+          "i": -106,
+          "j": -45,
+          "mask_counts": {
+            "1": 88,
+            "5": 561
+          }
+        },
+        {
+          "i": -106,
+          "j": -44,
+          "mask_counts": {
+            "1": 47,
+            "5": 517,
+            "8": 16
+          }
+        },
+        {
+          "i": -106,
+          "j": -43,
+          "mask_counts": {
+            "1": 81,
+            "4": 3,
+            "5": 321
+          }
+        },
+        {
+          "i": -105,
+          "j": -46,
+          "mask_counts": {
+            "1": 11,
+            "5": 134
+          }
+        },
+        {
+          "i": -105,
+          "j": -45,
+          "mask_counts": {
+            "1": 56,
+            "5": 380
+          }
+        },
+        {
+          "i": -105,
+          "j": -44,
+          "mask_counts": {
+            "1": 98,
+            "3": 2,
+            "4": 4,
+            "5": 526
+          }
+        },
+        {
+          "i": -105,
+          "j": -43,
+          "mask_counts": {
+            "1": 4,
+            "3": 3,
+            "5": 127
+          }
+        },
+        {
+          "i": -104,
+          "j": -44,
+          "mask_counts": {
+            "5": 3
+          }
+        },
+        {
+          "i": -104,
+          "j": -43,
+          "mask_counts": {
+            "5": 5
+          }
+        }
+      ],
+      "downloaded_geolocation": "VNP03IMG.A2023164.1042.002.2023164194353.nc",
+      "exact_geolocation_input_identity": true,
+      "examples": [
+        {
+          "lat": 54.999839782714844,
+          "line": 843,
+          "lon": -116.40795135498047,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4562,
+          "view_zenith_degrees": 40.28
+        },
+        {
+          "lat": 54.99827194213867,
+          "line": 843,
+          "lon": -116.40169525146484,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4563,
+          "view_zenith_degrees": 40.31
+        },
+        {
+          "lat": 54.999107360839844,
+          "line": 844,
+          "lon": -116.42344665527344,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4560,
+          "view_zenith_degrees": 40.24
+        },
+        {
+          "lat": 54.99755096435547,
+          "line": 844,
+          "lon": -116.41722869873047,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4561,
+          "view_zenith_degrees": 40.26
+        },
+        {
+          "lat": 54.99598693847656,
+          "line": 844,
+          "lon": -116.4109878540039,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4562,
+          "view_zenith_degrees": 40.28
+        },
+        {
+          "lat": 54.994415283203125,
+          "line": 844,
+          "lon": -116.40473175048828,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4563,
+          "view_zenith_degrees": 40.31
+        },
+        {
+          "lat": 54.999908447265625,
+          "line": 845,
+          "lon": -116.44503021240234,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4557,
+          "view_zenith_degrees": 40.17
+        },
+        {
+          "lat": 54.99834060668945,
+          "line": 845,
+          "lon": -116.43876647949219,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4558,
+          "view_zenith_degrees": 40.2
+        },
+        {
+          "lat": 54.99679183959961,
+          "line": 845,
+          "lon": -116.4325942993164,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4559,
+          "view_zenith_degrees": 40.22
+        },
+        {
+          "lat": 54.9952392578125,
+          "line": 845,
+          "lon": -116.42640686035156,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4560,
+          "view_zenith_degrees": 40.24
+        },
+        {
+          "lat": 54.99367141723633,
+          "line": 845,
+          "lon": -116.420166015625,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4561,
+          "view_zenith_degrees": 40.26
+        },
+        {
+          "lat": 54.99210739135742,
+          "line": 845,
+          "lon": -116.41393280029297,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4562,
+          "view_zenith_degrees": 40.28
+        }
+      ],
+      "fire_metadata": {
+        "AlgorithmVersion": "NPP_PR14IMG 3.1.6",
+        "DayNightFlag": "Both",
+        "EndTime": "2023-06-13 10:48:00.000",
+        "InputPointer": "/MODAPSops7/archive/f20210/running/VNP_L1bglu/8790610/VNP02CCIMG.A2023164.1042.002.2023164204525.nc, /MODAPSops7/archive/f20210/running/VNP_L1bglu/8790610/VNP03IMG.A2023164.1042.002.2023164194353.nc, /MODAPSops7/archive/f20210/running/VNP_L1bglu/8790610/VNP02CCMOD.A2023164.1042.002.2023164204525.nc, /MODAPSops7/archive/f20210/running/VNP_L1bglu/8790610/VNP02GDC.A2023164.1042.002.2023164204035.nc",
+        "PGEVersion": "2.0.13",
+        "ProcessVersionNumber": [
+          "3.1.9"
+        ],
+        "ProductionTime": "2024-03-19 13:37:54.000",
+        "StartTime": "2023-06-13 10:42:00.000",
+        "VersionID": "002"
+      },
+      "geolocation_input_named": [
+        "VNP03IMG.A2023164.1042.002.2023164194353.nc"
+      ],
+      "mask_counts": {
+        "1": 1159,
+        "3": 18,
+        "4": 7,
+        "5": 8038,
+        "8": 16
+      },
+      "mask_legend": {
+        "legend": "[b'0 not-processed (non-zero QF)\\n1 bowtie\\n2 glint\\n3 water\\n4 clouds\\n5 clear land\\n6 unclassified pixel\\n7 low confidence fire pixel\\n8 nominal confidence fire pixel\\n9 high confidence fire pixel']"
+      },
+      "meaning": "measured native mask classes at geolocated centers; NOT cloud-free area, complete cell exposure, exact footprints or wildfire absence",
+      "native_frp_mw_sum": 22.37004065513611,
+      "nonzero_geolocation_quality_centers": 0,
+      "positive_mask_centers": 16,
+      "product": "VNP14IMG",
+      "qa_375m_nominal_no_residual_bowtie_centers": 8079,
+      "qa_375m_residual_bowtie_centers": 0,
+      "qa_interpretation": "C2 375m guide v1.2 decoded; distinct from750m",
+      "qa_qualified_for_shared_support": false,
+      "qa_word_counts": {
+        "0": 8063,
+        "88": 1159,
+        "29696": 4,
+        "29952": 12
+      },
+      "scan_time_bounds": {
+        "max_scan_bound_seconds": 0.5638080835342407,
+        "meaning": "conservative complete scan bounds, not exact pixel times; no paired footprint assignment",
+        "scan_ids": [
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "scan_quality_counts": {
+          "0": 5
+        },
+        "tai93_max": 960806583.956641,
+        "tai93_min": 960806576.275762,
+        "utc_end": "2023-06-13T10:42:53.956641Z",
+        "utc_start": "2023-06-13T10:42:46.275762Z"
+      },
+      "shape": [
+        6496,
+        6400
+      ],
+      "support_states_at_centers": {
+        "CLOUD_OR_INVALID": 1166,
+        "UNKNOWN_SUPPORT": 8072
+      },
+      "view_decoded_unit_degrees": 0.01,
+      "view_scale_factor_raw": 0.009999999776482582,
+      "view_sensitivity": {
+        "30": {
+          "aoi_centers_within_view": 0,
+          "fully_QA_screened_375m_centers": 0,
+          "mask_land_or_fire_centers_within_view": 0
+        },
+        "40": {
+          "aoi_centers_within_view": 6989,
+          "fully_QA_screened_375m_centers": 6078,
+          "mask_land_or_fire_centers_within_view": 6078
+        },
+        "50": {
+          "aoi_centers_within_view": 9238,
+          "fully_QA_screened_375m_centers": 8054,
+          "mask_land_or_fire_centers_within_view": 8054
+        }
+      },
+      "view_zenith_max_degrees": 40.89,
+      "view_zenith_min_degrees": 37.910000000000004
+    }
+  },
+  "science_files": 6,
+  "spatial_diagnostic": {
+    "MYD14": {
+      "aoi_pixel_centers": 1135,
+      "aoi_sparse_fire_pixels": [],
+      "cells": [
+        {
+          "i": -113,
+          "j": -56,
+          "mask_counts": {
+            "5": 4
+          }
+        },
+        {
+          "i": -113,
+          "j": -55,
+          "mask_counts": {
+            "3": 2,
+            "5": 8
+          }
+        },
+        {
+          "i": -112,
+          "j": -56,
+          "mask_counts": {
+            "5": 24
+          }
+        },
+        {
+          "i": -112,
+          "j": -55,
+          "mask_counts": {
+            "3": 5,
+            "5": 73
+          }
+        },
+        {
+          "i": -112,
+          "j": -54,
+          "mask_counts": {
+            "5": 73
+          }
+        },
+        {
+          "i": -112,
+          "j": -53,
+          "mask_counts": {
+            "5": 29
+          }
+        },
+        {
+          "i": -111,
+          "j": -56,
+          "mask_counts": {
+            "4": 41,
+            "5": 8
+          }
+        },
+        {
+          "i": -111,
+          "j": -55,
+          "mask_counts": {
+            "4": 14,
+            "5": 65
+          }
+        },
+        {
+          "i": -111,
+          "j": -54,
+          "mask_counts": {
+            "3": 3,
+            "5": 74
+          }
+        },
+        {
+          "i": -111,
+          "j": -53,
+          "mask_counts": {
+            "5": 24
+          }
+        },
+        {
+          "i": -110,
+          "j": -56,
+          "mask_counts": {
+            "4": 26,
+            "5": 36
+          }
+        },
+        {
+          "i": -110,
+          "j": -55,
+          "mask_counts": {
+            "4": 19,
+            "5": 57
+          }
+        },
+        {
+          "i": -110,
+          "j": -54,
+          "mask_counts": {
+            "3": 2,
+            "5": 76
+          }
+        },
+        {
+          "i": -110,
+          "j": -53,
+          "mask_counts": {
+            "3": 1,
+            "5": 3
+          }
+        },
+        {
+          "i": -109,
+          "j": -57,
+          "mask_counts": {
+            "4": 5,
+            "5": 1
+          }
+        },
+        {
+          "i": -109,
+          "j": -56,
+          "mask_counts": {
+            "4": 25,
+            "5": 53
+          }
+        },
+        {
+          "i": -109,
+          "j": -55,
+          "mask_counts": {
+            "4": 5,
+            "5": 75
+          }
+        },
+        {
+          "i": -109,
+          "j": -54,
+          "mask_counts": {
+            "5": 56
+          }
+        },
+        {
+          "i": -108,
+          "j": -57,
+          "mask_counts": {
+            "4": 3,
+            "5": 22
+          }
+        },
+        {
+          "i": -108,
+          "j": -56,
+          "mask_counts": {
+            "4": 1,
+            "5": 70
+          }
+        },
+        {
+          "i": -108,
+          "j": -55,
+          "mask_counts": {
+            "5": 71
+          }
+        },
+        {
+          "i": -108,
+          "j": -54,
+          "mask_counts": {
+            "5": 45
+          }
+        },
+        {
+          "i": -107,
+          "j": -56,
+          "mask_counts": {
+            "5": 5
+          }
+        },
+        {
+          "i": -107,
+          "j": -55,
+          "mask_counts": {
+            "5": 21
+          }
+        },
+        {
+          "i": -107,
+          "j": -54,
+          "mask_counts": {
+            "5": 10
+          }
+        }
+      ],
+      "downloaded_geolocation": "MYD03.A2023164.1040.061.2023165145910.hdf",
+      "exact_geolocation_input_identity": true,
+      "examples": [
+        {
+          "lat": 53.998985290527344,
+          "line": 1685,
+          "lon": -116.462158203125,
+          "mask": 5,
+          "qa": 6,
+          "sample": 1004,
+          "view_zenith_degrees": 29.77
+        },
+        {
+          "lat": 53.99519348144531,
+          "line": 1685,
+          "lon": -116.44332122802734,
+          "mask": 5,
+          "qa": 6,
+          "sample": 1005,
+          "view_zenith_degrees": 29.86
+        },
+        {
+          "lat": 53.99131774902344,
+          "line": 1685,
+          "lon": -116.42407989501953,
+          "mask": 5,
+          "qa": 6,
+          "sample": 1006,
+          "view_zenith_degrees": 29.95
+        },
+        {
+          "lat": 53.987464904785156,
+          "line": 1685,
+          "lon": -116.40497589111328,
+          "mask": 5,
+          "qa": 6,
+          "sample": 1007,
+          "view_zenith_degrees": 30.05
+        },
+        {
+          "lat": 53.99685287475586,
+          "line": 1686,
+          "lon": -116.50506591796875,
+          "mask": 5,
+          "qa": 6,
+          "sample": 1002,
+          "view_zenith_degrees": 29.580000000000002
+        },
+        {
+          "lat": 53.99311065673828,
+          "line": 1686,
+          "lon": -116.48649597167969,
+          "mask": 5,
+          "qa": 6,
+          "sample": 1003,
+          "view_zenith_degrees": 29.67
+        },
+        {
+          "lat": 53.98936080932617,
+          "line": 1686,
+          "lon": -116.46788787841797,
+          "mask": 5,
+          "qa": 6,
+          "sample": 1004,
+          "view_zenith_degrees": 29.77
+        },
+        {
+          "lat": 53.98554992675781,
+          "line": 1686,
+          "lon": -116.4489974975586,
+          "mask": 5,
+          "qa": 6,
+          "sample": 1005,
+          "view_zenith_degrees": 29.86
+        },
+        {
+          "lat": 53.981689453125,
+          "line": 1686,
+          "lon": -116.42988586425781,
+          "mask": 5,
+          "qa": 6,
+          "sample": 1006,
+          "view_zenith_degrees": 29.95
+        },
+        {
+          "lat": 53.977787017822266,
+          "line": 1686,
+          "lon": -116.41056060791016,
+          "mask": 5,
+          "qa": 6,
+          "sample": 1007,
+          "view_zenith_degrees": 30.05
+        },
+        {
+          "lat": 53.998619079589844,
+          "line": 1687,
+          "lon": -116.56727600097656,
+          "mask": 5,
+          "qa": 6,
+          "sample": 999,
+          "view_zenith_degrees": 29.3
+        },
+        {
+          "lat": 53.99474334716797,
+          "line": 1687,
+          "lon": -116.54801940917969,
+          "mask": 5,
+          "qa": 6,
+          "sample": 1000,
+          "view_zenith_degrees": 29.400000000000002
+        }
+      ],
+      "fire_metadata": {
+        "MOD03 input file": "/MODAPSops8/archive/f20234/running/PM1M_C61_L1glu/254774486/MYD03.A2023164.1040.061.2023165145910.hdf",
+        "ProcessVersionNumber": "6.2.3"
+      },
+      "geolocation_input_named": [
+        "MYD03.A2023164.1040.061.2023165145910.hdf"
+      ],
+      "mask_counts": {
+        "3": 13,
+        "4": 139,
+        "5": 983
+      },
+      "mask_legend": {
+        "legend": "Classes:\n0 missing input data\n1 not processed (obsolete)\n2 not processed (obsolete)\n3 non-fire water\n4 cloud\n5 non-fire land\n6 unknown\n7 fire (low confidence)\n8 fire (nominal confidence)\n9 fire (high confidence)"
+      },
+      "meaning": "measured native mask classes at geolocated centers; NOT cloud-free area, complete cell exposure, exact footprints or wildfire absence",
+      "nonzero_geolocation_quality_centers": null,
+      "product": "MYD14",
+      "qa_375m_nominal_no_residual_bowtie_centers": null,
+      "qa_375m_residual_bowtie_centers": null,
+      "qa_interpretation": "raw words retained; exact MODIS/750m algorithm bit policy NOT QUALIFIED. View rejection alone is sufficient to reject primary sample.",
+      "qa_word_counts": {
+        "5": 13,
+        "6": 1122
+      },
+      "shape": [
+        2030,
+        1354
+      ],
+      "view_decoded_unit_degrees": 0.01,
+      "view_scale_factor_raw": 0.01,
+      "view_sensitivity": {
+        "30": {
+          "aoi_centers_within_view": 1011,
+          "fully_QA_screened_375m_centers": null,
+          "mask_land_or_fire_centers_within_view": 868
+        },
+        "40": {
+          "aoi_centers_within_view": 1135,
+          "fully_QA_screened_375m_centers": null,
+          "mask_land_or_fire_centers_within_view": 983
+        },
+        "50": {
+          "aoi_centers_within_view": 1135,
+          "fully_QA_screened_375m_centers": null,
+          "mask_land_or_fire_centers_within_view": 983
+        }
+      },
+      "view_zenith_max_degrees": 30.7,
+      "view_zenith_min_degrees": 26.53
+    },
+    "VNP14": {
+      "aoi_pixel_centers": 2200,
+      "aoi_sparse_fire_pixels": [],
+      "cells": [
+        {
+          "i": -113,
+          "j": -56,
+          "mask_counts": {
+            "5": 4
+          }
+        },
+        {
+          "i": -113,
+          "j": -55,
+          "mask_counts": {
+            "1": 1,
+            "3": 5,
+            "5": 13
+          }
+        },
+        {
+          "i": -112,
+          "j": -56,
+          "mask_counts": {
+            "5": 41
+          }
+        },
+        {
+          "i": -112,
+          "j": -55,
+          "mask_counts": {
+            "1": 28,
+            "3": 3,
+            "5": 139
+          }
+        },
+        {
+          "i": -112,
+          "j": -54,
+          "mask_counts": {
+            "1": 15,
+            "5": 116
+          }
+        },
+        {
+          "i": -112,
+          "j": -53,
+          "mask_counts": {
+            "1": 7,
+            "5": 47
+          }
+        },
+        {
+          "i": -111,
+          "j": -56,
+          "mask_counts": {
+            "1": 21,
+            "4": 62,
+            "5": 24
+          }
+        },
+        {
+          "i": -111,
+          "j": -55,
+          "mask_counts": {
+            "1": 11,
+            "4": 15,
+            "5": 114
+          }
+        },
+        {
+          "i": -111,
+          "j": -54,
+          "mask_counts": {
+            "1": 23,
+            "3": 7,
+            "4": 1,
+            "5": 130
+          }
+        },
+        {
+          "i": -111,
+          "j": -53,
+          "mask_counts": {
+            "5": 37
+          }
+        },
+        {
+          "i": -110,
+          "j": -56,
+          "mask_counts": {
+            "1": 8,
+            "4": 52,
+            "5": 47
+          }
+        },
+        {
+          "i": -110,
+          "j": -55,
+          "mask_counts": {
+            "1": 26,
+            "4": 41,
+            "5": 101
+          }
+        },
+        {
+          "i": -110,
+          "j": -54,
+          "mask_counts": {
+            "1": 16,
+            "3": 3,
+            "4": 1,
+            "5": 128
+          }
+        },
+        {
+          "i": -110,
+          "j": -53,
+          "mask_counts": {
+            "1": 2,
+            "5": 8
+          }
+        },
+        {
+          "i": -109,
+          "j": -57,
+          "mask_counts": {
+            "4": 8,
+            "5": 3
+          }
+        },
+        {
+          "i": -109,
+          "j": -56,
+          "mask_counts": {
+            "1": 23,
+            "4": 73,
+            "5": 60
+          }
+        },
+        {
+          "i": -109,
+          "j": -55,
+          "mask_counts": {
+            "1": 12,
+            "4": 15,
+            "5": 107
+          }
+        },
+        {
+          "i": -109,
+          "j": -54,
+          "mask_counts": {
+            "1": 21,
+            "4": 2,
+            "5": 106
+          }
+        },
+        {
+          "i": -108,
+          "j": -57,
+          "mask_counts": {
+            "1": 10,
+            "4": 6,
+            "5": 35
+          }
+        },
+        {
+          "i": -108,
+          "j": -56,
+          "mask_counts": {
+            "1": 13,
+            "4": 6,
+            "5": 113
+          }
+        },
+        {
+          "i": -108,
+          "j": -55,
+          "mask_counts": {
+            "1": 24,
+            "5": 136
+          }
+        },
+        {
+          "i": -108,
+          "j": -54,
+          "mask_counts": {
+            "1": 2,
+            "5": 59
+          }
+        },
+        {
+          "i": -107,
+          "j": -56,
+          "mask_counts": {
+            "1": 1,
+            "5": 6
+          }
+        },
+        {
+          "i": -107,
+          "j": -55,
+          "mask_counts": {
+            "1": 3,
+            "5": 31
+          }
+        },
+        {
+          "i": -107,
+          "j": -54,
+          "mask_counts": {
+            "1": 5,
+            "5": 23
+          }
+        }
+      ],
+      "downloaded_geolocation": "VNP03MOD.A2023164.1042.002.2023164194353.nc",
+      "exact_geolocation_input_identity": true,
+      "examples": [
+        {
+          "lat": 53.99935531616211,
+          "line": 557,
+          "lon": -116.41158294677734,
+          "mask": 5,
+          "qa": 2,
+          "sample": 2335,
+          "view_zenith_degrees": 42.65
+        },
+        {
+          "lat": 53.99821853637695,
+          "line": 558,
+          "lon": -116.44379425048828,
+          "mask": 5,
+          "qa": 2,
+          "sample": 2333,
+          "view_zenith_degrees": 42.56
+        },
+        {
+          "lat": 53.99480056762695,
+          "line": 558,
+          "lon": -116.43069458007812,
+          "mask": 5,
+          "qa": 2,
+          "sample": 2334,
+          "view_zenith_degrees": 42.6
+        },
+        {
+          "lat": 53.991416931152344,
+          "line": 558,
+          "lon": -116.41766357421875,
+          "mask": 5,
+          "qa": 2,
+          "sample": 2335,
+          "view_zenith_degrees": 42.65
+        },
+        {
+          "lat": 53.988067626953125,
+          "line": 558,
+          "lon": -116.40476989746094,
+          "mask": 5,
+          "qa": 2,
+          "sample": 2336,
+          "view_zenith_degrees": 42.69
+        },
+        {
+          "lat": 53.999996185302734,
+          "line": 559,
+          "lon": -116.48726654052734,
+          "mask": 1,
+          "qa": 0,
+          "sample": 2330,
+          "view_zenith_degrees": 42.43
+        },
+        {
+          "lat": 53.996788024902344,
+          "line": 559,
+          "lon": -116.47489166259766,
+          "mask": 1,
+          "qa": 0,
+          "sample": 2331,
+          "view_zenith_degrees": 42.47
+        },
+        {
+          "lat": 53.99362564086914,
+          "line": 559,
+          "lon": -116.46271514892578,
+          "mask": 1,
+          "qa": 0,
+          "sample": 2332,
+          "view_zenith_degrees": 42.52
+        },
+        {
+          "lat": 53.99031448364258,
+          "line": 559,
+          "lon": -116.45001220703125,
+          "mask": 1,
+          "qa": 0,
+          "sample": 2333,
+          "view_zenith_degrees": 42.56
+        },
+        {
+          "lat": 53.98689651489258,
+          "line": 559,
+          "lon": -116.43689727783203,
+          "mask": 1,
+          "qa": 0,
+          "sample": 2334,
+          "view_zenith_degrees": 42.6
+        },
+        {
+          "lat": 53.98351287841797,
+          "line": 559,
+          "lon": -116.42388153076172,
+          "mask": 1,
+          "qa": 0,
+          "sample": 2335,
+          "view_zenith_degrees": 42.65
+        },
+        {
+          "lat": 53.980079650878906,
+          "line": 559,
+          "lon": -116.41069793701172,
+          "mask": 1,
+          "qa": 0,
+          "sample": 2336,
+          "view_zenith_degrees": 42.69
+        }
+      ],
+      "fire_metadata": {
+        "AlgorithmVersion": "NPP_PR14 1.6.1",
+        "DayNightFlag": "Both",
+        "EndTime": "2023-06-13 10:48:00.000",
+        "InputFileGeo": [
+          "/MODAPSops4/archive/f20243/running/VNP_L1glu/35609931/VNP03MOD.A2023164.1042.002.2023164194353.nc"
+        ],
+        "InputPointer": "VNP02CCMOD.A2023164.1042.002.2023164204525.nc, VNP03MOD.A2023164.1042.002.2023164194353.nc",
+        "PGEVersion": "2.0.4",
+        "ProcessVersionNumber": [
+          "1.6.1"
+        ],
+        "ProductionTime": "2023-06-13 20:52:53.000",
+        "StartTime": "2023-06-13 10:42:00.000",
+        "VersionID": "002"
+      },
+      "geolocation_input_named": [
+        "VNP03MOD.A2023164.1042.002.2023164194353.nc"
+      ],
+      "mask_counts": {
+        "1": 272,
+        "3": 18,
+        "4": 282,
+        "5": 1628
+      },
+      "mask_legend": {
+        "legend": "[b'Classes:\\n0 missing input data\\n1 not processed (trim)\\n2 not processed (unused)\\n3 non-fire water\\n4 cloud\\n5 non-fire land\\n6 unknown\\n7 fire (low confidence)\\n8 fire (nominal confidence)\\n9 fire (high confidence)']"
+      },
+      "meaning": "measured native mask classes at geolocated centers; NOT cloud-free area, complete cell exposure, exact footprints or wildfire absence",
+      "nonzero_geolocation_quality_centers": 0,
+      "product": "VNP14",
+      "qa_375m_nominal_no_residual_bowtie_centers": null,
+      "qa_375m_residual_bowtie_centers": null,
+      "qa_interpretation": "raw words retained; exact MODIS/750m algorithm bit policy NOT QUALIFIED. View rejection alone is sufficient to reject primary sample.",
+      "qa_word_counts": {
+        "0": 274,
+        "1": 16,
+        "2": 1910
+      },
+      "shape": [
+        3248,
+        3200
+      ],
+      "view_decoded_unit_degrees": 0.01,
+      "view_scale_factor_raw": 0.009999999776482582,
+      "view_sensitivity": {
+        "30": {
+          "aoi_centers_within_view": 0,
+          "fully_QA_screened_375m_centers": null,
+          "mask_land_or_fire_centers_within_view": 0
+        },
+        "40": {
+          "aoi_centers_within_view": 0,
+          "fully_QA_screened_375m_centers": null,
+          "mask_land_or_fire_centers_within_view": 0
+        },
+        "50": {
+          "aoi_centers_within_view": 2200,
+          "fully_QA_screened_375m_centers": null,
+          "mask_land_or_fire_centers_within_view": 1628
+        }
+      },
+      "view_zenith_max_degrees": 43.22,
+      "view_zenith_min_degrees": 40.37
+    },
+    "VNP14IMG": {
+      "aoi_pixel_centers": 8814,
+      "aoi_sparse_fire_pixels": [],
+      "cells": [
+        {
+          "i": -113,
+          "j": -56,
+          "mask_counts": {
+            "5": 19
+          }
+        },
+        {
+          "i": -113,
+          "j": -55,
+          "mask_counts": {
+            "1": 4,
+            "3": 2,
+            "5": 68
+          }
+        },
+        {
+          "i": -113,
+          "j": -54,
+          "mask_counts": {
+            "1": 1,
+            "5": 1
+          }
+        },
+        {
+          "i": -112,
+          "j": -56,
+          "mask_counts": {
+            "1": 2,
+            "5": 159
+          }
+        },
+        {
+          "i": -112,
+          "j": -55,
+          "mask_counts": {
+            "1": 109,
+            "3": 2,
+            "5": 572
+          }
+        },
+        {
+          "i": -112,
+          "j": -54,
+          "mask_counts": {
+            "1": 60,
+            "5": 468
+          }
+        },
+        {
+          "i": -112,
+          "j": -53,
+          "mask_counts": {
+            "1": 27,
+            "5": 193
+          }
+        },
+        {
+          "i": -111,
+          "j": -56,
+          "mask_counts": {
+            "1": 81,
+            "4": 207,
+            "5": 136
+          }
+        },
+        {
+          "i": -111,
+          "j": -55,
+          "mask_counts": {
+            "1": 47,
+            "4": 49,
+            "5": 466
+          }
+        },
+        {
+          "i": -111,
+          "j": -54,
+          "mask_counts": {
+            "1": 92,
+            "3": 6,
+            "4": 4,
+            "5": 545
+          }
+        },
+        {
+          "i": -111,
+          "j": -53,
+          "mask_counts": {
+            "5": 141
+          }
+        },
+        {
+          "i": -110,
+          "j": -56,
+          "mask_counts": {
+            "1": 30,
+            "4": 151,
+            "5": 247
+          }
+        },
+        {
+          "i": -110,
+          "j": -55,
+          "mask_counts": {
+            "1": 106,
+            "4": 132,
+            "5": 432
+          }
+        },
+        {
+          "i": -110,
+          "j": -54,
+          "mask_counts": {
+            "1": 66,
+            "3": 2,
+            "4": 1,
+            "5": 528
+          }
+        },
+        {
+          "i": -110,
+          "j": -53,
+          "mask_counts": {
+            "1": 11,
+            "5": 33
+          }
+        },
+        {
+          "i": -109,
+          "j": -57,
+          "mask_counts": {
+            "4": 31,
+            "5": 14
+          }
+        },
+        {
+          "i": -109,
+          "j": -56,
+          "mask_counts": {
+            "1": 92,
+            "4": 203,
+            "5": 330
+          }
+        },
+        {
+          "i": -109,
+          "j": -55,
+          "mask_counts": {
+            "1": 46,
+            "4": 41,
+            "5": 451
+          }
+        },
+        {
+          "i": -109,
+          "j": -54,
+          "mask_counts": {
+            "1": 84,
+            "4": 7,
+            "5": 421
+          }
+        },
+        {
+          "i": -108,
+          "j": -57,
+          "mask_counts": {
+            "1": 41,
+            "4": 29,
+            "5": 139
+          }
+        },
+        {
+          "i": -108,
+          "j": -56,
+          "mask_counts": {
+            "1": 52,
+            "4": 20,
+            "5": 452
+          }
+        },
+        {
+          "i": -108,
+          "j": -55,
+          "mask_counts": {
+            "1": 99,
+            "5": 539
+          }
+        },
+        {
+          "i": -108,
+          "j": -54,
+          "mask_counts": {
+            "1": 5,
+            "5": 243
+          }
+        },
+        {
+          "i": -107,
+          "j": -56,
+          "mask_counts": {
+            "1": 6,
+            "5": 29
+          }
+        },
+        {
+          "i": -107,
+          "j": -55,
+          "mask_counts": {
+            "1": 9,
+            "5": 125
+          }
+        },
+        {
+          "i": -107,
+          "j": -54,
+          "mask_counts": {
+            "1": 22,
+            "5": 84
+          }
+        }
+      ],
+      "downloaded_geolocation": "VNP03IMG.A2023164.1042.002.2023164194353.nc",
+      "exact_geolocation_input_identity": true,
+      "examples": [
+        {
+          "lat": 53.9989128112793,
+          "line": 1114,
+          "lon": -116.40068817138672,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4672,
+          "view_zenith_degrees": 42.68
+        },
+        {
+          "lat": 53.99985885620117,
+          "line": 1115,
+          "lon": -116.42266082763672,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4669,
+          "view_zenith_degrees": 42.62
+        },
+        {
+          "lat": 53.9981803894043,
+          "line": 1115,
+          "lon": -116.41620635986328,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4670,
+          "view_zenith_degrees": 42.64
+        },
+        {
+          "lat": 53.996551513671875,
+          "line": 1115,
+          "lon": -116.4099349975586,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4671,
+          "view_zenith_degrees": 42.660000000000004
+        },
+        {
+          "lat": 53.99492263793945,
+          "line": 1115,
+          "lon": -116.4036636352539,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4672,
+          "view_zenith_degrees": 42.68
+        },
+        {
+          "lat": 53.999332427978516,
+          "line": 1116,
+          "lon": -116.43896484375,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4667,
+          "view_zenith_degrees": 42.57
+        },
+        {
+          "lat": 53.99763107299805,
+          "line": 1116,
+          "lon": -116.43241882324219,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4668,
+          "view_zenith_degrees": 42.59
+        },
+        {
+          "lat": 53.99592208862305,
+          "line": 1116,
+          "lon": -116.42584991455078,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4669,
+          "view_zenith_degrees": 42.62
+        },
+        {
+          "lat": 53.99422836303711,
+          "line": 1116,
+          "lon": -116.41931915283203,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4670,
+          "view_zenith_degrees": 42.64
+        },
+        {
+          "lat": 53.99257278442383,
+          "line": 1116,
+          "lon": -116.4129409790039,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4671,
+          "view_zenith_degrees": 42.660000000000004
+        },
+        {
+          "lat": 53.990936279296875,
+          "line": 1116,
+          "lon": -116.40665435791016,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4672,
+          "view_zenith_degrees": 42.68
+        },
+        {
+          "lat": 53.99876022338867,
+          "line": 1117,
+          "lon": -116.45503997802734,
+          "mask": 5,
+          "qa": 0,
+          "sample": 4665,
+          "view_zenith_degrees": 42.53
+        }
+      ],
+      "fire_metadata": {
+        "AlgorithmVersion": "NPP_PR14IMG 3.1.6",
+        "DayNightFlag": "Both",
+        "EndTime": "2023-06-13 10:48:00.000",
+        "InputPointer": "/MODAPSops7/archive/f20210/running/VNP_L1bglu/8790610/VNP02CCIMG.A2023164.1042.002.2023164204525.nc, /MODAPSops7/archive/f20210/running/VNP_L1bglu/8790610/VNP03IMG.A2023164.1042.002.2023164194353.nc, /MODAPSops7/archive/f20210/running/VNP_L1bglu/8790610/VNP02CCMOD.A2023164.1042.002.2023164204525.nc, /MODAPSops7/archive/f20210/running/VNP_L1bglu/8790610/VNP02GDC.A2023164.1042.002.2023164204035.nc",
+        "PGEVersion": "2.0.13",
+        "ProcessVersionNumber": [
+          "3.1.9"
+        ],
+        "ProductionTime": "2024-03-19 13:37:54.000",
+        "StartTime": "2023-06-13 10:42:00.000",
+        "VersionID": "002"
+      },
+      "geolocation_input_named": [
+        "VNP03IMG.A2023164.1042.002.2023164194353.nc"
+      ],
+      "mask_counts": {
+        "1": 1092,
+        "3": 12,
+        "4": 875,
+        "5": 6835
+      },
+      "mask_legend": {
+        "legend": "[b'0 not-processed (non-zero QF)\\n1 bowtie\\n2 glint\\n3 water\\n4 clouds\\n5 clear land\\n6 unclassified pixel\\n7 low confidence fire pixel\\n8 nominal confidence fire pixel\\n9 high confidence fire pixel']"
+      },
+      "meaning": "measured native mask classes at geolocated centers; NOT cloud-free area, complete cell exposure, exact footprints or wildfire absence",
+      "nonzero_geolocation_quality_centers": 0,
+      "product": "VNP14IMG",
+      "qa_375m_nominal_no_residual_bowtie_centers": 7722,
+      "qa_375m_residual_bowtie_centers": 0,
+      "qa_interpretation": "C2 375m bits0:6 nominal and bit22 no residual bowtie + geolocation flags zero",
+      "qa_word_counts": {
+        "0": 7722,
+        "88": 1092
+      },
+      "shape": [
+        6496,
+        6400
+      ],
+      "view_decoded_unit_degrees": 0.01,
+      "view_scale_factor_raw": 0.009999999776482582,
+      "view_sensitivity": {
+        "30": {
+          "aoi_centers_within_view": 0,
+          "fully_QA_screened_375m_centers": 0,
+          "mask_land_or_fire_centers_within_view": 0
+        },
+        "40": {
+          "aoi_centers_within_view": 0,
+          "fully_QA_screened_375m_centers": 0,
+          "mask_land_or_fire_centers_within_view": 0
+        },
+        "50": {
+          "aoi_centers_within_view": 8814,
+          "fully_QA_screened_375m_centers": 6835,
+          "mask_land_or_fire_centers_within_view": 6835
+        }
+      },
+      "view_zenith_max_degrees": 43.25,
+      "view_zenith_min_degrees": 40.36
+    }
+  },
+  "state": "B1_SUPPORT_WITHHELD",
+  "valid_shared_negative_controls": null
+}

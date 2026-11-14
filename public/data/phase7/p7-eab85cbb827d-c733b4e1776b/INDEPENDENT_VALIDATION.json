@@ -1,0 +1,83 @@
+{
+  "state": "PASS",
+  "support_audit_sha256": "c733b4e1776b39fdd0b635ab552f8d386175d7b7d9c77aeea56add6ad8551e83",
+  "mapped_centers_sha256": "619127873bd4e0bb48be9001268e42b946d75f856f74884b0fd164101a80b9bb",
+  "discovery_sha256": "e23288fae276b9a126b3a285ea195ae864fe461cacb972bd21695e69b414d641",
+  "checks": [
+    {
+      "split": "development",
+      "product": "MYD14",
+      "aoi_centers": 4369,
+      "mask_qa_view_all_points": "PASS",
+      "ellipsoidal_5_10_20km_bins": "PASS",
+      "occupied_center_bins": {
+        "5000": 351,
+        "10000": 99,
+        "20000": 29
+      },
+      "actual_footprint_intersection": "NOT_QUALIFIED",
+      "full_source_specific_qa": "PARTIAL_MODIS_TABLE4"
+    },
+    {
+      "split": "development",
+      "product": "VNP14",
+      "aoi_centers": 8984,
+      "mask_qa_view_all_points": "PASS",
+      "ellipsoidal_5_10_20km_bins": "PASS",
+      "occupied_center_bins": {
+        "5000": 354,
+        "10000": 99,
+        "20000": 29
+      },
+      "actual_footprint_intersection": "NOT_QUALIFIED",
+      "full_source_specific_qa": "C2_APPLICABILITY_UNRESOLVED"
+    },
+    {
+      "split": "replication",
+      "product": "MYD14",
+      "aoi_centers": 7255,
+      "mask_qa_view_all_points": "PASS",
+      "ellipsoidal_5_10_20km_bins": "PASS",
+      "occupied_center_bins": {
+        "5000": 332,
+        "10000": 94,
+        "20000": 29
+      },
+      "actual_footprint_intersection": "NOT_QUALIFIED",
+      "full_source_specific_qa": "PARTIAL_MODIS_TABLE4"
+    },
+    {
+      "split": "replication",
+      "product": "VNP14",
+      "aoi_centers": 11663,
+      "mask_qa_view_all_points": "PASS",
+      "ellipsoidal_5_10_20km_bins": "PASS",
+      "occupied_center_bins": {
+        "5000": 332,
+        "10000": 94,
+        "20000": 29
+      },
+      "actual_footprint_intersection": "NOT_QUALIFIED",
+      "full_source_specific_qa": "C2_APPLICABILITY_UNRESOLVED"
+    }
+  ],
+  "metadata_checks": [
+    {
+      "split": "development",
+      "utc_candidate_pairs": 2,
+      "membership": "PASS",
+      "ranking": "not independently requalified as measured geometry; proxy is not VZA"
+    },
+    {
+      "split": "replication",
+      "utc_candidate_pairs": 1,
+      "membership": "PASS",
+      "ranking": "not independently requalified as measured geometry; proxy is not VZA"
+    }
+  ],
+  "method": "separate113row raw reads; scalarCounter QA; independent EPSG9820 vs PROJ5/10/20km; every mapped center tuple checked",
+  "qualified_footprint_validation": "NOT_EXECUTED_NO_QUALIFIED_FOOTPRINTS",
+  "candidate_fit": false,
+  "human_review": false,
+  "elapsed_seconds": 1.96040160022676
+}

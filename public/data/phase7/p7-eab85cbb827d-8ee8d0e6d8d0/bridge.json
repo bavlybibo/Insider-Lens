@@ -1,0 +1,321 @@
+{
+  "artifacts": {
+    "ACQUISITION_SCOPE.json": {
+      "bytes": 727,
+      "sha256": "fe2180c42ee6b7df73e4ae880b2d0251efc07fce263a31a86193af27db4cc0e5",
+      "source_report": "ACQUISITION_SCOPE.json"
+    },
+    "DEVELOPMENT_CANDIDATE.json": {
+      "bytes": 11395,
+      "sha256": "a059f386c5dda016000fac7e43d68ab4629b6d305396d3967a25b5dcfb6820ee",
+      "source_report": "DEVELOPMENT_CANDIDATE.json"
+    },
+    "EXACT_GEO_ACCESS.json": {
+      "bytes": 1371,
+      "sha256": "c67aecbef86ff2b0e9b6c73499ee471d5e11546b5358d3bd1d722e7cc41ffddb",
+      "source_report": "EXACT_GEO_ACCESS.json"
+    },
+    "INDEPENDENT_VALIDATION.json": {
+      "bytes": 3116,
+      "sha256": "eab378147e372c95dee628763dc4b4c5a91b68d90652e43fe49e714c38e6a49f",
+      "source_report": "EXACT_INDEPENDENT_VALIDATION.json"
+    },
+    "L2_DOWNLOAD_MANIFEST.json": {
+      "bytes": 9506,
+      "sha256": "0e52cfd17bbd0ffb833a77a666edfb1c99d1a8296b9c0922ac8a4508cadb088a",
+      "source_report": "L2_EXACT_DOWNLOAD_MANIFEST.json"
+    },
+    "PRESEARCH_GEOMETRY_AMENDMENT.json": {
+      "bytes": 516,
+      "sha256": "73c50ebbbb8f50c14a799eabbb4dfff26238f66a64b20ca133e53555a16434d4",
+      "source_report": "PRESEARCH_GEOMETRY_AMENDMENT.json"
+    },
+    "PROVIDER_CONTROLS.json": {
+      "bytes": 1521,
+      "sha256": "882ecdc7ac81a21a7309ba71b10cdfe86ebd1c80c81fb07b041a52fd940f2bec",
+      "source_report": "PROVIDER_CONTROLS.json"
+    },
+    "QUALIFICATION_SENSITIVITY.json": {
+      "bytes": 1243,
+      "sha256": "d6b2c0c40af1983ae142a8f1e6cefec5f6b2ab19b68739b493b5ce4fc546b3e1",
+      "source_report": "QUALIFICATION_SENSITIVITY.json"
+    },
+    "REPLICATION_CANDIDATE.json": {
+      "bytes": 11384,
+      "sha256": "1f14ac89156a90dbbcd539c8694cec0db46195ed0241a7a3015b4a8cdc984a57",
+      "source_report": "REPLICATION_CANDIDATE.json"
+    },
+    "SEARCH_CONTRACT.json": {
+      "bytes": 4499,
+      "sha256": "eab85cbb827d4f291eba66b29bb29f9fe42c423876cf844c7daa9194730dace0",
+      "source_report": "SEARCH_CONTRACT.json"
+    },
+    "SUPPORT_AUDIT.json": {
+      "bytes": 112509,
+      "sha256": "8ee8d0e6d8d09bf853be82efea14f193d9a4a11705dc439913a9afa859e72441",
+      "source_report": "EXACT_SUPPORT_AUDIT.json"
+    },
+    "development-MYD14.json": {
+      "bytes": 515730,
+      "points": 4368,
+      "sha256": "97d5120f4d137e14471234d8fc12a1e4d45d1ae73dc4a9e31e5771563b7679a3"
+    },
+    "development-VNP14.json": {
+      "bytes": 1058953,
+      "points": 8984,
+      "sha256": "2f915708c1184008600850468ff52aad40d6f89d81758ee106f97deb80a6457a"
+    },
+    "replication-MYD14.json": {
+      "bytes": 840541,
+      "points": 7255,
+      "sha256": "b74491a0894cca4900bec7b7a7304f9c5509f955524f46d47095682ef8d31cb9"
+    },
+    "replication-VNP14.json": {
+      "bytes": 1386208,
+      "points": 11663,
+      "sha256": "5742a4d36113a2076381e350bf8516df07b33db308fb897a096d73ae5d61c46d"
+    },
+    "replication-VNP14IMG.json": {
+      "bytes": 5544224,
+      "points": 46653,
+      "sha256": "dc8af2aa10ecd08f0d0deebcadf163f0102bc5edc8984524dc9db21e50b9f8bf"
+    }
+  },
+  "contract_sha256": "eab85cbb827d4f291eba66b29bb29f9fe42c423876cf844c7daa9194730dace0",
+  "downloaded_bytes": 450752516,
+  "fit": false,
+  "g4": "ADJUSTMENT_WITHHELD",
+  "generalization": false,
+  "holdouts_opened": false,
+  "id": "p7-eab85cbb827d-8ee8d0e6d8d0",
+  "independent": {
+    "candidate_fit": false,
+    "checks": [
+      {
+        "actual_footprint_intersection": "NOT_QUALIFIED",
+        "aoi_centers": 4368,
+        "ellipsoidal_5_10_20km_bins": "PASS",
+        "full_source_specific_qa": "PARTIAL_MODIS_TABLE4",
+        "mask_qa_view_all_points": "PASS",
+        "occupied_center_bins": {
+          "10000": 99,
+          "20000": 29,
+          "5000": 352
+        },
+        "product": "MYD14",
+        "split": "development"
+      },
+      {
+        "actual_footprint_intersection": "NOT_QUALIFIED",
+        "aoi_centers": 8984,
+        "ellipsoidal_5_10_20km_bins": "PASS",
+        "full_source_specific_qa": "C2_APPLICABILITY_UNRESOLVED",
+        "mask_qa_view_all_points": "PASS",
+        "occupied_center_bins": {
+          "10000": 99,
+          "20000": 29,
+          "5000": 354
+        },
+        "product": "VNP14",
+        "split": "development"
+      },
+      {
+        "actual_footprint_intersection": "NOT_QUALIFIED",
+        "aoi_centers": 7255,
+        "ellipsoidal_5_10_20km_bins": "PASS",
+        "full_source_specific_qa": "PARTIAL_MODIS_TABLE4",
+        "mask_qa_view_all_points": "PASS",
+        "occupied_center_bins": {
+          "10000": 94,
+          "20000": 29,
+          "5000": 332
+        },
+        "product": "MYD14",
+        "split": "replication"
+      },
+      {
+        "actual_footprint_intersection": "NOT_QUALIFIED",
+        "aoi_centers": 11663,
+        "ellipsoidal_5_10_20km_bins": "PASS",
+        "full_source_specific_qa": "C2_APPLICABILITY_UNRESOLVED",
+        "mask_qa_view_all_points": "PASS",
+        "occupied_center_bins": {
+          "10000": 94,
+          "20000": 29,
+          "5000": 332
+        },
+        "product": "VNP14",
+        "split": "replication"
+      },
+      {
+        "actual_footprint_intersection": "NOT_QUALIFIED",
+        "aoi_centers": 46653,
+        "ellipsoidal_5_10_20km_bins": "PASS",
+        "full_source_specific_qa": "C2_375M_GUIDE",
+        "mask_qa_view_all_points": "PASS",
+        "occupied_center_bins": {
+          "10000": 95,
+          "20000": 30,
+          "5000": 335
+        },
+        "product": "VNP14IMG",
+        "split": "replication"
+      }
+    ],
+    "discovery_sha256": "e23288fae276b9a126b3a285ea195ae864fe461cacb972bd21695e69b414d641",
+    "elapsed_seconds": 4.140746898949146,
+    "human_review": false,
+    "mapped_centers_sha256": "c55bb20f9abb1253ddef09d42e351b5bb6aadcd81b17560e7d31dc16ba4356ab",
+    "metadata_checks": [
+      {
+        "membership": "PASS",
+        "ranking": "not independently requalified as measured geometry; proxy is not VZA",
+        "split": "development",
+        "utc_candidate_pairs": 2
+      },
+      {
+        "membership": "PASS",
+        "ranking": "not independently requalified as measured geometry; proxy is not VZA",
+        "split": "replication",
+        "utc_candidate_pairs": 1
+      }
+    ],
+    "method": "separate113row raw reads; scalarCounter QA; independent EPSG9820 vs PROJ5/10/20km; every mapped center tuple checked",
+    "qualified_footprint_validation": "NOT_EXECUTED_NO_QUALIFIED_FOOTPRINTS",
+    "state": "PASS",
+    "support_audit_sha256": "8ee8d0e6d8d09bf853be82efea14f193d9a4a11705dc439913a9afa859e72441"
+  },
+  "meaning": "native mask centers from new bounded L2 passes, not physical footprints, cloud-free area, zero-fire days or harmonization",
+  "metadata_queries": 24,
+  "parent_canada": "ca-92a935da01aecfa3e1d130b3",
+  "parent_portugal": "eg-9a6ad9ccfda103bf80926db6",
+  "qualified_shared_support_m2": null,
+  "ranked_pairs": 3,
+  "science_files": 12,
+  "splits": {
+    "development": {
+      "aoi_wsen": [
+        -118,
+        50,
+        -117,
+        51
+      ],
+      "aqua_end": "2022-06-15T10:45:00.000Z",
+      "aqua_start": "2022-06-15T10:40:00.000Z",
+      "date": "2022-06-15",
+      "failures": [
+        "VNP14: zero centers satisfy frozen <=40deg view limit",
+        "exact C2 750m algorithm-QA applicability not confirmed",
+        "actual oriented pixel-footprint intersections and per-pixel temporal support not qualified"
+      ],
+      "offset_minutes": 8.5,
+      "products": {
+        "MYD14": {
+          "aoi_pixel_centers": 4368,
+          "exact_geolocation_input_identity": true,
+          "mask_counts": {
+            "3": 358,
+            "4": 90,
+            "5": 3920
+          },
+          "support_states_at_centers": {
+            "CLOUD_OR_INVALID": 90,
+            "UNKNOWN_SUPPORT": 4278
+          },
+          "view_zenith_max_degrees": 45.71,
+          "view_zenith_min_degrees": 39.96
+        },
+        "VNP14": {
+          "aoi_pixel_centers": 8984,
+          "exact_geolocation_input_identity": true,
+          "mask_counts": {
+            "1": 1166,
+            "3": 537,
+            "4": 147,
+            "5": 7134
+          },
+          "support_states_at_centers": {
+            "CLOUD_OR_INVALID": 1313,
+            "UNKNOWN_SUPPORT": 7671
+          },
+          "view_zenith_max_degrees": 53.230000000000004,
+          "view_zenith_min_degrees": 48.95
+        }
+      },
+      "proxy_distance_km": 843.7138153887573,
+      "searched_days": [
+        "2022-06-15",
+        "2022-06-16"
+      ],
+      "viirs_end": "2022-06-15T10:54:00.000Z",
+      "viirs_start": "2022-06-15T10:48:00.000Z"
+    },
+    "replication": {
+      "aoi_wsen": [
+        -113,
+        53,
+        -112,
+        54
+      ],
+      "aqua_end": "2022-06-23T09:55:00.000Z",
+      "aqua_start": "2022-06-23T09:50:00.000Z",
+      "date": "2022-06-23",
+      "failures": [
+        "exact C2 750m algorithm-QA applicability not confirmed",
+        "actual oriented pixel-footprint intersections and per-pixel temporal support not qualified"
+      ],
+      "offset_minutes": 4.5,
+      "products": {
+        "MYD14": {
+          "aoi_pixel_centers": 7255,
+          "exact_geolocation_input_identity": true,
+          "mask_counts": {
+            "3": 456,
+            "5": 6799
+          },
+          "support_states_at_centers": {
+            "UNKNOWN_SUPPORT": 7255
+          },
+          "view_zenith_max_degrees": 7.97,
+          "view_zenith_min_degrees": 0.04
+        },
+        "VNP14": {
+          "aoi_pixel_centers": 11663,
+          "exact_geolocation_input_identity": true,
+          "mask_counts": {
+            "3": 757,
+            "5": 10906
+          },
+          "support_states_at_centers": {
+            "UNKNOWN_SUPPORT": 11663
+          },
+          "view_zenith_max_degrees": 21.19,
+          "view_zenith_min_degrees": 14.09
+        },
+        "VNP14IMG": {
+          "aoi_pixel_centers": 46653,
+          "exact_geolocation_input_identity": true,
+          "mask_counts": {
+            "3": 1612,
+            "4": 2,
+            "5": 45039
+          },
+          "support_states_at_centers": {
+            "CLOUD_OR_INVALID": 2,
+            "UNKNOWN_SUPPORT": 46651
+          },
+          "view_zenith_max_degrees": 21.2,
+          "view_zenith_min_degrees": 14.01
+        }
+      },
+      "proxy_distance_km": 243.4734086419565,
+      "searched_days": [
+        "2022-06-22",
+        "2022-06-23"
+      ],
+      "viirs_end": "2022-06-23T10:00:00.000Z",
+      "viirs_start": "2022-06-23T09:54:00.000Z"
+    }
+  },
+  "support_sha256": "8ee8d0e6d8d09bf853be82efea14f193d9a4a11705dc439913a9afa859e72441"
+}

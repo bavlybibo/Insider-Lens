@@ -1,0 +1,23 @@
+{
+  "reason": "Immutable provenance files contain original acquisition-machine paths; excluded from Git without editing their scientific bytes. Retrieved on explicit setup from the already public demonstration. No credential required.",
+  "artifacts": [
+    {
+      "file": "public/data/canada/ca-92a935da01aecfa3e1d130b3/catalog.json",
+      "sha256": "ecebbb2614b6e60825752210cdc672a29b3e7e6ef956d59057ade4baa4cf1938",
+      "bytes": 1568686,
+      "url": "https://emberguard-evidence-retention.musicalartichoke4.chatgpt.site/data/canada/ca-92a935da01aecfa3e1d130b3/catalog.json"
+    },
+    {
+      "file": "public/data/phase6/p6-ab874a4a4d03-6e562cb1cbc4/bridge.json",
+      "sha256": "caa8c20a6c37230f772b0301d3278d4df5c82d62c1be3b9a6ce1f8dc81b222e7",
+      "bytes": 89336,
+      "url": "https://emberguard-evidence-retention.musicalartichoke4.chatgpt.site/data/phase6/p6-ab874a4a4d03-6e562cb1cbc4/bridge.json"
+    },
+    {
+      "file": "public/data/phase6/p6-ab874a4a4d03-8218b6e3ca49/bridge.json",
+      "sha256": "4d1e61a338923bafb7a28b213fe118e99d4e87c1ed52ba32693cadce60d4675c",
+      "bytes": 89299,
+      "url": "https://emberguard-evidence-retention.musicalartichoke4.chatgpt.site/data/phase6/p6-ab874a4a4d03-8218b6e3ca49/bridge.json"
+    }
+  ]
+}

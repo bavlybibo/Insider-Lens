@@ -1,0 +1,80 @@
+{
+  "candidate_ids": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16"
+  ],
+  "categories": [
+    "375_POSITIVE_750_UNKNOWN_SUPPORT",
+    "375_POSITIVE_750_UNKNOWN_SUPPORT",
+    "375_POSITIVE_750_UNKNOWN_SUPPORT",
+    "375_POSITIVE_750_UNKNOWN_SUPPORT",
+    "375_POSITIVE_750_UNKNOWN_SUPPORT",
+    "375_POSITIVE_750_UNKNOWN_SUPPORT",
+    "375_POSITIVE_750_UNKNOWN_SUPPORT",
+    "375_POSITIVE_750_UNKNOWN_SUPPORT",
+    "375_POSITIVE_750_UNKNOWN_SUPPORT",
+    "375_POSITIVE_750_UNKNOWN_SUPPORT",
+    "375_POSITIVE_750_UNKNOWN_SUPPORT",
+    "375_POSITIVE_750_UNKNOWN_SUPPORT",
+    "375_POSITIVE_750_UNKNOWN_SUPPORT",
+    "375_POSITIVE_750_UNKNOWN_SUPPORT",
+    "375_POSITIVE_750_UNKNOWN_SUPPORT",
+    "375_POSITIVE_750_UNKNOWN_SUPPORT"
+  ],
+  "confidence_region": "Requires a justified response-energy/eligibility definition and source/version/scan-specific registration/geolocation error model, with dependency/correlation assumptions.",
+  "current_blockers": [
+    "Exact SP VNP14.002 algorithm-QA eligibility mapping unresolved",
+    "Applicable I4/M13 effective response and registration uncertainty not established"
+  ],
+  "effective_response": "Published first-order PSF family is a research starting point, not an exact thermal-pixel response certificate.",
+  "exact_hard_edged_optical_boundary_required": false,
+  "feasible_conditional_method": "Propagate a documented source-specific response and registration uncertainty through a preregistered shared-response criterion, assess classifications over justified parameter bounds; do not fit bounds to these known outcomes.",
+  "fit": false,
+  "g4": "ADJUSTMENT_WITHHELD",
+  "literature": [
+    {
+      "file": "data/acquisition/phase10/references/Tilton2019.html",
+      "finding": "First-order ideal detector/integration PSF model allows neighboring response overlap. Thermal examples include I5/M15, not a measured I4/M13 confidence bound for the 2023 case.",
+      "locator": "Section III; Table I; Section VII",
+      "sha256": "000a9b562a7eb05ec2b8a4d8ad8ee0c0df760979d5243dd314af8efa2fd356c2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7340089/"
+    },
+    {
+      "file": "data/acquisition/phase10/references/VIIRS_GEO_ATBD_B.pdf",
+      "finding": "Detector sampling, integration and aggregation distinctions; not an empirical response/error bound for these exact thermal pixels.",
+      "locator": "Revision B; printed pp49\u201350 / PDF pp74\u201375",
+      "sha256": "9f4759154dc4012e4bca71c11e4610b736ae07d3b771e39c1f2234495327dc75",
+      "url": "https://www.star.nesdis.noaa.gov/jpss/documents/ATBD/D0001-M01-S01-004_JPSS_ATBD_VIIRS-Geolocation_B.pdf"
+    }
+  ],
+  "newly_qualified_candidates": 0,
+  "not_substituted": [
+    "Nominal squares",
+    "Nearest-center distances",
+    "Collection 1 QA",
+    "IMG QA",
+    "Arbitrary Gaussian errors",
+    "Unvalidated confidence percentages"
+  ],
+  "parent_result_sha256": "e25a510e4ce08689b827fed14c01108f646fb7645b1c1da27b24a0e51daf3fc2",
+  "qualified_shared_support": null,
+  "registration_confidence_bound_m": null,
+  "requests_this_phase": "Public web metadata/reference review only; no authenticated payload acquisition or support communication",
+  "response_energy_quantile": null,
+  "sampling_location": "Exact stored centers, sampling pitches and aggregation-zone membership verified in Phase 10; sampling pitch is not response extent.",
+  "state": "BOUND_NOT_QUALIFIED"
+}

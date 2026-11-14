@@ -1,0 +1,318 @@
+/* Mission atlas: one navigation bar, a native measurement rail, floating tools. */
+.mission-room{position:relative;--line:#cdd5c7;--muted:#52675d;--green:#17483f;background:#eef0e6}
+.mission-room button,.mission-room select{border-radius:6px;transition:background-color .14s,border-color .14s}
+.mission-room .topbar{height:60px;display:grid;grid-template-columns:190px 1fr auto;gap:18px;padding:0 20px;background:#123d38;border-bottom:1px solid #658074}
+.mission-room .brand{grid-column:1;grid-row:1;font:600 24px Georgia,serif;letter-spacing:-.8px;color:#f5ead0}
+.mission-room .brand-light{font-weight:400}
+.mission-room .brand svg{color:#dfb778}
+.mission-room .app-context{display:none}
+.mission-room .header-actions{grid-column:3;grid-row:1;gap:6px}
+.mission-room .header-actions button{min-height:36px;background:#214d46;border-color:#4a7165;color:#f3f2df;font-size:11px;padding:6px 11px}
+.mission-room .header-actions .export-button{background:#e9ddbd;color:#173e35;border-color:#e9ddbd}
+.mission-room .investigation-bar{display:contents}
+.mission-room .investigation-bar nav{grid-column:2;grid-row:1;display:flex;align-items:center;gap:4px;height:60px}
+.mission-room .investigation-bar nav button{height:60px;min-height:44px;border:0;border-radius:0;background:transparent;color:#d9e3d4;font-size:13px;padding:0 17px;border-bottom:3px solid transparent}
+.mission-room .investigation-bar nav button span{display:none}
+.mission-room .investigation-bar nav button[aria-pressed=true]{color:#fff7dc;border-color:#e5bd7b;background:#245048}
+.mission-room .period-control{position:absolute;top:68px;right:20px;width:220px;z-index:4}
+.mission-room .period-control select{width:100%;font-size:12px;min-height:32px;background:#f6f5e9;border:0;color:#29493f}
+.mission-room .provenance-button{position:absolute;top:121px;right:20px;z-index:6;border:1px solid #b8c7b0;background:#f7f8eff5;border-radius:20px;padding:5px 12px;min-height:28px;font-size:10px;text-decoration:none;color:#365b41;box-shadow:0 2px 8px #15382b0a}
+.mission-room .provenance-button:before{content:'✓';margin-right:5px;font-weight:800}
+.mission-room .provenance-button span{color:#71612e}
+.mission-room .workspace.with-evidence{grid-template-columns:minmax(0,1fr)}
+.mission-room .workspace-panel{position:absolute;z-index:15;top:12px;bottom:12px;width:360px;border:1px solid #b7c6b2;border-radius:10px;box-shadow:0 15px 50px #122f3033;background:#fcfcf4}
+.mission-room .panel-right{right:12px}
+.mission-room .panel-left{left:12px}
+.mission-room .panel-title{padding:16px 18px;background:#eaf0e4;border-color:#c5d0bb}
+.mission-room .panel-scroll{padding:18px}
+.mission-room .map-workspace{position:relative}
+.mission-room .source-cards{height:48px;min-height:48px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;padding-right:252px;border:0;border-bottom:1px solid #b7c7b8;background:#eef1e7}
+.mission-room .source-card{padding:4px 20px;min-height:48px;gap:12px;background:transparent;border-right:1px solid #d3ddcf}
+.mission-room .source-card.inactive{background:#e9ede3;color:#5d6d62}
+.mission-room .source-card label{font-size:12px;font-weight:600;gap:7px}
+.mission-room .source-metric{gap:6px}
+.mission-room .source-metric>strong{font:600 24px/1.1 Georgia,serif;letter-spacing:-.6px}
+.mission-room .source-metric>span{font-size:9px}
+.mission-room .source-metric small{font-size:10px}
+.mission-room .map-tools{position:absolute;z-index:6;top:62px;left:18px;display:flex;gap:6px;height:42px;width:max-content;max-width:calc(100% - 350px);padding:5px 7px;background:#fcfcf5f5;border:1px solid #afc2b1;border-radius:8px;box-shadow:0 4px 18px #1a3e3215}
+.mission-room .map-tools select,.mission-room .map-tools button{font-size:11px;min-height:30px;background:#fffffa}
+.mission-room .map-tools label{font-size:10px;color:#52685c}
+.mission-room .map-tools #render-mode{max-width:196px}
+.mission-room .map-tools #cell{max-width:125px}
+.mission-room .map-area{isolation:isolate}
+.mission-room .atlas-controls{top:66px;left:18px;gap:5px;padding:5px 7px;max-width:calc(100% - 245px);border-radius:8px;background:#fcfcf5f5;border-color:#afc2b1;box-shadow:0 4px 18px #1a3e3215}
+.mission-room .atlas-controls button,.mission-room .atlas-controls select{min-height:32px;font-size:11px}
+.mission-room .atlas-controls #atlas-source{width:101px}
+.mission-room .atlas-controls #bandwidth{max-width:152px}
+.mission-room .dn-toggle{background:#e3eadc;border-radius:5px}
+.mission-room .dn-toggle button[aria-pressed=true],.mission-room .pair-toggle[aria-pressed=true]{background:#164b42;color:#fff}
+.native-center-toggle{display:flex;gap:5px;align-items:center;font-size:10px;white-space:nowrap;padding:0 4px}
+.mission-room .camera-tools{top:99px;right:18px;left:auto;max-width:170px;display:grid;gap:2px;border-color:#afc2b1;background:#fcfcf5f0;border-radius:8px;box-shadow:0 4px 18px #1a3e3210}
+.mission-room .camera-tools button{font-size:11px;min-height:30px;padding:4px 8px}
+.cartography-tag{position:absolute;top:58px;right:22px;display:flex;gap:6px;align-items:center;font-size:10px;color:#385b4b;pointer-events:none}
+.cartography-tag i{width:7px;height:7px;border-radius:50%;background:#b58c44}
+.cartography-tag span{font-size:9px;opacity:.8}
+.mission-room .answer-overlay{top:124px;left:18px;width:280px;max-height:calc(100% - 245px)}
+.mission-room .answer-card{padding:18px;border:1px solid #a7bda9;border-radius:9px;background:#fbfcf3f5;max-height:100%;box-shadow:0 6px 24px #14362f1a}
+.mission-room .answer-card h2{font:400 27px/1.12 Georgia,serif;letter-spacing:-.7px;margin:9px 0 14px}
+.finding-label{display:block;font:9px/1.5 ui-monospace,monospace;text-transform:uppercase;letter-spacing:1px;color:#63735e;margin-top:9px}
+.mission-room .answer-state{font:600 8px/1.5 ui-monospace,monospace;letter-spacing:1px;border-radius:3px;padding:3px 6px}
+.mission-room .compact-facts p{margin:9px 0;padding-bottom:9px;border-bottom:1px solid #dce3d3}
+.mission-room .compact-facts strong{font-size:11px}
+.mission-room .compact-facts span{font-size:12px;line-height:1.7}
+.mission-room .answer-actions{gap:5px}
+.mission-room .answer-actions button{font-size:11px;min-height:34px;padding:5px 8px}
+.mission-room .observation-story{border-radius:5px;background:#eeeeda}
+.mission-room .open-answer{top:124px;left:18px;max-width:250px;padding:11px 13px;border-radius:8px;border-color:#a7bda9;background:#fcfcf3f0;box-shadow:0 4px 16px #15382b12}
+.mission-room .open-answer strong{font:18px/1.2 Georgia,serif}
+.mission-room .open-answer small{font-size:10px}
+.mission-room .map-legend{bottom:38px;left:18px;max-width:calc(100% - 60px);border:1px solid #b1c1ac;border-radius:7px;background:#fcfcf5f2;padding:9px 12px;box-shadow:0 4px 18px #15382b14;font-size:10px}
+.mission-room .map-legend.quantitative-legend{bottom:38px;left:18px;max-width:430px;padding:10px 12px;gap:5px 8px}
+.mission-room .quantitative-legend .atlas-ramp{height:8px;width:96px;border-radius:0}
+.mission-room .quantitative-legend>small:nth-of-type(2){display:none}
+.mission-room .quantitative-legend>strong{font-size:11px}
+.mission-room .quantitative-legend .legend-unit{font-size:9px;color:#5b6954}
+.density-evidence{position:absolute;z-index:3;bottom:160px;left:18px;font-size:10px;min-height:27px;padding:3px 9px;background:#fcfcf1f0;border-color:#b1c1ac}
+.mission-room .map-status{bottom:109px;left:18px!important;font-size:9px;background:#fbfcf3e8;color:#496350;border-radius:3px;padding:4px 6px}
+.mission-room .map-area:has(.coarse-context) .map-status{bottom:124px}
+.mission-room .map-shell:has(.quantitative-legend) .map-status{bottom:199px}
+.mission-room .map-watermark{left:18px;bottom:7px;font-size:9px;max-width:calc(100% - 500px);background:#fbfcf2dc}
+.mission-room .map-hover{max-width:500px;bottom:208px;font-size:11px;border-radius:6px;background:#fbfcf4f5}
+.mission-room .density-pending{bottom:235px;max-width:260px;z-index:4}
+.map-theme-night .geographic-map{background:#0b2429}
+.map-theme-night .cartography-tag{color:#e1e8cd}
+.map-theme-night .cartography-tag i{background:#c5d6ea;box-shadow:0 0 0 3px #d7e5f31a}
+.map-theme-night .camera-tools,.map-theme-night .map-legend,.map-theme-night .density-evidence,.map-theme-night .map-hover{background:#153831f5;color:#ebeedb;border-color:#537666}
+.map-theme-night .camera-tools button{color:#ebeedb}
+.map-theme-night .camera-tools button:hover{background:#31584b}
+.map-theme-night .quantitative-legend small,.map-theme-night .quantitative-legend .legend-unit{color:#d4dfce}
+.map-theme-night .map-status,.map-theme-night .map-watermark{color:#e0e9d6;background:#193c34e8}
+.map-theme-night .maplibregl-ctrl-group{background:#e2e7d6}
+.map-theme-night .maplibregl-ctrl-attrib{background:#e7ecdfdd}
+.map-theme-night .static-context{background:#0b2429}
+.map-theme-night .static-context svg rect:first-child{fill:#0b2429}
+.map-theme-night .static-context svg path{fill:#193532;stroke:#91a99b}
+.map-theme-night .static-context svg text{fill:#dce7d7}
+.map-theme-night .static-context figcaption{background:#193c34;color:#e0e9d6}
+.map-theme-night .static-context figcaption a{color:#dce7d7}
+.mission-room .calendar-dock{padding:7px 18px 5px;background:#f7f7ed;border-top:1px solid #a9bba8;box-shadow:0 -5px 20px #19392c09}
+.mission-room .calendar-heading{margin-bottom:4px}
+.mission-room .calendar-month{gap:9px}
+.mission-room .calendar-heading h2{font:600 16px Georgia,serif;letter-spacing:-.2px}
+.mission-room .calendar-heading .eyebrow{font:8px ui-monospace,monospace;letter-spacing:1.2px}
+.mission-room .calendar-month>button{width:27px;min-height:29px}
+.mission-room .calendar-controls select,.mission-room .calendar-controls button{font-size:10px;min-height:29px}
+.mission-room .calendar-day{height:53px;min-width:31px;border-radius:4px;padding:3px}
+.mission-room .calendar-day>span{font-size:11px}
+.mission-room .calendar-day small{font-size:8px}
+.mission-room .day-bars{height:26px}
+.mission-room .calendar-scroll-controls{margin:0}
+.mission-room .calendar-scroll-controls button{min-height:20px;font-size:9px}
+.mission-room .calendar-scroll-controls>span,.mission-room .calendar-footnote{font-size:9px;line-height:14px}
+.mission-room footer{height:24px;font-size:9px;background:#143d37;color:#e1e7d6;border-color:#496457;padding:3px 18px}
+.mission-room footer a{color:#e1e7d6}
+.mission-room .map-focus .map-tools{top:12px}
+.mission-room.map-focus .map-tools{position:absolute;top:12px}
+.mission-room.map-focus .atlas-controls{top:66px}
+.mission-room.map-focus .period-control{display:none}
+.mission-room.map-focus .source-cards{display:none}
+.mission-room .dn-comparison{padding-top:114px;background:#d8e1d4}
+.mission-room .dn-context{min-height:32px;background:#eaf0e1;border-bottom:1px solid #b7c6b0;font-size:10px;padding:4px 12px}
+.mission-room .dn-maps{gap:4px;background:#b1c0b1}
+.mission-room .dn-pane>header{min-height:54px;padding:6px 16px;background:#fcfcf0}
+.mission-room .dn-pane>header b{font:23px Georgia,serif}
+.mission-room .dn-pane>header small{font-size:11px}
+.mission-room .night-pane>header{background:#123b35;color:#f1efd8;border-color:#496d5a}
+.mission-room .night-pane>header b span{color:#ccd9c5}
+.mission-room .night-pane>header button{color:#eceddd;border-color:#72917c;background:#285348}
+.mission-room .dn-comparison .camera-tools{top:37px;right:46px;display:flex;max-width:calc(100% - 65px);padding:2px}
+.mission-room .dn-comparison .camera-tools button{font-size:9px;min-height:26px}
+.mission-room .dn-comparison .cartography-tag{top:13px;right:52px}
+.mission-room .dn-comparison .map-legend{left:12px;max-width:calc(100% - 24px);font-size:10px}
+.mission-room .dn-comparison .map-legend.quantitative-legend{max-width:min(430px,calc(100% - 24px))}
+.mission-room .dn-interpretation{font-size:10px;background:#edf1e5;padding:6px 14px;color:#435944}
+.comparison-launcher{position:absolute;z-index:7;top:117px;right:18px;display:flex;gap:5px;align-items:center;padding:6px;background:#fcfcf4f5;border:1px solid #b2c3ad;border-radius:7px}
+.comparison-launcher>span{font:9px ui-monospace,monospace;letter-spacing:.5px;padding:0 5px}
+.comparison-launcher button{font-size:11px;min-height:30px}
+.job-compare:not(.paired-investigation) .camera-tools{top:165px}
+.job-compare.paired-investigation .comparison-launcher{top:67px;right:18px}
+.mission-room .source-pair-controls{display:flex;gap:12px}
+.source-pair-controls label{display:flex;align-items:center;gap:5px;font-size:10px}
+.source-pair-controls select{font-size:11px;min-height:28px;max-width:145px}
+.history-navigation{display:flex;gap:5px;align-items:center;border-bottom:1px solid #cbd7c2;padding:0 0 8px;margin-bottom:7px}
+.history-navigation button{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;padding:5px;min-height:35px;background:repeating-linear-gradient(135deg,#f7f8ed,#f7f8ed 4px,#edf0e2 4px,#edf0e2 5px);font-size:11px}
+.history-navigation button[aria-pressed=true]{background:#dce7cf;border-color:#577852}
+.history-navigation button span{font-size:9px}
+.history-navigation p{font-size:9px;text-align:right;min-width:140px;color:#6b6137}
+.mission-room .memory-overlay{top:124px;left:18px;width:364px;max-height:calc(100% - 144px);border-color:#a7bda9;border-radius:9px;background:#fbfcf3f5;box-shadow:0 6px 24px #14362f1a}
+.mission-room .memory-overlay .memory-lab{padding:19px}
+.mission-room.job-memory .memory-overlay{top:66px;max-height:calc(100% - 86px)}
+.mission-room.job-memory .atlas-controls{left:402px;max-width:calc(100% - 620px)}
+.mission-room .memory-lab h2{font:29px/1.08 Georgia,serif;letter-spacing:-.6px;margin:9px 0}
+.mission-room .memory-lead{font-size:11px;color:#52684f}
+.mission-room .memory-positions{gap:4px;margin:13px 0}
+.mission-room .memory-positions button{min-height:36px;font-size:11px}
+.continuity-window{display:grid;grid-template-columns:1fr 18px 1fr;gap:5px;align-items:center;padding:11px 0;border-top:1px solid #d3dfca;border-bottom:1px solid #d3dfca;margin:12px 0}
+.continuity-window div{min-height:46px;padding:5px 6px;background:#e5edda;border-radius:4px;display:flex;flex-direction:column;gap:5px}
+.continuity-window span{font-size:9px;color:#556c50}
+.continuity-window strong{font-size:11px;line-height:1.4}
+.continuity-window i{font-style:normal;font-size:16px;color:#9a8150;text-align:center}
+.continuity-window p{grid-column:1/-1;font-size:9px;line-height:1.5;color:#617158}
+.retained-new div:first-child,.retained-old div:nth-child(3){background:repeating-linear-gradient(135deg,#f3eddd,#f3eddd 4px,#e8dfca 4px,#e8dfca 5px);color:#785d28}
+.mission-room .memory-overlay .era-track{grid-template-columns:82px 1fr;gap:3px 9px}
+.mission-room .memory-overlay .era-track>a{font-size:11px}
+.mission-room .memory-overlay .era-tracks{gap:10px}
+.mission-room .memory-overlay .era-axis{height:15px}
+.mission-room .memory-overlay .era-axis i{height:9px}
+.mission-room .memory-overlay .era-track small{font-size:9px}
+.mission-room .map-area:has(.memory-overlay) .map-status,.mission-room .map-area:has(.memory-overlay) .map-legend{left:402px!important}
+.mission-room .memory-answer{font:17px/1.35 Georgia,serif;background:#e7eedb;border-left-color:#8d9f6a}
+.mission-room .evidence-statuses span{border-radius:4px;padding:7px 9px;font:9px ui-monospace,monospace;letter-spacing:.3px;background:#f0ecdc;color:#715e2c}
+.mission-room .evidence-statuses .verified-badge{background:#e4eddb;color:#2d6043}
+.mission-room .evidence-intro{line-height:1.65;font-size:12px}
+@media(max-width:1200px) and (min-width:801px){
+  .mission-room .topbar{grid-template-columns:170px 1fr auto;gap:8px;padding:0 12px}
+  .mission-room .investigation-bar nav button{padding:0 10px;font-size:12px}
+  .mission-room .header-actions button{padding:5px 8px}
+  .mission-room .header-actions button span{font-size:10px}
+  .mission-room .provenance-button{display:none}
+  .mission-room .map-tools{max-width:calc(100% - 95px)}
+  .mission-room .source-card{padding:4px 12px}
+  .mission-room .source-card label{font-size:10px}
+  .mission-room .source-cards{padding-right:210px}
+  .mission-room .period-control{right:12px;width:190px}
+}
+@media(max-width:800px){
+  .mission-room .topbar{height:96px;grid-template-columns:1fr auto;grid-template-rows:48px 48px;gap:0;padding:0 9px}
+  .mission-room .brand{font-size:21px;grid-row:1;grid-column:1}
+  .mission-room .brand svg{width:16px}
+  .mission-room .header-actions{grid-column:2;grid-row:1;gap:4px}
+  .mission-room .header-actions button{font-size:11px;min-height:36px;padding:4px 7px}
+  .mission-room .header-actions .export-button span{font-size:0}
+  .mission-room .header-actions .export-button span:after{content:'CSV';font-size:11px}
+  .mission-room .investigation-bar nav{grid-column:1/-1;grid-row:2;height:48px;justify-content:space-between;gap:0;width:100%}
+  .mission-room .investigation-bar nav button{height:48px;min-height:44px;padding:0 12px;font-size:12px;flex:1;white-space:nowrap}
+  .mission-room .period-control,.mission-room .provenance-button{display:none}
+  .mission-room .source-cards{height:52px;min-height:52px;padding-right:0}
+  .mission-room .source-card{padding:3px 6px;display:block;min-height:52px}
+  .mission-room .source-card label{font-size:10px;gap:3px;min-height:21px}
+  .mission-room .source-metric{gap:5px}
+  .mission-room .source-metric>strong{font:600 21px Georgia,serif}
+  .mission-room .source-metric>span{font-size:9px}
+  .mission-room .source-metric small{font-size:9px;display:inline;margin-left:4px}
+  .mission-room .map-tools{top:60px;left:8px;max-width:calc(100% - 16px);width:calc(100% - 16px);height:42px;padding:4px;gap:4px;background:#fcfcf4f5}
+  .mission-room .map-tools label{display:none}
+  .mission-room .map-tools #render-mode{font-size:10px;max-width:none;width:40%;min-width:0;flex:1}
+  .mission-room .map-tools #cell{font-size:10px;max-width:90px;width:29%;min-width:0}
+  .mission-room .map-tools button{font-size:9px;min-height:32px;padding:3px 5px}
+  .mission-room .map-tools .focus-button{width:30px;flex:none;font-size:0}
+  .mission-room .atlas-controls{top:57px;left:8px;right:8px;max-width:none;padding:4px;gap:3px;flex-wrap:wrap;box-shadow:0 3px 10px #1a3e3215}
+  .mission-room .atlas-controls button,.mission-room .atlas-controls select{min-height:32px;font-size:11px}
+  .mission-room .atlas-controls #atlas-source{width:94px;max-width:94px}
+  .mission-room .atlas-controls #bandwidth{width:142px;max-width:142px}
+  .mission-room .native-center-toggle{font-size:10px;min-height:31px;gap:5px;padding-left:6px}
+  .mission-room .pair-toggle{margin-left:auto;min-width:43px}
+  .mission-room .pair-toggle span{display:none}
+  .mission-room .camera-tools,.mission-room .map-area:has(#bandwidth)>.map-shell .camera-tools{top:111px;right:9px;left:auto;display:flex;max-width:calc(100% - 20px);padding:2px;gap:1px}
+  .mission-room .map-area:has(#bandwidth)>.map-shell .camera-tools{top:145px}
+  .mission-room .camera-tools button{font-size:9px;min-height:29px;padding:3px 5px}
+  .mission-room .camera-tools button:nth-child(3){display:none}
+  .mission-room .cartography-tag{top:159px;right:15px;font-size:9px}
+  .mission-room .map-area:has(#bandwidth)>.map-shell .cartography-tag{top:187px}
+  .mission-room .cartography-tag span{display:none}
+  .mission-room .open-answer{top:auto!important;bottom:120px;left:9px;max-width:174px;padding:8px 10px;z-index:2}
+  .mission-room .open-answer strong{font-size:15px}
+  .mission-room .open-answer small{font-size:9px}
+  .mission-room .map-area:has(#bandwidth) .open-answer{display:none}
+  .mission-room .map-legend{left:9px;max-width:calc(100% - 18px);font-size:9px;padding:7px 9px;bottom:34px}
+  .mission-room .map-legend.quantitative-legend{left:9px;max-width:calc(100% - 18px);padding:8px 9px;bottom:34px;gap:4px 6px;font-size:9px}
+  .mission-room .quantitative-legend .atlas-ramp{width:66px}
+  .mission-room .quantitative-legend>strong{font-size:10px}
+  .mission-room .quantitative-legend>small:not(.compact-map-limit){display:none}
+  .mission-room .quantitative-legend .compact-map-limit{display:block}
+  .mission-room .map-status{bottom:94px;font-size:8px;left:9px!important;max-width:calc(100% - 18px)}
+  .mission-room .map-area:has(.coarse-context) .map-status{bottom:118px}
+  .mission-room .map-shell:has(.quantitative-legend) .map-status{bottom:161px}
+  .mission-room .density-evidence{left:9px;bottom:128px;font-size:9px;min-height:27px}
+  .mission-room .map-hover{font-size:10px;bottom:192px;max-width:calc(100% - 20px)}
+  .mission-room .map-watermark{display:none}
+  .mission-room .density-pending{bottom:198px;font-size:10px}
+  .mission-room .calendar-dock{padding:5px 8px 4px}
+  .mission-room .calendar-heading h2{font-size:15px}
+  .mission-room .calendar-month{width:auto;justify-content:flex-start;gap:5px}
+  .mission-room .calendar-month>button{width:24px}
+  .mission-room .calendar-controls{width:auto;flex-wrap:nowrap;margin-left:auto}
+  .mission-room .calendar-controls{gap:3px}
+  .mission-room .calendar-controls button,.mission-room .calendar-controls select{font-size:10px;min-height:30px}
+  .mission-room .calendar-controls select{max-width:135px}
+  .mission-room .metric-menu{padding:0;border:0;position:relative;order:2}
+  .mission-room .metric-menu summary{font-size:10px;font-weight:400;min-height:30px;display:flex;align-items:center;border:1px solid #c8d2c8;border-radius:5px;padding:4px 8px;background:#fffffa}
+  .mission-room .metric-menu[open]>summary{margin:0}
+  .mission-room .metric-menu>div{position:absolute;z-index:20;bottom:37px;right:0;background:#fcfcf4;padding:10px;border:1px solid #9fb79f;border-radius:7px;box-shadow:0 7px 25px #163d3430;width:200px}
+  .mission-room .metric-menu #metric{width:100%;max-width:none;min-height:36px}
+  .mission-room .calendar-day{height:51px;min-width:32px}
+  .mission-room .calendar-scroll-controls button{min-height:24px;font-size:9px}
+  .mission-room .calendar-footnote{font-size:8px;line-height:14px}
+  .mission-room footer{height:30px;font-size:8px;padding:3px 8px}
+  .mission-room footer>span:nth-child(2){font-size:8px;max-width:155px}
+  .mission-room .sheet{border-radius:16px 16px 0 0;border-color:#9bb29a;max-height:85dvh;background:#fbfcf3}
+  .mission-room .sheet .panel-scroll{padding:19px}
+  .mission-room .dn-comparison{padding-top:104px}
+  .mission-room .map-area:has(#bandwidth) .dn-comparison{padding-top:142px}
+  .mission-room .dn-context{padding:5px 8px;gap:4px;font-size:10px}
+  .mission-room .dn-context>span{font-size:9px}
+  .mission-room .dn-context button{min-height:34px;font-size:11px}
+  .mission-room .dn-pane>header{min-height:44px;padding:5px 9px}
+  .mission-room .dn-pane>header b{font-size:20px}
+  .mission-room .comparison-sources .dn-pane>header b{font-size:18px}
+  .mission-room .dn-pane>header small{font-size:10px}
+  .mission-room .dn-comparison .camera-tools{top:33px;right:46px;max-width:calc(100% - 60px)}
+  .mission-room .map-area:has(.coarse-context) .dn-comparison .camera-tools{top:33px;right:46px;display:flex;max-width:calc(100% - 60px)}
+  .mission-room .dn-comparison .cartography-tag{top:11px;right:50px}
+  .mission-room .dn-comparison .map-status{bottom:101px}
+  .mission-room .dn-comparison .density-evidence{bottom:132px}
+  .mission-room .dn-comparison .map-shell:has(.quantitative-legend) .map-status{bottom:165px}
+  .mission-room .dn-interpretation{font-size:9px;padding:4px 8px}
+  .mission-room .comparison-launcher{top:106px;left:8px;right:8px;padding:4px;justify-content:center}
+  .mission-room .comparison-launcher>span{display:none}
+  .mission-room .comparison-launcher button{font-size:11px;min-height:32px}
+  .mission-room.job-compare:not(.paired-investigation) .camera-tools{top:153px}
+  .mission-room.job-compare.paired-investigation .comparison-launcher{top:106px}
+  .mission-room.job-compare.paired-investigation .dn-comparison{padding-top:152px}
+  .mission-room.job-compare.paired-investigation .map-area:has(#bandwidth) .comparison-launcher{top:145px}
+  .mission-room.job-compare.paired-investigation .map-area:has(#bandwidth) .dn-comparison{padding-top:190px}
+  .mission-room.job-compare:has(.comparison-sources) .atlas-controls{display:none}
+  .mission-room.job-compare:has(.comparison-sources) .comparison-launcher,.mission-room.job-compare:has(.comparison-sources) .map-area:has(#bandwidth) .comparison-launcher{top:56px}
+  .mission-room.job-compare:has(.comparison-sources) .dn-comparison,.mission-room.job-compare:has(.comparison-sources) .map-area:has(#bandwidth) .dn-comparison{padding-top:100px}
+  .mission-room .comparison-sources .dn-context{position:relative;padding-right:82px;gap:4px}
+  .mission-room .comparison-sources .dn-context>span{order:2;flex-basis:calc(100% + 74px);margin-right:-74px;font-size:8px;text-align:center}
+  .mission-room .comparison-sources .dn-context [role=group]{width:100%;justify-content:flex-start}
+  .mission-room .comparison-sources .dn-context [role=group] button{font-size:10px;padding:3px 9px;flex:1;white-space:nowrap}
+  .source-pair-settings{position:absolute;right:8px;top:5px;z-index:9;border:0;padding:0}
+  .source-pair-settings summary{font-size:10px;min-height:34px;border:1px solid #aabb9f;padding:7px;background:#f9fbed;border-radius:5px}
+  .source-pair-settings[open]>summary{margin:0}
+  .source-pair-settings .source-pair-controls{position:absolute;right:0;top:40px;min-width:260px;background:#fbfcf3;border:1px solid #aabb9f;padding:12px;border-radius:7px;box-shadow:0 7px 25px #163d3430;display:grid;gap:8px}
+  .mission-room .source-pair-settings .source-pair-controls label>span{display:block;margin-bottom:5px}
+  .mission-room .source-pair-controls{gap:5px;width:100%}
+  .mission-room .source-pair-controls label{flex:1;font-size:9px;display:block}
+  .mission-room .source-pair-controls label>span{display:none}
+  .mission-room .source-pair-controls select{width:100%;max-width:none;font-size:10px;min-height:30px}
+  .mission-room .history-navigation{overflow-x:auto;gap:4px;padding-bottom:6px}
+  .mission-room .history-navigation button{flex:none;min-width:63px;display:flex;flex-direction:column;gap:2px;min-height:42px}
+  .mission-room .history-navigation button span{font-size:8px}
+  .mission-room .history-navigation p{display:none}
+  .mission-room .continuity-window{margin:13px 0}
+  .mission-room.job-memory .atlas-controls{left:8px;max-width:none}
+}
+@media(max-width:350px){
+  .mission-room .brand{font-size:18px}
+  .mission-room .header-actions button{padding:4px 5px;font-size:10px}
+  .mission-room .investigation-bar nav button{font-size:11px;padding:0 7px}
+  .mission-room .source-card label{font-size:9px}
+  .mission-room .source-metric>strong{font-size:19px}
+  .mission-room .source-metric small{margin-left:0;font-size:8px}
+  .mission-room .source-metric>span{font-size:8px}
+  .mission-room .atlas-controls #atlas-source{width:85px;max-width:85px}
+  .mission-room .atlas-controls button{font-size:10px;padding:3px 6px}
+}
+@media(prefers-reduced-motion:reduce){.mission-room button,.mission-room select{transition:none}}

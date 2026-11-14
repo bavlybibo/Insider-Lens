@@ -1,0 +1,324 @@
+{
+  "aoi_wsen": [
+    -118,
+    50,
+    -117,
+    51
+  ],
+  "candidate": {
+    "aqua": {
+      "collection": "C2278858993-LPCLOUD",
+      "concept_id": "G2298406300-LPCLOUD",
+      "data_urls": [
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022166.1040.061.2022167110626/MYD14.A2022166.1040.061.2022167110626.hdf",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022166.1040.061.2022167110626/MYD14.A2022166.1040.061.2022167110626.cmr.xml",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+      ],
+      "day_night_metadata": "NIGHT",
+      "end": "2022-06-15T10:45:00.000Z",
+      "geometry": {
+        "aoi_intersection_proxy_m2": 7891851020.502811,
+        "axis_long_opposing_edge_index": 0,
+        "centerline_distance_km": 569.9486962549796,
+        "edge_lengths_m": [
+          2378168.3089227853,
+          2037758.3929917533,
+          2377044.4639378074,
+          2035507.8917268855
+        ],
+        "ring_lonlat": [
+          [
+            -143.3041994,
+            43.4328951
+          ],
+          [
+            -115.1257063,
+            39.6111553
+          ],
+          [
+            -102.5448563,
+            55.9329943
+          ],
+          [
+            -142.9288946,
+            61.723981
+          ]
+        ],
+        "state": "GRING_APPROXIMATION_ONLY",
+        "view_zenith_estimate_degrees": null,
+        "view_zenith_reason": "GRing has no measured sensor zenith; a centerline-distance proxy is not a VZA estimate"
+      },
+      "id": "MYD14.A2022166.1040.061.2022167110626",
+      "key": ".A2022166.1040.",
+      "reported_bytes": 454843,
+      "start": "2022-06-15T10:40:00.000Z",
+      "updated": "2022-06-16T10:13:35.823Z"
+    },
+    "associated": {
+      "MYD03": [
+        {
+          "collection": "C1379841358-LAADS",
+          "concept_id": "G2536393123-LAADS",
+          "data_urls": [
+            "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022166.1040.061.2022311030826.hdf"
+          ],
+          "day_night_metadata": "NIGHT",
+          "end": "2022-06-15T10:45:00.000Z",
+          "geometry": {
+            "aoi_intersection_proxy_m2": 7891851020.502775,
+            "axis_long_opposing_edge_index": 0,
+            "centerline_distance_km": 569.9643911355588,
+            "edge_lengths_m": [
+              2378167.6677493467,
+              2037758.9675933886,
+              2377043.3344340203,
+              2035508.5022676145
+            ],
+            "ring_lonlat": [
+              [
+                -143.304388,
+                43.432928
+              ],
+              [
+                -115.125865,
+                39.611239
+              ],
+              [
+                -102.545042,
+                55.933101
+              ],
+              [
+                -142.929183,
+                61.72402
+              ]
+            ],
+            "state": "GRING_APPROXIMATION_ONLY",
+            "view_zenith_estimate_degrees": null,
+            "view_zenith_reason": "GRing has no measured sensor zenith; a centerline-distance proxy is not a VZA estimate"
+          },
+          "id": "MYD03.A2022166.1040.061.2022311030826.hdf",
+          "key": ".A2022166.1040.",
+          "reported_bytes": 38369906,
+          "start": "2022-06-15T10:40:00.000Z",
+          "updated": "2024-08-24T01:55:36.540Z"
+        }
+      ],
+      "VNP03IMG": [
+        {
+          "collection": "C2105092163-LAADS",
+          "concept_id": "G2297506135-LAADS",
+          "data_urls": [
+            "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03IMG/VNP03IMG.A2022166.1048.002.2022168225226.nc"
+          ],
+          "day_night_metadata": "NIGHT",
+          "end": "2022-06-15T10:54:00.000Z",
+          "geometry": {
+            "aoi_intersection_proxy_m2": 7891851020.5028,
+            "axis_long_opposing_edge_index": 0,
+            "centerline_distance_km": 843.7327888636355,
+            "edge_lengths_m": [
+              3088305.887262981,
+              2318903.702520016,
+              3070880.5977774067,
+              2377544.7378312396
+            ],
+            "ring_lonlat": [
+              [
+                -107.436905,
+                49.30225
+              ],
+              [
+                -152.665543,
+                56.1964
+              ],
+              [
+                -152.9832,
+                35.334042
+              ],
+              [
+                -120.563744,
+                30.35058
+              ]
+            ],
+            "state": "GRING_APPROXIMATION_ONLY",
+            "view_zenith_estimate_degrees": null,
+            "view_zenith_reason": "GRing has no measured sensor zenith; a centerline-distance proxy is not a VZA estimate"
+          },
+          "id": "VNP03IMG.A2022166.1048.002.2022168225226.nc",
+          "key": ".A2022166.1048.",
+          "reported_bytes": 149216263,
+          "start": "2022-06-15T10:48:00.000Z",
+          "updated": "2024-10-09T09:15:24.980Z"
+        }
+      ],
+      "VNP03MOD": [
+        {
+          "collection": "C2105092427-LAADS",
+          "concept_id": "G2297506136-LAADS",
+          "data_urls": [
+            "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03MOD/VNP03MOD.A2022166.1048.002.2022168225226.nc"
+          ],
+          "day_night_metadata": "NIGHT",
+          "end": "2022-06-15T10:54:00.000Z",
+          "geometry": {
+            "aoi_intersection_proxy_m2": 7891851020.502804,
+            "axis_long_opposing_edge_index": 0,
+            "centerline_distance_km": 843.7138002454616,
+            "edge_lengths_m": [
+              3087484.148502496,
+              2318124.8412149446,
+              3070040.7632350926,
+              2376752.575182128
+            ],
+            "ring_lonlat": [
+              [
+                -107.44458,
+                49.300983
+              ],
+              [
+                -152.658203,
+                56.193027
+              ],
+              [
+                -152.978455,
+                35.337696
+              ],
+              [
+                -120.566444,
+                30.355307
+              ]
+            ],
+            "state": "GRING_APPROXIMATION_ONLY",
+            "view_zenith_estimate_degrees": null,
+            "view_zenith_reason": "GRing has no measured sensor zenith; a centerline-distance proxy is not a VZA estimate"
+          },
+          "id": "VNP03MOD.A2022166.1048.002.2022168225226.nc",
+          "key": ".A2022166.1048.",
+          "reported_bytes": 46792977,
+          "start": "2022-06-15T10:48:00.000Z",
+          "updated": "2024-10-10T08:42:08.190Z"
+        }
+      ],
+      "VNP14IMG": [
+        {
+          "collection": "C2734202914-LPCLOUD",
+          "concept_id": "G2920752328-LPCLOUD",
+          "data_urls": [
+            "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022166.1048.002.2024076135054/VNP14IMG.A2022166.1048.002.2024076135054.nc",
+            "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022166.1048.002.2024076135054/VNP14IMG.A2022166.1048.002.2024076135054.cmr.xml",
+            "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022166.1048.002.2024076135054/VNP14IMG.A2022166.1048.002.2024076135054.nc.dmrpp",
+            "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+          ],
+          "day_night_metadata": "NIGHT",
+          "end": "2022-06-15T10:54:00.000Z",
+          "geometry": {
+            "aoi_intersection_proxy_m2": 7891851020.502796,
+            "axis_long_opposing_edge_index": 0,
+            "centerline_distance_km": 843.7138153887573,
+            "edge_lengths_m": [
+              3087484.1202522134,
+              2318124.8853901983,
+              3070040.705174243,
+              2376752.6649131626
+            ],
+            "ring_lonlat": [
+              [
+                -107.4445801,
+                49.3009834
+              ],
+              [
+                -152.6582031,
+                56.1930275
+              ],
+              [
+                -152.9784546,
+                35.3376961
+              ],
+              [
+                -120.5664444,
+                30.3553066
+              ]
+            ],
+            "state": "GRING_APPROXIMATION_ONLY",
+            "view_zenith_estimate_degrees": null,
+            "view_zenith_reason": "GRing has no measured sensor zenith; a centerline-distance proxy is not a VZA estimate"
+          },
+          "id": "VNP14IMG.A2022166.1048.002.2024076135054",
+          "key": ".A2022166.1048.",
+          "reported_bytes": 855845,
+          "start": "2022-06-15T10:48:00.000Z",
+          "updated": "2024-03-25T05:26:26.126Z"
+        }
+      ]
+    },
+    "estimated_transfer_bytes": 236257772,
+    "exact_geo_input_identity": "UNKNOWN_UNTIL_FIRE_METADATA",
+    "interval_gap_minutes": 3.0,
+    "max_centerline_distance_km": 843.7138153887573,
+    "midpoint_offset_minutes": 8.5,
+    "qa_policy": "UNQUALIFIED_UNTIL_EXACT_COLLECTION_DOCUMENTATION_AND_ARRAY_CHECKS",
+    "qualified_shared_support_m2": null,
+    "rank_key": [
+      0,
+      843.7138153887573,
+      8.5,
+      236257772,
+      "MYD14.A2022166.1040.061.2022167110626",
+      "VNP14.A2022166.1048.002.2023030121243"
+    ],
+    "same_acquisition_geo_and_375_available": true,
+    "viirs750": {
+      "collection": "C2545314536-LPCLOUD",
+      "concept_id": "G2614794845-LPCLOUD",
+      "data_urls": [
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022166.1048.002.2023030121243/VNP14.A2022166.1048.002.2023030121243.nc",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022166.1048.002.2023030121243/VNP14.A2022166.1048.002.2023030121243.cmr.xml",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022166.1048.002.2023030121243/VNP14.A2022166.1048.002.2023030121243.nc.dmrpp",
+        "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+      ],
+      "day_night_metadata": "NIGHT",
+      "end": "2022-06-15T10:54:00.000Z",
+      "geometry": {
+        "aoi_intersection_proxy_m2": 7891851020.502796,
+        "axis_long_opposing_edge_index": 0,
+        "centerline_distance_km": 843.7138153887573,
+        "edge_lengths_m": [
+          3087484.1202522134,
+          2318124.8853901983,
+          3070040.705174243,
+          2376752.6649131626
+        ],
+        "ring_lonlat": [
+          [
+            -107.4445801,
+            49.3009834
+          ],
+          [
+            -152.6582031,
+            56.1930275
+          ],
+          [
+            -152.9784546,
+            35.3376961
+          ],
+          [
+            -120.5664444,
+            30.3553066
+          ]
+        ],
+        "state": "GRING_APPROXIMATION_ONLY",
+        "view_zenith_estimate_degrees": null,
+        "view_zenith_reason": "GRing has no measured sensor zenith; a centerline-distance proxy is not a VZA estimate"
+      },
+      "id": "VNP14.A2022166.1048.002.2023030121243",
+      "key": ".A2022166.1048.",
+      "reported_bytes": 567938,
+      "start": "2022-06-15T10:48:00.000Z",
+      "updated": "2023-02-18T23:30:26.271Z"
+    }
+  },
+  "contract_sha256": "eab85cbb827d4f291eba66b29bb29f9fe42c423876cf844c7daa9194730dace0",
+  "selected_before_payload": true,
+  "split": "development",
+  "state": "FROZEN_METADATA_CANDIDATE"
+}

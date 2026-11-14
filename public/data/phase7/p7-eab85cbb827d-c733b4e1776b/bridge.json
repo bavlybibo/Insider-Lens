@@ -1,0 +1,271 @@
+{
+  "artifacts": {
+    "ACQUISITION_SCOPE.json": {
+      "bytes": 727,
+      "sha256": "fe2180c42ee6b7df73e4ae880b2d0251efc07fce263a31a86193af27db4cc0e5"
+    },
+    "DEVELOPMENT_CANDIDATE.json": {
+      "bytes": 11395,
+      "sha256": "a059f386c5dda016000fac7e43d68ab4629b6d305396d3967a25b5dcfb6820ee"
+    },
+    "EXACT_GEO_ACCESS.json": {
+      "bytes": 1371,
+      "sha256": "c67aecbef86ff2b0e9b6c73499ee471d5e11546b5358d3bd1d722e7cc41ffddb"
+    },
+    "INDEPENDENT_VALIDATION.json": {
+      "bytes": 2708,
+      "sha256": "438e7ae6ad03cc19db48d96029cbfabee12fe1ed5739c660a5c14a61fcf9a585"
+    },
+    "L2_DOWNLOAD_MANIFEST.json": {
+      "bytes": 6912,
+      "sha256": "97d5cb3b0fecc4f796c7b9aa1c47f7b3b3a8dfe9e0468b3963e4f93e9d93ea5b"
+    },
+    "PRESEARCH_GEOMETRY_AMENDMENT.json": {
+      "bytes": 516,
+      "sha256": "73c50ebbbb8f50c14a799eabbb4dfff26238f66a64b20ca133e53555a16434d4"
+    },
+    "REPLICATION_CANDIDATE.json": {
+      "bytes": 11384,
+      "sha256": "1f14ac89156a90dbbcd539c8694cec0db46195ed0241a7a3015b4a8cdc984a57"
+    },
+    "SEARCH_CONTRACT.json": {
+      "bytes": 4499,
+      "sha256": "eab85cbb827d4f291eba66b29bb29f9fe42c423876cf844c7daa9194730dace0"
+    },
+    "SUPPORT_AUDIT.json": {
+      "bytes": 91277,
+      "sha256": "c733b4e1776b39fdd0b635ab552f8d386175d7b7d9c77aeea56add6ad8551e83"
+    },
+    "development-MYD14.json": {
+      "bytes": 515867,
+      "points": 4369,
+      "sha256": "fa31f99f7b6176665d34ab07b57b0353e91879a19431f8e2dfe02381ca92b46f"
+    },
+    "development-VNP14.json": {
+      "bytes": 1058953,
+      "points": 8984,
+      "sha256": "2f915708c1184008600850468ff52aad40d6f89d81758ee106f97deb80a6457a"
+    },
+    "replication-MYD14.json": {
+      "bytes": 840415,
+      "points": 7255,
+      "sha256": "a68744a57a81f9b62e1605842f5fadc0d34db6ecb75041969596e0601e085adf"
+    },
+    "replication-VNP14.json": {
+      "bytes": 1386208,
+      "points": 11663,
+      "sha256": "5742a4d36113a2076381e350bf8516df07b33db308fb897a096d73ae5d61c46d"
+    }
+  },
+  "contract_sha256": "eab85cbb827d4f291eba66b29bb29f9fe42c423876cf844c7daa9194730dace0",
+  "downloaded_bytes": 186374759,
+  "fit": false,
+  "g4": "ADJUSTMENT_WITHHELD",
+  "generalization": false,
+  "holdouts_opened": false,
+  "id": "p7-eab85cbb827d-c733b4e1776b",
+  "independent": {
+    "candidate_fit": false,
+    "checks": [
+      {
+        "actual_footprint_intersection": "NOT_QUALIFIED",
+        "aoi_centers": 4369,
+        "ellipsoidal_5_10_20km_bins": "PASS",
+        "full_source_specific_qa": "PARTIAL_MODIS_TABLE4",
+        "mask_qa_view_all_points": "PASS",
+        "occupied_center_bins": {
+          "10000": 99,
+          "20000": 29,
+          "5000": 351
+        },
+        "product": "MYD14",
+        "split": "development"
+      },
+      {
+        "actual_footprint_intersection": "NOT_QUALIFIED",
+        "aoi_centers": 8984,
+        "ellipsoidal_5_10_20km_bins": "PASS",
+        "full_source_specific_qa": "C2_APPLICABILITY_UNRESOLVED",
+        "mask_qa_view_all_points": "PASS",
+        "occupied_center_bins": {
+          "10000": 99,
+          "20000": 29,
+          "5000": 354
+        },
+        "product": "VNP14",
+        "split": "development"
+      },
+      {
+        "actual_footprint_intersection": "NOT_QUALIFIED",
+        "aoi_centers": 7255,
+        "ellipsoidal_5_10_20km_bins": "PASS",
+        "full_source_specific_qa": "PARTIAL_MODIS_TABLE4",
+        "mask_qa_view_all_points": "PASS",
+        "occupied_center_bins": {
+          "10000": 94,
+          "20000": 29,
+          "5000": 332
+        },
+        "product": "MYD14",
+        "split": "replication"
+      },
+      {
+        "actual_footprint_intersection": "NOT_QUALIFIED",
+        "aoi_centers": 11663,
+        "ellipsoidal_5_10_20km_bins": "PASS",
+        "full_source_specific_qa": "C2_APPLICABILITY_UNRESOLVED",
+        "mask_qa_view_all_points": "PASS",
+        "occupied_center_bins": {
+          "10000": 94,
+          "20000": 29,
+          "5000": 332
+        },
+        "product": "VNP14",
+        "split": "replication"
+      }
+    ],
+    "discovery_sha256": "e23288fae276b9a126b3a285ea195ae864fe461cacb972bd21695e69b414d641",
+    "elapsed_seconds": 1.96040160022676,
+    "human_review": false,
+    "mapped_centers_sha256": "619127873bd4e0bb48be9001268e42b946d75f856f74884b0fd164101a80b9bb",
+    "metadata_checks": [
+      {
+        "membership": "PASS",
+        "ranking": "not independently requalified as measured geometry; proxy is not VZA",
+        "split": "development",
+        "utc_candidate_pairs": 2
+      },
+      {
+        "membership": "PASS",
+        "ranking": "not independently requalified as measured geometry; proxy is not VZA",
+        "split": "replication",
+        "utc_candidate_pairs": 1
+      }
+    ],
+    "method": "separate113row raw reads; scalarCounter QA; independent EPSG9820 vs PROJ5/10/20km; every mapped center tuple checked",
+    "qualified_footprint_validation": "NOT_EXECUTED_NO_QUALIFIED_FOOTPRINTS",
+    "state": "PASS",
+    "support_audit_sha256": "c733b4e1776b39fdd0b635ab552f8d386175d7b7d9c77aeea56add6ad8551e83"
+  },
+  "meaning": "native mask centers from new bounded L2 passes, not physical footprints, cloud-free area, zero-fire days or harmonization",
+  "metadata_queries": 24,
+  "parent_canada": "ca-92a935da01aecfa3e1d130b3",
+  "parent_portugal": "eg-9a6ad9ccfda103bf80926db6",
+  "qualified_shared_support_m2": null,
+  "ranked_pairs": 3,
+  "science_files": 8,
+  "splits": {
+    "development": {
+      "aoi_wsen": [
+        -118,
+        50,
+        -117,
+        51
+      ],
+      "aqua_end": "2022-06-15T10:45:00.000Z",
+      "aqua_start": "2022-06-15T10:40:00.000Z",
+      "date": "2022-06-15",
+      "failures": [
+        "MYD14: geolocation production instance differs from exact named fire input",
+        "MYD14: zero centers satisfy frozen <=40deg view limit",
+        "VNP14: zero centers satisfy frozen <=40deg view limit",
+        "exact C2 750m algorithm-QA applicability not confirmed",
+        "actual oriented pixel-footprint intersections and per-pixel temporal support not qualified"
+      ],
+      "offset_minutes": 8.5,
+      "products": {
+        "MYD14": {
+          "aoi_pixel_centers": 4369,
+          "exact_geolocation_input_identity": false,
+          "mask_counts": {
+            "3": 358,
+            "4": 89,
+            "5": 3922
+          },
+          "support_states_at_centers": {
+            "CLOUD_OR_INVALID": 89,
+            "UNKNOWN_SUPPORT": 4280
+          },
+          "view_zenith_max_degrees": 45.71,
+          "view_zenith_min_degrees": 40.06
+        },
+        "VNP14": {
+          "aoi_pixel_centers": 8984,
+          "exact_geolocation_input_identity": true,
+          "mask_counts": {
+            "1": 1166,
+            "3": 537,
+            "4": 147,
+            "5": 7134
+          },
+          "support_states_at_centers": {
+            "CLOUD_OR_INVALID": 1313,
+            "UNKNOWN_SUPPORT": 7671
+          },
+          "view_zenith_max_degrees": 53.230000000000004,
+          "view_zenith_min_degrees": 48.95
+        }
+      },
+      "proxy_distance_km": 843.7138153887573,
+      "searched_days": [
+        "2022-06-15",
+        "2022-06-16"
+      ],
+      "viirs_end": "2022-06-15T10:54:00.000Z",
+      "viirs_start": "2022-06-15T10:48:00.000Z"
+    },
+    "replication": {
+      "aoi_wsen": [
+        -113,
+        53,
+        -112,
+        54
+      ],
+      "aqua_end": "2022-06-23T09:55:00.000Z",
+      "aqua_start": "2022-06-23T09:50:00.000Z",
+      "date": "2022-06-23",
+      "failures": [
+        "MYD14: geolocation production instance differs from exact named fire input",
+        "exact C2 750m algorithm-QA applicability not confirmed",
+        "actual oriented pixel-footprint intersections and per-pixel temporal support not qualified"
+      ],
+      "offset_minutes": 4.5,
+      "products": {
+        "MYD14": {
+          "aoi_pixel_centers": 7255,
+          "exact_geolocation_input_identity": false,
+          "mask_counts": {
+            "3": 456,
+            "5": 6799
+          },
+          "support_states_at_centers": {
+            "UNKNOWN_SUPPORT": 7255
+          },
+          "view_zenith_max_degrees": 7.97,
+          "view_zenith_min_degrees": 0.04
+        },
+        "VNP14": {
+          "aoi_pixel_centers": 11663,
+          "exact_geolocation_input_identity": true,
+          "mask_counts": {
+            "3": 757,
+            "5": 10906
+          },
+          "support_states_at_centers": {
+            "UNKNOWN_SUPPORT": 11663
+          },
+          "view_zenith_max_degrees": 21.19,
+          "view_zenith_min_degrees": 14.09
+        }
+      },
+      "proxy_distance_km": 243.4734086419565,
+      "searched_days": [
+        "2022-06-22",
+        "2022-06-23"
+      ],
+      "viirs_end": "2022-06-23T10:00:00.000Z",
+      "viirs_start": "2022-06-23T09:54:00.000Z"
+    }
+  },
+  "support_sha256": "c733b4e1776b39fdd0b635ab552f8d386175d7b7d9c77aeea56add6ad8551e83"
+}

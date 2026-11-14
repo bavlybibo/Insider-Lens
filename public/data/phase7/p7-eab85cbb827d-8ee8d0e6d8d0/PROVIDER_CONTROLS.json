@@ -1,0 +1,37 @@
+{
+  "limitation": "403/401 do not establish file absence; only successful full payload can qualify an exact instance",
+  "results": [
+    {
+      "final_host": "d13j1jds5ybppo.cloudfront.net",
+      "hdf4_signature": true,
+      "purpose": "exact named input at CMR-derived current cloud prefix",
+      "split": "development",
+      "status": 206,
+      "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022166.1040.061.2022167145955.hdf"
+    },
+    {
+      "error_category": "HTTPError",
+      "final_host": "urs.earthdata.nasa.gov",
+      "purpose": "known acquired current input at legacy route control",
+      "split": "development",
+      "status": 401,
+      "url": "https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/61/MYD03/2022/166/MYD03.A2022166.1040.061.2022311030826.hdf"
+    },
+    {
+      "final_host": "d13j1jds5ybppo.cloudfront.net",
+      "hdf4_signature": true,
+      "purpose": "exact named input at CMR-derived current cloud prefix",
+      "split": "replication",
+      "status": 206,
+      "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022174.0950.061.2022174165019.hdf"
+    },
+    {
+      "error_category": "HTTPError",
+      "final_host": "urs.earthdata.nasa.gov",
+      "purpose": "known acquired current input at legacy route control",
+      "split": "replication",
+      "status": 401,
+      "url": "https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/61/MYD03/2022/174/MYD03.A2022174.0950.061.2022311043413.hdf"
+    }
+  ]
+}

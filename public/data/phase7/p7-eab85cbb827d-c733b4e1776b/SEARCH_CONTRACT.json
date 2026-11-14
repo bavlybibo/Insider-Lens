@@ -1,0 +1,133 @@
+{
+  "auth": "revocation confirmation for every chat-exposed token; only a new private token file outside repository; no environmental or pasted-token fallback",
+  "budgets": {
+    "max_candidates_per_split": 1,
+    "max_metadata_bytes_each": 4000000,
+    "max_metadata_responses": 24,
+    "max_payload_bytes": 900000000,
+    "min_free_disk_reserve_bytes": 1200000000
+  },
+  "fit": {
+    "allowed_now": false,
+    "baseline": "unchanged native observations; no adjustment identity on compatible units only",
+    "metrics_if_future_eligible": "paired FRP MW absolute bias and absolute error against identity; 50km/7day block uncertainty; positive signal required; no count factors",
+    "minimum_7day_blocks": 5,
+    "minimum_qualified_passes": 30,
+    "reason": "two-pair feasibility experiment cannot satisfy fitting floor or original G4 release conditions"
+  },
+  "frozen_before": "all Phase7 CMR queries, new science arrays and fire-outcome selection",
+  "g4": "ADJUSTMENT_WITHHELD",
+  "geometry": {
+    "intersection": "positive projected AOI/CMR GRing area for each sensor; densified edges approximate swath extent only",
+    "metadata_proxy": "distance of AOI center to approximate swath centerline from CMR quadrilateral; NOT measured VZA, footprint or cloud-free area",
+    "proxy_axis": "join midpoints of the shorter opposing GRing edges in local WGS84 LAEA; minimize center-to-line distance",
+    "rank": [
+      "same-acquisition geolocation and both VIIRS resolutions discoverable",
+      "max cross-swath centerline distance in km",
+      "absolute midpoint offset",
+      "reported total bytes",
+      "Aqua ID",
+      "VIIRS ID"
+    ],
+    "sensitivity_degrees": [
+      30,
+      50
+    ],
+    "view_limit_degrees": 40
+  },
+  "grid": {
+    "counting_m": 10000,
+    "crs": "+proj=laea +lat_0=60 +lon_0=-100 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs +type=crs",
+    "id": "ca-laea60n100w-wgs84-o0-v1",
+    "origin_m": [
+      0,
+      0
+    ],
+    "widths_m": [
+      5000,
+      10000,
+      20000
+    ]
+  },
+  "holdouts": "original Portugal/California and Canada2024 sealed; no holdout queries or outcome evaluation",
+  "id": "ca-metadata-support-june2022-v1",
+  "independence": "nonoverlapping development AOIs and UTC dates, >50km spatial separation and >=6 full days; no claim of independent fire episodes",
+  "lineage": "same acquisition key is discovery only; exact named geolocation input must match file payload before qualification; no substituting an instance silently",
+  "parent": "reports/CANADA_PREREGISTRATION.json",
+  "phase6_contract_sha256": "ab874a4a4d038e30d2835829ace7a99d7276ee4fda16e9bee51207f88a95404a",
+  "prior_knowledge": "Phase5 national native inventories and Phase6 rejected pilot already inspected; not blind evaluation",
+  "products": {
+    "MYD03": [
+      "C1379841358-LAADS",
+      "6.1"
+    ],
+    "MYD14": [
+      "C2278858993-LPCLOUD",
+      "061"
+    ],
+    "VNP03IMG": [
+      "C2105092163-LAADS",
+      "2"
+    ],
+    "VNP03MOD": [
+      "C2105092427-LAADS",
+      "2"
+    ],
+    "VNP14": [
+      "C2545314536-LPCLOUD",
+      "002"
+    ],
+    "VNP14IMG": [
+      "C2734202914-LPCLOUD",
+      "002"
+    ]
+  },
+  "quality": "source-specific exact-collection QA definitions, valid geolocation, no cloud/invalid/bowtie; no 375m bit policy borrowed for MODIS or 750m",
+  "selection": "freeze first ranked timing/geometry-metadata candidate per split; unresolved exact lineage/QA prevents science qualification, never re-rank by outcome",
+  "splits": {
+    "development": {
+      "aoi_wsen": [
+        -118,
+        50,
+        -117,
+        51
+      ],
+      "days": [
+        "2022-06-15",
+        "2022-06-16"
+      ]
+    },
+    "replication": {
+      "aoi_wsen": [
+        -113,
+        53,
+        -112,
+        54
+      ],
+      "days": [
+        "2022-06-22",
+        "2022-06-23"
+      ]
+    }
+  },
+  "support": {
+    "denominator": "union of actual qualified native footprints intersected in time and area; no denominator from FIRMS positives or GRing",
+    "states": [
+      "VALID_SHARED_SUPPORT",
+      "VALID_SINGLE_SENSOR_SUPPORT",
+      "CLOUD_OR_INVALID",
+      "UNKNOWN_SUPPORT",
+      "OBSERVED_POSITIVE_DETECTION",
+      "QUALIFIED_OBSERVED_NONDETECTION"
+    ],
+    "unknown": null
+  },
+  "time": {
+    "primary_minutes": 10,
+    "screen": "absolute granule midpoint difference <=10min; actual per-pixel time <=10min required later; interval gap reported separately",
+    "sensitivity_minutes": [
+      5,
+      15
+    ]
+  }
+}

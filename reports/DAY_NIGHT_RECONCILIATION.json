@@ -1,0 +1,1442 @@
+{
+  "state": "PASS",
+  "scope": "Original raw CSV -> unchanged release -> source/day/cell/DN multiplicities; browser tests independently consume these raw-derived groups.",
+  "release_id": "eg-9a6ad9ccfda103bf80926db6",
+  "release_sha256": "e256a172f3c61b82f088428cc0b50554605fb0bdb4648f5410982be90a5f45ed",
+  "raw_zip_hashes": {
+    "DL_FIRE_M-C61_844805.zip": "7d946292cace80de4f084d71658686a178058655e130a069d95c485f07ed18f7",
+    "DL_FIRE_SV-C2_844806.zip": "f630d2b1bea962ae8422990bcd161a601e0aa1f1d661cf36cb7f3d6cb492cc97"
+  },
+  "totals": {
+    "AQUA_MODIS": {
+      "ALL": {
+        "records": 238,
+        "occupied_cell_days": 32,
+        "utc_dates": 5,
+        "utc_instants": [
+          "2017-06-06T14:06:00Z",
+          "2017-06-18T01:47:00Z",
+          "2017-06-18T01:48:00Z",
+          "2017-06-18T12:53:00Z",
+          "2017-06-18T14:31:00Z",
+          "2017-06-19T02:30:00Z",
+          "2017-06-19T02:31:00Z",
+          "2017-06-19T13:35:00Z",
+          "2017-06-20T03:13:00Z",
+          "2017-06-20T14:18:00Z",
+          "2017-06-21T02:18:00Z",
+          "2017-06-21T13:23:00Z"
+        ]
+      },
+      "D": {
+        "records": 109,
+        "occupied_cell_days": 24,
+        "utc_dates": 5,
+        "utc_instants": [
+          "2017-06-06T14:06:00Z",
+          "2017-06-18T12:53:00Z",
+          "2017-06-18T14:31:00Z",
+          "2017-06-19T13:35:00Z",
+          "2017-06-20T14:18:00Z",
+          "2017-06-21T13:23:00Z"
+        ]
+      },
+      "N": {
+        "records": 129,
+        "occupied_cell_days": 17,
+        "utc_dates": 4,
+        "utc_instants": [
+          "2017-06-18T01:47:00Z",
+          "2017-06-18T01:48:00Z",
+          "2017-06-19T02:30:00Z",
+          "2017-06-19T02:31:00Z",
+          "2017-06-20T03:13:00Z",
+          "2017-06-21T02:18:00Z"
+        ]
+      }
+    },
+    "SNPP_VIIRS": {
+      "ALL": {
+        "records": 2041,
+        "occupied_cell_days": 65,
+        "utc_dates": 12,
+        "utc_instants": [
+          "2017-06-06T13:53:00Z",
+          "2017-06-10T02:56:00Z",
+          "2017-06-10T12:38:00Z",
+          "2017-06-16T02:43:00Z",
+          "2017-06-16T14:05:00Z",
+          "2017-06-16T14:06:00Z",
+          "2017-06-17T02:24:00Z",
+          "2017-06-17T13:47:00Z",
+          "2017-06-18T02:05:00Z",
+          "2017-06-18T02:06:00Z",
+          "2017-06-18T13:28:00Z",
+          "2017-06-19T01:46:00Z",
+          "2017-06-19T01:47:00Z",
+          "2017-06-19T03:27:00Z",
+          "2017-06-19T13:09:00Z",
+          "2017-06-20T01:28:00Z",
+          "2017-06-20T03:08:00Z",
+          "2017-06-20T12:50:00Z",
+          "2017-06-20T14:31:00Z",
+          "2017-06-21T02:49:00Z",
+          "2017-06-21T12:32:00Z",
+          "2017-06-21T14:12:00Z",
+          "2017-06-22T02:31:00Z",
+          "2017-06-22T13:53:00Z",
+          "2017-06-23T02:12:00Z",
+          "2017-06-23T13:34:00Z",
+          "2017-06-25T03:14:00Z",
+          "2017-06-26T02:56:00Z",
+          "2017-06-26T14:18:00Z"
+        ]
+      },
+      "D": {
+        "records": 574,
+        "occupied_cell_days": 43,
+        "utc_dates": 11,
+        "utc_instants": [
+          "2017-06-06T13:53:00Z",
+          "2017-06-10T12:38:00Z",
+          "2017-06-16T14:05:00Z",
+          "2017-06-16T14:06:00Z",
+          "2017-06-17T13:47:00Z",
+          "2017-06-18T13:28:00Z",
+          "2017-06-19T13:09:00Z",
+          "2017-06-20T12:50:00Z",
+          "2017-06-20T14:31:00Z",
+          "2017-06-21T12:32:00Z",
+          "2017-06-21T14:12:00Z",
+          "2017-06-22T13:53:00Z",
+          "2017-06-23T13:34:00Z",
+          "2017-06-26T14:18:00Z"
+        ]
+      },
+      "N": {
+        "records": 1467,
+        "occupied_cell_days": 46,
+        "utc_dates": 11,
+        "utc_instants": [
+          "2017-06-10T02:56:00Z",
+          "2017-06-16T02:43:00Z",
+          "2017-06-17T02:24:00Z",
+          "2017-06-18T02:05:00Z",
+          "2017-06-18T02:06:00Z",
+          "2017-06-19T01:46:00Z",
+          "2017-06-19T01:47:00Z",
+          "2017-06-19T03:27:00Z",
+          "2017-06-20T01:28:00Z",
+          "2017-06-20T03:08:00Z",
+          "2017-06-21T02:49:00Z",
+          "2017-06-22T02:31:00Z",
+          "2017-06-23T02:12:00Z",
+          "2017-06-25T03:14:00Z",
+          "2017-06-26T02:56:00Z"
+        ]
+      }
+    },
+    "TERRA_MODIS": {
+      "ALL": {
+        "records": 172,
+        "occupied_cell_days": 24,
+        "utc_dates": 4,
+        "utc_instants": [
+          "2017-06-18T11:13:00Z",
+          "2017-06-18T22:18:00Z",
+          "2017-06-19T23:01:00Z",
+          "2017-06-20T11:01:00Z",
+          "2017-06-20T22:06:00Z",
+          "2017-06-21T11:43:00Z",
+          "2017-06-21T22:49:00Z"
+        ]
+      },
+      "D": {
+        "records": 75,
+        "occupied_cell_days": 16,
+        "utc_dates": 3,
+        "utc_instants": [
+          "2017-06-18T11:13:00Z",
+          "2017-06-20T11:01:00Z",
+          "2017-06-21T11:43:00Z"
+        ]
+      },
+      "N": {
+        "records": 97,
+        "occupied_cell_days": 17,
+        "utc_dates": 4,
+        "utc_instants": [
+          "2017-06-18T22:18:00Z",
+          "2017-06-19T23:01:00Z",
+          "2017-06-20T22:06:00Z",
+          "2017-06-21T22:49:00Z"
+        ]
+      }
+    }
+  },
+  "reference_cell": {
+    "AQUA_MODIS": {
+      "ALL": {
+        "records": 57,
+        "occupied_cell_days": 4,
+        "utc_dates": 4,
+        "utc_instants": [
+          "2017-06-18T12:53:00Z",
+          "2017-06-19T02:30:00Z",
+          "2017-06-19T13:35:00Z",
+          "2017-06-20T03:13:00Z",
+          "2017-06-20T14:18:00Z",
+          "2017-06-21T02:18:00Z"
+        ]
+      },
+      "D": {
+        "records": 25,
+        "occupied_cell_days": 3,
+        "utc_dates": 3,
+        "utc_instants": [
+          "2017-06-18T12:53:00Z",
+          "2017-06-19T13:35:00Z",
+          "2017-06-20T14:18:00Z"
+        ]
+      },
+      "N": {
+        "records": 32,
+        "occupied_cell_days": 3,
+        "utc_dates": 3,
+        "utc_instants": [
+          "2017-06-19T02:30:00Z",
+          "2017-06-20T03:13:00Z",
+          "2017-06-21T02:18:00Z"
+        ]
+      }
+    },
+    "SNPP_VIIRS": {
+      "ALL": {
+        "records": 484,
+        "occupied_cell_days": 4,
+        "utc_dates": 4,
+        "utc_instants": [
+          "2017-06-18T02:05:00Z",
+          "2017-06-18T13:28:00Z",
+          "2017-06-19T01:46:00Z",
+          "2017-06-19T01:47:00Z",
+          "2017-06-19T03:27:00Z",
+          "2017-06-19T13:09:00Z",
+          "2017-06-20T01:28:00Z",
+          "2017-06-20T03:08:00Z",
+          "2017-06-20T12:50:00Z",
+          "2017-06-20T14:31:00Z",
+          "2017-06-21T02:49:00Z",
+          "2017-06-21T14:12:00Z"
+        ]
+      },
+      "D": {
+        "records": 127,
+        "occupied_cell_days": 4,
+        "utc_dates": 4,
+        "utc_instants": [
+          "2017-06-18T13:28:00Z",
+          "2017-06-19T13:09:00Z",
+          "2017-06-20T12:50:00Z",
+          "2017-06-20T14:31:00Z",
+          "2017-06-21T14:12:00Z"
+        ]
+      },
+      "N": {
+        "records": 357,
+        "occupied_cell_days": 4,
+        "utc_dates": 4,
+        "utc_instants": [
+          "2017-06-18T02:05:00Z",
+          "2017-06-19T01:46:00Z",
+          "2017-06-19T01:47:00Z",
+          "2017-06-19T03:27:00Z",
+          "2017-06-20T01:28:00Z",
+          "2017-06-20T03:08:00Z",
+          "2017-06-21T02:49:00Z"
+        ]
+      }
+    },
+    "TERRA_MODIS": {
+      "ALL": {
+        "records": 45,
+        "occupied_cell_days": 3,
+        "utc_dates": 3,
+        "utc_instants": [
+          "2017-06-18T11:13:00Z",
+          "2017-06-18T22:18:00Z",
+          "2017-06-19T23:01:00Z",
+          "2017-06-20T11:01:00Z",
+          "2017-06-20T22:06:00Z"
+        ]
+      },
+      "D": {
+        "records": 13,
+        "occupied_cell_days": 2,
+        "utc_dates": 2,
+        "utc_instants": [
+          "2017-06-18T11:13:00Z",
+          "2017-06-20T11:01:00Z"
+        ]
+      },
+      "N": {
+        "records": 32,
+        "occupied_cell_days": 3,
+        "utc_dates": 3,
+        "utc_instants": [
+          "2017-06-18T22:18:00Z",
+          "2017-06-19T23:01:00Z",
+          "2017-06-20T22:06:00Z"
+        ]
+      }
+    }
+  },
+  "groups": [
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-06",
+      "cell": "g:-7:1",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-1:-1",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-1:0",
+      "flag": "D",
+      "records": 5
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-2:-1",
+      "flag": "D",
+      "records": 7
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-2:0",
+      "flag": "D",
+      "records": 5
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-3:-1",
+      "flag": "D",
+      "records": 9
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-3:-2",
+      "flag": "D",
+      "records": 9
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-3:-2",
+      "flag": "N",
+      "records": 2
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-3:-3",
+      "flag": "D",
+      "records": 6
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-4:-1",
+      "flag": "D",
+      "records": 3
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-4:-2",
+      "flag": "D",
+      "records": 6
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-4:-2",
+      "flag": "N",
+      "records": 4
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-4:-3",
+      "flag": "D",
+      "records": 3
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:1:-1",
+      "flag": "D",
+      "records": 6
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-19",
+      "cell": "g:-1:-1",
+      "flag": "N",
+      "records": 11
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-19",
+      "cell": "g:-1:0",
+      "flag": "D",
+      "records": 2
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-19",
+      "cell": "g:-1:0",
+      "flag": "N",
+      "records": 9
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-19",
+      "cell": "g:-2:-1",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-19",
+      "cell": "g:-2:-1",
+      "flag": "N",
+      "records": 25
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-19",
+      "cell": "g:-2:0",
+      "flag": "N",
+      "records": 3
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-19",
+      "cell": "g:-3:-1",
+      "flag": "N",
+      "records": 7
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-19",
+      "cell": "g:-3:-2",
+      "flag": "N",
+      "records": 3
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-19",
+      "cell": "g:-3:-3",
+      "flag": "N",
+      "records": 22
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-19",
+      "cell": "g:-4:-1",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-19",
+      "cell": "g:-4:-1",
+      "flag": "N",
+      "records": 5
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-19",
+      "cell": "g:-4:-2",
+      "flag": "N",
+      "records": 8
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-19",
+      "cell": "g:-4:-3",
+      "flag": "N",
+      "records": 2
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-20",
+      "cell": "g:-1:0",
+      "flag": "D",
+      "records": 9
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-20",
+      "cell": "g:-1:0",
+      "flag": "N",
+      "records": 9
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-20",
+      "cell": "g:-1:1",
+      "flag": "D",
+      "records": 6
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-20",
+      "cell": "g:-2:-1",
+      "flag": "D",
+      "records": 17
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-20",
+      "cell": "g:-2:-1",
+      "flag": "N",
+      "records": 2
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-20",
+      "cell": "g:-2:0",
+      "flag": "D",
+      "records": 2
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-20",
+      "cell": "g:-2:1",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-21",
+      "cell": "g:-1:-1",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-21",
+      "cell": "g:-1:0",
+      "flag": "D",
+      "records": 6
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-21",
+      "cell": "g:-1:0",
+      "flag": "N",
+      "records": 4
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-21",
+      "cell": "g:-1:1",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-21",
+      "cell": "g:-1:1",
+      "flag": "N",
+      "records": 8
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-21",
+      "cell": "g:-2:-1",
+      "flag": "N",
+      "records": 5
+    },
+    {
+      "source": "AQUA_MODIS",
+      "day": "2017-06-21",
+      "cell": "g:-4:1",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-06",
+      "cell": "g:-7:1",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-06",
+      "cell": "g:4:-3",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-10",
+      "cell": "g:-4:2",
+      "flag": "N",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-10",
+      "cell": "g:5:-8",
+      "flag": "D",
+      "records": 2
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-16",
+      "cell": "g:-3:-7",
+      "flag": "D",
+      "records": 2
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-16",
+      "cell": "g:-4:2",
+      "flag": "N",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-16",
+      "cell": "g:6:-4",
+      "flag": "D",
+      "records": 2
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-17",
+      "cell": "g:-2:-2",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-17",
+      "cell": "g:5:-1",
+      "flag": "N",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:-1:-1",
+      "flag": "D",
+      "records": 24
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:-1:0",
+      "flag": "D",
+      "records": 26
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:-2:-1",
+      "flag": "D",
+      "records": 42
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:-2:-1",
+      "flag": "N",
+      "records": 105
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:-2:-2",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:-2:-2",
+      "flag": "N",
+      "records": 9
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:-2:0",
+      "flag": "D",
+      "records": 2
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:-3:-1",
+      "flag": "D",
+      "records": 58
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:-3:-1",
+      "flag": "N",
+      "records": 95
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:-3:-2",
+      "flag": "D",
+      "records": 37
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:-3:-2",
+      "flag": "N",
+      "records": 121
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:-3:-3",
+      "flag": "D",
+      "records": 4
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:-3:-7",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:-4:-1",
+      "flag": "D",
+      "records": 16
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:-4:-1",
+      "flag": "N",
+      "records": 174
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:-4:-2",
+      "flag": "D",
+      "records": 29
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:-4:-2",
+      "flag": "N",
+      "records": 165
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:-4:5",
+      "flag": "N",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:1:-1",
+      "flag": "D",
+      "records": 14
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:1:-1",
+      "flag": "N",
+      "records": 24
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-18",
+      "cell": "g:4:3",
+      "flag": "N",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-19",
+      "cell": "g:-1:-1",
+      "flag": "D",
+      "records": 7
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-19",
+      "cell": "g:-1:-1",
+      "flag": "N",
+      "records": 60
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-19",
+      "cell": "g:-1:0",
+      "flag": "D",
+      "records": 4
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-19",
+      "cell": "g:-1:0",
+      "flag": "N",
+      "records": 51
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-19",
+      "cell": "g:-2:-1",
+      "flag": "D",
+      "records": 17
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-19",
+      "cell": "g:-2:-1",
+      "flag": "N",
+      "records": 180
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-19",
+      "cell": "g:-2:-2",
+      "flag": "N",
+      "records": 3
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-19",
+      "cell": "g:-2:-3",
+      "flag": "N",
+      "records": 5
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-19",
+      "cell": "g:-2:0",
+      "flag": "N",
+      "records": 5
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-19",
+      "cell": "g:-3:-1",
+      "flag": "N",
+      "records": 41
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-19",
+      "cell": "g:-3:-2",
+      "flag": "N",
+      "records": 12
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-19",
+      "cell": "g:-3:-3",
+      "flag": "D",
+      "records": 3
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-19",
+      "cell": "g:-3:-3",
+      "flag": "N",
+      "records": 85
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-19",
+      "cell": "g:-4:-1",
+      "flag": "N",
+      "records": 15
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-19",
+      "cell": "g:-4:-2",
+      "flag": "N",
+      "records": 48
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-19",
+      "cell": "g:-4:-3",
+      "flag": "N",
+      "records": 5
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-19",
+      "cell": "g:5:-8",
+      "flag": "N",
+      "records": 3
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-20",
+      "cell": "g:-1:-1",
+      "flag": "D",
+      "records": 6
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-20",
+      "cell": "g:-1:-1",
+      "flag": "N",
+      "records": 12
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-20",
+      "cell": "g:-1:0",
+      "flag": "D",
+      "records": 80
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-20",
+      "cell": "g:-1:0",
+      "flag": "N",
+      "records": 85
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-20",
+      "cell": "g:-1:1",
+      "flag": "D",
+      "records": 46
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-20",
+      "cell": "g:-2:-1",
+      "flag": "D",
+      "records": 63
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-20",
+      "cell": "g:-2:-1",
+      "flag": "N",
+      "records": 36
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-20",
+      "cell": "g:-2:-2",
+      "flag": "D",
+      "records": 4
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-20",
+      "cell": "g:-2:-2",
+      "flag": "N",
+      "records": 2
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-20",
+      "cell": "g:-2:0",
+      "flag": "N",
+      "records": 2
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-20",
+      "cell": "g:-3:-2",
+      "flag": "D",
+      "records": 2
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-20",
+      "cell": "g:-3:-2",
+      "flag": "N",
+      "records": 6
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-20",
+      "cell": "g:-3:-3",
+      "flag": "D",
+      "records": 2
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-20",
+      "cell": "g:-3:-3",
+      "flag": "N",
+      "records": 14
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-20",
+      "cell": "g:-4:-1",
+      "flag": "N",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-20",
+      "cell": "g:-4:-2",
+      "flag": "D",
+      "records": 5
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-20",
+      "cell": "g:-4:-3",
+      "flag": "N",
+      "records": 3
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-21",
+      "cell": "g:-1:-1",
+      "flag": "D",
+      "records": 5
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-21",
+      "cell": "g:-1:0",
+      "flag": "D",
+      "records": 28
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-21",
+      "cell": "g:-1:0",
+      "flag": "N",
+      "records": 30
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-21",
+      "cell": "g:-1:1",
+      "flag": "D",
+      "records": 17
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-21",
+      "cell": "g:-1:1",
+      "flag": "N",
+      "records": 10
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-21",
+      "cell": "g:-2:-1",
+      "flag": "D",
+      "records": 5
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-21",
+      "cell": "g:-2:-1",
+      "flag": "N",
+      "records": 36
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-21",
+      "cell": "g:-2:-2",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-21",
+      "cell": "g:-2:0",
+      "flag": "N",
+      "records": 3
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-21",
+      "cell": "g:-2:1",
+      "flag": "N",
+      "records": 2
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-21",
+      "cell": "g:-3:-1",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-21",
+      "cell": "g:-3:-2",
+      "flag": "D",
+      "records": 3
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-21",
+      "cell": "g:-3:-2",
+      "flag": "N",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-21",
+      "cell": "g:-4:-9",
+      "flag": "D",
+      "records": 6
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-21",
+      "cell": "g:6:5",
+      "flag": "D",
+      "records": 2
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-22",
+      "cell": "g:-1:0",
+      "flag": "N",
+      "records": 6
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-22",
+      "cell": "g:-3:-1",
+      "flag": "N",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-22",
+      "cell": "g:-3:-2",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-22",
+      "cell": "g:-3:-2",
+      "flag": "N",
+      "records": 2
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-23",
+      "cell": "g:-3:-2",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-23",
+      "cell": "g:-3:-2",
+      "flag": "N",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-23",
+      "cell": "g:-6:4",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-25",
+      "cell": "g:-4:2",
+      "flag": "N",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-26",
+      "cell": "g:-3:-2",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "SNPP_VIIRS",
+      "day": "2017-06-26",
+      "cell": "g:-3:-2",
+      "flag": "N",
+      "records": 2
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-1:-1",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-1:-1",
+      "flag": "N",
+      "records": 10
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-1:0",
+      "flag": "D",
+      "records": 3
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-1:0",
+      "flag": "N",
+      "records": 6
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-2:-1",
+      "flag": "D",
+      "records": 9
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-2:-1",
+      "flag": "N",
+      "records": 16
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-2:-2",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-2:0",
+      "flag": "N",
+      "records": 2
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-3:-1",
+      "flag": "D",
+      "records": 14
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-3:-1",
+      "flag": "N",
+      "records": 3
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-3:-2",
+      "flag": "D",
+      "records": 9
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-3:-3",
+      "flag": "N",
+      "records": 18
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-4:-1",
+      "flag": "D",
+      "records": 2
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-4:-1",
+      "flag": "N",
+      "records": 2
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-4:-2",
+      "flag": "D",
+      "records": 9
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:-4:-3",
+      "flag": "N",
+      "records": 3
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-18",
+      "cell": "g:1:-1",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-19",
+      "cell": "g:-1:0",
+      "flag": "N",
+      "records": 1
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-19",
+      "cell": "g:-2:-1",
+      "flag": "N",
+      "records": 1
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-19",
+      "cell": "g:-3:-3",
+      "flag": "N",
+      "records": 3
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-19",
+      "cell": "g:-4:-3",
+      "flag": "N",
+      "records": 3
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-20",
+      "cell": "g:-1:-1",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-20",
+      "cell": "g:-1:0",
+      "flag": "D",
+      "records": 10
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-20",
+      "cell": "g:-1:0",
+      "flag": "N",
+      "records": 6
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-20",
+      "cell": "g:-1:1",
+      "flag": "D",
+      "records": 5
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-20",
+      "cell": "g:-1:1",
+      "flag": "N",
+      "records": 5
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-20",
+      "cell": "g:-2:-1",
+      "flag": "D",
+      "records": 4
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-20",
+      "cell": "g:-2:-1",
+      "flag": "N",
+      "records": 15
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-20",
+      "cell": "g:-2:-2",
+      "flag": "D",
+      "records": 1
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-20",
+      "cell": "g:-2:1",
+      "flag": "N",
+      "records": 1
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-21",
+      "cell": "g:-1:0",
+      "flag": "D",
+      "records": 3
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-21",
+      "cell": "g:-1:0",
+      "flag": "N",
+      "records": 2
+    },
+    {
+      "source": "TERRA_MODIS",
+      "day": "2017-06-21",
+      "cell": "g:-1:1",
+      "flag": "D",
+      "records": 2
+    }
+  ],
+  "other_or_missing_flags": 0,
+  "occupancy_rule": "D/N occupied keys overlap. Their union, never their arithmetic sum, equals All.",
+  "opportunity": "UNKNOWN",
+  "g4": "ADJUSTMENT_WITHHELD",
+  "independent_human_review": "NOT_PERFORMED"
+}

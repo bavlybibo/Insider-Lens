@@ -1,0 +1,333 @@
+{
+  "state": "NATIVE_AUDITS_PASS_QUALIFICATION_BLOCKED",
+  "rule_sha256": "54df013d8aca8031e633f70178e09c65e41d9c127081257549dc7a7e659664d7",
+  "adapter_sha256": "5b23654c0cfed84562b4d0d66c19ff8f801e3892527b8a3c00f55ddd41443226",
+  "pipeline_sha256": "d8059cd9a85b9813fdcffb62ad58275ee2d23ab4c9e668ed910e357740532f95",
+  "oracle_sha256": "c7e011544a9fb77dca4ba8355e463c7721eb1a0f30d152ea7b45b50e3ad75815",
+  "months": [
+    {
+      "month": "2013-02",
+      "state": "AUDITED_STAGED_NOT_QUALIFIED",
+      "raw_independent_recount": "PASS",
+      "summary": {
+        "AQUA_MODIS": {
+          "records": 0,
+          "occupied_cell_days": 0,
+          "detection_days": 0,
+          "occupied_cells": 0
+        },
+        "TERRA_MODIS": {
+          "records": 0,
+          "occupied_cell_days": 0,
+          "detection_days": 0,
+          "occupied_cells": 0
+        },
+        "SNPP_VIIRS": {
+          "records": 1,
+          "occupied_cell_days": 1,
+          "detection_days": 1,
+          "occupied_cells": 1
+        }
+      },
+      "deliveries": [
+        {
+          "file": "modis_2013_Portugal.csv",
+          "raw_sha256": "3302c8792616f4b4528738eaaa20240aae2e3c04a99753dbe4d6016bde906e04",
+          "country_month_rows": 19,
+          "accepted_aoi_records": 0,
+          "derived_zip": "country-modis-2013-02.zip",
+          "derived_sha256": "b732e2955c959b2c31b170637ee886c2f3d4b2d079583f7a582c5c3e2bd5321f",
+          "literal_versions": {
+            "6.2": 19
+          },
+          "identifier_kind": "DERIVED_COUNTRY_MONTH_NOT_NASA_REQUEST",
+          "original_country_processing_family": "NASA_OFFICIAL_COUNTRY_SP_DESCRIPTION"
+        },
+        {
+          "file": "viirs-snpp_2013_Portugal.csv",
+          "raw_sha256": "f1cbd794b2525e49f453029d2d9e2dbea4b2098f39c8d21c7f520857a5499bea",
+          "country_month_rows": 103,
+          "accepted_aoi_records": 1,
+          "derived_zip": "country-viirs-2013-02.zip",
+          "derived_sha256": "792bc5e9b4b233b476dd32fc95d72bc3675b2f1ba80b9ebcff4952ec249a3a0d",
+          "literal_versions": {
+            "2": 103
+          },
+          "identifier_kind": "DERIVED_COUNTRY_MONTH_NOT_NASA_REQUEST",
+          "original_country_processing_family": "NASA_OFFICIAL_COUNTRY_SP_DESCRIPTION"
+        }
+      ],
+      "production_vintage": "UNVERIFIED",
+      "extract_completeness": "UNKNOWN",
+      "observation_support": "OBSERVATION_UNKNOWN",
+      "g4": "ADJUSTMENT_WITHHELD",
+      "blockers": [
+        "Source-linked monthly expected/received upstream inventory absent.",
+        "Within-collection production vintage undocumented; literal row versions are not sufficient.",
+        "L2 pixel QA/geolocation and comparable acquisition support not qualified."
+      ],
+      "candidate_sha256": "010582222b12d6ef54262cb486514a871c0b5cbc9acf1570465efbbae760066b",
+      "occupied_csv_sha256": "b07c61ffc49638199a0e5288ed7dc17341217b463bfa29929449a5b1c0cb65ed"
+    },
+    {
+      "month": "2013-03",
+      "state": "AUDITED_STAGED_NOT_QUALIFIED",
+      "raw_independent_recount": "PASS",
+      "summary": {
+        "AQUA_MODIS": {
+          "records": 0,
+          "occupied_cell_days": 0,
+          "detection_days": 0,
+          "occupied_cells": 0
+        },
+        "TERRA_MODIS": {
+          "records": 0,
+          "occupied_cell_days": 0,
+          "detection_days": 0,
+          "occupied_cells": 0
+        },
+        "SNPP_VIIRS": {
+          "records": 0,
+          "occupied_cell_days": 0,
+          "detection_days": 0,
+          "occupied_cells": 0
+        }
+      },
+      "deliveries": [
+        {
+          "file": "modis_2013_Portugal.csv",
+          "raw_sha256": "3302c8792616f4b4528738eaaa20240aae2e3c04a99753dbe4d6016bde906e04",
+          "country_month_rows": 6,
+          "accepted_aoi_records": 0,
+          "derived_zip": "country-modis-2013-03.zip",
+          "derived_sha256": "08f2fda948018639674d69e5db9c2c3c2db314fc6d613cf9fb1f499e426b4312",
+          "literal_versions": {
+            "6.2": 6
+          },
+          "identifier_kind": "DERIVED_COUNTRY_MONTH_NOT_NASA_REQUEST",
+          "original_country_processing_family": "NASA_OFFICIAL_COUNTRY_SP_DESCRIPTION"
+        },
+        {
+          "file": "viirs-snpp_2013_Portugal.csv",
+          "raw_sha256": "f1cbd794b2525e49f453029d2d9e2dbea4b2098f39c8d21c7f520857a5499bea",
+          "country_month_rows": 54,
+          "accepted_aoi_records": 0,
+          "derived_zip": "country-viirs-2013-03.zip",
+          "derived_sha256": "4f3f857aba2d0cdc688f1d537d5c9dddbe975844e2c20a6cc5d3921582818ecc",
+          "literal_versions": {
+            "2": 54
+          },
+          "identifier_kind": "DERIVED_COUNTRY_MONTH_NOT_NASA_REQUEST",
+          "original_country_processing_family": "NASA_OFFICIAL_COUNTRY_SP_DESCRIPTION"
+        }
+      ],
+      "production_vintage": "UNVERIFIED",
+      "extract_completeness": "UNKNOWN",
+      "observation_support": "OBSERVATION_UNKNOWN",
+      "g4": "ADJUSTMENT_WITHHELD",
+      "blockers": [
+        "Source-linked monthly expected/received upstream inventory absent.",
+        "Within-collection production vintage undocumented; literal row versions are not sufficient.",
+        "L2 pixel QA/geolocation and comparable acquisition support not qualified."
+      ],
+      "candidate_sha256": "9ff4c66c44bd472cb75e737f0ae084f09392a2896f411e83b237f296569db10b",
+      "occupied_csv_sha256": "09ad161f353534e191e70dad70c9d5bd0f857555a75dd5a9e0c3a59bd6b1a875"
+    },
+    {
+      "month": "2013-04",
+      "state": "AUDITED_STAGED_NOT_QUALIFIED",
+      "raw_independent_recount": "PASS",
+      "summary": {
+        "AQUA_MODIS": {
+          "records": 6,
+          "occupied_cell_days": 4,
+          "detection_days": 4,
+          "occupied_cells": 4
+        },
+        "TERRA_MODIS": {
+          "records": 6,
+          "occupied_cell_days": 5,
+          "detection_days": 4,
+          "occupied_cells": 3
+        },
+        "SNPP_VIIRS": {
+          "records": 35,
+          "occupied_cell_days": 19,
+          "detection_days": 13,
+          "occupied_cells": 17
+        }
+      },
+      "deliveries": [
+        {
+          "file": "modis_2013_Portugal.csv",
+          "raw_sha256": "3302c8792616f4b4528738eaaa20240aae2e3c04a99753dbe4d6016bde906e04",
+          "country_month_rows": 72,
+          "accepted_aoi_records": 12,
+          "derived_zip": "country-modis-2013-04.zip",
+          "derived_sha256": "692517cb56695b3db29327f92a10d27edd96679cccefe50e449a9803ab908456",
+          "literal_versions": {
+            "6.2": 72
+          },
+          "identifier_kind": "DERIVED_COUNTRY_MONTH_NOT_NASA_REQUEST",
+          "original_country_processing_family": "NASA_OFFICIAL_COUNTRY_SP_DESCRIPTION"
+        },
+        {
+          "file": "viirs-snpp_2013_Portugal.csv",
+          "raw_sha256": "f1cbd794b2525e49f453029d2d9e2dbea4b2098f39c8d21c7f520857a5499bea",
+          "country_month_rows": 283,
+          "accepted_aoi_records": 35,
+          "derived_zip": "country-viirs-2013-04.zip",
+          "derived_sha256": "df33f61c05cdfde79bdf021da3a7c9940fcbb571e3f4c4cbec5bd639dcfbb8fb",
+          "literal_versions": {
+            "2": 283
+          },
+          "identifier_kind": "DERIVED_COUNTRY_MONTH_NOT_NASA_REQUEST",
+          "original_country_processing_family": "NASA_OFFICIAL_COUNTRY_SP_DESCRIPTION"
+        }
+      ],
+      "production_vintage": "UNVERIFIED",
+      "extract_completeness": "UNKNOWN",
+      "observation_support": "OBSERVATION_UNKNOWN",
+      "g4": "ADJUSTMENT_WITHHELD",
+      "blockers": [
+        "Source-linked monthly expected/received upstream inventory absent.",
+        "Within-collection production vintage undocumented; literal row versions are not sufficient.",
+        "L2 pixel QA/geolocation and comparable acquisition support not qualified."
+      ],
+      "candidate_sha256": "3d9b611182731a9510004fcc077e362b4a5b8a47dfcb02e9ad22bf0df54342eb",
+      "occupied_csv_sha256": "50eb6ddd35dd9aff16d6ee2adc75483540e5097ecebf91f9517bb965005a3eeb"
+    },
+    {
+      "month": "2013-05",
+      "state": "AUDITED_STAGED_NOT_QUALIFIED",
+      "raw_independent_recount": "PASS",
+      "summary": {
+        "AQUA_MODIS": {
+          "records": 6,
+          "occupied_cell_days": 4,
+          "detection_days": 2,
+          "occupied_cells": 4
+        },
+        "TERRA_MODIS": {
+          "records": 7,
+          "occupied_cell_days": 6,
+          "detection_days": 3,
+          "occupied_cells": 6
+        },
+        "SNPP_VIIRS": {
+          "records": 31,
+          "occupied_cell_days": 16,
+          "detection_days": 11,
+          "occupied_cells": 14
+        }
+      },
+      "deliveries": [
+        {
+          "file": "modis_2013_Portugal.csv",
+          "raw_sha256": "3302c8792616f4b4528738eaaa20240aae2e3c04a99753dbe4d6016bde906e04",
+          "country_month_rows": 47,
+          "accepted_aoi_records": 13,
+          "derived_zip": "country-modis-2013-05.zip",
+          "derived_sha256": "fe39e116e42897ef74c84bac36fc966191b51bc1a11fc827168ed665d342f525",
+          "literal_versions": {
+            "6.2": 47
+          },
+          "identifier_kind": "DERIVED_COUNTRY_MONTH_NOT_NASA_REQUEST",
+          "original_country_processing_family": "NASA_OFFICIAL_COUNTRY_SP_DESCRIPTION"
+        },
+        {
+          "file": "viirs-snpp_2013_Portugal.csv",
+          "raw_sha256": "f1cbd794b2525e49f453029d2d9e2dbea4b2098f39c8d21c7f520857a5499bea",
+          "country_month_rows": 228,
+          "accepted_aoi_records": 31,
+          "derived_zip": "country-viirs-2013-05.zip",
+          "derived_sha256": "b2845366c9e110d3644d176f505c45a3c623507f44d4c73814f1adfa61bee149",
+          "literal_versions": {
+            "2": 228
+          },
+          "identifier_kind": "DERIVED_COUNTRY_MONTH_NOT_NASA_REQUEST",
+          "original_country_processing_family": "NASA_OFFICIAL_COUNTRY_SP_DESCRIPTION"
+        }
+      ],
+      "production_vintage": "UNVERIFIED",
+      "extract_completeness": "UNKNOWN",
+      "observation_support": "OBSERVATION_UNKNOWN",
+      "g4": "ADJUSTMENT_WITHHELD",
+      "blockers": [
+        "Source-linked monthly expected/received upstream inventory absent.",
+        "Within-collection production vintage undocumented; literal row versions are not sufficient.",
+        "L2 pixel QA/geolocation and comparable acquisition support not qualified."
+      ],
+      "candidate_sha256": "154826e19694a5bd71d463d0786ecabb5bf952c3681485cddc192261a0d2f8c2",
+      "occupied_csv_sha256": "1d09819735119c7be22f7593a9ab1e4dfa11c3252efbb4cd72bbd01989b22379"
+    },
+    {
+      "month": "2013-06",
+      "state": "AUDITED_STAGED_NOT_QUALIFIED",
+      "raw_independent_recount": "PASS",
+      "summary": {
+        "AQUA_MODIS": {
+          "records": 8,
+          "occupied_cell_days": 5,
+          "detection_days": 3,
+          "occupied_cells": 5
+        },
+        "TERRA_MODIS": {
+          "records": 4,
+          "occupied_cell_days": 3,
+          "detection_days": 3,
+          "occupied_cells": 3
+        },
+        "SNPP_VIIRS": {
+          "records": 85,
+          "occupied_cell_days": 28,
+          "detection_days": 15,
+          "occupied_cells": 17
+        }
+      },
+      "deliveries": [
+        {
+          "file": "modis_2013_Portugal.csv",
+          "raw_sha256": "3302c8792616f4b4528738eaaa20240aae2e3c04a99753dbe4d6016bde906e04",
+          "country_month_rows": 55,
+          "accepted_aoi_records": 12,
+          "derived_zip": "country-modis-2013-06.zip",
+          "derived_sha256": "9924f4dd40204a8ae769dbe4dc5318304e18581b9fb5297298b08d8116982cc5",
+          "literal_versions": {
+            "6.2": 55
+          },
+          "identifier_kind": "DERIVED_COUNTRY_MONTH_NOT_NASA_REQUEST",
+          "original_country_processing_family": "NASA_OFFICIAL_COUNTRY_SP_DESCRIPTION"
+        },
+        {
+          "file": "viirs-snpp_2013_Portugal.csv",
+          "raw_sha256": "f1cbd794b2525e49f453029d2d9e2dbea4b2098f39c8d21c7f520857a5499bea",
+          "country_month_rows": 339,
+          "accepted_aoi_records": 85,
+          "derived_zip": "country-viirs-2013-06.zip",
+          "derived_sha256": "259f75914a501628231e7e724dea7bf634173a45b8158f29c81c0cbdee8b7e4e",
+          "literal_versions": {
+            "2": 339
+          },
+          "identifier_kind": "DERIVED_COUNTRY_MONTH_NOT_NASA_REQUEST",
+          "original_country_processing_family": "NASA_OFFICIAL_COUNTRY_SP_DESCRIPTION"
+        }
+      ],
+      "production_vintage": "UNVERIFIED",
+      "extract_completeness": "UNKNOWN",
+      "observation_support": "OBSERVATION_UNKNOWN",
+      "g4": "ADJUSTMENT_WITHHELD",
+      "blockers": [
+        "Source-linked monthly expected/received upstream inventory absent.",
+        "Within-collection production vintage undocumented; literal row versions are not sufficient.",
+        "L2 pixel QA/geolocation and comparable acquisition support not qualified."
+      ],
+      "candidate_sha256": "b7d760839b64183dfa42a05146a1bb20866586add9a0037915f842bbe4b29adc",
+      "occupied_csv_sha256": "6cb2eb8aebdc83b50b44ed56e13a00745be3f1f2c2f1e71b4e34ec8e3bcbc470"
+    }
+  ],
+  "additional_qualified_released_months": 0,
+  "current_release_unchanged": true,
+  "holdouts_accessed": false,
+  "g4": "ADJUSTMENT_WITHHELD"
+}

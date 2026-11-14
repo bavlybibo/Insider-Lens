@@ -1,0 +1,144 @@
+{
+  "state": "PASS",
+  "method": "Independent raw-oracle cohort enumeration; canonical original-field re-selection; EPSG9820 projection; exhaustive timestamp pair loops; analytic ellipsoidal AOI area",
+  "country_date_rows_examined": 1438,
+  "selected_rows": 77,
+  "matching_checks": [
+    {
+      "split": "development",
+      "width_m": 5000,
+      "minutes": 15,
+      "candidate_keys": 0,
+      "min_same_flag_positive_offset_minutes": null
+    },
+    {
+      "split": "development",
+      "width_m": 5000,
+      "minutes": 30,
+      "candidate_keys": 0,
+      "min_same_flag_positive_offset_minutes": null
+    },
+    {
+      "split": "development",
+      "width_m": 5000,
+      "minutes": 60,
+      "candidate_keys": 1,
+      "min_same_flag_positive_offset_minutes": null
+    },
+    {
+      "split": "development",
+      "width_m": 10000,
+      "minutes": 15,
+      "candidate_keys": 0,
+      "min_same_flag_positive_offset_minutes": 32.0
+    },
+    {
+      "split": "development",
+      "width_m": 10000,
+      "minutes": 30,
+      "candidate_keys": 0,
+      "min_same_flag_positive_offset_minutes": 32.0
+    },
+    {
+      "split": "development",
+      "width_m": 10000,
+      "minutes": 60,
+      "candidate_keys": 1,
+      "min_same_flag_positive_offset_minutes": 32.0
+    },
+    {
+      "split": "development",
+      "width_m": 20000,
+      "minutes": 15,
+      "candidate_keys": 0,
+      "min_same_flag_positive_offset_minutes": null
+    },
+    {
+      "split": "development",
+      "width_m": 20000,
+      "minutes": 30,
+      "candidate_keys": 0,
+      "min_same_flag_positive_offset_minutes": null
+    },
+    {
+      "split": "development",
+      "width_m": 20000,
+      "minutes": 60,
+      "candidate_keys": 1,
+      "min_same_flag_positive_offset_minutes": null
+    },
+    {
+      "split": "replication",
+      "width_m": 5000,
+      "minutes": 15,
+      "candidate_keys": 0,
+      "min_same_flag_positive_offset_minutes": null
+    },
+    {
+      "split": "replication",
+      "width_m": 5000,
+      "minutes": 30,
+      "candidate_keys": 0,
+      "min_same_flag_positive_offset_minutes": null
+    },
+    {
+      "split": "replication",
+      "width_m": 5000,
+      "minutes": 60,
+      "candidate_keys": 0,
+      "min_same_flag_positive_offset_minutes": null
+    },
+    {
+      "split": "replication",
+      "width_m": 10000,
+      "minutes": 15,
+      "candidate_keys": 0,
+      "min_same_flag_positive_offset_minutes": null
+    },
+    {
+      "split": "replication",
+      "width_m": 10000,
+      "minutes": 30,
+      "candidate_keys": 0,
+      "min_same_flag_positive_offset_minutes": null
+    },
+    {
+      "split": "replication",
+      "width_m": 10000,
+      "minutes": 60,
+      "candidate_keys": 0,
+      "min_same_flag_positive_offset_minutes": null
+    },
+    {
+      "split": "replication",
+      "width_m": 20000,
+      "minutes": 15,
+      "candidate_keys": 0,
+      "min_same_flag_positive_offset_minutes": null
+    },
+    {
+      "split": "replication",
+      "width_m": 20000,
+      "minutes": 30,
+      "candidate_keys": 0,
+      "min_same_flag_positive_offset_minutes": null
+    },
+    {
+      "split": "replication",
+      "width_m": 20000,
+      "minutes": 60,
+      "candidate_keys": 0,
+      "min_same_flag_positive_offset_minutes": null
+    }
+  ],
+  "analytic_aoi_area_m2": 458279499953.3502,
+  "clipped_area_relative_errors": {
+    "coarse": 3.795325925684792e-06,
+    "fine": 9.488321926197884e-07
+  },
+  "research_rows_sha256": "7ef6f3fd5d53665343c1ce6b9237c15f8d779bbc5472bb63af17fef2531344d9",
+  "audit_sha256": "1e0dfe0b532d8c1fee32a84c2a1ccd92ee4fab131da6012073f4c813723ad21b",
+  "elapsed_seconds": 0.7028187997639179,
+  "human_review": "NOT_PERFORMED",
+  "holdouts": "NOT_OPENED"
+}

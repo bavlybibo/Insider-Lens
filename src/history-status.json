@@ -1,0 +1,24 @@
+{
+  "candidate_id": "country-pt-2013-01-e6d440c30b1c8d34",
+  "month": "2013-01",
+  "state": "AUDITED_STAGED_NOT_QUALIFIED",
+  "audit": "PASS",
+  "independent_raw_recount": "PASS",
+  "expected_source_files": 2,
+  "received_source_files": 2,
+  "qualification_blockers": [
+    "Within-collection production vintage is undocumented: row values are not a granule processing-vintage inventory.",
+    "Annual country file byte sizes reconcile, but their source-linked monthly upstream delivery inventory is absent. Current CMR candidates do not establish that lineage.",
+    "No compatible historic fire-mask/QA/geolocation inventory qualifies valid observation opportunity."
+  ],
+  "g4": "ADJUSTMENT_WITHHELD",
+  "report_sha256": "fadb96ef2015e82ea7ec44d805a0b781e6604a50756f490970a24d8e913a4b75",
+  "l2_metadata": {
+    "state": "METADATA_ONLY_NOT_QUALIFIED",
+    "month": "2013-01",
+    "aqua_fire_granules": 83,
+    "snpp_375m_fire_granules": 108,
+    "pixel_arrays_downloaded": 0,
+    "inventory_sha256": "b9aea3352029e70dcfd32801d652f1b093b3fe6ac89a6ea47a0bb4faadcb94dd"
+  }
+}

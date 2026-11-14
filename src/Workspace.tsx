@@ -1,0 +1,116 @@
+import { Component, lazy, Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
+import type { RenderMode } from './FireMap';
+import { Brand } from './Brand';
+import { CalendarDock } from './CalendarDock';
+import { EvidencePassport } from './EvidencePassport';
+import { Panel, useMobile } from './Panel';
+import { useInvestigationSelection } from './selection';
+import { REFERENCES } from './evidence';
+import { AnswerCard } from './AnswerCard';
+import { MemoryLab } from './MemoryLab';
+import { DayNightCompare } from './DayNightCompare';
+import { QUESTIONS, type InvestigationJob } from './investigation';
+import { loadRelease, scientificCsv, select, selectedMonth, selectionId, SOURCES, summarize, type Release, type SourceId } from './science';
+
+const format = (n: number) => n.toLocaleString('en-US');
+const FireMap = lazy(() => import('./FireMap').then(module => ({ default: module.FireMap })));
+const CanadaWorkspace = lazy(() => import('./CanadaWorkspace'));
+class MapBoundary extends Component<{ children: ReactNode }, { failed: boolean }> {
+  state = { failed: false };
+  static getDerivedStateFromError() { return { failed: true }; }
+  render() { return this.state.failed ? <div className="map-module-loading" role="status">Map module unavailable. Calendar, evidence, data table and export remain usable.</div> : this.props.children; }
+}
+const monthLabel = (month: string) => new Intl.DateTimeFormat('en', { timeZone: 'UTC', month: 'long', year: 'numeric' }).format(new Date(`${month}-01T12:00:00Z`));
+
+export default function App() {
+  const [region,setRegion]=useState(()=>new URLSearchParams(location.search).get('region')==='canada'?'canada':'portugal');
+  const [release, setRelease] = useState<Release | null>(null), [error, setError] = useState('');
+  useEffect(() => {
+    const controller = new AbortController();
+    loadRelease(controller.signal).then(setRelease).catch(e => { if (e.name !== 'AbortError') setError(String(e.message)); });
+    return () => controller.abort();
+  }, []);
+  if (error) return <main className="load-screen"><Brand/><h1>Scientific data unavailable</h1><p role="alert">{error}</p><p>Totals are withheld. Restore the verified artifact, then reload.</p></main>;
+  if (!release) return <main className="load-screen" role="status"><Brand/><h1>Opening the evidence record</h1><p>Checking source-artifact SHA-256 and numerical reconciliation…</p></main>;
+  if(region==='canada')return <Suspense fallback={<main className="load-screen" role="status">Opening Canada native history…</main>}><CanadaWorkspace onPortugal={()=>setRegion('portugal')}/></Suspense>;
+  return <Investigation release={release} onCanada={()=>setRegion('canada')}/>;
+}
+
+function Investigation({ release,onCanada }: { release: Release;onCanada:()=>void }) {
+  const mobile = useMobile();
+  const [selection, update] = useInvestigationSelection(release);
+  const [filtersOpen, setFiltersOpen] = useState(false), [evidenceOpen, setEvidenceOpen] = useState(false);
+  const [job,setJob]=useState<InvestigationJob>('explore'), [answerOpen,setAnswerOpen]=useState(true), [focus,setFocus]=useState(false);
+  const [recordId,setRecordId]=useState<string|null>(null);
+  const [camera,setCamera]=useState<{id:number;target:'study'|'activity'|'selection'}>({id:0,target:'study'});
+  const [tab, setTab] = useState('selection'), [mode, setMode] = useState<RenderMode>('auto');
+  const [metric,setMetric]=useState<'occupied_cell_days'|'records'>('occupied_cell_days');
+  const [viewReset, setViewReset] = useState(0), [recordsOpen, setRecordsOpen] = useState(false), [exported, setExported] = useState('');
+  const [mapAttempt,setMapAttempt]=useState(0);
+  const [atlasSource,setAtlasSource]=useState<SourceId|'ALL'>('ALL'),[bandwidth,setBandwidth]=useState<5|10>(10),[paired,setPaired]=useState(false);
+  const [sourcePaired,setSourcePaired]=useState(false),[showCenters,setShowCenters]=useState(false);
+  const comparison=paired||sourcePaired;
+  useEffect(()=>{if(sourcePaired&&selection.sources.length<2){setSourcePaired(false);setAnswerOpen(true);}},[sourcePaired,selection.sources]);
+  const recordsDialog = useRef<HTMLDialogElement>(null);
+  const month = selectedMonth(selection), available = release.months.includes(month);
+  const records = useMemo(() => select(release.records, selection), [release, selection]);
+  const inspectedRecord=records.find(r=>r.id===recordId);
+  const signature = selectionId(release.releaseId, selection);
+  const perSource = useMemo(() => Object.fromEntries(SOURCES.map(source => [source, summarize(records.filter(r => r.source === source))])) as Record<SourceId, ReturnType<typeof summarize>>, [records]);
+  const lensSource=atlasSource==='ALL'&&mode!=='grid'&&mode!=='heat'?'ALL':selection.sources.includes(atlasSource as SourceId)?atlasSource:selection.sources[0];
+  useEffect(() => { if (mobile) { setEvidenceOpen(false); setFiltersOpen(false); } }, [mobile]);
+  useEffect(() => {
+    if (recordsOpen && !recordsDialog.current?.open) recordsDialog.current?.showModal();
+    if (!recordsOpen && recordsDialog.current?.open) recordsDialog.current.close();
+  }, [recordsOpen]);
+  function toggle(source: SourceId) {
+    update(s => ({ ...s, sources: s.sources.includes(source) ? s.sources.length === 1 ? s.sources : s.sources.filter(v => v !== source) : [...s.sources, source] }));
+  }
+  function showEvidence(nextTab = 'selection') { setTab(nextTab); setEvidenceOpen(true); setFiltersOpen(false); setAnswerOpen(false); }
+  function changeJob(next:InvestigationJob){setJob(next);setAnswerOpen(true);setFocus(false);setPaired(false);setSourcePaired(false);if(!mobile)setEvidenceOpen(false);else if(next==='memory'){setTab('memory');setEvidenceOpen(true);}setFiltersOpen(false);}
+  function changeMode(next:RenderMode){setMode(next);if((next==='grid'||next==='heat')&&atlasSource==='ALL')setAtlasSource(selection.sources[0]);}
+  function inspectRecord(record:typeof records[number]){update(s=>({...s,cell:record.cell,day:record.day}));setRecordId(record.id);setRecordsOpen(true);}
+  function inspectCell(cell:string){update(s=>({...s,cell}));setAnswerOpen(true);}
+  function memoryDemo(){update({sources:['AQUA_MODIS','SNPP_VIIRS'],month:'2017-06',day:null,cell:'g:-2:-1',daynight:'ALL'});setCamera(c=>({id:c.id+1,target:'selection'}));}
+  function exportData() {
+    const blob = new Blob([scientificCsv(release, selection, records)], { type: 'text/csv;charset=utf-8' });
+    const url = URL.createObjectURL(blob), a = document.createElement('a');
+    a.href = url; a.download = `insider-lens-${release.releaseId}-${selection.day ?? month}.csv`; a.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1500); setExported('Scientific CSV exported with selection, provenance, units and unknown-support states.');
+  }
+  const inspectReference = () => {update({ sources: ['AQUA_MODIS', 'SNPP_VIIRS'], month: '2017-06', day: null, daynight: 'ALL', cell: 'g:-2:-1' });setJob('explore');setPaired(false);setSourcePaired(false);setMode('auto');setAtlasSource('ALL');setAnswerOpen(true);setFocus(false);setEvidenceOpen(false);setCamera(c=>({id:c.id+1,target:'selection'}));};
+
+  return <div className={`app atlas fire-memory mission-room job-${job} ${focus?'map-focus':''} ${comparison?'paired-investigation':''}`} data-testid="investigation" data-release={release.releaseId} data-selection={signature}>
+    <a className="skip-link" href="#calendar">Skip map to activity calendar</a>
+    <header className="topbar"><Brand/><span className="app-context">Historical evidence atlas</span>
+      <div className="header-actions"><button onClick={() => {setFiltersOpen(v => !v);setEvidenceOpen(false);}} aria-label="Filters" aria-expanded={filtersOpen} aria-controls="filters">☷ <span>Filters</span></button><button onClick={() => {setEvidenceOpen(v => !v);setAnswerOpen(false);setFiltersOpen(false);}} aria-label="Evidence Passport" aria-expanded={evidenceOpen} aria-controls="evidence">▤ <span>Evidence Passport</span></button><button className="export-button" onClick={exportData} aria-label="Export scientific CSV" data-testid="export">↓ <span>Export CSV</span></button></div>
+    <div className="investigation-bar"><nav aria-label="Investigation question">{(['explore','compare','history','memory'] as const).map((value,i)=><button key={value} aria-label={value==='memory'?'Memory Loss':value[0].toUpperCase()+value.slice(1)} aria-pressed={job===value} onClick={()=>changeJob(value)}><span>0{i+1}</span>{value==='memory'?'Memory Loss':value[0].toUpperCase()+value.slice(1)}</button>)}</nav><h1 className="sr-only">{QUESTIONS[job]}</h1><div className="period-control"><label htmlFor="month" className="sr-only">Historical month</label><select id="month" value={month} onChange={e=>update(s=>({...s,month:e.target.value,day:null}))}>{Array.from({length:12},(_,i)=>`${month.slice(0,4)}-${String(i+1).padStart(2,'0')}`).map(value=><option key={value} value={value}>{monthLabel(value)}{release.months.includes(value)?' · diagnostic':' · unavailable'}</option>)}</select></div><button className="provenance-button" onClick={()=>showEvidence('quality')}>Recount verified <span> · coverage unknown / G4 withheld</span></button></div></header>
+    <main className={`workspace ${evidenceOpen && !mobile ? 'with-evidence' : ''}`}>
+      <Panel id="filters" title="Investigation filters" side="left" open={filtersOpen} close={() => setFiltersOpen(false)}>
+        <label htmlFor="region" className="field-label">Study area</label><select id="region" value="portugal" onChange={e => {if(e.target.value==="canada")onCanada();}}><option value="portugal">Central Portugal</option><option value="canada">Canada · acquired native history</option></select><p className="field-help">Scientific scope is fixed to W −8.7, S 39.3, E −7.2, N 40.8. Basemap navigation does not extend this extract.</p>
+        <label htmlFor="year" className="field-label">Historical year</label><select id="year" value={month.slice(0, 4)} onChange={e => update(s => ({ ...s, month: `${e.target.value}-${month.slice(5)}`, day: null }))}>{Array.from({ length: 27 }, (_, i) => String(2000 + i)).map(year => <option key={year}>{year}</option>)}</select>
+        <div className="history-availability"><span className="eyebrow">LOCAL RELEASE AVAILABILITY</span><div className="month-grid">{Array.from({ length: 12 }, (_, i) => `${month.slice(0, 4)}-${String(i + 1).padStart(2, '0')}`).map(value => <button key={value} className={`${value === month ? 'selected' : ''} ${release.months.includes(value) ? 'present' : 'unknown'}`} aria-label={`${monthLabel(value)}: ${release.months.includes(value) ? 'diagnostic extract present, completeness unknown' : 'extract unavailable'}`} onClick={() => update(s => ({ ...s, month: value, day: null }))}>{monthLabel(value).split(' ')[0].slice(0, 3)}<small>{release.months.includes(value) ? 'extract' : '—'}</small></button>)}</div><p className="field-help">Hatching means no extract in this release. It never means zero fire activity. Seasonal comparison needs qualified comparable years.</p></div>
+        <label htmlFor="daynight" className="field-label">Native day / night classification</label><select id="daynight" value={selection.daynight} onChange={e => update(s => ({ ...s, daynight: e.target.value as 'ALL' | 'D' | 'N' }))}><option value="ALL">Day and night</option><option value="D">Daytime (D)</option><option value="N">Nighttime (N)</option></select><p className="field-help">A source-native acquisition flag, not a matched-overpass policy.</p>
+        <button className="reset-button" onClick={() => { update({ sources: ['AQUA_MODIS', 'SNPP_VIIRS'], month: release.months[0], day: null, cell: null, daynight: 'ALL' }); setMode('auto');setAtlasSource('ALL');setPaired(false);setSourcePaired(false); setViewReset(v => v + 1); }}>Reset investigation</button><div className="filter-note"><strong>Additional history not qualified</strong><p>January–June2013 subsets have been independently recounted and remain staged. Production vintage and source-linked monthly delivery evidence are unresolved. No additional qualified month is released.</p><a href={REFERENCES.archive} target="_blank" rel="noreferrer">NASA FIRMS Standard archive ↗</a></div>
+      </Panel>
+      <section className="map-workspace" aria-label="Observed thermal activity">
+        <div className="source-cards" data-testid="summary-surface" data-release={release.releaseId} data-selection={signature}>{SOURCES.map(source => <div className={`source-card ${selection.sources.includes(source) ? 'selected' : 'inactive'}`} key={source} data-testid={`summary-${source}`}><label><input type="checkbox" checked={selection.sources.includes(source)} onChange={() => toggle(source)} aria-label={release.sources[source].name}/><span className={`source-shape shape-${source}`} style={{ color: release.sources[source].color }}/><span>{release.sources[source].name}</span></label>{selection.sources.includes(source) && <div className="source-metric"><strong data-testid={`${metric==='records'?'records':'occupancy'}-${source}`}>{available ? metric==='records'?format(perSource[source].records):perSource[source].occupied_cell_days : '—'}</strong><span>{metric==='records'?'records':'cell-days'}<small><b data-testid={`${metric==='records'?'occupancy':'records'}-${source}`}>{available ? metric==='records'?perSource[source].occupied_cell_days:format(perSource[source].records) : '—'}</b> {metric==='records'?'cell-days':'records'}</small></span></div>}</div>)}</div>
+        <div className="map-tools"><label htmlFor="render-mode">View</label><select id="render-mode" value={mode} onChange={e => changeMode(e.target.value as RenderMode)}><option value="auto">Auto display · fixed grid</option><option value="points">Native detection centers</option><option value="grid">10 km quantitative cells</option><option value="heat">Heat Atlas · detection density</option><option disabled>Normalized rate unavailable · support unknown</option></select><label htmlFor="cell">Cell</label><select id="cell" value={selection.cell ?? ''} onChange={e => {update(s => ({ ...s, cell: e.target.value || null }));setAnswerOpen(true);}}><option value="">Central Portugal</option>{release.cells.features.map(f => <option key={f.properties.cell}>{f.properties.cell}</option>)}</select><button className="reset-scope" onClick={()=>update(s=>({...s,day:null,cell:null}))} aria-label="Reset date & cell">Clear cell/date</button><button onClick={() => setRecordsOpen(true)}>Data table</button><button className="focus-button" aria-label={focus?'Exit map focus':'Map focus'} aria-pressed={focus} onClick={()=>{setFocus(v=>!v);setEvidenceOpen(false);setFiltersOpen(false);}}>{focus?'Exit map focus':'Map focus'}</button></div>
+        <div className="map-area"><div className="atlas-controls" role="toolbar" aria-label="Source lens and acquisition class"><label htmlFor="atlas-source" className="sr-only">Map source lens · selection and CSV retain all selected sources</label><select id="atlas-source" disabled={sourcePaired} title={sourcePaired?'Use the left and right comparison-source controls':'Map lens only; main CSV retains all selected source lanes'} value={lensSource} onChange={e=>setAtlasSource(e.target.value as SourceId|'ALL')}><option value="ALL" disabled={mode==='grid'||mode==='heat'||comparison}>All lanes</option>{selection.sources.map(source=><option key={source} value={source} aria-label={release.sources[source].name}>{source==='AQUA_MODIS'?'Aqua':source==='SNPP_VIIRS'?'S-NPP':'Terra'}</option>)}</select><div className="dn-toggle" role="group" aria-label="NASA acquisition class">{(['ALL','D','N'] as const).map(flag=><button key={flag} aria-label={`Acquisition class: ${flag==='ALL'?'All':flag==='D'?'Day D':'Night N'}`} aria-pressed={(selection.daynight??'ALL')===flag&&!paired} onClick={()=>{setPaired(false);update(s=>({...s,daynight:flag}));}}>{flag==='ALL'?'All':flag==='D'?'Day':'Night'}</button>)}</div><button className="pair-toggle" aria-label="Compare Day and Night maps" aria-pressed={paired} onClick={()=>{setSourcePaired(false);setPaired(v=>!v);if(!paired){update(s=>({...s,daynight:'ALL'}));if(atlasSource==='ALL')setAtlasSource(selection.sources[0]);setAnswerOpen(false);setEvidenceOpen(false);}}}>⇄ <span>D/N maps</span></button>{mode==='heat'&&<><label htmlFor="bandwidth" className="sr-only">Fixed density bandwidth</label><select id="bandwidth" value={bandwidth} onChange={e=>setBandwidth(Number(e.target.value) as 5|10)}><option value="10">Balanced · 10 km</option><option value="5">Local detail · 5 km</option></select><label className="native-center-toggle"><input type="checkbox" checked={showCenters} onChange={e=>setShowCenters(e.target.checked)}/>Native centers</label></>}</div>
+          {job==='compare'&&<div className="comparison-launcher"><span>Comparison lens</span><button aria-pressed={sourcePaired} disabled={selection.sources.length<2} onClick={()=>{setSourcePaired(v=>!v);setPaired(false);setAnswerOpen(false);setEvidenceOpen(false);}}>{sourcePaired?'Close source maps':'Link source maps'}</button><button onClick={()=>changeJob('memory')}>Old / new history ↗</button></div>}
+          <MapBoundary>{comparison?<DayNightCompare axis={sourcePaired?'sources':'daynight'} showCenters={showCenters} onMethod={source=>{setAtlasSource(source);showEvidence('selection');}} release={release} selection={selection} mode={mode} lensSource={lensSource==='ALL'?selection.sources[0]:lensSource} metric={metric} bandwidth={bandwidth} onCell={inspectCell} onRecord={inspectRecord} camera={camera}/>:<Suspense fallback={<div className="map-module-loading" role="status">Opening geographic map… Calendar, evidence and export are ready.</div>}><FireMap key={mapAttempt} onRetry={()=>setMapAttempt(v=>v+1)} release={release} records={records} selectionId={signature} mode={mode} selectedCell={selection.cell} period={selection.day ?? month} resetKey={viewReset} camera={camera} leftInset={!mobile&&answerOpen&&!focus?(job==='memory'?374:290):0} theme={selection.daynight==='N'?'night':'day'} showCenters={showCenters} onMethod={()=>showEvidence('selection')} lensSource={lensSource} metric={metric} bandwidth={bandwidth} onRecord={inspectRecord} onCell={inspectCell}/></Suspense>}</MapBoundary>
+          {!mobile&&answerOpen&&!focus&&!comparison&&(job==='memory'?<div className="memory-overlay"><MemoryLab release={release} selection={selection} update={update} showEvidence={()=>showEvidence('history')} demo={memoryDemo}/></div>:<div className="answer-overlay"><AnswerCard job={job} release={release} selection={selection} records={records} signature={signature} showEvidence={showEvidence} story={inspectReference} setJob={changeJob} onClose={()=>setAnswerOpen(false)} compact/></div>)}
+          {(!answerOpen||mobile||focus)&&<button className="open-answer" aria-label="Read scientific answer →" onClick={()=>{setAnswerOpen(true);if(mobile)showEvidence('answer');else {setFocus(false);setEvidenceOpen(false);}}}><strong>{QUESTIONS[job]}</strong><small>{available?'Coverage unknown':'Extract unavailable'} · read answer →</small></button>}
+          {!available ? <div className="empty-selection" role="status">Source extract unavailable for {monthLabel(month)}. Totals are unavailable; no zero activity is inferred.</div> : !records.length && <div className="empty-selection" role="status">No records match this selection in the supplied extracts. Observation coverage is unknown; this is not an observed fire-free result.</div>}</div>
+        <CalendarDock release={release} selection={selection} signature={signature} update={update} focus={focus} metric={metric} setMetric={setMetric} compact={comparison} history={job==='history'}/>
+      </section>
+      <Panel id="evidence" title="Evidence Passport" side="right" open={evidenceOpen} close={() => setEvidenceOpen(false)}>{tab==='memory'||(tab==='answer'&&job==='memory')?<MemoryLab release={release} selection={selection} update={update} showEvidence={()=>showEvidence('history')} demo={memoryDemo}/>:tab==='answer'?<AnswerCard job={job} release={release} selection={selection} records={records} signature={signature} showEvidence={showEvidence} story={inspectReference} setJob={changeJob} onClose={()=>setEvidenceOpen(false)}/>:<EvidencePassport release={release} selection={selection} records={records} signature={signature} tab={tab} setTab={setTab} inspectReference={inspectReference} atlasContext={{mode,lens:lensSource,bandwidth,metric}}/>}</Panel>
+    </main>
+    <footer><span>Data: <a href={REFERENCES.firms} target="_blank" rel="noreferrer">NASA FIRMS</a> / UMD · <a href={REFERENCES.readme} target="_blank" rel="noreferrer">Source & disclaimer ↗</a></span><span>Reported thermal detections ≠ unique fires or burned area</span><span className="release-watermark">{release.releaseId.slice(0, 15)}</span></footer><div className="sr-only" role="status">{exported}</div>
+    <dialog ref={recordsDialog} className="records-dialog" aria-labelledby="records-title" onCancel={() => setRecordsOpen(false)} onClose={() => setRecordsOpen(false)}><div className="panel-title"><h2 id="records-title">Selected native records</h2><button className="icon-button" aria-label="Close data table" onClick={() => setRecordsOpen(false)}>×</button></div><div className="panel-scroll" data-testid="table-surface" data-release={release.releaseId} data-selection={signature}>
+      {inspectedRecord&&<div className="record-detail" data-testid="record-detail"><h3>Underlying detection · {inspectedRecord.id}</h3><p>{release.sources[inspectedRecord.source].name} · {inspectedRecord.utc} · reported pixel center ({inspectedRecord.latitude}, {inspectedRecord.longitude})</p><p>FRP {inspectedRecord.frp} MW · native confidence {inspectedRecord.confidence} · native version {inspectedRecord.version} · CSV row {inspectedRecord.row}. Observation support unknown. This is a satellite thermal detection, not a physical fire count.</p></div>}
+      <p>{available ? format(records.length) : 'Unavailable'} native records · {selection.cell ?? 'Central Portugal'} · {selection.day ?? month} UTC. First 100 shown; CSV includes every selected occupied key.</p><table><caption>Source-specific quantities, without observation normalization</caption><thead><tr><th>Source</th><th>Records</th><th>Cell-days</th><th>Detection days</th></tr></thead><tbody>{selection.sources.map(source => <tr key={source}><th>{release.sources[source].name}</th><td>{available ? perSource[source].records : '—'}</td><td>{available ? perSource[source].occupied_cell_days : '—'}</td><td>{available ? perSource[source].detection_days : '—'}</td></tr>)}</tbody></table>
+      <div className="table-scroll"><table><thead><tr><th>Source row</th><th>Platform</th><th>UTC</th><th>Latitude, longitude</th><th>Cell</th><th>Native confidence</th><th>FRP (MW)</th></tr></thead><tbody>{records.slice(0, 100).map(r => <tr key={r.id}><td>{r.id}</td><td>{release.sources[r.source].name}</td><td>{r.utc}</td><td>{r.latitude}, {r.longitude}</td><td>{r.cell}</td><td>{r.confidence}</td><td>{r.frp}</td></tr>)}</tbody></table></div><button className="reset-button" onClick={exportData}>Export selection as scientific CSV</button></div></dialog>
+  </div>;
+}
+

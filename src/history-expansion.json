@@ -1,0 +1,132 @@
+{
+  "state": "NATIVE_AUDITS_PASS_QUALIFICATION_BLOCKED",
+  "months": [
+    {
+      "month": "2013-02",
+      "state": "AUDITED_STAGED_NOT_QUALIFIED",
+      "summary": {
+        "AQUA_MODIS": {
+          "records": 0,
+          "occupied_cell_days": 0,
+          "detection_days": 0,
+          "occupied_cells": 0
+        },
+        "TERRA_MODIS": {
+          "records": 0,
+          "occupied_cell_days": 0,
+          "detection_days": 0,
+          "occupied_cells": 0
+        },
+        "SNPP_VIIRS": {
+          "records": 1,
+          "occupied_cell_days": 1,
+          "detection_days": 1,
+          "occupied_cells": 1
+        }
+      }
+    },
+    {
+      "month": "2013-03",
+      "state": "AUDITED_STAGED_NOT_QUALIFIED",
+      "summary": {
+        "AQUA_MODIS": {
+          "records": 0,
+          "occupied_cell_days": 0,
+          "detection_days": 0,
+          "occupied_cells": 0
+        },
+        "TERRA_MODIS": {
+          "records": 0,
+          "occupied_cell_days": 0,
+          "detection_days": 0,
+          "occupied_cells": 0
+        },
+        "SNPP_VIIRS": {
+          "records": 0,
+          "occupied_cell_days": 0,
+          "detection_days": 0,
+          "occupied_cells": 0
+        }
+      }
+    },
+    {
+      "month": "2013-04",
+      "state": "AUDITED_STAGED_NOT_QUALIFIED",
+      "summary": {
+        "AQUA_MODIS": {
+          "records": 6,
+          "occupied_cell_days": 4,
+          "detection_days": 4,
+          "occupied_cells": 4
+        },
+        "TERRA_MODIS": {
+          "records": 6,
+          "occupied_cell_days": 5,
+          "detection_days": 4,
+          "occupied_cells": 3
+        },
+        "SNPP_VIIRS": {
+          "records": 35,
+          "occupied_cell_days": 19,
+          "detection_days": 13,
+          "occupied_cells": 17
+        }
+      }
+    },
+    {
+      "month": "2013-05",
+      "state": "AUDITED_STAGED_NOT_QUALIFIED",
+      "summary": {
+        "AQUA_MODIS": {
+          "records": 6,
+          "occupied_cell_days": 4,
+          "detection_days": 2,
+          "occupied_cells": 4
+        },
+        "TERRA_MODIS": {
+          "records": 7,
+          "occupied_cell_days": 6,
+          "detection_days": 3,
+          "occupied_cells": 6
+        },
+        "SNPP_VIIRS": {
+          "records": 31,
+          "occupied_cell_days": 16,
+          "detection_days": 11,
+          "occupied_cells": 14
+        }
+      }
+    },
+    {
+      "month": "2013-06",
+      "state": "AUDITED_STAGED_NOT_QUALIFIED",
+      "summary": {
+        "AQUA_MODIS": {
+          "records": 8,
+          "occupied_cell_days": 5,
+          "detection_days": 3,
+          "occupied_cells": 5
+        },
+        "TERRA_MODIS": {
+          "records": 4,
+          "occupied_cell_days": 3,
+          "detection_days": 3,
+          "occupied_cells": 3
+        },
+        "SNPP_VIIRS": {
+          "records": 85,
+          "occupied_cell_days": 28,
+          "detection_days": 15,
+          "occupied_cells": 17
+        }
+      }
+    }
+  ],
+  "report_sha256": "7386a170c1851211882c787544bb78a9bb7cb6526a7588d1a2237d5c309cdd55",
+  "additional_qualified_released_months": 0,
+  "blockers": [
+    "Source-linked monthly expected/received upstream inventory absent.",
+    "Within-collection production vintage undocumented; literal row versions are not sufficient.",
+    "L2 pixel QA/geolocation and comparable acquisition support not qualified."
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "science_files": 10,
+  "total_bytes": 361645819,
+  "receipts": [
+    {
+      "day": "2022-06-01",
+      "product": "MYD14",
+      "granule": "MYD14.A2022152.0850.061.2022152193155",
+      "collection": [
+        "C2278858993-LPCLOUD",
+        "061"
+      ],
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022152.0850.061.2022152193155/MYD14.A2022152.0850.061.2022152193155.hdf",
+      "final_host": "d1nklfio7vscoe.cloudfront.net",
+      "file": "data/acquisition/phase6/l2/2022-06-01/MYD14.A2022152.0850.061.2022152193155.hdf",
+      "bytes": 839696,
+      "sha256": "4dfe18b30aab133a3d9f6390c20bc8023d74c75640f001fff3f5b3a83c2c1176",
+      "http_status": 200,
+      "content_type": "binary/octet-stream",
+      "authenticated": true,
+      "retrieved_utc": "2026-11-13T23:12:06.681325+00:00"
+    },
+    {
+      "day": "2022-06-01",
+      "product": "MYD03",
+      "granule": "MYD03.A2022152.0850.061.2022310024210.hdf",
+      "collection": [
+        "C1379841358-LAADS",
+        "6.1"
+      ],
+      "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022152.0850.061.2022310024210.hdf",
+      "final_host": "d13j1jds5ybppo.cloudfront.net",
+      "file": "data/acquisition/phase6/l2/2022-06-01/MYD03.A2022152.0850.061.2022310024210.hdf",
+      "bytes": 34064066,
+      "sha256": "0afafb4e98d5d35ad61a809a8396a642f138e30b6125667f8bd4698f09066e70",
+      "http_status": 200,
+      "content_type": "binary/octet-stream",
+      "authenticated": true,
+      "retrieved_utc": "2026-11-13T23:12:19.130246+00:00"
+    },
+    {
+      "day": "2022-06-01",
+      "product": "VNP14",
+      "granule": "VNP14.A2022152.0830.002.2023030092949",
+      "collection": [
+        "C2545314536-LPCLOUD",
+        "002"
+      ],
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.0830.002.2023030092949/VNP14.A2022152.0830.002.2023030092949.nc",
+      "final_host": "d1nklfio7vscoe.cloudfront.net",
+      "file": "data/acquisition/phase6/l2/2022-06-01/VNP14.A2022152.0830.002.2023030092949.nc",
+      "bytes": 795802,
+      "sha256": "40975e9651af6ca5ac1f2875742c7861ca094fa447eaeed998313e60167d81d0",
+      "http_status": 200,
+      "content_type": "binary/octet-stream",
+      "authenticated": true,
+      "retrieved_utc": "2026-11-13T23:12:22.493563+00:00"
+    },
+    {
+      "day": "2022-06-01",
+      "product": "VNP14IMG",
+      "granule": "VNP14IMG.A2022152.0830.002.2024076112654",
+      "collection": [
+        "C2734202914-LPCLOUD",
+        "002"
+      ],
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.0830.002.2024076112654/VNP14IMG.A2022152.0830.002.2024076112654.nc",
+      "final_host": "d1nklfio7vscoe.cloudfront.net",
+      "file": "data/acquisition/phase6/l2/2022-06-01/VNP14IMG.A2022152.0830.002.2024076112654.nc",
+      "bytes": 1465604,
+      "sha256": "46d3ad6ae4c53f0743448e832e28cd8262bde386a40bfc41fba66ade3c0eceee",
+      "http_status": 200,
+      "content_type": "binary/octet-stream",
+      "authenticated": true,
+      "retrieved_utc": "2026-11-13T23:12:26.782034+00:00"
+    },
+    {
+      "day": "2022-06-01",
+      "product": "VNP03IMG",
+      "granule": "VNP03IMG.A2022152.0830.002.2022154131057.nc",
+      "collection": [
+        "C2105092163-LAADS",
+        "2"
+      ],
+      "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03IMG/VNP03IMG.A2022152.0830.002.2022154131057.nc",
+      "final_host": "d13j1jds5ybppo.cloudfront.net",
+      "file": "data/acquisition/phase6/l2/2022-06-01/VNP03IMG.A2022152.0830.002.2022154131057.nc",
+      "bytes": 176403657,
+      "sha256": "bfb91dd9d2cec85ffd9faa3332dda26b6d6b5ce7469e696c1fe72f96842438c6",
+      "http_status": 200,
+      "content_type": "binary/octet-stream",
+      "authenticated": true,
+      "retrieved_utc": "2026-11-13T23:13:26.121974+00:00"
+    },
+    {
+      "day": "2022-06-01",
+      "product": "VNP03MOD",
+      "granule": "VNP03MOD.A2022152.0830.002.2022154131057.nc",
+      "collection": [
+        "C2105092427-LAADS",
+        "2"
+      ],
+      "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03MOD/VNP03MOD.A2022152.0830.002.2022154131057.nc",
+      "final_host": "d13j1jds5ybppo.cloudfront.net",
+      "file": "data/acquisition/phase6/l2/2022-06-01/VNP03MOD.A2022152.0830.002.2022154131057.nc",
+      "bytes": 54200053,
+      "sha256": "ac04482e5506c0b81b7078105a2d917ffe1a49820981a5676f130e2a95ca3fd0",
+      "http_status": 200,
+      "content_type": "binary/octet-stream",
+      "authenticated": true,
+      "retrieved_utc": "2026-11-13T23:13:46.055769+00:00"
+    },
+    {
+      "day": "2022-06-08",
+      "product": "MYD14",
+      "granule": "MYD14.A2022159.0855.061.2022159153921",
+      "collection": [
+        "C2278858993-LPCLOUD",
+        "061"
+      ],
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022159.0855.061.2022159153921/MYD14.A2022159.0855.061.2022159153921.hdf",
+      "final_host": "d1nklfio7vscoe.cloudfront.net",
+      "file": "data/acquisition/phase6/l2/2022-06-08/MYD14.A2022159.0855.061.2022159153921.hdf",
+      "bytes": 936802,
+      "sha256": "0c423d73cc2d686e588785e960f05aa2c763884e68211636da27ac5c8526df99",
+      "http_status": 200,
+      "content_type": "binary/octet-stream",
+      "authenticated": true,
+      "retrieved_utc": "2026-11-13T23:13:49.822247+00:00"
+    },
+    {
+      "day": "2022-06-08",
+      "product": "MYD03",
+      "granule": "MYD03.A2022159.0855.061.2022310232543.hdf",
+      "collection": [
+        "C1379841358-LAADS",
+        "6.1"
+      ],
+      "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022159.0855.061.2022310232543.hdf",
+      "final_host": "d13j1jds5ybppo.cloudfront.net",
+      "file": "data/acquisition/phase6/l2/2022-06-08/MYD03.A2022159.0855.061.2022310232543.hdf",
+      "bytes": 34283182,
+      "sha256": "2cd28abc377838347524a52058d6c43e2e6a56964af9f8d0cf98f05d6ccec5f0",
+      "http_status": 200,
+      "content_type": "binary/octet-stream",
+      "authenticated": true,
+      "retrieved_utc": "2026-11-13T23:14:02.690174+00:00"
+    },
+    {
+      "day": "2022-06-08",
+      "product": "VNP14",
+      "granule": "VNP14.A2022159.0936.002.2023030105146",
+      "collection": [
+        "C2545314536-LPCLOUD",
+        "002"
+      ],
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.0936.002.2023030105146/VNP14.A2022159.0936.002.2023030105146.nc",
+      "final_host": "d1nklfio7vscoe.cloudfront.net",
+      "file": "data/acquisition/phase6/l2/2022-06-08/VNP14.A2022159.0936.002.2023030105146.nc",
+      "bytes": 1616687,
+      "sha256": "0a19fe55873eaac6f5d08a5d3b0ae61d3724854ea374fc0187453507e2ca1575",
+      "http_status": 200,
+      "content_type": "binary/octet-stream",
+      "authenticated": true,
+      "retrieved_utc": "2026-11-13T23:14:07.911187+00:00"
+    },
+    {
+      "day": "2022-06-08",
+      "product": "VNP03MOD",
+      "granule": "VNP03MOD.A2022159.0936.002.2022161181020.nc",
+      "collection": [
+        "C2105092427-LAADS",
+        "2"
+      ],
+      "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03MOD/VNP03MOD.A2022159.0936.002.2022161181020.nc",
+      "final_host": "d13j1jds5ybppo.cloudfront.net",
+      "file": "data/acquisition/phase6/l2/2022-06-08/VNP03MOD.A2022159.0936.002.2022161181020.nc",
+      "bytes": 57040270,
+      "sha256": "f12f810dabb21a2c877c80d9980ef716f846750191e22afb5127ece3fa2afdd0",
+      "http_status": 200,
+      "content_type": "binary/octet-stream",
+      "authenticated": true,
+      "retrieved_utc": "2026-11-13T23:14:27.032033+00:00"
+    }
+  ]
+}

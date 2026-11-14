@@ -1,0 +1,35 @@
+{
+  "algorithm_qa_qualified": false,
+  "allocated_frp_sum_mw": 22.37004065513611,
+  "categories": {
+    "375_POSITIVE_750_UNKNOWN_SUPPORT": 16
+  },
+  "contract_sha256": "566eeb108fd90e86c4e784e41a7d03fbd9c790ee671413308011e12d5527176e",
+  "coordinate_compatibility": "VERIFIED_EXACT_PAIR_ONLY",
+  "full_granule_variable_checks": {
+    "height": {
+      "different_values": 0,
+      "method": "131-column blocks, distinct from production97-row blocks",
+      "values": 10393600
+    },
+    "latitude": {
+      "different_values": 0,
+      "method": "131-column blocks, distinct from production97-row blocks",
+      "values": 10393600
+    },
+    "longitude": {
+      "different_values": 0,
+      "method": "131-column blocks, distinct from production97-row blocks",
+      "values": 10393600
+    }
+  },
+  "g4": "ADJUSTMENT_WITHHELD",
+  "geolocation_sha256": "61f1ec3e65adc0b9c7593da5d6b97877ca2d284f0925520586163dcbd2055414",
+  "max_sampling_pitch_implementation_difference_m": 1.0535580940995715e-07,
+  "physical_footprints_qualified": false,
+  "positive_count": 16,
+  "qa_sha256": "247fe48b064c2a28d1097f62fe403f2b7c414d36c80fcf6a5e1680a7b6da5034",
+  "qualification_sha256": "e25a510e4ce08689b827fed14c01108f646fb7645b1c1da27b24a0e51daf3fc2",
+  "same_scan_checks": 16,
+  "state": "PASS"
+}

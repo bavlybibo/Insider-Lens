@@ -1,0 +1,1895 @@
+{
+  "contract_sha256": "ab874a4a4d038e30d2835829ace7a99d7276ee4fda16e9bee51207f88a95404a",
+  "products": {
+    "2022-06-01": {
+      "MYD03": {
+        "collection": "C1379841358-LAADS",
+        "version": "6.1",
+        "receipt": {
+          "url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C1379841358-LAADS&temporal=2022-06-01T00%3A00%3A00Z%2C2022-06-01T23%3A59%3A59.999Z&bounding_box=-120%2C49%2C-110%2C55&page_size=2000",
+          "sha256": "2c297d84da7a8e0804d79f2149ef33d23a1b7eacf00efa3d17aaf044beb44f2b",
+          "bytes": 12391,
+          "hits": 5,
+          "retrieved_utc": "2026-11-13T23:03:43.148243+00:00"
+        },
+        "granules": [
+          {
+            "id": "MYD03.A2022152.0850.061.2022310024210.hdf",
+            "concept_id": "G2535701342-LAADS",
+            "start": "2022-06-01T08:50:00.000Z",
+            "end": "2022-06-01T08:55:00.000Z",
+            "key": ".A2022152.0850.",
+            "reported_mb": 32.4860248565674,
+            "polygons": [
+              [
+                "47.979012 -115.754375 43.849459 -85.404264 59.669298 -70.20969 66.263982 -116.166746 47.979012 -115.754375"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022152.0850.061.2022310024210.hdf"
+            ]
+          },
+          {
+            "id": "MYD03.A2022152.1030.061.2022310024356.hdf",
+            "concept_id": "G2535701901-LAADS",
+            "start": "2022-06-01T10:30:00.000Z",
+            "end": "2022-06-01T10:35:00.000Z",
+            "key": ".A2022152.1030.",
+            "reported_mb": 37.7757110595703,
+            "polygons": [
+              [
+                "43.957565 -140.862492 40.104102 -112.440278 56.373424 -99.591784 62.250371 -140.569079 43.957565 -140.862492"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022152.1030.061.2022310024356.hdf"
+            ]
+          },
+          {
+            "id": "MYD03.A2022152.2000.061.2022310024630.hdf",
+            "concept_id": "G2535703658-LAADS",
+            "start": "2022-06-01T20:00:00.000Z",
+            "end": "2022-06-01T20:05:00.000Z",
+            "key": ".A2022152.2000.",
+            "reported_mb": 37.8455543518066,
+            "polygons": [
+              [
+                "52.694939 -90.097894 47.682997 -122.468187 30.855292 -112.818421 34.40212 -87.976378 52.694939 -90.097894"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022152.2000.061.2022310024630.hdf"
+            ]
+          },
+          {
+            "id": "MYD03.A2022152.2005.061.2022310024603.hdf",
+            "concept_id": "G2535703225-LAADS",
+            "start": "2022-06-01T20:05:00.000Z",
+            "end": "2022-06-01T20:10:00.000Z",
+            "key": ".A2022152.2005.",
+            "reported_mb": 38.418288230896,
+            "polygons": [
+              [
+                "70.613842 -89.433447 62.568626 -141.363865 47.677628 -122.204007 52.308228 -89.458314 70.613842 -89.433447"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022152.2005.061.2022310024603.hdf"
+            ]
+          },
+          {
+            "id": "MYD03.A2022152.2140.061.2022310024735.hdf",
+            "concept_id": "G2535703696-LAADS",
+            "start": "2022-06-01T21:40:00.000Z",
+            "end": "2022-06-01T21:45:00.000Z",
+            "key": ".A2022152.2140.",
+            "reported_mb": 33.036548614502,
+            "polygons": [
+              [
+                "56.747006 -115.013376 51.284109 -150.269788 34.725684 -139.230237 38.44597 -113.143696 56.747006 -115.013376"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022152.2140.061.2022310024735.hdf"
+            ]
+          }
+        ]
+      },
+      "MYD14": {
+        "collection": "C2278858993-LPCLOUD",
+        "version": "061",
+        "receipt": {
+          "url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C2278858993-LPCLOUD&temporal=2022-06-01T00%3A00%3A00Z%2C2022-06-01T23%3A59%3A59.999Z&bounding_box=-120%2C49%2C-110%2C55&page_size=2000",
+          "sha256": "fbc2223ad0e109ad779df8802ca81eac5ed2822b67224d99f778d95a2885e1b3",
+          "bytes": 23253,
+          "hits": 5,
+          "retrieved_utc": "2026-11-13T23:03:43.644862+00:00"
+        },
+        "granules": [
+          {
+            "id": "MYD14.A2022152.0850.061.2022152193155",
+            "concept_id": "G2298395435-LPCLOUD",
+            "start": "2022-06-01T08:50:00.000Z",
+            "end": "2022-06-01T08:55:00.000Z",
+            "key": ".A2022152.0850.",
+            "reported_mb": 0.800797,
+            "polygons": [
+              [
+                "47.979012 -115.7543717 43.849459 -85.4042595 59.6692981 -70.2096858 66.2639821 -116.1667425 47.979012 -115.7543717"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022152.0850.061.2022152193155/MYD14.A2022152.0850.061.2022152193155.hdf",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022152.0850.061.2022152193155/MYD14.A2022152.0850.061.2022152193155.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "MYD14.A2022152.1030.061.2022153122231",
+            "concept_id": "G2298395666-LPCLOUD",
+            "start": "2022-06-01T10:30:00.000Z",
+            "end": "2022-06-01T10:35:00.000Z",
+            "key": ".A2022152.1030.",
+            "reported_mb": 0.49789,
+            "polygons": [
+              [
+                "43.9575651 -140.8624896 40.1041022 -112.4402752 56.3734232 -99.5917807 62.2503711 -140.5690759 43.9575651 -140.8624896"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022152.1030.061.2022153122231/MYD14.A2022152.1030.061.2022153122231.hdf",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022152.1030.061.2022153122231/MYD14.A2022152.1030.061.2022153122231.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "MYD14.A2022152.2000.061.2022153170258",
+            "concept_id": "G2298396691-LPCLOUD",
+            "start": "2022-06-01T20:00:00.000Z",
+            "end": "2022-06-01T20:05:00.000Z",
+            "key": ".A2022152.2000.",
+            "reported_mb": 0.507186,
+            "polygons": [
+              [
+                "52.6949389 -90.0978918 47.6829964 -122.4681841 30.8552916 -112.8184184 34.4021198 -87.9763756 52.6949389 -90.0978918"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022152.2000.061.2022153170258/MYD14.A2022152.2000.061.2022153170258.hdf",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022152.2000.061.2022153170258/MYD14.A2022152.2000.061.2022153170258.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "MYD14.A2022152.2005.061.2022153170530",
+            "concept_id": "G2298395625-LPCLOUD",
+            "start": "2022-06-01T20:05:00.000Z",
+            "end": "2022-06-01T20:10:00.000Z",
+            "key": ".A2022152.2005.",
+            "reported_mb": 0.983761,
+            "polygons": [
+              [
+                "70.6138415 -89.4334437 62.5686262 -141.3638612 47.6776281 -122.2040043 52.308227 -89.4583112 70.6138415 -89.4334437"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022152.2005.061.2022153170530/MYD14.A2022152.2005.061.2022153170530.hdf",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022152.2005.061.2022153170530/MYD14.A2022152.2005.061.2022153170530.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "MYD14.A2022152.2140.061.2022153170206",
+            "concept_id": "G2298396729-LPCLOUD",
+            "start": "2022-06-01T21:40:00.000Z",
+            "end": "2022-06-01T21:45:00.000Z",
+            "key": ".A2022152.2140.",
+            "reported_mb": 0.418873,
+            "polygons": [
+              [
+                "56.7470053 -115.0133729 51.284109 -150.2697853 34.7256843 -139.2302349 38.4459694 -113.143693 56.7470053 -115.0133729"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022152.2140.061.2022153170206/MYD14.A2022152.2140.061.2022153170206.hdf",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022152.2140.061.2022153170206/MYD14.A2022152.2140.061.2022153170206.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          }
+        ]
+      },
+      "VNP03IMG": {
+        "collection": "C2105092163-LAADS",
+        "version": "2",
+        "receipt": {
+          "url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C2105092163-LAADS&temporal=2022-06-01T00%3A00%3A00Z%2C2022-06-01T23%3A59%3A59.999Z&bounding_box=-120%2C49%2C-110%2C55&page_size=2000",
+          "sha256": "6cf38c4452da0b22f4cbb22293dc468274e67bd6e72382de85dd96db969df577",
+          "bytes": 19547,
+          "hits": 7,
+          "retrieved_utc": "2026-11-13T23:03:44.008160+00:00"
+        },
+        "granules": [
+          {
+            "id": "VNP03IMG.A2022152.0824.002.2022154131533.nc",
+            "concept_id": "G2284936059-LAADS",
+            "start": "2022-06-01T08:24:00.000Z",
+            "end": "2022-06-01T08:30:00.000Z",
+            "key": ".A2022152.0824.",
+            "reported_mb": 163.927107810974,
+            "polygons": [
+              [
+                "60.23621 -55.556839 70.198792 -121.781097 49.66864 -117.309418 43.579151 -77.574326 60.23621 -55.556839"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03IMG/VNP03IMG.A2022152.0824.002.2022154131533.nc"
+            ]
+          },
+          {
+            "id": "VNP03IMG.A2022152.0830.002.2022154131057.nc",
+            "concept_id": "G2284935842-LAADS",
+            "start": "2022-06-01T08:30:00.000Z",
+            "end": "2022-06-01T08:36:00.000Z",
+            "key": ".A2022152.0830.",
+            "reported_mb": 168.231637001038,
+            "polygons": [
+              [
+                "43.691841 -77.500549 49.795547 -117.312065 28.99332 -118.685516 24.306549 -88.243027 43.691841 -77.500549"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03IMG/VNP03IMG.A2022152.0830.002.2022154131057.nc"
+            ]
+          },
+          {
+            "id": "VNP03IMG.A2022152.1006.002.2022154131059.nc",
+            "concept_id": "G2284935938-LAADS",
+            "start": "2022-06-01T10:06:00.000Z",
+            "end": "2022-06-01T10:12:00.000Z",
+            "key": ".A2022152.1006.",
+            "reported_mb": 175.202486038208,
+            "polygons": [
+              [
+                "59.100384 -83.466759 68.581688 -146.153229 47.896488 -142.746109 42.003334 -104.188324 59.100384 -83.466759"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03IMG/VNP03IMG.A2022152.1006.002.2022154131059.nc"
+            ]
+          },
+          {
+            "id": "VNP03IMG.A2022152.1148.002.2022154131059.nc",
+            "concept_id": "G2284934056-LAADS",
+            "start": "2022-06-01T11:48:00.000Z",
+            "end": "2022-06-01T11:54:00.000Z",
+            "key": ".A2022152.1148.",
+            "reported_mb": 151.744992256165,
+            "polygons": [
+              [
+                "57.847057 -111.363342 66.841911 -170.806351 46.224247 -168.133301 40.472172 -130.59053 57.847057 -111.363342"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03IMG/VNP03IMG.A2022152.1148.002.2022154131059.nc"
+            ]
+          },
+          {
+            "id": "VNP03IMG.A2022152.1818.002.2022154130855.nc",
+            "concept_id": "G2284931894-LAADS",
+            "start": "2022-06-01T18:18:00.000Z",
+            "end": "2022-06-01T18:24:00.000Z",
+            "key": ".A2022152.1818.",
+            "reported_mb": 168.120845794678,
+            "polygons": [
+              [
+                "49.822777 -106.944839 56.72411 -61.113773 77.040794 -49.985001 64.459763 -136.566528 49.822777 -106.944839"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03IMG/VNP03IMG.A2022152.1818.002.2022154130855.nc"
+            ]
+          },
+          {
+            "id": "VNP03IMG.A2022152.1954.002.2022154130939.nc",
+            "concept_id": "G2284932563-LAADS",
+            "start": "2022-06-01T19:54:00.000Z",
+            "end": "2022-06-01T20:00:00.000Z",
+            "key": ".A2022152.1954.",
+            "reported_mb": 179.960111618042,
+            "polygons": [
+              [
+                "32.816154 -119.841103 37.862061 -86.425652 58.601528 -86.23526 51.396027 -134.08847 32.816154 -119.841103"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03IMG/VNP03IMG.A2022152.1954.002.2022154130939.nc"
+            ]
+          },
+          {
+            "id": "VNP03IMG.A2022152.2136.002.2022154131641.nc",
+            "concept_id": "G2284939662-LAADS",
+            "start": "2022-06-01T21:36:00.000Z",
+            "end": "2022-06-01T21:42:00.000Z",
+            "key": ".A2022152.2136.",
+            "reported_mb": 155.466724395752,
+            "polygons": [
+              [
+                "34.373615 -146.03569 39.524437 -111.966599 60.247063 -111.374268 52.753651 -161.126694 34.373615 -146.03569"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03IMG/VNP03IMG.A2022152.2136.002.2022154131641.nc"
+            ]
+          }
+        ]
+      },
+      "VNP03MOD": {
+        "collection": "C2105092427-LAADS",
+        "version": "2",
+        "receipt": {
+          "url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C2105092427-LAADS&temporal=2022-06-01T00%3A00%3A00Z%2C2022-06-01T23%3A59%3A59.999Z&bounding_box=-120%2C49%2C-110%2C55&page_size=2000",
+          "sha256": "cc8f5e18127e4cdf85e714c85c3519a917f874a6c354731e70cee6bb15ea3319",
+          "bytes": 21004,
+          "hits": 7,
+          "retrieved_utc": "2026-11-13T23:03:44.430862+00:00"
+        },
+        "granules": [
+          {
+            "id": "VNP03MOD.A2022152.0824.002.2022154131533.nc",
+            "concept_id": "G2284936063-LAADS",
+            "start": "2022-06-01T08:24:00.000Z",
+            "end": "2022-06-01T08:30:00.000Z",
+            "key": ".A2022152.0824.",
+            "reported_mb": 51.8387889862061,
+            "polygons": [
+              [
+                "60.236588 -55.567574 70.196022 -121.767708 49.672379 -117.307938 43.584164 -77.576653 60.236588 -55.567574"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03MOD/VNP03MOD.A2022152.0824.002.2022154131533.nc"
+            ]
+          },
+          {
+            "id": "VNP03MOD.A2022152.0830.002.2022154131057.nc",
+            "concept_id": "G2284935853-LAADS",
+            "start": "2022-06-01T08:30:00.000Z",
+            "end": "2022-06-01T08:36:00.000Z",
+            "key": ".A2022152.0830.",
+            "reported_mb": 51.6891984939575,
+            "polygons": [
+              [
+                "43.690247 -77.507553 49.792034 -117.305481 28.996864 -118.681 24.311165 -88.245811 43.690247 -77.507553"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03MOD/VNP03MOD.A2022152.0830.002.2022154131057.nc"
+            ]
+          },
+          {
+            "id": "VNP03MOD.A2022152.1006.002.2022154131059.nc",
+            "concept_id": "G2284935942-LAADS",
+            "start": "2022-06-01T10:06:00.000Z",
+            "end": "2022-06-01T10:12:00.000Z",
+            "key": ".A2022152.1006.",
+            "reported_mb": 54.7705564498901,
+            "polygons": [
+              [
+                "59.100533 -83.477173 68.579849 -146.12674 47.900356 -142.740616 42.008255 -104.190598 59.100533 -83.477173"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03MOD/VNP03MOD.A2022152.1006.002.2022154131059.nc"
+            ]
+          },
+          {
+            "id": "VNP03MOD.A2022152.1148.002.2022154131059.nc",
+            "concept_id": "G2284934063-LAADS",
+            "start": "2022-06-01T11:48:00.000Z",
+            "end": "2022-06-01T11:54:00.000Z",
+            "key": ".A2022152.1148.",
+            "reported_mb": 47.5863065719604,
+            "polygons": [
+              [
+                "57.846935 -111.37326 66.838921 -170.795151 46.228092 -168.127945 40.477112 -130.593002 57.846935 -111.37326"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03MOD/VNP03MOD.A2022152.1148.002.2022154131059.nc"
+            ]
+          },
+          {
+            "id": "VNP03MOD.A2022152.1818.002.2022154130855.nc",
+            "concept_id": "G2284931919-LAADS",
+            "start": "2022-06-01T18:18:00.000Z",
+            "end": "2022-06-01T18:24:00.000Z",
+            "key": ".A2022152.1818.",
+            "reported_mb": 53.4416532516479,
+            "polygons": [
+              [
+                "49.827824 -106.943237 56.728168 -61.119968 77.038773 -50.006817 64.461723 -136.554184 49.827824 -106.943237"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03MOD/VNP03MOD.A2022152.1818.002.2022154130855.nc"
+            ]
+          },
+          {
+            "id": "VNP03MOD.A2022152.1954.002.2022154130939.nc",
+            "concept_id": "G2284932585-LAADS",
+            "start": "2022-06-01T19:54:00.000Z",
+            "end": "2022-06-01T20:00:00.000Z",
+            "key": ".A2022152.1954.",
+            "reported_mb": 56.1575765609741,
+            "polygons": [
+              [
+                "32.820953 -119.838387 37.865749 -86.430733 58.598228 -86.243355 51.395046 -134.080139 32.820953 -119.838387"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03MOD/VNP03MOD.A2022152.1954.002.2022154130939.nc"
+            ]
+          },
+          {
+            "id": "VNP03MOD.A2022152.2136.002.2022154131641.nc",
+            "concept_id": "G2284939668-LAADS",
+            "start": "2022-06-01T21:36:00.000Z",
+            "end": "2022-06-01T21:42:00.000Z",
+            "key": ".A2022152.2136.",
+            "reported_mb": 48.8113718032837,
+            "polygons": [
+              [
+                "34.378437 -146.03299 39.528156 -111.973373 60.24382 -111.382889 52.752815 -161.118042 34.378437 -146.03299"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03MOD/VNP03MOD.A2022152.2136.002.2022154131641.nc"
+            ]
+          }
+        ]
+      },
+      "VNP14": {
+        "collection": "C2545314536-LPCLOUD",
+        "version": "002",
+        "receipt": {
+          "url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C2545314536-LPCLOUD&temporal=2022-06-01T00%3A00%3A00Z%2C2022-06-01T23%3A59%3A59.999Z&bounding_box=-120%2C49%2C-110%2C55&page_size=2000",
+          "sha256": "4805ac7f12ef12eed6b945e9d0ce82b784a5d2ea4c635b3c61bf488a7934b1b5",
+          "bytes": 37215,
+          "hits": 7,
+          "retrieved_utc": "2026-11-13T23:03:44.903415+00:00"
+        },
+        "granules": [
+          {
+            "id": "VNP14.A2022152.0824.002.2023030092946",
+            "concept_id": "G2614644203-LPCLOUD",
+            "start": "2022-06-01T08:24:00.000Z",
+            "end": "2022-06-01T08:30:00.000Z",
+            "key": ".A2022152.0824.",
+            "reported_mb": 2.24056,
+            "polygons": [
+              [
+                "60.2365875 -55.5675735 70.196022 -121.7677078 49.6723785 -117.3079376 43.5841637 -77.5766525 60.2365875 -55.5675735"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.0824.002.2023030092946/VNP14.A2022152.0824.002.2023030092946.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.0824.002.2023030092946/VNP14.A2022152.0824.002.2023030092946.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.0824.002.2023030092946/VNP14.A2022152.0824.002.2023030092946.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14.A2022152.0830.002.2023030092949",
+            "concept_id": "G2614643203-LPCLOUD",
+            "start": "2022-06-01T08:30:00.000Z",
+            "end": "2022-06-01T08:36:00.000Z",
+            "key": ".A2022152.0830.",
+            "reported_mb": 0.758936,
+            "polygons": [
+              [
+                "43.6902466 -77.5075531 49.7920341 -117.305481 28.9968643 -118.6809998 24.3111649 -88.2458115 43.6902466 -77.5075531"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.0830.002.2023030092949/VNP14.A2022152.0830.002.2023030092949.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.0830.002.2023030092949/VNP14.A2022152.0830.002.2023030092949.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.0830.002.2023030092949/VNP14.A2022152.0830.002.2023030092949.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14.A2022152.1006.002.2023030092948",
+            "concept_id": "G2614643872-LPCLOUD",
+            "start": "2022-06-01T10:06:00.000Z",
+            "end": "2022-06-01T10:12:00.000Z",
+            "key": ".A2022152.1006.",
+            "reported_mb": 1.74399,
+            "polygons": [
+              [
+                "59.1005325 -83.4771729 68.5798492 -146.1267395 47.9003563 -142.7406158 42.008255 -104.1905975 59.1005325 -83.4771729"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.1006.002.2023030092948/VNP14.A2022152.1006.002.2023030092948.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.1006.002.2023030092948/VNP14.A2022152.1006.002.2023030092948.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.1006.002.2023030092948/VNP14.A2022152.1006.002.2023030092948.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14.A2022152.1148.002.2023030092949",
+            "concept_id": "G2614643565-LPCLOUD",
+            "start": "2022-06-01T11:48:00.000Z",
+            "end": "2022-06-01T11:54:00.000Z",
+            "key": ".A2022152.1148.",
+            "reported_mb": 0.871514,
+            "polygons": [
+              [
+                "57.8469353 -111.3732605 66.8389206 -170.7951508 46.2280922 -168.1279449 40.4771118 -130.5930023 57.8469353 -111.3732605"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.1148.002.2023030092949/VNP14.A2022152.1148.002.2023030092949.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.1148.002.2023030092949/VNP14.A2022152.1148.002.2023030092949.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.1148.002.2023030092949/VNP14.A2022152.1148.002.2023030092949.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14.A2022152.1818.002.2023030092949",
+            "concept_id": "G2614643266-LPCLOUD",
+            "start": "2022-06-01T18:18:00.000Z",
+            "end": "2022-06-01T18:24:00.000Z",
+            "key": ".A2022152.1818.",
+            "reported_mb": 2.01929,
+            "polygons": [
+              [
+                "49.8278236 -106.9432373 56.7281685 -61.1199684 77.0387726 -50.0068169 64.4617233 -136.554184 49.8278236 -106.9432373"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.1818.002.2023030092949/VNP14.A2022152.1818.002.2023030092949.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.1818.002.2023030092949/VNP14.A2022152.1818.002.2023030092949.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.1818.002.2023030092949/VNP14.A2022152.1818.002.2023030092949.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14.A2022152.1954.002.2023030092946",
+            "concept_id": "G2615335720-LPCLOUD",
+            "start": "2022-06-01T19:54:00.000Z",
+            "end": "2022-06-01T20:00:00.000Z",
+            "key": ".A2022152.1954.",
+            "reported_mb": 1.51404,
+            "polygons": [
+              [
+                "32.8209534 -119.8383865 37.8657494 -86.4307327 58.5982285 -86.2433548 51.3950462 -134.0801392 32.8209534 -119.8383865"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.1954.002.2023030092946/VNP14.A2022152.1954.002.2023030092946.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.1954.002.2023030092946/VNP14.A2022152.1954.002.2023030092946.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.1954.002.2023030092946/VNP14.A2022152.1954.002.2023030092946.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14.A2022152.2136.002.2023030092946",
+            "concept_id": "G2617220360-LPCLOUD",
+            "start": "2022-06-01T21:36:00.000Z",
+            "end": "2022-06-01T21:42:00.000Z",
+            "key": ".A2022152.2136.",
+            "reported_mb": 1.02522,
+            "polygons": [
+              [
+                "34.378437 -146.0329895 39.5281563 -111.9733734 60.2438202 -111.3828888 52.7528152 -161.118042 34.378437 -146.0329895"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.2136.002.2023030092946/VNP14.A2022152.2136.002.2023030092946.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.2136.002.2023030092946/VNP14.A2022152.2136.002.2023030092946.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.2136.002.2023030092946/VNP14.A2022152.2136.002.2023030092946.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          }
+        ]
+      },
+      "VNP14IMG": {
+        "collection": "C2734202914-LPCLOUD",
+        "version": "002",
+        "receipt": {
+          "url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C2734202914-LPCLOUD&temporal=2022-06-01T00%3A00%3A00Z%2C2022-06-01T23%3A59%3A59.999Z&bounding_box=-120%2C49%2C-110%2C55&page_size=2000",
+          "sha256": "9d9d686a846dfa01722d80600739eea2c67a7435e63eb7e2ce592374777e2686",
+          "bytes": 37906,
+          "hits": 7,
+          "retrieved_utc": "2026-11-13T23:03:45.387716+00:00"
+        },
+        "granules": [
+          {
+            "id": "VNP14IMG.A2022152.0824.002.2024076112657",
+            "concept_id": "G2920669924-LPCLOUD",
+            "start": "2022-06-01T08:24:00.000Z",
+            "end": "2022-06-01T08:30:00.000Z",
+            "key": ".A2022152.0824.",
+            "reported_mb": 1.70001697540283,
+            "polygons": [
+              [
+                "60.2365875 -55.5675735 70.196022 -121.7677078 49.6723785 -117.3079376 43.5841637 -77.5766525 60.2365875 -55.5675735"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.0824.002.2024076112657/VNP14IMG.A2022152.0824.002.2024076112657.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.0824.002.2024076112657/VNP14IMG.A2022152.0824.002.2024076112657.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.0824.002.2024076112657/VNP14IMG.A2022152.0824.002.2024076112657.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14IMG.A2022152.0830.002.2024076112654",
+            "concept_id": "G2920670644-LPCLOUD",
+            "start": "2022-06-01T08:30:00.000Z",
+            "end": "2022-06-01T08:36:00.000Z",
+            "key": ".A2022152.0830.",
+            "reported_mb": 1.39770889282227,
+            "polygons": [
+              [
+                "43.6902466 -77.5075531 49.7920341 -117.305481 28.9968643 -118.6809998 24.3111649 -88.2458115 43.6902466 -77.5075531"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.0830.002.2024076112654/VNP14IMG.A2022152.0830.002.2024076112654.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.0830.002.2024076112654/VNP14IMG.A2022152.0830.002.2024076112654.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.0830.002.2024076112654/VNP14IMG.A2022152.0830.002.2024076112654.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14IMG.A2022152.1006.002.2024076112657",
+            "concept_id": "G2920670782-LPCLOUD",
+            "start": "2022-06-01T10:06:00.000Z",
+            "end": "2022-06-01T10:12:00.000Z",
+            "key": ".A2022152.1006.",
+            "reported_mb": 1.66360950469971,
+            "polygons": [
+              [
+                "59.1005325 -83.4771729 68.5798492 -146.1267395 47.9003563 -142.7406158 42.008255 -104.1905975 59.1005325 -83.4771729"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.1006.002.2024076112657/VNP14IMG.A2022152.1006.002.2024076112657.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.1006.002.2024076112657/VNP14IMG.A2022152.1006.002.2024076112657.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.1006.002.2024076112657/VNP14IMG.A2022152.1006.002.2024076112657.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14IMG.A2022152.1148.002.2024076112655",
+            "concept_id": "G2920666283-LPCLOUD",
+            "start": "2022-06-01T11:48:00.000Z",
+            "end": "2022-06-01T11:54:00.000Z",
+            "key": ".A2022152.1148.",
+            "reported_mb": 1.49354076385498,
+            "polygons": [
+              [
+                "57.8469353 -111.3732605 66.8389206 -170.7951508 46.2280922 -168.1279449 40.4771118 -130.5930023 57.8469353 -111.3732605"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.1148.002.2024076112655/VNP14IMG.A2022152.1148.002.2024076112655.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.1148.002.2024076112655/VNP14IMG.A2022152.1148.002.2024076112655.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.1148.002.2024076112655/VNP14IMG.A2022152.1148.002.2024076112655.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14IMG.A2022152.1818.002.2024076112654",
+            "concept_id": "G2920670668-LPCLOUD",
+            "start": "2022-06-01T18:18:00.000Z",
+            "end": "2022-06-01T18:24:00.000Z",
+            "key": ".A2022152.1818.",
+            "reported_mb": 1.49697399139404,
+            "polygons": [
+              [
+                "49.8278236 -106.9432373 56.7281685 -61.1199684 77.0387726 -50.0068169 64.4617233 -136.554184 49.8278236 -106.9432373"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.1818.002.2024076112654/VNP14IMG.A2022152.1818.002.2024076112654.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.1818.002.2024076112654/VNP14IMG.A2022152.1818.002.2024076112654.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.1818.002.2024076112654/VNP14IMG.A2022152.1818.002.2024076112654.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14IMG.A2022152.1954.002.2024076112652",
+            "concept_id": "G2920670824-LPCLOUD",
+            "start": "2022-06-01T19:54:00.000Z",
+            "end": "2022-06-01T20:00:00.000Z",
+            "key": ".A2022152.1954.",
+            "reported_mb": 3.64542579650879,
+            "polygons": [
+              [
+                "32.8209534 -119.8383865 37.8657494 -86.4307327 58.5982285 -86.2433548 51.3950462 -134.0801392 32.8209534 -119.8383865"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.1954.002.2024076112652/VNP14IMG.A2022152.1954.002.2024076112652.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.1954.002.2024076112652/VNP14IMG.A2022152.1954.002.2024076112652.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.1954.002.2024076112652/VNP14IMG.A2022152.1954.002.2024076112652.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14IMG.A2022152.2136.002.2024076112656",
+            "concept_id": "G2920670733-LPCLOUD",
+            "start": "2022-06-01T21:36:00.000Z",
+            "end": "2022-06-01T21:42:00.000Z",
+            "key": ".A2022152.2136.",
+            "reported_mb": 2.16937828063965,
+            "polygons": [
+              [
+                "34.378437 -146.0329895 39.5281563 -111.9733734 60.2438202 -111.3828888 52.7528152 -161.118042 34.378437 -146.0329895"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.2136.002.2024076112656/VNP14IMG.A2022152.2136.002.2024076112656.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.2136.002.2024076112656/VNP14IMG.A2022152.2136.002.2024076112656.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022152.2136.002.2024076112656/VNP14IMG.A2022152.2136.002.2024076112656.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          }
+        ]
+      }
+    },
+    "2022-06-08": {
+      "MYD03": {
+        "collection": "C1379841358-LAADS",
+        "version": "6.1",
+        "receipt": {
+          "url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C1379841358-LAADS&temporal=2022-06-08T00%3A00%3A00Z%2C2022-06-08T23%3A59%3A59.999Z&bounding_box=-120%2C49%2C-110%2C55&page_size=2000",
+          "sha256": "046558fbf5829c44c227f61c67fbc531ea61fb13c7acb9e65d65a94802fbc077",
+          "bytes": 12392,
+          "hits": 5,
+          "retrieved_utc": "2026-11-13T23:03:53.594457+00:00"
+        },
+        "granules": [
+          {
+            "id": "MYD03.A2022159.0855.061.2022310232543.hdf",
+            "concept_id": "G2536298568-LAADS",
+            "start": "2022-06-08T08:55:00.000Z",
+            "end": "2022-06-08T09:00:00.000Z",
+            "key": ".A2022159.0855.",
+            "reported_mb": 32.6949901580811,
+            "polygons": [
+              [
+                "47.746137 -116.987287 43.636367 -86.757672 59.487345 -71.717206 66.032777 -117.357537 47.746137 -116.987287"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022159.0855.061.2022310232543.hdf"
+            ]
+          },
+          {
+            "id": "MYD03.A2022159.1035.061.2022310232449.hdf",
+            "concept_id": "G2536297653-LAADS",
+            "start": "2022-06-08T10:35:00.000Z",
+            "end": "2022-06-08T10:40:00.000Z",
+            "key": ".A2022159.1035.",
+            "reported_mb": 37.2707977294922,
+            "polygons": [
+              [
+                "43.725017 -142.089287 39.886209 -113.775773 56.178549 -101.049343 62.015556 -141.760917 43.725017 -142.089287"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022159.1035.061.2022310232449.hdf"
+            ]
+          },
+          {
+            "id": "MYD03.A2022159.2005.061.2022310232429.hdf",
+            "concept_id": "G2536297669-LAADS",
+            "start": "2022-06-08T20:05:00.000Z",
+            "end": "2022-06-08T20:10:00.000Z",
+            "key": ".A2022159.2005.",
+            "reported_mb": 38.3838768005371,
+            "polygons": [
+              [
+                "52.940339 -91.314614 47.901259 -123.849133 31.089788 -114.123622 34.647947 -89.20741 52.940339 -91.314614"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022159.2005.061.2022310232429.hdf"
+            ]
+          },
+          {
+            "id": "MYD03.A2022159.2010.061.2022310232421.hdf",
+            "concept_id": "G2536297529-LAADS",
+            "start": "2022-06-08T20:10:00.000Z",
+            "end": "2022-06-08T20:15:00.000Z",
+            "key": ".A2022159.2010.",
+            "reported_mb": 38.9007587432861,
+            "polygons": [
+              [
+                "70.856183 -90.572871 62.749004 -142.937508 47.902102 -123.568902 52.548802 -90.665942 70.856183 -90.572871"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022159.2010.061.2022310232421.hdf"
+            ]
+          },
+          {
+            "id": "MYD03.A2022159.2145.061.2022310232530.hdf",
+            "concept_id": "G2536298606-LAADS",
+            "start": "2022-06-08T21:45:00.000Z",
+            "end": "2022-06-08T21:50:00.000Z",
+            "key": ".A2022159.2145.",
+            "reported_mb": 32.274374961853,
+            "polygons": [
+              [
+                "56.994211 -116.225931 51.498544 -151.680305 34.959919 -140.54613 38.69334 -114.37357 56.994211 -116.225931"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022159.2145.061.2022310232530.hdf"
+            ]
+          }
+        ]
+      },
+      "MYD14": {
+        "collection": "C2278858993-LPCLOUD",
+        "version": "061",
+        "receipt": {
+          "url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C2278858993-LPCLOUD&temporal=2022-06-08T00%3A00%3A00Z%2C2022-06-08T23%3A59%3A59.999Z&bounding_box=-120%2C49%2C-110%2C55&page_size=2000",
+          "sha256": "355a3d2970117dc21764df55712d950b24022ee570559624ece9211940153af4",
+          "bytes": 23254,
+          "hits": 5,
+          "retrieved_utc": "2026-11-13T23:03:54.049820+00:00"
+        },
+        "granules": [
+          {
+            "id": "MYD14.A2022159.0855.061.2022159153921",
+            "concept_id": "G2298401592-LPCLOUD",
+            "start": "2022-06-08T08:55:00.000Z",
+            "end": "2022-06-08T09:00:00.000Z",
+            "key": ".A2022159.0855.",
+            "reported_mb": 0.893404,
+            "polygons": [
+              [
+                "47.7461286 -116.9872221 43.6363417 -86.7576238 59.4873127 -71.7171525 66.0327649 -117.3574334 47.7461286 -116.9872221"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022159.0855.061.2022159153921/MYD14.A2022159.0855.061.2022159153921.hdf",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022159.0855.061.2022159153921/MYD14.A2022159.0855.061.2022159153921.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "MYD14.A2022159.1035.061.2022160111758",
+            "concept_id": "G2298401760-LPCLOUD",
+            "start": "2022-06-08T10:35:00.000Z",
+            "end": "2022-06-08T10:40:00.000Z",
+            "key": ".A2022159.1035.",
+            "reported_mb": 0.47446,
+            "polygons": [
+              [
+                "43.7250065 -142.0892267 39.886184 -113.7757223 56.1785173 -101.0492849 62.0155435 -141.7608261 43.7250065 -142.0892267"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022159.1035.061.2022160111758/MYD14.A2022159.1035.061.2022160111758.hdf",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022159.1035.061.2022160111758/MYD14.A2022159.1035.061.2022160111758.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "MYD14.A2022159.2005.061.2022160113731",
+            "concept_id": "G2298401488-LPCLOUD",
+            "start": "2022-06-08T20:05:00.000Z",
+            "end": "2022-06-08T20:10:00.000Z",
+            "key": ".A2022159.2005.",
+            "reported_mb": 0.502471,
+            "polygons": [
+              [
+                "52.9403492 -91.3146868 47.9012503 -123.8491963 31.089783 -114.1236709 34.6479564 -89.2074611 52.9403492 -91.3146868"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022159.2005.061.2022160113731/MYD14.A2022159.2005.061.2022160113731.hdf",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022159.2005.061.2022160113731/MYD14.A2022159.2005.061.2022160113731.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "MYD14.A2022159.2010.061.2022160114256",
+            "concept_id": "G2298402029-LPCLOUD",
+            "start": "2022-06-08T20:10:00.000Z",
+            "end": "2022-06-08T20:15:00.000Z",
+            "key": ".A2022159.2010.",
+            "reported_mb": 1.02759,
+            "polygons": [
+              [
+                "70.8561975 -90.5730054 62.7489807 -142.9375926 47.9020912 -123.568965 52.5488142 -90.6660124 70.8561975 -90.5730054"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022159.2010.061.2022160114256/MYD14.A2022159.2010.061.2022160114256.hdf",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022159.2010.061.2022160114256/MYD14.A2022159.2010.061.2022160114256.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "MYD14.A2022159.2145.061.2022160113417",
+            "concept_id": "G2298401643-LPCLOUD",
+            "start": "2022-06-08T21:45:00.000Z",
+            "end": "2022-06-08T21:50:00.000Z",
+            "key": ".A2022159.2145.",
+            "reported_mb": 0.394921,
+            "polygons": [
+              [
+                "56.9942218 -116.2260114 51.4985327 -151.6803737 34.9599135 -140.5461823 38.6933495 -114.3736238 56.9942218 -116.2260114"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022159.2145.061.2022160113417/MYD14.A2022159.2145.061.2022160113417.hdf",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022159.2145.061.2022160113417/MYD14.A2022159.2145.061.2022160113417.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          }
+        ]
+      },
+      "VNP03IMG": {
+        "collection": "C2105092163-LAADS",
+        "version": "2",
+        "receipt": {
+          "url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C2105092163-LAADS&temporal=2022-06-08T00%3A00%3A00Z%2C2022-06-08T23%3A59%3A59.999Z&bounding_box=-120%2C49%2C-110%2C55&page_size=2000",
+          "sha256": "0369bd8b089212ec87d5cef60caa7a11c2e36fc8cde0fe4bbf826e0cd8fe4ea0",
+          "bytes": 16802,
+          "hits": 6,
+          "retrieved_utc": "2026-11-13T23:03:54.422315+00:00"
+        },
+        "granules": [
+          {
+            "id": "VNP03IMG.A2022159.0754.002.2022161194709.nc",
+            "concept_id": "G2289448441-LAADS",
+            "start": "2022-06-08T07:54:00.000Z",
+            "end": "2022-06-08T08:00:00.000Z",
+            "key": ".A2022159.0754.",
+            "reported_mb": 166.026264190674,
+            "polygons": [
+              [
+                "56.384087 -55.272881 64.912277 -111.459755 44.258331 -109.497246 38.676407 -73.129211 56.384087 -55.272881"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03IMG/VNP03IMG.A2022159.0754.002.2022161194709.nc"
+            ]
+          },
+          {
+            "id": "VNP03IMG.A2022159.0936.002.2022161181020.nc",
+            "concept_id": "G2289407123-LAADS",
+            "start": "2022-06-08T09:36:00.000Z",
+            "end": "2022-06-08T09:42:00.000Z",
+            "key": ".A2022159.0936.",
+            "reported_mb": 175.354125022888,
+            "polygons": [
+              [
+                "55.116882 -82.656883 63.280609 -136.325897 42.495407 -135.010956 37.05822 -99.523933 55.116882 -82.656883"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03IMG/VNP03IMG.A2022159.0936.002.2022161181020.nc"
+            ]
+          },
+          {
+            "id": "VNP03IMG.A2022159.1112.002.2022161194840.nc",
+            "concept_id": "G2289448738-LAADS",
+            "start": "2022-06-08T11:12:00.000Z",
+            "end": "2022-06-08T11:18:00.000Z",
+            "key": ".A2022159.1112.",
+            "reported_mb": 166.151606559753,
+            "polygons": [
+              [
+                "66.229736 -74.818985 81.065536 176.643372 61.407616 -161.306061 53.63604 -110.168228 66.229736 -74.818985"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03IMG/VNP03IMG.A2022159.1112.002.2022161194840.nc"
+            ]
+          },
+          {
+            "id": "VNP03IMG.A2022159.1118.002.2022161194852.nc",
+            "concept_id": "G2289448103-LAADS",
+            "start": "2022-06-08T11:18:00.000Z",
+            "end": "2022-06-08T11:24:00.000Z",
+            "key": ".A2022159.1118.",
+            "reported_mb": 144.746207237244,
+            "polygons": [
+              [
+                "53.739414 -110.049446 61.534901 -161.345657 40.830254 -160.468567 35.507957 -125.782539 53.739414 -110.049446"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03IMG/VNP03IMG.A2022159.1118.002.2022161194852.nc"
+            ]
+          },
+          {
+            "id": "VNP03IMG.A2022159.1924.002.2022161201224.nc",
+            "concept_id": "G2289458531-LAADS",
+            "start": "2022-06-08T19:24:00.000Z",
+            "end": "2022-06-08T19:30:00.000Z",
+            "key": ".A2022159.1924.",
+            "reported_mb": 175.79518032074,
+            "polygons": [
+              [
+                "37.825016 -114.720116 43.229839 -78.849167 63.901001 -77.263596 55.679028 -131.989792 37.825016 -114.720116"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03IMG/VNP03IMG.A2022159.1924.002.2022161201224.nc"
+            ]
+          },
+          {
+            "id": "VNP03IMG.A2022159.2106.002.2022161201438.nc",
+            "concept_id": "G2289458694-LAADS",
+            "start": "2022-06-08T21:06:00.000Z",
+            "end": "2022-06-08T21:12:00.000Z",
+            "key": ".A2022159.2106.",
+            "reported_mb": 166.892142295837,
+            "polygons": [
+              [
+                "39.336235 -141.101181 44.890579 -104.330612 65.636063 -102.101883 57.006542 -159.572281 39.336235 -141.101181"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03IMG/VNP03IMG.A2022159.2106.002.2022161201438.nc"
+            ]
+          }
+        ]
+      },
+      "VNP03MOD": {
+        "collection": "C2105092427-LAADS",
+        "version": "2",
+        "receipt": {
+          "url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C2105092427-LAADS&temporal=2022-06-08T00%3A00%3A00Z%2C2022-06-08T23%3A59%3A59.999Z&bounding_box=-120%2C49%2C-110%2C55&page_size=2000",
+          "sha256": "d76c2826000176d92047f51049465d753a38d5ae11b875402ecd6a7c34841da9",
+          "bytes": 18042,
+          "hits": 6,
+          "retrieved_utc": "2026-11-13T23:03:54.825423+00:00"
+        },
+        "granules": [
+          {
+            "id": "VNP03MOD.A2022159.0754.002.2022161194709.nc",
+            "concept_id": "G2289448446-LAADS",
+            "start": "2022-06-08T07:54:00.000Z",
+            "end": "2022-06-08T08:00:00.000Z",
+            "key": ".A2022159.0754.",
+            "reported_mb": 52.0824241638184,
+            "polygons": [
+              [
+                "56.38377 -55.28252 64.90921 -111.4496 44.262142 -109.49115 38.681316 -73.131744 56.38377 -55.28252"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03MOD/VNP03MOD.A2022159.0754.002.2022161194709.nc"
+            ]
+          },
+          {
+            "id": "VNP03MOD.A2022159.0936.002.2022161181020.nc",
+            "concept_id": "G2289407130-LAADS",
+            "start": "2022-06-08T09:36:00.000Z",
+            "end": "2022-06-08T09:42:00.000Z",
+            "key": ".A2022159.0936.",
+            "reported_mb": 54.3978404998779,
+            "polygons": [
+              [
+                "55.116371 -82.666153 63.277298 -136.319153 42.499184 -135.005829 37.063129 -99.526634 55.116371 -82.666153"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03MOD/VNP03MOD.A2022159.0936.002.2022161181020.nc"
+            ]
+          },
+          {
+            "id": "VNP03MOD.A2022159.1112.002.2022161194840.nc",
+            "concept_id": "G2289448740-LAADS",
+            "start": "2022-06-08T11:12:00.000Z",
+            "end": "2022-06-08T11:18:00.000Z",
+            "key": ".A2022159.1112.",
+            "reported_mb": 52.6052856445312,
+            "polygons": [
+              [
+                "66.232208 -74.83078 81.064674 176.677246 61.411816 -161.299088 53.641201 -110.169357 66.232208 -74.83078"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03MOD/VNP03MOD.A2022159.1112.002.2022161194840.nc"
+            ]
+          },
+          {
+            "id": "VNP03MOD.A2022159.1118.002.2022161194852.nc",
+            "concept_id": "G2289448106-LAADS",
+            "start": "2022-06-08T11:18:00.000Z",
+            "end": "2022-06-08T11:24:00.000Z",
+            "key": ".A2022159.1118.",
+            "reported_mb": 45.3682374954224,
+            "polygons": [
+              [
+                "53.738724 -110.058365 61.531666 -161.337036 40.833996 -160.463547 35.512794 -125.785149 53.738724 -110.058365"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03MOD/VNP03MOD.A2022159.1118.002.2022161194852.nc"
+            ]
+          },
+          {
+            "id": "VNP03MOD.A2022159.1924.002.2022161201224.nc",
+            "concept_id": "G2289458548-LAADS",
+            "start": "2022-06-08T19:24:00.000Z",
+            "end": "2022-06-08T19:30:00.000Z",
+            "key": ".A2022159.1924.",
+            "reported_mb": 55.2189569473267,
+            "polygons": [
+              [
+                "37.829933 -114.717415 43.233616 -78.854172 63.897888 -77.273567 55.679073 -131.97934 37.829933 -114.717415"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03MOD/VNP03MOD.A2022159.1924.002.2022161201224.nc"
+            ]
+          },
+          {
+            "id": "VNP03MOD.A2022159.2106.002.2022161201438.nc",
+            "concept_id": "G2289458700-LAADS",
+            "start": "2022-06-08T21:06:00.000Z",
+            "end": "2022-06-08T21:12:00.000Z",
+            "key": ".A2022159.2106.",
+            "reported_mb": 52.4313278198242,
+            "polygons": [
+              [
+                "39.341171 -141.098602 44.894379 -104.335831 65.633034 -102.112595 57.006283 -159.562561 39.341171 -141.098602"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03MOD/VNP03MOD.A2022159.2106.002.2022161201438.nc"
+            ]
+          }
+        ]
+      },
+      "VNP14": {
+        "collection": "C2545314536-LPCLOUD",
+        "version": "002",
+        "receipt": {
+          "url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C2545314536-LPCLOUD&temporal=2022-06-08T00%3A00%3A00Z%2C2022-06-08T23%3A59%3A59.999Z&bounding_box=-120%2C49%2C-110%2C55&page_size=2000",
+          "sha256": "0582ca92b6b3d951e7cdc46ca1673fce26c3909e4252b1b35f1a9ea53ba411d4",
+          "bytes": 31933,
+          "hits": 6,
+          "retrieved_utc": "2026-11-13T23:03:55.387040+00:00"
+        },
+        "granules": [
+          {
+            "id": "VNP14.A2022159.0754.002.2023030105148",
+            "concept_id": "G2615333187-LPCLOUD",
+            "start": "2022-06-08T07:54:00.000Z",
+            "end": "2022-06-08T08:00:00.000Z",
+            "key": ".A2022159.0754.",
+            "reported_mb": 2.19287,
+            "polygons": [
+              [
+                "56.38377 -55.2825203 64.9092102 -111.4496002 44.2621422 -109.4911499 38.6813164 -73.1317444 56.38377 -55.2825203"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.0754.002.2023030105148/VNP14.A2022159.0754.002.2023030105148.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.0754.002.2023030105148/VNP14.A2022159.0754.002.2023030105148.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.0754.002.2023030105148/VNP14.A2022159.0754.002.2023030105148.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14.A2022159.0936.002.2023030105146",
+            "concept_id": "G2614719597-LPCLOUD",
+            "start": "2022-06-08T09:36:00.000Z",
+            "end": "2022-06-08T09:42:00.000Z",
+            "key": ".A2022159.0936.",
+            "reported_mb": 1.54179,
+            "polygons": [
+              [
+                "55.1163712 -82.666153 63.277298 -136.3191528 42.4991837 -135.0058289 37.0631294 -99.5266342 55.1163712 -82.666153"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.0936.002.2023030105146/VNP14.A2022159.0936.002.2023030105146.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.0936.002.2023030105146/VNP14.A2022159.0936.002.2023030105146.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.0936.002.2023030105146/VNP14.A2022159.0936.002.2023030105146.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14.A2022159.1112.002.2023030105149",
+            "concept_id": "G2614719730-LPCLOUD",
+            "start": "2022-06-08T11:12:00.000Z",
+            "end": "2022-06-08T11:18:00.000Z",
+            "key": ".A2022159.1112.",
+            "reported_mb": 1.82458,
+            "polygons": [
+              [
+                "66.2322083 -74.83078 81.0646744 176.6772461 61.4118156 -161.2990875 53.641201 -110.1693573 66.2322083 -74.83078"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.1112.002.2023030105149/VNP14.A2022159.1112.002.2023030105149.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.1112.002.2023030105149/VNP14.A2022159.1112.002.2023030105149.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.1112.002.2023030105149/VNP14.A2022159.1112.002.2023030105149.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14.A2022159.1118.002.2023030105149",
+            "concept_id": "G2614719651-LPCLOUD",
+            "start": "2022-06-08T11:18:00.000Z",
+            "end": "2022-06-08T11:24:00.000Z",
+            "key": ".A2022159.1118.",
+            "reported_mb": 0.736932,
+            "polygons": [
+              [
+                "53.7387238 -110.0583649 61.5316658 -161.3370361 40.8339958 -160.4635468 35.5127945 -125.7851486 53.7387238 -110.0583649"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.1118.002.2023030105149/VNP14.A2022159.1118.002.2023030105149.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.1118.002.2023030105149/VNP14.A2022159.1118.002.2023030105149.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.1118.002.2023030105149/VNP14.A2022159.1118.002.2023030105149.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14.A2022159.1924.002.2023030105148",
+            "concept_id": "G2614719632-LPCLOUD",
+            "start": "2022-06-08T19:24:00.000Z",
+            "end": "2022-06-08T19:30:00.000Z",
+            "key": ".A2022159.1924.",
+            "reported_mb": 2.09636,
+            "polygons": [
+              [
+                "37.8299332 -114.7174149 43.2336159 -78.8541718 63.8978882 -77.2735672 55.6790733 -131.9793396 37.8299332 -114.7174149"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.1924.002.2023030105148/VNP14.A2022159.1924.002.2023030105148.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.1924.002.2023030105148/VNP14.A2022159.1924.002.2023030105148.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.1924.002.2023030105148/VNP14.A2022159.1924.002.2023030105148.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14.A2022159.2106.002.2023030105145",
+            "concept_id": "G2614719844-LPCLOUD",
+            "start": "2022-06-08T21:06:00.000Z",
+            "end": "2022-06-08T21:12:00.000Z",
+            "key": ".A2022159.2106.",
+            "reported_mb": 1.52474,
+            "polygons": [
+              [
+                "39.3411713 -141.0986023 44.8943787 -104.3358307 65.6330338 -102.1125946 57.0062828 -159.562561 39.3411713 -141.0986023"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.2106.002.2023030105145/VNP14.A2022159.2106.002.2023030105145.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.2106.002.2023030105145/VNP14.A2022159.2106.002.2023030105145.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.2106.002.2023030105145/VNP14.A2022159.2106.002.2023030105145.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          }
+        ]
+      },
+      "VNP14IMG": {
+        "collection": "C2734202914-LPCLOUD",
+        "version": "002",
+        "receipt": {
+          "url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C2734202914-LPCLOUD&temporal=2022-06-08T00%3A00%3A00Z%2C2022-06-08T23%3A59%3A59.999Z&bounding_box=-120%2C49%2C-110%2C55&page_size=2000",
+          "sha256": "96dce068149ac3ee899e4d6af71263f1f29302abc9a292b7ca2f269670fd4f3b",
+          "bytes": 32526,
+          "hits": 6,
+          "retrieved_utc": "2026-11-13T23:03:55.834195+00:00"
+        },
+        "granules": [
+          {
+            "id": "VNP14IMG.A2022159.0754.002.2024076123321",
+            "concept_id": "G2920709185-LPCLOUD",
+            "start": "2022-06-08T07:54:00.000Z",
+            "end": "2022-06-08T08:00:00.000Z",
+            "key": ".A2022159.0754.",
+            "reported_mb": 2.02989864349365,
+            "polygons": [
+              [
+                "56.38377 -55.2825203 64.9092102 -111.4496002 44.2621422 -109.4911499 38.6813164 -73.1317444 56.38377 -55.2825203"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022159.0754.002.2024076123321/VNP14IMG.A2022159.0754.002.2024076123321.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022159.0754.002.2024076123321/VNP14IMG.A2022159.0754.002.2024076123321.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022159.0754.002.2024076123321/VNP14IMG.A2022159.0754.002.2024076123321.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14IMG.A2022159.0936.002.2024076123322",
+            "concept_id": "G2920709208-LPCLOUD",
+            "start": "2022-06-08T09:36:00.000Z",
+            "end": "2022-06-08T09:42:00.000Z",
+            "key": ".A2022159.0936.",
+            "reported_mb": 1.72968006134033,
+            "polygons": [
+              [
+                "55.1163712 -82.666153 63.277298 -136.3191528 42.4991837 -135.0058289 37.0631294 -99.5266342 55.1163712 -82.666153"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022159.0936.002.2024076123322/VNP14IMG.A2022159.0936.002.2024076123322.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022159.0936.002.2024076123322/VNP14IMG.A2022159.0936.002.2024076123322.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022159.0936.002.2024076123322/VNP14IMG.A2022159.0936.002.2024076123322.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14IMG.A2022159.1112.002.2024076123319",
+            "concept_id": "G2920708856-LPCLOUD",
+            "start": "2022-06-08T11:12:00.000Z",
+            "end": "2022-06-08T11:18:00.000Z",
+            "key": ".A2022159.1112.",
+            "reported_mb": 1.84555912017822,
+            "polygons": [
+              [
+                "66.2322083 -74.83078 81.0646744 176.6772461 61.4118156 -161.2990875 53.641201 -110.1693573 66.2322083 -74.83078"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022159.1112.002.2024076123319/VNP14IMG.A2022159.1112.002.2024076123319.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022159.1112.002.2024076123319/VNP14IMG.A2022159.1112.002.2024076123319.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022159.1112.002.2024076123319/VNP14IMG.A2022159.1112.002.2024076123319.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14IMG.A2022159.1118.002.2024076123322",
+            "concept_id": "G2920714190-LPCLOUD",
+            "start": "2022-06-08T11:18:00.000Z",
+            "end": "2022-06-08T11:24:00.000Z",
+            "key": ".A2022159.1118.",
+            "reported_mb": 1.17257785797119,
+            "polygons": [
+              [
+                "53.7387238 -110.0583649 61.5316658 -161.3370361 40.8339958 -160.4635468 35.5127945 -125.7851486 53.7387238 -110.0583649"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022159.1118.002.2024076123322/VNP14IMG.A2022159.1118.002.2024076123322.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022159.1118.002.2024076123322/VNP14IMG.A2022159.1118.002.2024076123322.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022159.1118.002.2024076123322/VNP14IMG.A2022159.1118.002.2024076123322.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14IMG.A2022159.1924.002.2024076123320",
+            "concept_id": "G2920709012-LPCLOUD",
+            "start": "2022-06-08T19:24:00.000Z",
+            "end": "2022-06-08T19:30:00.000Z",
+            "key": ".A2022159.1924.",
+            "reported_mb": 3.56323909759521,
+            "polygons": [
+              [
+                "37.8299332 -114.7174149 43.2336159 -78.8541718 63.8978882 -77.2735672 55.6790733 -131.9793396 37.8299332 -114.7174149"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022159.1924.002.2024076123320/VNP14IMG.A2022159.1924.002.2024076123320.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022159.1924.002.2024076123320/VNP14IMG.A2022159.1924.002.2024076123320.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022159.1924.002.2024076123320/VNP14IMG.A2022159.1924.002.2024076123320.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          },
+          {
+            "id": "VNP14IMG.A2022159.2106.002.2024076123323",
+            "concept_id": "G2920709233-LPCLOUD",
+            "start": "2022-06-08T21:06:00.000Z",
+            "end": "2022-06-08T21:12:00.000Z",
+            "key": ".A2022159.2106.",
+            "reported_mb": 2.42390918731689,
+            "polygons": [
+              [
+                "39.3411713 -141.0986023 44.8943787 -104.3358307 65.6330338 -102.1125946 57.0062828 -159.562561 39.3411713 -141.0986023"
+              ]
+            ],
+            "boxes": [],
+            "data_urls": [
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022159.2106.002.2024076123323/VNP14IMG.A2022159.2106.002.2024076123323.nc",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022159.2106.002.2024076123323/VNP14IMG.A2022159.2106.002.2024076123323.cmr.xml",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2022159.2106.002.2024076123323/VNP14IMG.A2022159.2106.002.2024076123323.nc.dmrpp",
+              "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "probes": [
+    {
+      "day": "2022-06-01",
+      "product": "MYD14",
+      "granule": "MYD14.A2022152.0850.061.2022152193155",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022152.0850.061.2022152193155/MYD14.A2022152.0850.061.2022152193155.hdf",
+      "method": "HEAD",
+      "authenticated": false,
+      "requested_range": null,
+      "status": 403,
+      "final_host": "d1nklfio7vscoe.cloudfront.net",
+      "headers": {
+        "Content-Length": "0",
+        "Server": "CloudFront"
+      },
+      "error_bytes_sampled": 0,
+      "error_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "classification": "FORBIDDEN_CAUSE_UNRESOLVED_WITHOUT_VALID_AUTH_CONTROL"
+    },
+    {
+      "day": "2022-06-01",
+      "product": "MYD14",
+      "granule": "MYD14.A2022152.0850.061.2022152193155",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022152.0850.061.2022152193155/MYD14.A2022152.0850.061.2022152193155.hdf",
+      "method": "GET",
+      "authenticated": false,
+      "requested_range": "bytes=0-7",
+      "status": 401,
+      "final_host": "urs.earthdata.nasa.gov",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "27",
+        "www-authenticate": "Basic realm=\"Please enter your Earthdata Login credentials. If you do not have a Earthdata Login, create one at https://urs.earthdata.nasa.gov//users/new\""
+      },
+      "error_bytes_sampled": 27,
+      "error_sha256": "82cacc83f152a50c54f60e43a77794b0d80373216d94c18751f94e36fe93777a",
+      "classification": "EARTHDATA_AUTH_REQUIRED_OR_REJECTED"
+    },
+    {
+      "day": "2022-06-01",
+      "product": "MYD14",
+      "granule": "MYD14.A2022152.0850.061.2022152193155",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022152.0850.061.2022152193155/MYD14.A2022152.0850.061.2022152193155.hdf",
+      "method": "GET",
+      "authenticated": true,
+      "requested_range": "bytes=0-7",
+      "status": 206,
+      "final_host": "d1nklfio7vscoe.cloudfront.net",
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "8",
+        "Content-Range": "bytes 0-7/839696",
+        "Server": "AmazonS3"
+      },
+      "sample_bytes": 8,
+      "sample_sha256": "3f23d16d1117e70878d5dd6cfe37634264ba5d9071298d4e836995882a932b46",
+      "hdf_signature": false,
+      "classification": "RESPONSE_ONLY_NOT_QUALIFIED_SCIENCE_FILE"
+    },
+    {
+      "day": "2022-06-01",
+      "product": "VNP14",
+      "granule": "VNP14.A2022152.0824.002.2023030092946",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.0824.002.2023030092946/VNP14.A2022152.0824.002.2023030092946.nc",
+      "method": "HEAD",
+      "authenticated": false,
+      "requested_range": null,
+      "status": 403,
+      "final_host": "d1nklfio7vscoe.cloudfront.net",
+      "headers": {
+        "Content-Length": "0",
+        "Server": "CloudFront"
+      },
+      "error_bytes_sampled": 0,
+      "error_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "classification": "FORBIDDEN_CAUSE_UNRESOLVED_WITHOUT_VALID_AUTH_CONTROL"
+    },
+    {
+      "day": "2022-06-01",
+      "product": "VNP14",
+      "granule": "VNP14.A2022152.0824.002.2023030092946",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.0824.002.2023030092946/VNP14.A2022152.0824.002.2023030092946.nc",
+      "method": "GET",
+      "authenticated": false,
+      "requested_range": "bytes=0-7",
+      "status": 401,
+      "final_host": "urs.earthdata.nasa.gov",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "27",
+        "www-authenticate": "Basic realm=\"Please enter your Earthdata Login credentials. If you do not have a Earthdata Login, create one at https://urs.earthdata.nasa.gov//users/new\""
+      },
+      "error_bytes_sampled": 27,
+      "error_sha256": "82cacc83f152a50c54f60e43a77794b0d80373216d94c18751f94e36fe93777a",
+      "classification": "EARTHDATA_AUTH_REQUIRED_OR_REJECTED"
+    },
+    {
+      "day": "2022-06-01",
+      "product": "VNP14",
+      "granule": "VNP14.A2022152.0824.002.2023030092946",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022152.0824.002.2023030092946/VNP14.A2022152.0824.002.2023030092946.nc",
+      "method": "GET",
+      "authenticated": true,
+      "requested_range": "bytes=0-7",
+      "status": 206,
+      "final_host": "d1nklfio7vscoe.cloudfront.net",
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "8",
+        "Content-Range": "bytes 0-7/2349393",
+        "Server": "AmazonS3"
+      },
+      "sample_bytes": 8,
+      "sample_sha256": "4ca2915fde0a9d1d5dd59e6f6e535c04337c9b4f05dbb4b38af0a5db3c50f933",
+      "hdf_signature": true,
+      "classification": "RESPONSE_ONLY_NOT_QUALIFIED_SCIENCE_FILE"
+    },
+    {
+      "day": "2022-06-01",
+      "product": "MYD03",
+      "granule": "MYD03.A2022152.0850.061.2022310024210.hdf",
+      "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022152.0850.061.2022310024210.hdf",
+      "method": "HEAD",
+      "authenticated": false,
+      "requested_range": null,
+      "status": 403,
+      "final_host": "d13j1jds5ybppo.cloudfront.net",
+      "headers": {
+        "Content-Length": "0",
+        "Server": "CloudFront"
+      },
+      "error_bytes_sampled": 0,
+      "error_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "classification": "FORBIDDEN_CAUSE_UNRESOLVED_WITHOUT_VALID_AUTH_CONTROL"
+    },
+    {
+      "day": "2022-06-01",
+      "product": "MYD03",
+      "granule": "MYD03.A2022152.0850.061.2022310024210.hdf",
+      "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022152.0850.061.2022310024210.hdf",
+      "method": "GET",
+      "authenticated": false,
+      "requested_range": "bytes=0-7",
+      "status": 401,
+      "final_host": "urs.earthdata.nasa.gov",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "27",
+        "www-authenticate": "Basic realm=\"Please enter your Earthdata Login credentials. If you do not have a Earthdata Login, create one at https://urs.earthdata.nasa.gov//users/new\""
+      },
+      "error_bytes_sampled": 27,
+      "error_sha256": "82cacc83f152a50c54f60e43a77794b0d80373216d94c18751f94e36fe93777a",
+      "classification": "EARTHDATA_AUTH_REQUIRED_OR_REJECTED"
+    },
+    {
+      "day": "2022-06-01",
+      "product": "MYD03",
+      "granule": "MYD03.A2022152.0850.061.2022310024210.hdf",
+      "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022152.0850.061.2022310024210.hdf",
+      "method": "GET",
+      "authenticated": true,
+      "requested_range": "bytes=0-7",
+      "status": 206,
+      "final_host": "d13j1jds5ybppo.cloudfront.net",
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "8",
+        "Content-Range": "bytes 0-7/34064066",
+        "Server": "AmazonS3"
+      },
+      "sample_bytes": 8,
+      "sample_sha256": "57f999adfb0a3e8bfd0762185f01d3a27183aca1f13fd757db1e5d29472339b4",
+      "hdf_signature": false,
+      "classification": "RESPONSE_ONLY_NOT_QUALIFIED_SCIENCE_FILE"
+    },
+    {
+      "day": "2022-06-08",
+      "product": "MYD14",
+      "granule": "MYD14.A2022159.0855.061.2022159153921",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022159.0855.061.2022159153921/MYD14.A2022159.0855.061.2022159153921.hdf",
+      "method": "HEAD",
+      "authenticated": false,
+      "requested_range": null,
+      "status": 403,
+      "final_host": "d1nklfio7vscoe.cloudfront.net",
+      "headers": {},
+      "error_bytes_sampled": 0,
+      "error_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "classification": "FORBIDDEN_CAUSE_UNRESOLVED_WITHOUT_VALID_AUTH_CONTROL"
+    },
+    {
+      "day": "2022-06-08",
+      "product": "MYD14",
+      "granule": "MYD14.A2022159.0855.061.2022159153921",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022159.0855.061.2022159153921/MYD14.A2022159.0855.061.2022159153921.hdf",
+      "method": "GET",
+      "authenticated": false,
+      "requested_range": "bytes=0-7",
+      "status": 401,
+      "final_host": "urs.earthdata.nasa.gov",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "27",
+        "www-authenticate": "Basic realm=\"Please enter your Earthdata Login credentials. If you do not have a Earthdata Login, create one at https://urs.earthdata.nasa.gov//users/new\""
+      },
+      "error_bytes_sampled": 27,
+      "error_sha256": "82cacc83f152a50c54f60e43a77794b0d80373216d94c18751f94e36fe93777a",
+      "classification": "EARTHDATA_AUTH_REQUIRED_OR_REJECTED"
+    },
+    {
+      "day": "2022-06-08",
+      "product": "MYD14",
+      "granule": "MYD14.A2022159.0855.061.2022159153921",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2022159.0855.061.2022159153921/MYD14.A2022159.0855.061.2022159153921.hdf",
+      "method": "GET",
+      "authenticated": true,
+      "requested_range": "bytes=0-7",
+      "status": 206,
+      "final_host": "d1nklfio7vscoe.cloudfront.net",
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "8",
+        "Content-Range": "bytes 0-7/936802",
+        "Server": "AmazonS3"
+      },
+      "sample_bytes": 8,
+      "sample_sha256": "3f23d16d1117e70878d5dd6cfe37634264ba5d9071298d4e836995882a932b46",
+      "hdf_signature": false,
+      "classification": "RESPONSE_ONLY_NOT_QUALIFIED_SCIENCE_FILE"
+    },
+    {
+      "day": "2022-06-08",
+      "product": "VNP14",
+      "granule": "VNP14.A2022159.0754.002.2023030105148",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.0754.002.2023030105148/VNP14.A2022159.0754.002.2023030105148.nc",
+      "method": "HEAD",
+      "authenticated": false,
+      "requested_range": null,
+      "status": 403,
+      "final_host": "d1nklfio7vscoe.cloudfront.net",
+      "headers": {},
+      "error_bytes_sampled": 0,
+      "error_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "classification": "FORBIDDEN_CAUSE_UNRESOLVED_WITHOUT_VALID_AUTH_CONTROL"
+    },
+    {
+      "day": "2022-06-08",
+      "product": "VNP14",
+      "granule": "VNP14.A2022159.0754.002.2023030105148",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.0754.002.2023030105148/VNP14.A2022159.0754.002.2023030105148.nc",
+      "method": "GET",
+      "authenticated": false,
+      "requested_range": "bytes=0-7",
+      "status": 401,
+      "final_host": "urs.earthdata.nasa.gov",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "27",
+        "www-authenticate": "Basic realm=\"Please enter your Earthdata Login credentials. If you do not have a Earthdata Login, create one at https://urs.earthdata.nasa.gov//users/new\""
+      },
+      "error_bytes_sampled": 27,
+      "error_sha256": "82cacc83f152a50c54f60e43a77794b0d80373216d94c18751f94e36fe93777a",
+      "classification": "EARTHDATA_AUTH_REQUIRED_OR_REJECTED"
+    },
+    {
+      "day": "2022-06-08",
+      "product": "VNP14",
+      "granule": "VNP14.A2022159.0754.002.2023030105148",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2022159.0754.002.2023030105148/VNP14.A2022159.0754.002.2023030105148.nc",
+      "method": "GET",
+      "authenticated": true,
+      "requested_range": "bytes=0-7",
+      "status": 206,
+      "final_host": "d1nklfio7vscoe.cloudfront.net",
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "8",
+        "Content-Range": "bytes 0-7/2299395",
+        "Server": "AmazonS3"
+      },
+      "sample_bytes": 8,
+      "sample_sha256": "4ca2915fde0a9d1d5dd59e6f6e535c04337c9b4f05dbb4b38af0a5db3c50f933",
+      "hdf_signature": true,
+      "classification": "RESPONSE_ONLY_NOT_QUALIFIED_SCIENCE_FILE"
+    },
+    {
+      "day": "2022-06-08",
+      "product": "MYD03",
+      "granule": "MYD03.A2022159.0855.061.2022310232543.hdf",
+      "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022159.0855.061.2022310232543.hdf",
+      "method": "HEAD",
+      "authenticated": false,
+      "requested_range": null,
+      "status": 403,
+      "final_host": "d13j1jds5ybppo.cloudfront.net",
+      "headers": {},
+      "error_bytes_sampled": 0,
+      "error_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "classification": "FORBIDDEN_CAUSE_UNRESOLVED_WITHOUT_VALID_AUTH_CONTROL"
+    },
+    {
+      "day": "2022-06-08",
+      "product": "MYD03",
+      "granule": "MYD03.A2022159.0855.061.2022310232543.hdf",
+      "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022159.0855.061.2022310232543.hdf",
+      "method": "GET",
+      "authenticated": false,
+      "requested_range": "bytes=0-7",
+      "status": 401,
+      "final_host": "urs.earthdata.nasa.gov",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "27",
+        "www-authenticate": "Basic realm=\"Please enter your Earthdata Login credentials. If you do not have a Earthdata Login, create one at https://urs.earthdata.nasa.gov//users/new\""
+      },
+      "error_bytes_sampled": 27,
+      "error_sha256": "82cacc83f152a50c54f60e43a77794b0d80373216d94c18751f94e36fe93777a",
+      "classification": "EARTHDATA_AUTH_REQUIRED_OR_REJECTED"
+    },
+    {
+      "day": "2022-06-08",
+      "product": "MYD03",
+      "granule": "MYD03.A2022159.0855.061.2022310232543.hdf",
+      "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2022159.0855.061.2022310232543.hdf",
+      "method": "GET",
+      "authenticated": true,
+      "requested_range": "bytes=0-7",
+      "status": 206,
+      "final_host": "d13j1jds5ybppo.cloudfront.net",
+      "headers": {
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "8",
+        "Content-Range": "bytes 0-7/34283182",
+        "Server": "AmazonS3"
+      },
+      "sample_bytes": 8,
+      "sample_sha256": "57f999adfb0a3e8bfd0762185f01d3a27183aca1f13fd757db1e5d29472339b4",
+      "hdf_signature": false,
+      "classification": "RESPONSE_ONLY_NOT_QUALIFIED_SCIENCE_FILE"
+    },
+    {
+      "product": "LAADS_PUBLIC_README",
+      "url": "https://ladsweb.modaps.eosdis.nasa.gov/archive/README",
+      "method": "GET",
+      "authenticated": false,
+      "requested_range": "bytes=0-7",
+      "status": 206,
+      "final_host": "ladsweb.modaps.eosdis.nasa.gov",
+      "headers": {
+        "Server": "nginx",
+        "Content-Type": "application/octet-stream; charset=UTF-8",
+        "Content-Length": "8",
+        "content-range": "bytes 0-7/35552"
+      },
+      "sample_bytes": 8,
+      "sample_sha256": "07ab59f4731b0790d0acfded6a52d2c53e7e3c6a1e241f6dfe3a41f3072e07fb",
+      "hdf_signature": false,
+      "classification": "RESPONSE_ONLY_NOT_QUALIFIED_SCIENCE_FILE"
+    }
+  ],
+  "credential_available": true,
+  "authenticated_test_executed": true,
+  "science_files_downloaded": 0,
+  "pixel_support": "UNKNOWN",
+  "level3_fallback": {
+    "MYD14A1": {
+      "receipt": {
+        "url": "https://cmr.earthdata.nasa.gov/search/collections.json?short_name=MYD14A1&page_size=100",
+        "sha256": "6a6f31b32d95a4c0d54d32bae9684b430acb8e46a958d5e80be815ec67d4c169",
+        "bytes": 7338,
+        "hits": 1,
+        "retrieved_utc": "2026-11-13T23:04:04.608049+00:00"
+      },
+      "collections": [
+        {
+          "id": "C2565794059-LPCLOUD",
+          "version": "061",
+          "title": "MODIS/Aqua Thermal Anomalies/Fire Daily L3 Global 1km SIN Grid V061"
+        }
+      ],
+      "suitability": "METADATA_ONLY; daily summary support and acquisition timing must be independently decoded; not a substitute for matched pass QA"
+    },
+    "VNP14A1": {
+      "receipt": {
+        "url": "https://cmr.earthdata.nasa.gov/search/collections.json?short_name=VNP14A1&page_size=100",
+        "sha256": "40228f67549f72a1a390c36c2bea59663bead1a035318b9fdc0c20b6c0b3d470",
+        "bytes": 5817,
+        "hits": 1,
+        "retrieved_utc": "2026-11-13T23:04:04.911296+00:00"
+      },
+      "collections": [
+        {
+          "id": "C2545314541-LPCLOUD",
+          "version": "002",
+          "title": "VIIRS/NPP Thermal Anomalies and Fire Daily L3 Global 1km SIN Grid V002"
+        }
+      ],
+      "suitability": "METADATA_ONLY; daily summary support and acquisition timing must be independently decoded; not a substitute for matched pass QA"
+    }
+  },
+  "auth_conclusion": "Authenticated range tests executed; range bytes are not qualified full science arrays.",
+  "next_access_step": "Use Earthdata Login Generate Token privately, authorize relevant provider application, then run phase6_access.py --token-file PRIVATE_PATH; never commit credentials."
+}

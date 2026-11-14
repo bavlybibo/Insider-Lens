@@ -1,0 +1,50 @@
+{
+  "state": "PASS",
+  "checks": [
+    {
+      "day": "2022-06-01",
+      "product": "MYD14",
+      "aoi_centers": 73486,
+      "mask_histogram": "PASS",
+      "all_grid_class_multiplicities": "PASS",
+      "view_30_40_50": "PASS"
+    },
+    {
+      "day": "2022-06-01",
+      "product": "VNP14",
+      "aoi_centers": 57146,
+      "mask_histogram": "PASS",
+      "all_grid_class_multiplicities": "PASS",
+      "view_30_40_50": "PASS"
+    },
+    {
+      "day": "2022-06-01",
+      "product": "VNP14IMG",
+      "aoi_centers": 228608,
+      "mask_histogram": "PASS",
+      "all_grid_class_multiplicities": "PASS",
+      "view_30_40_50": "PASS"
+    },
+    {
+      "day": "2022-06-08",
+      "product": "MYD14",
+      "aoi_centers": 96382,
+      "mask_histogram": "PASS",
+      "all_grid_class_multiplicities": "PASS",
+      "view_30_40_50": "PASS"
+    },
+    {
+      "day": "2022-06-08",
+      "product": "VNP14",
+      "aoi_centers": 719664,
+      "mask_histogram": "PASS",
+      "all_grid_class_multiplicities": "PASS",
+      "view_30_40_50": "PASS"
+    }
+  ],
+  "method": "source HDF arrays re-read at113-row blocks; Python Counter and independent EPSG9820 cell projection; exhaustive class/QA/view counts; no production L2 imports",
+  "l2_audit_sha256": "8218b6e3ca49edf12cd4a5b7cfd53099f62e87f85c6b3c618382f8ae7a83069b",
+  "elapsed_seconds": 8.699169099330902,
+  "primary_shared_support_rejection": "REPRODUCED",
+  "human_review": "NOT_PERFORMED"
+}

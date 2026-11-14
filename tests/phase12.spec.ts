@@ -1,0 +1,85 @@
+import {test,expect,type Page} from '@playwright/test';
+import {readFileSync} from 'node:fs';
+import {CA_SOURCES,CA_GRID,cellId,caUnproject,selectedCells,validateResearchRect,type CaCatalog,type CaChunk,type CaQuery} from '../src/canada';
+import {positiveKeys,positiveKeyCsv,partitionCounts,retainedRecords,retentionGeometry} from '../src/evidenceRetention';
+const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
+const catalog=read('public'+read('public/data/canada/index.json').file) as CaCatalog;
+const fixture=read('reports/phase12/PARTITION.json');
+const chunks=(m:string)=>catalog.coverage.filter(e=>e.month===m&&e.pc==='SP').map(e=>read('public'+catalog.root+e.file) as CaChunk);
+const query=(c:any):CaQuery=>({month:c.month,flag:c.flag,area:c.id==='overlap'?'south':'canada',rect:c.id==='rectangle'||c.id==='empty'?c.rect:undefined,pc:'SP',sources:CA_SOURCES,day:null,cell:null});
+const csv=(s:string)=>{const rows=s.trim().split('\r\n').map(l=>[...l.matchAll(/"((?:[^"]|"")*)"/g)].map(m=>m[1].replaceAll('""','"'))),head=rows.shift()!;expect(rows.every(r=>r.length===head.length)).toBe(true);return rows.map(r=>Object.fromEntries(head.map((h,i)=>[h,r[i]])));};
+async function ready(p:Page){await p.goto('/?region=canada&view=retention');await expect(p.getByTestId('canada-investigation')).toHaveAttribute('data-retention-ready','true');}
+async function exportKeys(p:Page){const d=p.waitForEvent('download');await p.getByRole('button',{name:'Export Evidence Retention keys CSV',exact:true}).click();return csv(readFileSync((await (await d).path())!,'utf8'));}
+test('all 12 independent original-data cases match every browser key and source multiplicity',()=>{
+ for(const c of fixture.cases){const q=query(c),keys=positiveKeys(selectedCells(chunks(c.month),q),c.flag);expect(keys.map(k=>[k.i,k.j,k.date,...k.records,k.group])).toEqual(c.rows);expect({...partitionCounts(keys),UNION:keys.length}).toEqual(c.counts);
+  const exported=csv(positiveKeyCsv(catalog,q,keys));if(keys.length){expect(exported).toHaveLength(keys.length);expect(exported.reduce((n,r)=>n+ +r.checked_sources_retained_records,0)).toBe(c.records.reduce((a:number,b:number)=>a+b,0));}
+  expect(exported.every(r=>r.observation_opportunity==='UNKNOWN'&&r.coincident_sensor_match===''&&r.physical_fires_missed===''&&r.calibrated_harmonization==='ADJUSTMENT_WITHHELD')).toBe(true);
+ }
+});
+test('half-open rectangle selects original 10 km centers and rejects invalid geographic queries',()=>{
+ const [lon,lat]=caUnproject(-99.5*10000,-49.5*10000),chunk:CaChunk={candidate:catalog.candidate,source:'AQUA_MODIS',pc:'SP',month:'2023-06',grid:CA_GRID,cells:[[-100,-50,[[1,2,3]]]]},q:CaQuery={month:'2023-06',flag:'ALL',sources:CA_SOURCES,pc:'SP',area:'canada',day:null,cell:null};
+ expect(selectedCells([chunk],{...q,rect:[lon,lat,lon+1,lat+1]})[0].cells).toHaveLength(1);
+ expect(selectedCells([chunk],{...q,rect:[lon-1,lat,lon,lat+1]})[0].cells).toHaveLength(0);
+ expect(selectedCells([chunk],{...q,rect:[lon,lat-1,lon+1,lat]})[0].cells).toHaveLength(0);
+ for(const b of [[NaN,49,-110,55],[-150,49,-110,55],[-120,49,-110,84],[-120,49,-120,55],[-120,49,-90,55],[-120,49,-110,65]])expect(()=>validateResearchRect(b)).toThrow('Rectangle');
+});
+test('geometry uses fixed cell polygons and source groups while policies change retention only',()=>{
+ const c=fixture.cases.find((c:any)=>c.id==='overlap'&&c.flag==='ALL'),q=query(c),keys=positiveKeys(selectedCells(chunks(c.month),q),q.flag),g=retentionGeometry(keys,q);
+ expect(g.cells.features).toHaveLength(new Set(keys.map(k=>cellId(k.i,k.j))).size);
+ expect(g.cells.features.every(f=>f.geometry.type==='Polygon'&&f.geometry.coordinates[0].length===21)).toBe(true);
+ for(const f of g.cells.features)for(let mask=1;mask<8;mask++){const selected=keys.filter(k=>cellId(k.i,k.j)===f.properties!.cell);expect(f.properties!['kept_'+mask]).toBe(selected.filter(k=>k.records.some((n,i)=>n>0&&(mask&(1<<i)))).length);}
+ for(const f of g.marks.features)for(let mask=1;mask<8;mask++)expect(f.properties!['kept_'+mask]).toBe(keys.filter(k=>cellId(k.i,k.j)===f.properties!.cell&&k.group===f.properties!.group&&k.records.some((n,i)=>n>0&&(mask&(1<<i)))).length);
+ for(const sources of [CA_SOURCES.slice(0,2),CA_SOURCES.slice(2),CA_SOURCES]){const selected={...q,sources},e=csv(positiveKeyCsv(catalog,selected,keys));expect(e.reduce((n,r)=>n+ +r.checked_sources_retained_records,0)).toBe(keys.reduce((n,k)=>n+retainedRecords(k,selected),0));expect(e).toHaveLength(568);}
+ expect(csv(positiveKeyCsv(catalog,{...q,rect:[-53,80,-52.5,81]},[]))[0].positive_key_group).toBe('NO_REPORTED_KEYS_SUPPORT_UNKNOWN');
+});
+test('map partition, UTC calendar, source policy and exact export reconcile the primary cohort',async({page})=>{
+ await ready(page);const card=page.getByTestId('retention-map-answer');await expect(card.locator('[data-group=MODIS_ONLY] b')).toHaveText('34');await expect(card.locator('[data-group=SHARED] b')).toHaveText('199');await expect(card.locator('[data-group=VIIRS_ONLY] b')).toHaveText('335');await expect(card).toContainText('10,524 retained records · 28 dates');
+ const rows=await exportKeys(page);expect(rows).toHaveLength(568);expect(rows.filter(r=>r.positive_key_group==='SHARED')).toHaveLength(199);
+ await card.getByRole('button',{name:'MODIS only',exact:true}).click();await expect(card).toContainText('2,139 retained records · 24 dates');expect((await exportKeys(page)).filter(r=>r.checked_sources_retains_key==='true')).toHaveLength(233);
+ await card.getByRole('button',{name:'VIIRS only',exact:true}).click();await expect(card).toContainText('8,385 retained records · 27 dates');
+ await page.getByRole('button',{name:'Night',exact:true}).click();const n=fixture.cases.find((c:any)=>c.id==='overlap'&&c.flag==='N');expect((await exportKeys(page)).map(r=>[+r.AQUA_MODIS_records,+r.TERRA_MODIS_records,+r.SNPP_VIIRS_records])).toEqual(n.rows.map((r:any)=>r.slice(3,6)));
+ await page.getByRole('button',{name:/^2023-06-07 UTC retention:/}).click();const day=await exportKeys(page);expect(day.every(r=>r.utc_day==='2023-06-07'&&r.native_acquisition_flag==='N')).toBe(true);
+});
+test('before-VIIRS journey excludes acquired MODIS history without inventing zero or era coverage',async({page})=>{
+ await ready(page);await page.getByRole('button',{name:'1 · Before VIIRS',exact:true}).click();const card=page.getByTestId('retention-map-answer');await expect(card).toContainText('0 retained records · 0 dates');await expect(card).toContainText('12,744 records / 2113 keys / 30 dates excluded');await expect(card).toContainText('S-NPP not yet in era');
+ const rows=await exportKeys(page);expect(rows).toHaveLength(2113);expect(rows.reduce((n,r)=>n+ +r.AQUA_MODIS_records+ +r.TERRA_MODIS_records,0)).toBe(12744);expect(rows.every(r=>r.checked_sources_retains_key==='false'&&r.source_evidence_states.includes('SNPP_VIIRS:SOURCE_NOT_YET_IN_ERA'))).toBe(true);
+});
+test('map cell selection opens exact dates and selected CSV, independent of which policy is retained',async({page})=>{
+ await ready(page);await page.waitForFunction(()=>{const m=(document.querySelector('[data-testid=canada-map]') as any)?.scientificMap;return m?.getLayer('eg-retention-grid')&&m.queryRenderedFeatures({layers:['eg-retention-grid']}).length>0;});
+ const hit=await page.evaluate(()=>{const el=document.querySelector('[data-testid=canada-map]') as any,m=el.scientificMap,b=el.getBoundingClientRect(),features=m.queryRenderedFeatures({layers:['eg-retention-glyphs']});for(const f of features){const p=m.project(f.geometry.coordinates);p.x+=f.properties.group==='MODIS_ONLY'?-7.7:f.properties.group==='VIIRS_ONLY'?7.7:0;if(p.x>360&&p.x<b.width-340&&p.y>80&&p.y<b.height-180){const actual=m.queryRenderedFeatures(p,{layers:['eg-retention-glyphs']})[0];if(actual)return {x:b.x+p.x,y:b.y+p.y,cell:actual.properties.cell};}}throw Error('No unobscured retention glyph found');});
+ await page.mouse.click(hit.x,hit.y);await expect(page.getByTestId('retention-cell-evidence')).toBeVisible();await expect(page.getByTestId('retention-cell-evidence')).toContainText(hit.cell);const rows=await exportKeys(page);expect(rows.every(r=>r.cell_id===hit.cell)).toBe(true);await expect(page.getByTestId('retention-cell-evidence')).toContainText('unmatched acquisition times');
+});
+test('bounded rectangle form commits same independently recounted keys and invalid input preserves scope',async({page})=>{
+ await ready(page);await page.getByRole('button',{name:'Canada filters',exact:true}).click();const panel=page.locator('#canada-filters');await panel.getByText('Bounded research rectangle',{exact:true}).click();await panel.getByRole('button',{name:'Apply research rectangle',exact:true}).click();await expect(panel).toBeHidden();const rows=await exportKeys(page),c=fixture.cases.find((c:any)=>c.id==='rectangle'&&c.flag==='ALL');expect(rows.map(r=>[...r.cell_id.split(':').slice(-2).map(Number),r.utc_day,+r.AQUA_MODIS_records,+r.TERRA_MODIS_records,+r.SNPP_VIIRS_records,r.positive_key_group])).toEqual(c.rows);
+ await page.getByRole('button',{name:'Canada filters',exact:true}).click();await panel.getByLabel('Rectangle West',{exact:true}).fill('-180');await panel.getByRole('button',{name:'Apply research rectangle',exact:true}).click();await expect(panel.getByRole('alert')).toContainText('Rectangle must stay');await page.getByRole('button',{name:'Close Canada investigation filters',exact:true}).click();expect(await exportKeys(page)).toEqual(rows);
+});
+test('two map taps commit a bounded AOI only after the second corner',async({page})=>{
+ await ready(page);await page.waitForFunction(()=>!!(document.querySelector('[data-testid=canada-map]') as any)?.scientificMap?.getSource('eg-research-draft'));
+ await page.getByRole('button',{name:'Draw rectangle',exact:true}).click();
+ // Real mouse taps have screen-pixel precision, not six-decimal-degree input
+ // precision. Compare the committed geometry to those actual integer pixels.
+ const positions=await page.evaluate(()=>{const e=document.querySelector('[data-testid=canada-map]') as any,b=e.getBoundingClientRect();return [[-117,54],[-115,55]].map(p=>{const q=e.scientificMap.project(p),x=Math.round(b.x+q.x),y=Math.round(b.y+q.y),ll=e.scientificMap.unproject([x-b.x,y-b.y]);return {x,y,lon:ll.lng,lat:ll.lat};});});
+ await page.mouse.click(positions[0].x,positions[0].y);expect(JSON.parse((await page.getByTestId('canada-investigation').getAttribute('data-selection'))!).rect).toBeUndefined();
+ await page.mouse.click(positions[1].x,positions[1].y);await expect(page.getByText('Committed research rectangle; fixed 10 km cell-center membership. Canada extract only; outside-data coverage unknown.',{exact:true})).toBeVisible();
+ const q=JSON.parse((await page.getByTestId('canada-investigation').getAttribute('data-selection'))!),expected=[Math.min(...positions.map(p=>p.lon)),Math.min(...positions.map(p=>p.lat)),Math.max(...positions.map(p=>p.lon)),Math.max(...positions.map(p=>p.lat))];q.rect.forEach((v:number,i:number)=>expect(v).toBeCloseTo(expected[i],9));
+ // The frozen independently accepted southern key table covers this entire
+ // drawn box. Filter those exact raw-oracle multiplicities at committed bounds.
+ const rows=await exportKeys(page),c=fixture.cases.find((c:any)=>c.id==='overlap'&&c.flag==='ALL'),reference=c.rows.filter((r:any)=>{const [x,y]=caUnproject((r[0]+.5)*10000,(r[1]+.5)*10000);return x>=q.rect[0]&&x<q.rect[2]&&y>=q.rect[1]&&y<q.rect[3];});expect(rows.map(r=>[...r.cell_id.split(':').slice(-2).map(Number),r.utc_day,+r.AQUA_MODIS_records,+r.TERRA_MODIS_records,+r.SNPP_VIIRS_records,r.positive_key_group])).toEqual(reference);
+});
+for(const failure of ['corrupt','missing'])test(`${failure} independent partition fails closed without blocking preserved native release`,async({page})=>{
+ await page.route('**/data/phase12/INDEPENDENT_PARTITION.json',r=>failure==='missing'?r.fulfill({status:404,body:'missing'}):r.fulfill({body:'{}',contentType:'application/json'}));await page.goto('/?region=canada&view=retention');await expect(page.getByTestId('retention-map-answer').getByRole('alert')).toContainText(/unavailable|checksum/);await expect(page.getByRole('button',{name:'Export Evidence Retention keys CSV',exact:true})).toBeDisabled();await expect(page.getByTestId('canada-map')).toHaveAttribute('data-retention-keys','0');await page.getByRole('button',{name:'← Native atlas',exact:true}).click();await expect(page.getByRole('button',{name:'Export Canada scientific CSV',exact:true})).toBeEnabled();
+});
+test('sealed 2024 remains withheld and missing SP months do not become observation zero',async({page})=>{
+ const requested:string[]=[];page.on('request',r=>requested.push(r.url()));await ready(page);expect(requested.some(u=>/2024/.test(u))).toBe(false);await page.locator('#ca-year').selectOption('2024');await expect(page.getByTestId('retention-map-answer')).toContainText('sealed 2024');await expect(page.getByRole('button',{name:'Export Evidence Retention keys CSV',exact:true})).toBeDisabled();await page.locator('#ca-year').selectOption('2026');await page.locator('#ca-month').selectOption('11');await expect(page.getByTestId('canada-investigation')).toHaveAttribute('data-retention-ready','true');const rows=await exportKeys(page);expect(rows).toHaveLength(1);expect(rows[0].observation_opportunity).toBe('UNKNOWN');expect(rows[0].AQUA_MODIS_records).toBe('');
+});
+test('delayed L2 date cannot apply the next product to a stale cohort or export pending evidence',async({page})=>{
+ await page.goto('/?region=canada&lab=1');await page.getByRole('button',{name:'Scientific Bridge · new observation search',exact:true}).click();await page.getByRole('button',{name:'Map replication VNP14 mask centers',exact:true}).click();const map=page.getByTestId('canada-map');await expect(map).toHaveAttribute('data-observation','replication-VNP14');
+ let release!:()=>void;const gate=new Promise<void>(r=>release=r);await page.route('**/development-VNP14.json',async r=>{await gate;await r.continue().catch(()=>{});});
+ const request=page.waitForRequest('**/development-VNP14.json');await page.getByRole('button',{name:'June 15 UTC · mask acquired; support unqualified',exact:true}).click();await request;
+ await expect(page.getByLabel('Observation mask product',{exact:true})).toBeDisabled();await expect(page.getByRole('button',{name:'Export displayed observation centers CSV',exact:true})).toBeDisabled();await expect(map).toHaveAttribute('data-observation','replication-VNP14');await expect(page.getByText('Loading requested native mask · showing previous accepted cohort; export paused.',{exact:true})).toBeVisible();
+ release();await expect(map).toHaveAttribute('data-observation','development-VNP14');await expect(page.getByLabel('Observation mask product',{exact:true})).toBeEnabled();await page.getByLabel('Observation mask product',{exact:true}).selectOption('MYD14');await expect(map).toHaveAttribute('data-observation','development-MYD14');await expect(page.getByRole('button',{name:'Export displayed observation centers CSV',exact:true})).toBeEnabled();
+ let releaseExit!:()=>void;const exitGate=new Promise<void>(r=>releaseExit=r);await page.route('**/replication-MYD14.json',async r=>{await exitGate;await r.continue().catch(()=>{});});const exitRequest=page.waitForRequest('**/replication-MYD14.json');await page.getByRole('button',{name:'June 23 UTC · mask acquired; support unqualified',exact:true}).click();await exitRequest;await page.getByRole('button',{name:'Return to native history',exact:true}).click();releaseExit();await expect(page.getByTestId('canada-investigation')).toHaveAttribute('data-observation','');await expect(page.getByRole('button',{name:'Export Canada scientific CSV',exact:true})).toBeEnabled();await page.waitForTimeout(200);await expect(page.getByTestId('canada-investigation')).toHaveAttribute('data-observation','');
+});
+for(const width of [390,320])test(`mobile ${width}: small summary, modal evidence, keyboard, no overflow`,async({page})=>{
+ await page.setViewportSize({width,height:900});await ready(page);const card=page.getByTestId('retention-map-answer');expect((await card.boundingBox())!.height).toBeLessThan(160);expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(width);expect((await page.getByTestId('canada-map').boundingBox())!.height).toBeGreaterThan(500);await card.getByRole('button',{name:'Cells, dates & evidence',exact:true}).focus();await page.keyboard.press('Enter');const sheet=page.getByRole('dialog',{name:'Evidence Retention · cells and dates',exact:true});await expect(sheet).toBeVisible();await sheet.getByRole('button',{name:'VIIRS only',exact:true}).click();await page.keyboard.press('Escape');await expect(sheet).toBeHidden();await expect(card).toContainText('8,385 retained records');await card.getByRole('button',{name:'Cells, dates & evidence',exact:true}).click();await sheet.getByRole('button',{name:'Before VIIRS · 2010',exact:true}).click();await expect(sheet).toBeHidden();await expect(card).toContainText('12,744 records');
+});

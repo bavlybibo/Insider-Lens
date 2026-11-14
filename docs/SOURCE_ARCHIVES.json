@@ -1,0 +1,73 @@
+{
+  "source": "NASA FIRMS / UMD",
+  "immutable_originals": [
+    {
+      "filename": "DL_FIRE_M-C61_844805.zip",
+      "request_id": "844805",
+      "zip_sha256": "7d946292cace80de4f084d71658686a178058655e130a069d95c485f07ed18f7",
+      "csv_name": "fire_archive_M-C61_844805.csv",
+      "csv_sha256": "35dda3f9992423a90d9e19babd7f6880f15535e536f09843e20218bf2a0085a4",
+      "rows": 410,
+      "accepted": 410
+    },
+    {
+      "filename": "DL_FIRE_SV-C2_844806.zip",
+      "request_id": "844806",
+      "zip_sha256": "f630d2b1bea962ae8422990bcd161a601e0aa1f1d661cf36cb7f3d6cb492cc97",
+      "csv_name": "fire_archive_SV-C2_844806.csv",
+      "csv_sha256": "0e63443e4049d14566e42432345c354b66cab1a2ea28c9e7927553ce5174795a",
+      "rows": 2041,
+      "accepted": 2041
+    },
+    {
+      "filename": "DL_FIRE_M-C61_845605.zip",
+      "request_id": "845605",
+      "zip_sha256": "a77dd443e9c3a85724b3994a3500d9d129bf528bd61ce78bf6e518fd07276913",
+      "zip_bytes": 33789477,
+      "members": [
+        {
+          "name": "fire_archive_M-C61_845605.json",
+          "sha256": "5b5a0bccd73137e12f2cf6a349cbf23835b1d6017aee1971584fb55f694c2696",
+          "rows": 1427442,
+          "accepted": 1427442
+        },
+        {
+          "name": "fire_nrt_M-C61_845605.json",
+          "sha256": "8485c736eb3d1292e6e0f22a2daa14784333d66aac76f9cd1fa6e749f68f4b5f",
+          "rows": 2335,
+          "accepted": 2335
+        },
+        {
+          "name": "Readme.txt",
+          "sha256": "850e5eb42fa71907f2b0c8049f1017b7cea7704119438386902e2ff803e7bfba"
+        }
+      ]
+    },
+    {
+      "filename": "DL_FIRE_SV-C2_845606.zip",
+      "request_id": "845606",
+      "zip_sha256": "0d15a42c9584beb691e2ed4e33e1b8ce7d744a79105b52dc21a0c55bf480daad",
+      "zip_bytes": 156516239,
+      "members": [
+        {
+          "name": "fire_archive_SV-C2_845606.json",
+          "sha256": "bf61c446ad8dac3761c596981ad71d84d6c10330ef911ca8e02257442f3ec332",
+          "rows": 6829672,
+          "accepted": 6829672
+        },
+        {
+          "name": "fire_nrt_SV-C2_845606.json",
+          "sha256": "3b08c8dd7325eaeb7a0dd022cc72598caa227e441a8bdca8ab3c830c083d02ee",
+          "rows": 96368,
+          "accepted": 96368
+        },
+        {
+          "name": "Readme.txt",
+          "sha256": "850e5eb42fa71907f2b0c8049f1017b7cea7704119438386902e2ff803e7bfba"
+        }
+      ]
+    }
+  ],
+  "requested_endpoint_is_not_coverage_proof": true,
+  "raw_archives_redistributed": false
+}

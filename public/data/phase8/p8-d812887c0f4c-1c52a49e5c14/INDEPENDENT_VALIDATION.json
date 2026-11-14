@@ -1,0 +1,104 @@
+{
+  "calibration_validation": false,
+  "checks": [
+    {
+      "equal_area_bins": {
+        "10000": 31,
+        "20000": 14,
+        "5000": 81
+      },
+      "identities": 1159,
+      "mask_counts": {
+        "3": 14,
+        "5": 1145
+      },
+      "native_frp_mw_sum": 0.0,
+      "positive_geolocation_bad": 0,
+      "positive_input_bad": 0,
+      "positive_residual_bowtie": 0,
+      "positive_screens": {},
+      "product": "MYD14",
+      "raw_positive_pixels": 0,
+      "spatial_control_mask_counts": {
+        "3": 13,
+        "4": 139,
+        "5": 983
+      },
+      "state": "PASS"
+    },
+    {
+      "equal_area_bins": {
+        "10000": 55,
+        "20000": 22,
+        "5000": 135
+      },
+      "identities": 2310,
+      "mask_counts": {
+        "1": 291,
+        "3": 19,
+        "4": 2,
+        "5": 1998
+      },
+      "native_frp_mw_sum": 0.0,
+      "positive_geolocation_bad": 0,
+      "positive_input_bad": 0,
+      "positive_residual_bowtie": 0,
+      "positive_screens": {},
+      "product": "VNP14",
+      "raw_positive_pixels": 0,
+      "spatial_control_mask_counts": {
+        "1": 272,
+        "3": 18,
+        "4": 282,
+        "5": 1628
+      },
+      "state": "PASS"
+    },
+    {
+      "equal_area_bins": {
+        "10000": 56,
+        "20000": 22,
+        "5000": 146
+      },
+      "identities": 9238,
+      "mask_counts": {
+        "1": 1159,
+        "3": 18,
+        "4": 7,
+        "5": 8038,
+        "8": 16
+      },
+      "native_frp_mw_sum": 22.37004065513611,
+      "positive_geolocation_bad": 0,
+      "positive_input_bad": 0,
+      "positive_residual_bowtie": 0,
+      "positive_screens": {
+        "nominal375_within40": 16,
+        "raw": 16,
+        "within40": 16
+      },
+      "product": "VNP14IMG",
+      "raw_positive_pixels": 16,
+      "spatial_control_mask_counts": {
+        "1": 1092,
+        "3": 12,
+        "4": 875,
+        "5": 6835
+      },
+      "state": "PASS"
+    }
+  ],
+  "g4": "ADJUSTMENT_WITHHELD",
+  "human_signoff": false,
+  "mapped_centers_sha256": "e329e475357bc598d95201f55d1c3049105f3273c796667e9aaef478f8feb499",
+  "nominal_geometry": {
+    "arithmetic": "PASS",
+    "clipped_union_and_overlap": "NOT_QUALIFIED",
+    "max_relative_instrument_area_difference": 1.4740241249810992e-09,
+    "physical_boundaries": "NOT_QUALIFIED",
+    "polygons": 1145
+  },
+  "shared_domain": null,
+  "state": "PASS",
+  "support_audit_sha256": "1c52a49e5c14c2b85c129ac7ba23ce1ce0963f0d79863909dd8ce00523fa0d6c"
+}

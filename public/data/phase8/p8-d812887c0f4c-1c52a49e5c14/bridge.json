@@ -1,0 +1,498 @@
+{
+  "artifacts": {
+    "CANDIDATE_1.json": {
+      "bytes": 11389,
+      "sha256": "c52fd918d32881f40369520814a61774eb95f3d9830b3670c064624a0ce0e46a"
+    },
+    "COHORT_CONTRACT.json": {
+      "bytes": 6750,
+      "sha256": "d812887c0f4cae5ca6db22561af8f19ff15596ca66506827e4055ce2791fdbb9"
+    },
+    "DETAIL_DOWNLOAD_MANIFEST.json": {
+      "bytes": 4256,
+      "sha256": "02b7c2c738efe39d32f24be2904c0182a5072f1a9fcf22b5fe6dd487975cddde"
+    },
+    "INDEPENDENT_VALIDATION.json": {
+      "bytes": 2466,
+      "sha256": "63bb1f1391a1e2b5a89ec305f27b4ea290ab319a03f170fe0c5e91b3684e5240"
+    },
+    "NATIVE_HISTORY.json": {
+      "bytes": 5049,
+      "sha256": "ca58605f4616fd2bb4dce863ae7603a77c267648acd35ba9cf7f8ba3d1391478"
+    },
+    "NATIVE_RECORDS.json": {
+      "bytes": 534319,
+      "sha256": "36f1f6a2a4fdb98e5b69014daba761fbaabd06d185c017d399e85d4279b7abfe"
+    },
+    "SUPPORT_AUDIT.json": {
+      "bytes": 60964,
+      "sha256": "1c52a49e5c14c2b85c129ac7ba23ce1ce0963f0d79863909dd8ce00523fa0d6c"
+    },
+    "development-MYD14.json": {
+      "bytes": 136709,
+      "points": 1159,
+      "sha256": "cdea2014b7e08c62d55ec69e91327abe011b0c5b4a5f161d2c7bcb8501bdbde3"
+    },
+    "development-VNP14.json": {
+      "bytes": 272362,
+      "points": 2310,
+      "sha256": "ef2baf500d651b93dfbaa819b5a276adc3ef903ca90807f59eb95f7abf9d0bbc"
+    },
+    "development-VNP14IMG.json": {
+      "bytes": 1089846,
+      "points": 9238,
+      "sha256": "bb980d3c525eae268e4af9fc65d810414da8baead515503bb423012d2268d821"
+    }
+  },
+  "contract_sha256": "d812887c0f4cae5ca6db22561af8f19ff15596ca66506827e4055ce2791fdbb9",
+  "downloaded_bytes": 260346716,
+  "fit": false,
+  "g4": "ADJUSTMENT_WITHHELD",
+  "generalization": false,
+  "holdouts_opened": false,
+  "id": "p8-d812887c0f4c-1c52a49e5c14",
+  "independent": {
+    "calibration_validation": false,
+    "checks": [
+      {
+        "equal_area_bins": {
+          "10000": 31,
+          "20000": 14,
+          "5000": 81
+        },
+        "identities": 1159,
+        "mask_counts": {
+          "3": 14,
+          "5": 1145
+        },
+        "native_frp_mw_sum": 0.0,
+        "positive_geolocation_bad": 0,
+        "positive_input_bad": 0,
+        "positive_residual_bowtie": 0,
+        "positive_screens": {},
+        "product": "MYD14",
+        "raw_positive_pixels": 0,
+        "spatial_control_mask_counts": {
+          "3": 13,
+          "4": 139,
+          "5": 983
+        },
+        "state": "PASS"
+      },
+      {
+        "equal_area_bins": {
+          "10000": 55,
+          "20000": 22,
+          "5000": 135
+        },
+        "identities": 2310,
+        "mask_counts": {
+          "1": 291,
+          "3": 19,
+          "4": 2,
+          "5": 1998
+        },
+        "native_frp_mw_sum": 0.0,
+        "positive_geolocation_bad": 0,
+        "positive_input_bad": 0,
+        "positive_residual_bowtie": 0,
+        "positive_screens": {},
+        "product": "VNP14",
+        "raw_positive_pixels": 0,
+        "spatial_control_mask_counts": {
+          "1": 272,
+          "3": 18,
+          "4": 282,
+          "5": 1628
+        },
+        "state": "PASS"
+      },
+      {
+        "equal_area_bins": {
+          "10000": 56,
+          "20000": 22,
+          "5000": 146
+        },
+        "identities": 9238,
+        "mask_counts": {
+          "1": 1159,
+          "3": 18,
+          "4": 7,
+          "5": 8038,
+          "8": 16
+        },
+        "native_frp_mw_sum": 22.37004065513611,
+        "positive_geolocation_bad": 0,
+        "positive_input_bad": 0,
+        "positive_residual_bowtie": 0,
+        "positive_screens": {
+          "nominal375_within40": 16,
+          "raw": 16,
+          "within40": 16
+        },
+        "product": "VNP14IMG",
+        "raw_positive_pixels": 16,
+        "spatial_control_mask_counts": {
+          "1": 1092,
+          "3": 12,
+          "4": 875,
+          "5": 6835
+        },
+        "state": "PASS"
+      }
+    ],
+    "g4": "ADJUSTMENT_WITHHELD",
+    "human_signoff": false,
+    "mapped_centers_sha256": "e329e475357bc598d95201f55d1c3049105f3273c796667e9aaef478f8feb499",
+    "nominal_geometry": {
+      "arithmetic": "PASS",
+      "clipped_union_and_overlap": "NOT_QUALIFIED",
+      "max_relative_instrument_area_difference": 1.4740241249810992e-09,
+      "physical_boundaries": "NOT_QUALIFIED",
+      "polygons": 1145
+    },
+    "shared_domain": null,
+    "state": "PASS",
+    "support_audit_sha256": "1c52a49e5c14c2b85c129ac7ba23ce1ce0963f0d79863909dd8ce00523fa0d6c"
+  },
+  "maximum_scan_bound_separation_seconds": 75.16694808006287,
+  "meaning": "16 native375m positive pixels, zero Aqua/750m positives in a single event-anchored pass. No qualified common domain, missed-fire rate, calibration or generalization.",
+  "metadata_queries": 42,
+  "native_history": {
+    "L2_ancestry": "not established; monthly delivery vintage and current L2 are not joined as the same processed observations",
+    "aoi_wsen": [
+      -117.2,
+      54.75,
+      -116.4,
+      55.0
+    ],
+    "calendar": [
+      {
+        "date": "2023-06-07",
+        "sources": {
+          "AQUA_MODIS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 0,
+            "raw_frp_mw_sum": 0.0,
+            "records": 0
+          },
+          "SNPP_VIIRS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 0,
+            "raw_frp_mw_sum": 0.0,
+            "records": 0
+          },
+          "TERRA_MODIS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 0,
+            "raw_frp_mw_sum": 0.0,
+            "records": 0
+          }
+        }
+      },
+      {
+        "date": "2023-06-08",
+        "sources": {
+          "AQUA_MODIS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 2,
+            "raw_frp_mw_sum": 3832.0,
+            "records": 8
+          },
+          "SNPP_VIIRS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 2,
+            "raw_frp_mw_sum": 724.14,
+            "records": 19
+          },
+          "TERRA_MODIS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 2,
+            "raw_frp_mw_sum": 24.1,
+            "records": 2
+          }
+        }
+      },
+      {
+        "date": "2023-06-09",
+        "sources": {
+          "AQUA_MODIS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 2,
+            "raw_frp_mw_sum": 6476.5,
+            "records": 30
+          },
+          "SNPP_VIIRS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 4,
+            "raw_frp_mw_sum": 11255.01,
+            "records": 318
+          },
+          "TERRA_MODIS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 2,
+            "raw_frp_mw_sum": 2987.2,
+            "records": 29
+          }
+        }
+      },
+      {
+        "date": "2023-06-10",
+        "sources": {
+          "AQUA_MODIS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 4,
+            "raw_frp_mw_sum": 1134.9,
+            "records": 18
+          },
+          "SNPP_VIIRS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 8,
+            "raw_frp_mw_sum": 1865.83,
+            "records": 270
+          },
+          "TERRA_MODIS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 6,
+            "raw_frp_mw_sum": 3454.6,
+            "records": 60
+          }
+        }
+      },
+      {
+        "date": "2023-06-11",
+        "sources": {
+          "AQUA_MODIS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 0,
+            "raw_frp_mw_sum": 0.0,
+            "records": 0
+          },
+          "SNPP_VIIRS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 2,
+            "raw_frp_mw_sum": 54.69,
+            "records": 41
+          },
+          "TERRA_MODIS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 0,
+            "raw_frp_mw_sum": 0.0,
+            "records": 0
+          }
+        }
+      },
+      {
+        "date": "2023-06-12",
+        "sources": {
+          "AQUA_MODIS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 1,
+            "raw_frp_mw_sum": 517.3,
+            "records": 7
+          },
+          "SNPP_VIIRS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 2,
+            "raw_frp_mw_sum": 444.18,
+            "records": 28
+          },
+          "TERRA_MODIS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 1,
+            "raw_frp_mw_sum": 22.5,
+            "records": 1
+          }
+        }
+      },
+      {
+        "date": "2023-06-13",
+        "sources": {
+          "AQUA_MODIS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 0,
+            "raw_frp_mw_sum": 0.0,
+            "records": 0
+          },
+          "SNPP_VIIRS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 1,
+            "raw_frp_mw_sum": 40.01,
+            "records": 26
+          },
+          "TERRA_MODIS": {
+            "observation_support": "UNKNOWN",
+            "occupied_cell_days": 0,
+            "raw_frp_mw_sum": 0.0,
+            "records": 0
+          }
+        }
+      }
+    ],
+    "contract_sha256": "d812887c0f4cae5ca6db22561af8f19ff15596ca66506827e4055ce2791fdbb9",
+    "g4": "ADJUSTMENT_WITHHELD",
+    "holdouts_opened": false,
+    "independent_store": "preserved oracle.sqlite raw identity + independent scalar EPSG9820 versus PROJ; no re-ingest or database mutation",
+    "meaning": "records and source-separated occupied10kmcell-days; missing rows are not fire-free days, no exposure normalization",
+    "pc": "SP",
+    "raw_identity_checks": 857,
+    "state": "PASS",
+    "totals": {
+      "AQUA_MODIS": {
+        "occupied_cell_days": 9,
+        "records": 63
+      },
+      "SNPP_VIIRS": {
+        "occupied_cell_days": 19,
+        "records": 702
+      },
+      "TERRA_MODIS": {
+        "occupied_cell_days": 11,
+        "records": 92
+      }
+    }
+  },
+  "parent_canada": "ca-92a935da01aecfa3e1d130b3",
+  "phase": 8,
+  "qualified_shared_support_m2": null,
+  "ranked_pairs": 24,
+  "science_files": 6,
+  "splits": {
+    "development": {
+      "aoi_wsen": [
+        -117.2,
+        54.75,
+        -116.4,
+        55.0
+      ],
+      "aqua_end": "2023-06-13T10:45:00.000Z",
+      "aqua_start": "2023-06-13T10:40:00.000Z",
+      "date": "2023-06-13",
+      "failures": [
+        "No independently qualified physical shared footprint boundary/uncertainty",
+        "C2 VNP14 750m QA applicability not established",
+        "One selected pass cannot meet30-pass/5-week fitting floor"
+      ],
+      "offset_minutes": 2.5,
+      "products": {
+        "MYD14": {
+          "aoi_pixel_centers": 1159,
+          "exact_geolocation_input_identity": true,
+          "mask_counts": {
+            "3": 14,
+            "5": 1145
+          },
+          "native_frp_mw_sum": 0,
+          "positive_mask_centers": 0,
+          "scan_time_bounds": {
+            "max_scan_bound_seconds": 1.4771180152893066,
+            "meaning": "conservative complete scan bounds, not exact pixel times; no paired footprint assignment",
+            "scan_ids": [
+              158,
+              159,
+              160,
+              161,
+              162
+            ],
+            "scan_quality_counts": null,
+            "tai93_max": 960806651.44271,
+            "tai93_min": 960806644.057146,
+            "utc_end": "2023-06-13T10:44:01.442710Z",
+            "utc_start": "2023-06-13T10:43:54.057146Z"
+          },
+          "support_states_at_centers": {
+            "UNKNOWN_SUPPORT": 1159
+          },
+          "view_zenith_max_degrees": 27.82,
+          "view_zenith_min_degrees": 23.580000000000002
+        },
+        "VNP14": {
+          "aoi_pixel_centers": 2310,
+          "exact_geolocation_input_identity": true,
+          "mask_counts": {
+            "1": 291,
+            "3": 19,
+            "4": 2,
+            "5": 1998
+          },
+          "native_frp_mw_sum": 0,
+          "positive_mask_centers": 0,
+          "scan_time_bounds": {
+            "max_scan_bound_seconds": 0.5638080835342407,
+            "meaning": "conservative complete scan bounds, not exact pixel times; no paired footprint assignment",
+            "scan_ids": [
+              26,
+              27,
+              28,
+              29,
+              30
+            ],
+            "scan_quality_counts": {
+              "0": 5
+            },
+            "tai93_max": 960806583.956641,
+            "tai93_min": 960806576.275762,
+            "utc_end": "2023-06-13T10:42:53.956641Z",
+            "utc_start": "2023-06-13T10:42:46.275762Z"
+          },
+          "support_states_at_centers": {
+            "CLOUD_OR_INVALID": 293,
+            "UNKNOWN_SUPPORT": 2017
+          },
+          "view_zenith_max_degrees": 40.9,
+          "view_zenith_min_degrees": 37.92
+        },
+        "VNP14IMG": {
+          "aoi_pixel_centers": 9238,
+          "exact_geolocation_input_identity": true,
+          "mask_counts": {
+            "1": 1159,
+            "3": 18,
+            "4": 7,
+            "5": 8038,
+            "8": 16
+          },
+          "native_frp_mw_sum": 22.37004065513611,
+          "positive_mask_centers": 16,
+          "scan_time_bounds": {
+            "max_scan_bound_seconds": 0.5638080835342407,
+            "meaning": "conservative complete scan bounds, not exact pixel times; no paired footprint assignment",
+            "scan_ids": [
+              26,
+              27,
+              28,
+              29,
+              30
+            ],
+            "scan_quality_counts": {
+              "0": 5
+            },
+            "tai93_max": 960806583.956641,
+            "tai93_min": 960806576.275762,
+            "utc_end": "2023-06-13T10:42:53.956641Z",
+            "utc_start": "2023-06-13T10:42:46.275762Z"
+          },
+          "support_states_at_centers": {
+            "CLOUD_OR_INVALID": 1166,
+            "UNKNOWN_SUPPORT": 8072
+          },
+          "view_zenith_max_degrees": 40.89,
+          "view_zenith_min_degrees": 37.910000000000004
+        }
+      },
+      "proxy_distance_km": 585.6311098751796,
+      "searched_days": [
+        "2023-06-07",
+        "2023-06-08",
+        "2023-06-09",
+        "2023-06-10",
+        "2023-06-11",
+        "2023-06-12",
+        "2023-06-13"
+      ],
+      "viirs_end": "2023-06-13T10:48:00.000Z",
+      "viirs_start": "2023-06-13T10:42:00.000Z"
+    }
+  },
+  "support_sha256": "1c52a49e5c14c2b85c129ac7ba23ce1ce0963f0d79863909dd8ce00523fa0d6c"
+}

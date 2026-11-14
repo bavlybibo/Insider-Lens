@@ -1,0 +1,19 @@
+{
+  "auth": "operator confirmed both chat-exposed tokens revoked; new private file supplied; contents never exported",
+  "auth_confirmation_client_date": "2026-11-14",
+  "budget_bytes": 900000000,
+  "contract_sha256": "eab85cbb827d4f291eba66b29bb29f9fe42c423876cf844c7daa9194730dace0",
+  "cookies": "in-memory CookieJar only; no credential cookie persistence",
+  "discovery_sha256": "e23288fae276b9a126b3a285ea195ae864fe461cacb972bd21695e69b414d641",
+  "stage1_products": [
+    "MYD14",
+    "MYD03",
+    "VNP14",
+    "VNP03MOD"
+  ],
+  "stage2_condition": "only after primary40deg view/timing and exact-lineage eligibility; no new candidate chosen from fire outcome",
+  "stage2_products": [
+    "VNP14IMG",
+    "VNP03IMG"
+  ]
+}

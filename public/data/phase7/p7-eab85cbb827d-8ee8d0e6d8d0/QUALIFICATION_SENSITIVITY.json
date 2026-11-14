@@ -1,0 +1,31 @@
+{
+  "state": "PASS",
+  "exact_support_sha256": "8ee8d0e6d8d09bf853be82efea14f193d9a4a11705dc439913a9afa859e72441",
+  "independent375": {
+    "aoi_centers": 46653,
+    "geolocation_flags_nonzero": 0,
+    "input_quality_nonnominal": 0,
+    "residual_bowtie": 0,
+    "nominal_centers": 46653,
+    "nominal_land_centers": 45039,
+    "meaning": "source-specific375m QA-screened centers only, not shared exposure area or qualified non-detection count"
+  },
+  "geo_instance_sensitivity": [
+    {
+      "split": "development",
+      "same_array_indices_in_either_aoi": 4370,
+      "median_center_displacement_m": 6.677985767907605,
+      "max_center_displacement_m": 13.282676298381773,
+      "meaning": "production-instance coordinate sensitivity, not sensor footprint accuracy or uncertainty bound"
+    },
+    {
+      "split": "replication",
+      "same_array_indices_in_either_aoi": 7255,
+      "median_center_displacement_m": 8.640810968940954,
+      "max_center_displacement_m": 8.924256319621927,
+      "meaning": "production-instance coordinate sensitivity, not sensor footprint accuracy or uncertainty bound"
+    }
+  ],
+  "footprint_validation": "NOT_QUALIFIED",
+  "full750m_qa": "C2_APPLICABILITY_UNRESOLVED"
+}

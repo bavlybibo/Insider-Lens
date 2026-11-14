@@ -1,0 +1,3 @@
+# Insider Lens — license status
+
+Original project contributions: Team Insider Lens, historical codename EmberGuard. Public publication is authorized; selection of an open-source license was not authorized. No project-wide license grant is applied. The team must verify ownership and choose an OSI-compliant license before its final competition submission, or confirm the applicable official default. Third-party and source-data licenses remain separate and are documented in public/submission/SOURCES_AND_RULES.md and THIRD_PARTY_SOFTWARE.json. No NASA endorsement or NASA trademark license is implied.

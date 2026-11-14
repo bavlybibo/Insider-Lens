@@ -1,0 +1,53 @@
+{
+  "adequacy": "one event/pass cannot satisfy parent30pass/5week floor; no new model or generalized coefficient",
+  "aoi_wsen": [
+    -117.2,
+    54.75,
+    -116.4,
+    55.0
+  ],
+  "association": "exhaustive nearest geodesic center within declared AOI+halo, stable row/sample tie breaks; test floor(row/2),floor(col/2) separately as unqualified array-index hypothesis",
+  "baseline": "unchanged source-separated native observations",
+  "budget": {
+    "max_reference_bytes": 20000000,
+    "max_reference_requests": 12,
+    "new_science_payload_bytes": 0
+  },
+  "candidate_halo_degrees": 0.05,
+  "categories": [
+    "375_POSITIVE_750_POSITIVE",
+    "375_POSITIVE_750_VALID_NONDETECTION",
+    "375_POSITIVE_750_INVALID_OR_CLOUD",
+    "375_POSITIVE_750_UNKNOWN_SUPPORT",
+    "UNMATCHED_TIME_OR_GEOMETRY"
+  ],
+  "category_gate": "without qualified location support and applicable750 QA use UNKNOWN_SUPPORT, even when nearest center has native mask5; candidate association failure is UNMATCHED, not non-detection",
+  "estimands": [
+    "native positive pixel multiplicity",
+    "reported allocated FRP MW",
+    "candidate source mask classifications",
+    "qualified shared support m2 or null"
+  ],
+  "fit": false,
+  "frp": "sum unique native row/sample fractions once; inspect equal M13/background radiance and FRP fractions in index candidate groups, including same-group siblings outsideAOI only. Never add a reconstructed group total to its fractions; no claim of independent375m radiometry.",
+  "g4": "ADJUSTMENT_WITHHELD",
+  "geometry": "center distances and navigation equality are evidence, never physical pixel containment; require independently justified response boundaries and uncertainty for qualified support",
+  "holdouts": "unchanged and not evaluated",
+  "id": "p9-swf095-triangular-v1",
+  "no_containment_assumption": true,
+  "parent_contract_sha256": "d812887c0f4cae5ca6db22561af8f19ff15596ca66506827e4055ce2791fdbb9",
+  "parent_manifest_sha256": "02b7c2c738efe39d32f24be2904c0182a5072f1a9fcf22b5fe6dd487975cddde",
+  "parent_support_sha256": "1c52a49e5c14c2b85c129ac7ba23ce1ce0963f0d79863909dd8ce00523fa0d6c",
+  "qa": "375 C2 guide1.2 Table2;750 exact C2 applicability must be established separately;MODIS C6/C6.1 Table4 unchanged",
+  "scope": "all16 Phase8 positives, same exact six inputs; known16/0/0 outcome, not blinded or a new calibration cohort",
+  "stop": "complete all16 and independent oracle; bounded official documentation search, never select a replacement fire sample",
+  "time": "same scan IDs and raw scan-start/end equality between exact375/750 geolocation inputs; bounded scan times, never exact exposure time",
+  "uncertainty": "exact finite counts; report center-distance and40degree/scan-bound sensitivities, not fitted confidence intervals; physical boundary uncertainty remains null until justified",
+  "view": {
+    "primary": 40,
+    "sensitivity": [
+      30,
+      50
+    ]
+  }
+}

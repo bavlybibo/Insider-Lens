@@ -1,0 +1,447 @@
+{
+  "cohort": {
+    "AQUA_MODIS": {
+      "confidence": {
+        "64": 1,
+        "66": 1
+      },
+      "footprints": "scan/track scalar sizes retained; oriented footprint, view zenith and clear QA unavailable",
+      "frp": {
+        "max": 38.9,
+        "min": 36.8,
+        "missing": 0,
+        "positive": 2,
+        "units": "MW, native pixel-integrated value",
+        "zero": 0
+      },
+      "rows": 2,
+      "type": {
+        "0": 2
+      },
+      "version": {
+        "6.03": 2
+      }
+    },
+    "SNPP_VIIRS": {
+      "confidence": {
+        "h": 2,
+        "l": 2,
+        "n": 71
+      },
+      "footprints": "scan/track scalar sizes retained; oriented footprint, view zenith and clear QA unavailable",
+      "frp": {
+        "max": 18.06,
+        "min": 0.29,
+        "missing": 0,
+        "positive": 75,
+        "units": "MW, native pixel-integrated value",
+        "zero": 0
+      },
+      "rows": 75,
+      "type": {
+        "0": 58,
+        "2": 17
+      },
+      "version": {
+        "2": 75
+      }
+    },
+    "TERRA_MODIS": {
+      "confidence": {},
+      "footprints": "scan/track scalar sizes retained; oriented footprint, view zenith and clear QA unavailable",
+      "frp": {
+        "max": null,
+        "min": null,
+        "missing": 0,
+        "positive": 0,
+        "units": "MW, native pixel-integrated value",
+        "zero": 0
+      },
+      "rows": 0,
+      "type": {},
+      "version": {}
+    }
+  },
+  "direct_original_probes": [
+    {
+      "field_types": {
+        "confidence": "str",
+        "frp": "int",
+        "type": "str",
+        "version": "str"
+      },
+      "fields": {
+        "acq_date": "2010-01-07",
+        "confidence": "100",
+        "daynight": "D",
+        "frp": 0,
+        "scan": 1.2,
+        "track": 1.1,
+        "type": "0",
+        "version": "6.03"
+      },
+      "member": "fire_archive_M-C61_845605.json",
+      "pc": "SP",
+      "raw_sha256": "611d78d3d89cb8c675494d8deae461adf9471aa3186e445141df87aa96e80eb7",
+      "source": "AQUA_MODIS",
+      "zip_sha256": "a77dd443e9c3a85724b3994a3500d9d129bf528bd61ce78bf6e518fd07276913"
+    },
+    {
+      "field_types": {
+        "confidence": "str",
+        "frp": "float",
+        "type": "NoneType",
+        "version": "str"
+      },
+      "fields": {
+        "acq_date": "2026-09-01",
+        "confidence": "24",
+        "daynight": "N",
+        "frp": 8.35,
+        "scan": 1.35,
+        "track": 1.15,
+        "type": "MISSING",
+        "version": "6.1NRT"
+      },
+      "member": "fire_nrt_M-C61_845605.json",
+      "pc": "NRT",
+      "raw_sha256": "442817aa3097dc4f2dd21ef7933c6d93eefdab5236e2471bf02039a075eac6b4",
+      "source": "TERRA_MODIS",
+      "zip_sha256": "a77dd443e9c3a85724b3994a3500d9d129bf528bd61ce78bf6e518fd07276913"
+    },
+    {
+      "field_types": {
+        "confidence": "str",
+        "frp": "float",
+        "type": "str",
+        "version": "str"
+      },
+      "fields": {
+        "acq_date": "2012-01-20",
+        "confidence": "n",
+        "daynight": "N",
+        "frp": 3.25,
+        "scan": 0.49,
+        "track": 0.65,
+        "type": "2",
+        "version": "2"
+      },
+      "member": "fire_archive_SV-C2_845606.json",
+      "pc": "SP",
+      "raw_sha256": "1cd4017e3f8a4b9249d3470c0423dfca97229d514a6f8f434f81ce9e10d8e5a5",
+      "source": "SNPP_VIIRS",
+      "zip_sha256": "0d15a42c9584beb691e2ed4e33e1b8ce7d744a79105b52dc21a0c55bf480daad"
+    },
+    {
+      "field_types": {
+        "confidence": "str",
+        "frp": "float",
+        "type": "NoneType",
+        "version": "str"
+      },
+      "fields": {
+        "acq_date": "2026-08-01",
+        "confidence": "n",
+        "daynight": "N",
+        "frp": 1.73,
+        "scan": 0.57,
+        "track": 0.52,
+        "type": "MISSING",
+        "version": "2.0NRT"
+      },
+      "member": "fire_nrt_SV-C2_845606.json",
+      "pc": "NRT",
+      "raw_sha256": "23ba453820a94bb18dd8f5674f59fb22799ffb78244bb5f9c23c839fa87370db",
+      "source": "SNPP_VIIRS",
+      "zip_sha256": "0d15a42c9584beb691e2ed4e33e1b8ce7d744a79105b52dc21a0c55bf480daad"
+    }
+  ],
+  "national_counts_source": "reports/CANADA_RAW_INVENTORY.json, full original-archive independently verified Phase5 inventory; not a new Phase6 full recount",
+  "national_member_fields": [
+    {
+      "confidence": {
+        "0": 121001,
+        "1": 157,
+        "10": 1816,
+        "100": 275464,
+        "11": 2009,
+        "12": 2192,
+        "13": 2366,
+        "14": 2563,
+        "15": 2920,
+        "16": 3091,
+        "17": 3205,
+        "18": 3529,
+        "19": 3776,
+        "2": 286,
+        "20": 3900,
+        "21": 4258,
+        "22": 4437,
+        "23": 4696,
+        "24": 4963,
+        "25": 5198,
+        "26": 5270,
+        "27": 5653,
+        "28": 5879,
+        "29": 6061,
+        "3": 459,
+        "30": 6338,
+        "31": 6482,
+        "32": 6712,
+        "33": 6966,
+        "34": 7190,
+        "35": 7244,
+        "36": 7797,
+        "37": 7811,
+        "38": 8105,
+        "39": 8510,
+        "4": 650,
+        "40": 8533,
+        "41": 8726,
+        "42": 8957,
+        "43": 9052,
+        "44": 9308,
+        "45": 9697,
+        "46": 9866,
+        "47": 10128,
+        "48": 10334,
+        "49": 10626,
+        "5": 762,
+        "50": 10850,
+        "51": 10870,
+        "52": 11214,
+        "53": 11248,
+        "54": 11754,
+        "55": 12013,
+        "56": 12236,
+        "57": 12720,
+        "58": 12543,
+        "59": 12969,
+        "6": 993,
+        "60": 13176,
+        "61": 13378,
+        "62": 13851,
+        "63": 13965,
+        "64": 14369,
+        "65": 15377,
+        "66": 14319,
+        "67": 14879,
+        "68": 15018,
+        "69": 15274,
+        "7": 1119,
+        "70": 15174,
+        "71": 17228,
+        "72": 15395,
+        "73": 15515,
+        "74": 15702,
+        "75": 28331,
+        "76": 14593,
+        "77": 14938,
+        "78": 15165,
+        "79": 15425,
+        "8": 1348,
+        "80": 15384,
+        "81": 16145,
+        "82": 18117,
+        "83": 16202,
+        "84": 16313,
+        "85": 16405,
+        "86": 15934,
+        "87": 33168,
+        "88": 14684,
+        "89": 16300,
+        "9": 1503,
+        "90": 15538,
+        "91": 15709,
+        "92": 16132,
+        "93": 15965,
+        "94": 38214,
+        "95": 13824,
+        "96": 13622,
+        "97": 13680,
+        "98": 13414,
+        "99": 13297
+      },
+      "frp_range": {
+        "max": 13994.2,
+        "min": 0.0
+      },
+      "member": "fire_archive_M-C61_845605.json",
+      "missing": {},
+      "rows": 1427442,
+      "types": {
+        "0": 1424286,
+        "1": 9,
+        "2": 3114,
+        "3": 33
+      },
+      "versions": {
+        "6.03": 723625,
+        "61.03": 703817
+      }
+    },
+    {
+      "confidence": {
+        "0": 70,
+        "1": 1,
+        "100": 219,
+        "11": 3,
+        "12": 2,
+        "13": 2,
+        "14": 4,
+        "15": 4,
+        "16": 3,
+        "17": 4,
+        "18": 10,
+        "19": 4,
+        "20": 6,
+        "21": 1,
+        "22": 5,
+        "23": 7,
+        "24": 7,
+        "25": 6,
+        "26": 10,
+        "27": 9,
+        "28": 6,
+        "29": 10,
+        "3": 1,
+        "30": 10,
+        "31": 10,
+        "32": 8,
+        "33": 11,
+        "34": 15,
+        "35": 24,
+        "36": 13,
+        "37": 23,
+        "38": 14,
+        "39": 18,
+        "4": 1,
+        "40": 20,
+        "41": 15,
+        "42": 16,
+        "43": 15,
+        "44": 33,
+        "45": 23,
+        "46": 35,
+        "47": 19,
+        "48": 24,
+        "49": 30,
+        "5": 1,
+        "50": 26,
+        "51": 24,
+        "52": 25,
+        "53": 31,
+        "54": 20,
+        "55": 41,
+        "56": 35,
+        "57": 46,
+        "58": 35,
+        "59": 36,
+        "6": 1,
+        "60": 40,
+        "61": 41,
+        "62": 49,
+        "63": 23,
+        "64": 45,
+        "65": 36,
+        "66": 31,
+        "67": 42,
+        "68": 30,
+        "69": 44,
+        "70": 35,
+        "71": 36,
+        "72": 35,
+        "73": 41,
+        "74": 24,
+        "75": 35,
+        "76": 32,
+        "77": 34,
+        "78": 36,
+        "79": 37,
+        "8": 2,
+        "80": 41,
+        "81": 39,
+        "82": 35,
+        "83": 34,
+        "84": 33,
+        "85": 44,
+        "86": 26,
+        "87": 16,
+        "88": 27,
+        "89": 22,
+        "9": 1,
+        "90": 20,
+        "91": 26,
+        "92": 22,
+        "93": 19,
+        "94": 20,
+        "95": 20,
+        "96": 15,
+        "97": 24,
+        "98": 15,
+        "99": 16
+      },
+      "frp_range": {
+        "max": 657.48,
+        "min": 0.0
+      },
+      "member": "fire_nrt_M-C61_845605.json",
+      "missing": {
+        "type": 2335
+      },
+      "rows": 2335,
+      "types": {
+        "<ABSENT>": 2335
+      },
+      "versions": {
+        "6.1NRT": 2335
+      }
+    },
+    {
+      "confidence": {
+        "h": 414134,
+        "l": 286107,
+        "n": 6129431
+      },
+      "frp_range": {
+        "max": 4191.1,
+        "min": 0.0
+      },
+      "member": "fire_archive_SV-C2_845606.json",
+      "missing": {},
+      "rows": 6829672,
+      "types": {
+        "0": 6534494,
+        "2": 106009,
+        "3": 189169
+      },
+      "versions": {
+        "2": 6829672
+      }
+    },
+    {
+      "confidence": {
+        "h": 4203,
+        "l": 2857,
+        "n": 89308
+      },
+      "frp_range": {
+        "max": 762.94,
+        "min": 0.0
+      },
+      "member": "fire_nrt_SV-C2_845606.json",
+      "missing": {
+        "type": 96368
+      },
+      "rows": 96368,
+      "types": {
+        "<ABSENT>": 96368
+      },
+      "versions": {
+        "2.0NRT": 96368
+      }
+    }
+  ],
+  "review_correction": "zero FRP retained meant zero-valued FRP rows retained, NOT erased FRP. Complete raw FRP remains in immutable ZIP and native store; separate research lane exported here.",
+  "type_policy": "0 presumed vegetation is a literal diagnostic, not confirmed wildfire. VIIRS monthly production vintage unverified; v1/v2 Type bug cannot be excluded; NRT missing Type stays missing."
+}

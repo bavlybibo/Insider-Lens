@@ -1,0 +1,26 @@
+{
+  "auth_control": "8 complete Phase7 HDF science files succeeded using same private credential; provider-specific failures remain distinct",
+  "results": [
+    {
+      "error_category": "HTTPError",
+      "expected_input": "MYD03.A2022166.1040.061.2022167145955.hdf",
+      "final_host": "urs.earthdata.nasa.gov",
+      "meaning": "Response alone does not prove archive absence, entitlement or compatible arrays; full file would require receipt and decoding",
+      "method": "authenticated GET Range0-7, cookies in memory",
+      "split": "development",
+      "status": 401,
+      "url": "https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/61/MYD03/2022/166/MYD03.A2022166.1040.061.2022167145955.hdf"
+    },
+    {
+      "error_category": "HTTPError",
+      "expected_input": "MYD03.A2022174.0950.061.2022174165019.hdf",
+      "final_host": "urs.earthdata.nasa.gov",
+      "meaning": "Response alone does not prove archive absence, entitlement or compatible arrays; full file would require receipt and decoding",
+      "method": "authenticated GET Range0-7, cookies in memory",
+      "split": "replication",
+      "status": 401,
+      "url": "https://ladsweb.modaps.eosdis.nasa.gov/archive/allData/61/MYD03/2022/174/MYD03.A2022174.0950.061.2022174165019.hdf"
+    }
+  ],
+  "support_audit_sha256": "c733b4e1776b39fdd0b635ab552f8d386175d7b7d9c77aeea56add6ad8551e83"
+}

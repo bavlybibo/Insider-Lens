@@ -1,0 +1,82 @@
+{
+  "authentication": "private file only, in-memory cookies, safe NASA redirects; secrets never persisted",
+  "candidate_sha256": "c52fd918d32881f40369520814a61774eb95f3d9830b3670c064624a0ce0e46a",
+  "contract_sha256": "d812887c0f4cae5ca6db22561af8f19ff15596ca66506827e4055ce2791fdbb9",
+  "receipts": [
+    {
+      "acquired_utc": "2026-11-14T01:27:24.339217+00:00",
+      "bytes": 889032,
+      "file": "data/acquisition/phase8/l2/MYD14.A2023164.1040.061.2023165112638.hdf",
+      "final_host": "d1nklfio7vscoe.cloudfront.net",
+      "hdf_signature": true,
+      "product": "MYD14",
+      "selection_sha256": "c52fd918d32881f40369520814a61774eb95f3d9830b3670c064624a0ce0e46a",
+      "sha256": "51bc38bbbd57db8226ea609be6118731cfa31beacf1ecd91a7b3f81651803bf0",
+      "status": 200,
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/MYD14.061/MYD14.A2023164.1040.061.2023165112638/MYD14.A2023164.1040.061.2023165112638.hdf"
+    },
+    {
+      "acquired_utc": "2026-11-14T01:27:38.633444+00:00",
+      "bytes": 40452887,
+      "file": "data/acquisition/phase8/l2/MYD03.A2023164.1040.061.2023165145910.hdf",
+      "final_host": "d13j1jds5ybppo.cloudfront.net",
+      "hdf_signature": true,
+      "product": "MYD03",
+      "selection_sha256": "c52fd918d32881f40369520814a61774eb95f3d9830b3670c064624a0ce0e46a",
+      "sha256": "cb156f026bb88d4c136f8fb37d45380f3ab925d6e8445fdbb870ff243b68eabb",
+      "status": 200,
+      "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MYD03/MYD03.A2023164.1040.061.2023165145910.hdf"
+    },
+    {
+      "acquired_utc": "2026-11-14T01:27:40.949412+00:00",
+      "bytes": 839430,
+      "file": "data/acquisition/phase8/l2/VNP14.A2023164.1042.002.2023164205253.nc",
+      "final_host": "d1nklfio7vscoe.cloudfront.net",
+      "hdf_signature": true,
+      "product": "VNP14",
+      "selection_sha256": "c52fd918d32881f40369520814a61774eb95f3d9830b3670c064624a0ce0e46a",
+      "sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": 200,
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14.002/VNP14.A2023164.1042.002.2023164205253/VNP14.A2023164.1042.002.2023164205253.nc"
+    },
+    {
+      "acquired_utc": "2026-11-14T01:28:44.020094+00:00",
+      "bytes": 51532673,
+      "file": "data/acquisition/phase8/l2/VNP03MOD.A2023164.1042.002.2023164194353.nc",
+      "final_host": "d13j1jds5ybppo.cloudfront.net",
+      "hdf_signature": true,
+      "product": "VNP03MOD",
+      "selection_sha256": "c52fd918d32881f40369520814a61774eb95f3d9830b3670c064624a0ce0e46a",
+      "sha256": "026c6cfafe4d79233f048cf85cb46ffbbe22feb9c6c0934c5cda3b88abbd2982",
+      "status": 200,
+      "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03MOD/VNP03MOD.A2023164.1042.002.2023164194353.nc"
+    },
+    {
+      "acquired_utc": "2026-11-14T01:29:26.660965+00:00",
+      "bytes": 1183690,
+      "file": "data/acquisition/phase8/l2/VNP14IMG.A2023164.1042.002.2024079133754.nc",
+      "final_host": "d1nklfio7vscoe.cloudfront.net",
+      "hdf_signature": true,
+      "product": "VNP14IMG",
+      "selection_sha256": "c52fd918d32881f40369520814a61774eb95f3d9830b3670c064624a0ce0e46a",
+      "sha256": "34349eb1a9234769c3c2e526e3db34b0cebf31aa3eb38ab1e165e829ded0be13",
+      "status": 200,
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VNP14IMG.002/VNP14IMG.A2023164.1042.002.2024079133754/VNP14IMG.A2023164.1042.002.2024079133754.nc"
+    },
+    {
+      "acquired_utc": "2026-11-14T01:30:28.970721+00:00",
+      "bytes": 165449004,
+      "file": "data/acquisition/phase8/l2/VNP03IMG.A2023164.1042.002.2023164194353.nc",
+      "final_host": "d13j1jds5ybppo.cloudfront.net",
+      "hdf_signature": true,
+      "product": "VNP03IMG",
+      "selection_sha256": "c52fd918d32881f40369520814a61774eb95f3d9830b3670c064624a0ce0e46a",
+      "sha256": "e355408c06b1aca77f6cafe8add1a114682b4769f82cbdb6c45f23d9d4795461",
+      "status": 200,
+      "url": "https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/VNP03IMG/VNP03IMG.A2023164.1042.002.2023164194353.nc"
+    }
+  ],
+  "science_files": 6,
+  "selection": "one metadata-eligible pair; no outcome-driven replacement",
+  "total_bytes": 260346716
+}

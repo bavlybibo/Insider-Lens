@@ -1,0 +1,55 @@
+{
+  "comparisons": {
+    "height": {
+      "compared_values": 10393600,
+      "different_values": 0,
+      "full_dtype": "int16",
+      "full_units": "meters",
+      "light_dtype": "int16",
+      "light_units": "meters",
+      "maximum_absolute_difference_native_units": 0.0
+    },
+    "latitude": {
+      "compared_values": 10393600,
+      "different_values": 0,
+      "full_dtype": "float32",
+      "full_units": "degrees_north",
+      "light_dtype": "float32",
+      "light_units": "degrees",
+      "maximum_absolute_difference_native_units": 0.0
+    },
+    "longitude": {
+      "compared_values": 10393600,
+      "different_values": 0,
+      "full_dtype": "float32",
+      "full_units": "degrees_east",
+      "light_dtype": "float32",
+      "light_units": "degrees",
+      "maximum_absolute_difference_native_units": 0.0
+    }
+  },
+  "compatibility": "Exact full MOD latitude/longitude/height are interchangeable with this required MODLL packaging for these variables only. No erroneous geolocation or offset detected; no claim for other granules or product variables.",
+  "fire_input_geo": [
+    "/MODAPSops4/archive/f20243/running/VNP_L1glu/35609931/VNP03MOD.A2023164.1042.002.2023164194353.nc"
+  ],
+  "full_file": "VNP03MOD.A2023164.1042.002.2023164194353.nc",
+  "full_sha256": "026c6cfafe4d79233f048cf85cb46ffbbe22feb9c6c0934c5cda3b88abbd2982",
+  "light_angles_and_quality": "NOT_PRESENT; not compared or treated as equal",
+  "light_datasets": [
+    "HDFEOS/SWATHS/VNP_750M_GEOLOCATION/Data Fields/Height",
+    "HDFEOS/SWATHS/VNP_750M_GEOLOCATION/Geolocation Fields/Latitude",
+    "HDFEOS/SWATHS/VNP_750M_GEOLOCATION/Geolocation Fields/Longitude",
+    "HDFEOS INFORMATION/StructMetadata.0"
+  ],
+  "light_file": "VNP03MODLL.A2023164.1042.002.2023183103833.h5",
+  "light_input_pointer": "VNP03MOD.A2023164.1042.002.2023164194353.nc",
+  "light_sha256": "7fafb13def16055b80daeebe3d2edb5949a7615899eec24dd06a623eb5e1dbd0",
+  "original_angles_and_quality": "retained from exact named full input, never replaced by invented MODLL fields",
+  "physical_containment_qualified": false,
+  "shape": [
+    3248,
+    3200
+  ],
+  "source_statement": "VNP14.002 CMR abstract recommends/requires MODLL; exact MODLL names full MOD and all corresponding stored coordinate/height values reconcile.",
+  "state": "COORDINATES_AND_HEIGHT_EQUIVALENT_FOR_EXACT_PAIR"
+}

@@ -1,0 +1,613 @@
+{
+  "B2": {
+    "reason": "750m files actually decoded alongside375m; primary sample cannot test continuity/calibration because no eligible common support. No FRP fit or count factor.",
+    "state": "REJECTED_FROZEN_SUPPORT"
+  },
+  "B3": {
+    "reason": "Valid raw MW FRP present; no qualified shared support, oriented footprints or applicable calibration samples. No coefficients fitted.",
+    "state": "NOT_IDENTIFIABLE_ON_FROZEN_SAMPLE"
+  },
+  "candidate_fit": false,
+  "classification": "B1_GEOMETRY_ONLY",
+  "cohort_records": 77,
+  "contract_sha256": "ab874a4a4d038e30d2835829ace7a99d7276ee4fda16e9bee51207f88a95404a",
+  "g4": "ADJUSTMENT_WITHHELD",
+  "holdout_evaluation": false,
+  "research_rows_sha256": "7ef6f3fd5d53665343c1ce6b9237c15f8d779bbc5472bb63af17fef2531344d9",
+  "results": {
+    "development": {
+      "fields": {
+        "AQUA_MODIS": {
+          "confidence": {
+            "64": 1,
+            "66": 1
+          },
+          "footprints": "scan/track scalar sizes retained; oriented footprint, view zenith and clear QA unavailable",
+          "frp": {
+            "max": 38.9,
+            "min": 36.8,
+            "missing": 0,
+            "positive": 2,
+            "units": "MW, native pixel-integrated value",
+            "zero": 0
+          },
+          "rows": 2,
+          "type": {
+            "0": 2
+          },
+          "version": {
+            "6.03": 2
+          }
+        },
+        "SNPP_VIIRS": {
+          "confidence": {
+            "h": 1,
+            "l": 2,
+            "n": 45
+          },
+          "footprints": "scan/track scalar sizes retained; oriented footprint, view zenith and clear QA unavailable",
+          "frp": {
+            "max": 10.99,
+            "min": 0.29,
+            "missing": 0,
+            "positive": 48,
+            "units": "MW, native pixel-integrated value",
+            "zero": 0
+          },
+          "rows": 48,
+          "type": {
+            "0": 39,
+            "2": 9
+          },
+          "version": {
+            "2": 48
+          }
+        },
+        "TERRA_MODIS": {
+          "confidence": {},
+          "footprints": "scan/track scalar sizes retained; oriented footprint, view zenith and clear QA unavailable",
+          "frp": {
+            "max": null,
+            "min": null,
+            "missing": 0,
+            "positive": 0,
+            "units": "MW, native pixel-integrated value",
+            "zero": 0
+          },
+          "rows": 0,
+          "type": {},
+          "version": {}
+        }
+      },
+      "quality_sensitivity": {
+        "confidence_screen": {
+          "AQUA_MODIS": {
+            "cell_days": 1,
+            "records": 2
+          },
+          "SNPP_VIIRS": {
+            "cell_days": 29,
+            "records": 46
+          },
+          "TERRA_MODIS": {
+            "cell_days": 0,
+            "records": 0
+          },
+          "positive_sets": {
+            "aqua_only": 0,
+            "both_source_reported": 1,
+            "viirs_only": 28
+          }
+        },
+        "literal_type0_unverified": {
+          "AQUA_MODIS": {
+            "cell_days": 1,
+            "records": 2
+          },
+          "SNPP_VIIRS": {
+            "cell_days": 23,
+            "records": 39
+          },
+          "TERRA_MODIS": {
+            "cell_days": 0,
+            "records": 0
+          },
+          "positive_sets": {
+            "aqua_only": 0,
+            "both_source_reported": 1,
+            "viirs_only": 22
+          }
+        },
+        "native_all": {
+          "AQUA_MODIS": {
+            "cell_days": 1,
+            "records": 2
+          },
+          "SNPP_VIIRS": {
+            "cell_days": 31,
+            "records": 48
+          },
+          "TERRA_MODIS": {
+            "cell_days": 0,
+            "records": 0
+          },
+          "positive_sets": {
+            "aqua_only": 0,
+            "both_source_reported": 1,
+            "viirs_only": 30
+          }
+        },
+        "positive_frp_research": {
+          "AQUA_MODIS": {
+            "cell_days": 1,
+            "records": 2
+          },
+          "SNPP_VIIRS": {
+            "cell_days": 31,
+            "records": 48
+          },
+          "TERRA_MODIS": {
+            "cell_days": 0,
+            "records": 0
+          },
+          "positive_sets": {
+            "aqua_only": 0,
+            "both_source_reported": 1,
+            "viirs_only": 30
+          }
+        }
+      },
+      "scales": {
+        "10000": {
+          "baseline": {
+            "AQUA_MODIS": {
+              "cell_days": 1,
+              "records": 2
+            },
+            "SNPP_VIIRS": {
+              "cell_days": 31,
+              "records": 48
+            },
+            "TERRA_MODIS": {
+              "cell_days": 0,
+              "records": 0
+            },
+            "positive_sets": {
+              "aqua_only": 0,
+              "both_source_reported": 1,
+              "viirs_only": 30
+            }
+          },
+          "timing": [
+            {
+              "aqua_records_with_candidate": 0,
+              "meaning": "positive-only candidate timing, not matched exposure or fire agreement",
+              "minutes": 15,
+              "qualified_opportunities": null,
+              "qualified_report_frequency": null,
+              "same_cell_day_same_flag_candidate_keys": 0,
+              "viirs_records_with_candidate": 0
+            },
+            {
+              "aqua_records_with_candidate": 0,
+              "meaning": "positive-only candidate timing, not matched exposure or fire agreement",
+              "minutes": 30,
+              "qualified_opportunities": null,
+              "qualified_report_frequency": null,
+              "same_cell_day_same_flag_candidate_keys": 0,
+              "viirs_records_with_candidate": 0
+            },
+            {
+              "aqua_records_with_candidate": 2,
+              "meaning": "positive-only candidate timing, not matched exposure or fire agreement",
+              "minutes": 60,
+              "qualified_opportunities": null,
+              "qualified_report_frequency": null,
+              "same_cell_day_same_flag_candidate_keys": 1,
+              "viirs_records_with_candidate": 3
+            }
+          ]
+        },
+        "20000": {
+          "baseline": {
+            "AQUA_MODIS": {
+              "cell_days": 1,
+              "records": 2
+            },
+            "SNPP_VIIRS": {
+              "cell_days": 28,
+              "records": 48
+            },
+            "TERRA_MODIS": {
+              "cell_days": 0,
+              "records": 0
+            },
+            "positive_sets": {
+              "aqua_only": 0,
+              "both_source_reported": 1,
+              "viirs_only": 27
+            }
+          },
+          "timing": [
+            {
+              "aqua_records_with_candidate": 0,
+              "meaning": "positive-only candidate timing, not matched exposure or fire agreement",
+              "minutes": 15,
+              "qualified_opportunities": null,
+              "qualified_report_frequency": null,
+              "same_cell_day_same_flag_candidate_keys": 0,
+              "viirs_records_with_candidate": 0
+            },
+            {
+              "aqua_records_with_candidate": 0,
+              "meaning": "positive-only candidate timing, not matched exposure or fire agreement",
+              "minutes": 30,
+              "qualified_opportunities": null,
+              "qualified_report_frequency": null,
+              "same_cell_day_same_flag_candidate_keys": 0,
+              "viirs_records_with_candidate": 0
+            },
+            {
+              "aqua_records_with_candidate": 2,
+              "meaning": "positive-only candidate timing, not matched exposure or fire agreement",
+              "minutes": 60,
+              "qualified_opportunities": null,
+              "qualified_report_frequency": null,
+              "same_cell_day_same_flag_candidate_keys": 1,
+              "viirs_records_with_candidate": 3
+            }
+          ]
+        },
+        "5000": {
+          "baseline": {
+            "AQUA_MODIS": {
+              "cell_days": 1,
+              "records": 2
+            },
+            "SNPP_VIIRS": {
+              "cell_days": 32,
+              "records": 48
+            },
+            "TERRA_MODIS": {
+              "cell_days": 0,
+              "records": 0
+            },
+            "positive_sets": {
+              "aqua_only": 0,
+              "both_source_reported": 1,
+              "viirs_only": 31
+            }
+          },
+          "timing": [
+            {
+              "aqua_records_with_candidate": 0,
+              "meaning": "positive-only candidate timing, not matched exposure or fire agreement",
+              "minutes": 15,
+              "qualified_opportunities": null,
+              "qualified_report_frequency": null,
+              "same_cell_day_same_flag_candidate_keys": 0,
+              "viirs_records_with_candidate": 0
+            },
+            {
+              "aqua_records_with_candidate": 0,
+              "meaning": "positive-only candidate timing, not matched exposure or fire agreement",
+              "minutes": 30,
+              "qualified_opportunities": null,
+              "qualified_report_frequency": null,
+              "same_cell_day_same_flag_candidate_keys": 0,
+              "viirs_records_with_candidate": 0
+            },
+            {
+              "aqua_records_with_candidate": 2,
+              "meaning": "positive-only candidate timing, not matched exposure or fire agreement",
+              "minutes": 60,
+              "qualified_opportunities": null,
+              "qualified_report_frequency": null,
+              "same_cell_day_same_flag_candidate_keys": 1,
+              "viirs_records_with_candidate": 3
+            }
+          ]
+        }
+      }
+    },
+    "replication": {
+      "fields": {
+        "AQUA_MODIS": {
+          "confidence": {},
+          "footprints": "scan/track scalar sizes retained; oriented footprint, view zenith and clear QA unavailable",
+          "frp": {
+            "max": null,
+            "min": null,
+            "missing": 0,
+            "positive": 0,
+            "units": "MW, native pixel-integrated value",
+            "zero": 0
+          },
+          "rows": 0,
+          "type": {},
+          "version": {}
+        },
+        "SNPP_VIIRS": {
+          "confidence": {
+            "h": 1,
+            "n": 26
+          },
+          "footprints": "scan/track scalar sizes retained; oriented footprint, view zenith and clear QA unavailable",
+          "frp": {
+            "max": 18.06,
+            "min": 0.41,
+            "missing": 0,
+            "positive": 27,
+            "units": "MW, native pixel-integrated value",
+            "zero": 0
+          },
+          "rows": 27,
+          "type": {
+            "0": 19,
+            "2": 8
+          },
+          "version": {
+            "2": 27
+          }
+        },
+        "TERRA_MODIS": {
+          "confidence": {},
+          "footprints": "scan/track scalar sizes retained; oriented footprint, view zenith and clear QA unavailable",
+          "frp": {
+            "max": null,
+            "min": null,
+            "missing": 0,
+            "positive": 0,
+            "units": "MW, native pixel-integrated value",
+            "zero": 0
+          },
+          "rows": 0,
+          "type": {},
+          "version": {}
+        }
+      },
+      "quality_sensitivity": {
+        "confidence_screen": {
+          "AQUA_MODIS": {
+            "cell_days": 0,
+            "records": 0
+          },
+          "SNPP_VIIRS": {
+            "cell_days": 16,
+            "records": 27
+          },
+          "TERRA_MODIS": {
+            "cell_days": 0,
+            "records": 0
+          },
+          "positive_sets": {
+            "aqua_only": 0,
+            "both_source_reported": 0,
+            "viirs_only": 16
+          }
+        },
+        "literal_type0_unverified": {
+          "AQUA_MODIS": {
+            "cell_days": 0,
+            "records": 0
+          },
+          "SNPP_VIIRS": {
+            "cell_days": 13,
+            "records": 19
+          },
+          "TERRA_MODIS": {
+            "cell_days": 0,
+            "records": 0
+          },
+          "positive_sets": {
+            "aqua_only": 0,
+            "both_source_reported": 0,
+            "viirs_only": 13
+          }
+        },
+        "native_all": {
+          "AQUA_MODIS": {
+            "cell_days": 0,
+            "records": 0
+          },
+          "SNPP_VIIRS": {
+            "cell_days": 16,
+            "records": 27
+          },
+          "TERRA_MODIS": {
+            "cell_days": 0,
+            "records": 0
+          },
+          "positive_sets": {
+            "aqua_only": 0,
+            "both_source_reported": 0,
+            "viirs_only": 16
+          }
+        },
+        "positive_frp_research": {
+          "AQUA_MODIS": {
+            "cell_days": 0,
+            "records": 0
+          },
+          "SNPP_VIIRS": {
+            "cell_days": 16,
+            "records": 27
+          },
+          "TERRA_MODIS": {
+            "cell_days": 0,
+            "records": 0
+          },
+          "positive_sets": {
+            "aqua_only": 0,
+            "both_source_reported": 0,
+            "viirs_only": 16
+          }
+        }
+      },
+      "scales": {
+        "10000": {
+          "baseline": {
+            "AQUA_MODIS": {
+              "cell_days": 0,
+              "records": 0
+            },
+            "SNPP_VIIRS": {
+              "cell_days": 16,
+              "records": 27
+            },
+            "TERRA_MODIS": {
+              "cell_days": 0,
+              "records": 0
+            },
+            "positive_sets": {
+              "aqua_only": 0,
+              "both_source_reported": 0,
+              "viirs_only": 16
+            }
+          },
+          "timing": [
+            {
+              "aqua_records_with_candidate": 0,
+              "meaning": "positive-only candidate timing, not matched exposure or fire agreement",
+              "minutes": 15,
+              "qualified_opportunities": null,
+              "qualified_report_frequency": null,
+              "same_cell_day_same_flag_candidate_keys": 0,
+              "viirs_records_with_candidate": 0
+            },
+            {
+              "aqua_records_with_candidate": 0,
+              "meaning": "positive-only candidate timing, not matched exposure or fire agreement",
+              "minutes": 30,
+              "qualified_opportunities": null,
+              "qualified_report_frequency": null,
+              "same_cell_day_same_flag_candidate_keys": 0,
+              "viirs_records_with_candidate": 0
+            },
+            {
+              "aqua_records_with_candidate": 0,
+              "meaning": "positive-only candidate timing, not matched exposure or fire agreement",
+              "minutes": 60,
+              "qualified_opportunities": null,
+              "qualified_report_frequency": null,
+              "same_cell_day_same_flag_candidate_keys": 0,
+              "viirs_records_with_candidate": 0
+            }
+          ]
+        },
+        "20000": {
+          "baseline": {
+            "AQUA_MODIS": {
+              "cell_days": 0,
+              "records": 0
+            },
+            "SNPP_VIIRS": {
+              "cell_days": 15,
+              "records": 27
+            },
+            "TERRA_MODIS": {
+              "cell_days": 0,
+              "records": 0
+            },
+            "positive_sets": {
+              "aqua_only": 0,
+              "both_source_reported": 0,
+              "viirs_only": 15
+            }
+          },
+          "timing": [
+            {
+              "aqua_records_with_candidate": 0,
+              "meaning": "positive-only candidate timing, not matched exposure or fire agreement",
+              "minutes": 15,
+              "qualified_opportunities": null,
+              "qualified_report_frequency": null,
+              "same_cell_day_same_flag_candidate_keys": 0,
+              "viirs_records_with_candidate": 0
+            },
+            {
+              "aqua_records_with_candidate": 0,
+              "meaning": "positive-only candidate timing, not matched exposure or fire agreement",
+              "minutes": 30,
+              "qualified_opportunities": null,
+              "qualified_report_frequency": null,
+              "same_cell_day_same_flag_candidate_keys": 0,
+              "viirs_records_with_candidate": 0
+            },
+            {
+              "aqua_records_with_candidate": 0,
+              "meaning": "positive-only candidate timing, not matched exposure or fire agreement",
+              "minutes": 60,
+              "qualified_opportunities": null,
+              "qualified_report_frequency": null,
+              "same_cell_day_same_flag_candidate_keys": 0,
+              "viirs_records_with_candidate": 0
+            }
+          ]
+        },
+        "5000": {
+          "baseline": {
+            "AQUA_MODIS": {
+              "cell_days": 0,
+              "records": 0
+            },
+            "SNPP_VIIRS": {
+              "cell_days": 16,
+              "records": 27
+            },
+            "TERRA_MODIS": {
+              "cell_days": 0,
+              "records": 0
+            },
+            "positive_sets": {
+              "aqua_only": 0,
+              "both_source_reported": 0,
+              "viirs_only": 16
+            }
+          },
+          "timing": [
+            {
+              "aqua_records_with_candidate": 0,
+              "meaning": "positive-only candidate timing, not matched exposure or fire agreement",
+              "minutes": 15,
+              "qualified_opportunities": null,
+              "qualified_report_frequency": null,
+              "same_cell_day_same_flag_candidate_keys": 0,
+              "viirs_records_with_candidate": 0
+            },
+            {
+              "aqua_records_with_candidate": 0,
+              "meaning": "positive-only candidate timing, not matched exposure or fire agreement",
+              "minutes": 30,
+              "qualified_opportunities": null,
+              "qualified_report_frequency": null,
+              "same_cell_day_same_flag_candidate_keys": 0,
+              "viirs_records_with_candidate": 0
+            },
+            {
+              "aqua_records_with_candidate": 0,
+              "meaning": "positive-only candidate timing, not matched exposure or fire agreement",
+              "minutes": 60,
+              "qualified_opportunities": null,
+              "qualified_report_frequency": null,
+              "same_cell_day_same_flag_candidate_keys": 0,
+              "viirs_records_with_candidate": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "support": {
+    "actual_l2_evidence": "reports/phase6/L2_SUPPORT_AUDIT.json",
+    "downloaded_bytes": 361645819,
+    "downloaded_decoded_masks": 5,
+    "observation_support": "UNKNOWN",
+    "primary_eligible_shared_support": 0,
+    "qualified_opportunities": null,
+    "science_files": 10,
+    "valid_non_detections": null,
+    "viewing_geometry": "UNKNOWN"
+  },
+  "uncertainty": "enumerated finite-catalog descriptive counts exact; geolocation/Type/vintage uncertain. No CI for unidentifiable exposure or predictions; no fitted calibration."
+}

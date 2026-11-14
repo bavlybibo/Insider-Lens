@@ -1,0 +1,430 @@
+{
+  "algorithm_qa_qualified": false,
+  "exact_algorithm_qa_attrs": {
+    "units": [
+      "bit field"
+    ]
+  },
+  "exact_product": {
+    "algorithm": "NPP_PR14 1.6.1",
+    "collection": "002",
+    "file": "data/acquisition/phase8/l2/VNP14.A2023164.1042.002.2023164205253.nc",
+    "pge": "2.0.4",
+    "sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e"
+  },
+  "fire_mask_qualified": true,
+  "fire_mask_semantics": {
+    "0": "missing input data",
+    "1": "not processed (trim)",
+    "2": "not processed (unused)",
+    "3": "non-fire water",
+    "4": "cloud",
+    "5": "non-fire land",
+    "6": "unknown",
+    "7": "fire (low confidence)",
+    "8": "fire (nominal confidence)",
+    "9": "fire (high confidence)"
+  },
+  "prior_sources": "Phase9 SOURCE_QUALIFICATION unchanged; C1/IMG/NRT not promoted",
+  "rows": [
+    {
+      "field": "fire_mask_0",
+      "meaning": "missing input data",
+      "qualification_limit": "Class meaning is verified; not proof of cloud-free footprint support at another source location",
+      "source": "data/acquisition/phase8/l2/VNP14.A2023164.1042.002.2023164205253.nc :: fire mask/legend",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "VERIFIED_EXACT_FILE"
+    },
+    {
+      "field": "fire_mask_1",
+      "meaning": "not processed (trim)",
+      "qualification_limit": "Class meaning is verified; not proof of cloud-free footprint support at another source location",
+      "source": "data/acquisition/phase8/l2/VNP14.A2023164.1042.002.2023164205253.nc :: fire mask/legend",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "VERIFIED_EXACT_FILE"
+    },
+    {
+      "field": "fire_mask_2",
+      "meaning": "not processed (unused)",
+      "qualification_limit": "Class meaning is verified; not proof of cloud-free footprint support at another source location",
+      "source": "data/acquisition/phase8/l2/VNP14.A2023164.1042.002.2023164205253.nc :: fire mask/legend",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "VERIFIED_EXACT_FILE"
+    },
+    {
+      "field": "fire_mask_3",
+      "meaning": "non-fire water",
+      "qualification_limit": "Class meaning is verified; not proof of cloud-free footprint support at another source location",
+      "source": "data/acquisition/phase8/l2/VNP14.A2023164.1042.002.2023164205253.nc :: fire mask/legend",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "VERIFIED_EXACT_FILE"
+    },
+    {
+      "field": "fire_mask_4",
+      "meaning": "cloud",
+      "qualification_limit": "Class meaning is verified; not proof of cloud-free footprint support at another source location",
+      "source": "data/acquisition/phase8/l2/VNP14.A2023164.1042.002.2023164205253.nc :: fire mask/legend",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "VERIFIED_EXACT_FILE"
+    },
+    {
+      "field": "fire_mask_5",
+      "meaning": "non-fire land",
+      "qualification_limit": "Class meaning is verified; not proof of cloud-free footprint support at another source location",
+      "source": "data/acquisition/phase8/l2/VNP14.A2023164.1042.002.2023164205253.nc :: fire mask/legend",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "VERIFIED_EXACT_FILE"
+    },
+    {
+      "field": "fire_mask_6",
+      "meaning": "unknown",
+      "qualification_limit": "Class meaning is verified; not proof of cloud-free footprint support at another source location",
+      "source": "data/acquisition/phase8/l2/VNP14.A2023164.1042.002.2023164205253.nc :: fire mask/legend",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "VERIFIED_EXACT_FILE"
+    },
+    {
+      "field": "fire_mask_7",
+      "meaning": "fire (low confidence)",
+      "qualification_limit": "Class meaning is verified; not proof of cloud-free footprint support at another source location",
+      "source": "data/acquisition/phase8/l2/VNP14.A2023164.1042.002.2023164205253.nc :: fire mask/legend",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "VERIFIED_EXACT_FILE"
+    },
+    {
+      "field": "fire_mask_8",
+      "meaning": "fire (nominal confidence)",
+      "qualification_limit": "Class meaning is verified; not proof of cloud-free footprint support at another source location",
+      "source": "data/acquisition/phase8/l2/VNP14.A2023164.1042.002.2023164205253.nc :: fire mask/legend",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "VERIFIED_EXACT_FILE"
+    },
+    {
+      "field": "fire_mask_9",
+      "meaning": "fire (high confidence)",
+      "qualification_limit": "Class meaning is verified; not proof of cloud-free footprint support at another source location",
+      "source": "data/acquisition/phase8/l2/VNP14.A2023164.1042.002.2023164205253.nc :: fire mask/legend",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "VERIFIED_EXACT_FILE"
+    },
+    {
+      "field": "algorithm_QA_bit_0",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_1",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": true,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_2",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_3",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_4",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_5",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_6",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_7",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_8",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_9",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_10",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_11",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_12",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_13",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_14",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_15",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_16",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_17",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_18",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_19",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_20",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_21",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_22",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_23",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_24",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_25",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_26",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_27",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_28",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_29",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_30",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "algorithm_QA_bit_31",
+      "meaning": "UNRESOLVED for NPP_PR14 1.6.1/PGE2.0.4",
+      "observed_bit_value_at_candidates": false,
+      "qualification_limit": "Raw QA2 measured; neither bit1=I2bad nor a C1 land/water decoder is applied",
+      "source": "Exact file only declares units=bit field; current C2 metadata links C1 definitions without explicit applicability",
+      "source_sha256": "022e9ccdc4444aba6219a577c348875977f92c9680c97ebd27c3f617daab807e",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "scan_trim_bowtie",
+      "meaning": "Mask1 is trimmed per exact legend; detector-row deletion depends on aggregation zone in instrument literature",
+      "qualification_limit": "No 750m C2 algorithm-QA bowtie bit certified; imagery bit22 remains separately guide-qualified",
+      "status": "PARTLY_VERIFIED"
+    },
+    {
+      "field": "geolocation_input",
+      "meaning": "Exact InputFileGeo/InputPointer bind the preserved full MOD, now coordinate-equivalent to MODLL",
+      "qualification_limit": "No per-footprint registration uncertainty certified",
+      "status": "VERIFIED_EXACT_PAIR"
+    },
+    {
+      "field": "radiance_input",
+      "meaning": "Exact named M13 input unchanged; payload not acquired. IMG M13 input bit6 is nominal under its own C2 guide",
+      "qualification_limit": "750m input-quality bits and local radiance rejection semantics unresolved",
+      "status": "PARTLY_VERIFIED"
+    },
+    {
+      "field": "background_rejection",
+      "meaning": "No certified 750m C2 bit meanings or per-background test margins for these class5 locations",
+      "qualification_limit": "Sparse FP arrays describe fire retrievals elsewhere, not a full negative-background QA grid",
+      "status": "UNRESOLVED"
+    },
+    {
+      "field": "observation_processability",
+      "meaning": "A class5 center is natively non-fire land; algorithm QA, radiometric support and location containment remain unqualified",
+      "qualification_limit": "Not a valid shared non-detection or physical fire-absence measurement",
+      "status": "UNRESOLVED"
+    }
+  ],
+  "state": "MASK_LEGEND_VERIFIED_ALGORITHM_QA_UNRESOLVED"
+}
