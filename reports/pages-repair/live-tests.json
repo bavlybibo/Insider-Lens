@@ -1,0 +1,188 @@
+{
+  "origin": "https://insider-lens.pages.dev",
+  "repair_commit": "32d66c1bd8102350d7f6dcdecfc91869bbb55c35",
+  "repair_deployment": "0e048e32-5486-4987-b9b8-6048524f23b0",
+  "regressions": {
+    "stats": {
+      "startTime": "2026-11-14T10:44:45.846Z",
+      "duration": 24313.461,
+      "expected": 5,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "tests": [
+      {
+        "title": "direct Canada does not depend on the Portugal release",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 2394
+          }
+        ]
+      },
+      {
+        "title": "region navigation commits the URL and survives refresh, back and forward",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 5433
+          }
+        ]
+      },
+      {
+        "title": "a failed lazy Canada module displays an error boundary instead of an empty root",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 936
+          }
+        ]
+      },
+      {
+        "title": "a corrupt Canada receipt remains visibly withheld without fabricated totals",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 1398
+          }
+        ]
+      },
+      {
+        "title": "direct retention refresh and repeated visits keep exact public evidence without errors",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 11772
+          }
+        ]
+      }
+    ]
+  },
+  "science_journeys": {
+    "stats": {
+      "startTime": "2026-11-14T10:45:22.403Z",
+      "duration": 48958.295,
+      "expected": 6,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "tests": [
+      {
+        "title": "theme preserves actual map values; D/N, source lens and exact scientific exports retain one cohort",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 8556
+          }
+        ]
+      },
+      {
+        "title": "bounded selected-cell keyboard investigation and export use exact source/day keys",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 4843
+          }
+        ]
+      },
+      {
+        "title": "anonymous static Canada journeys use only same-origin hash-verified scientific JSON",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 16471
+          }
+        ]
+      },
+      {
+        "title": "map partition, UTC calendar, source policy and exact export reconcile the primary cohort",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 7748
+          }
+        ]
+      },
+      {
+        "title": "before-VIIRS journey excludes acquired MODIS history without inventing zero or era coverage",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 4606
+          }
+        ]
+      },
+      {
+        "title": "map cell selection opens exact dates and selected CSV, independent of which policy is retained",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 4275
+          }
+        ]
+      }
+    ]
+  },
+  "initial_attempt": {
+    "stats": {
+      "startTime": "2026-11-14T10:43:41.475Z",
+      "duration": 22038.199,
+      "expected": 4,
+      "skipped": 0,
+      "unexpected": 1,
+      "flaky": 0
+    },
+    "failure": "Rapid Passport close aborted two optional examples.json requests with net::ERR_ABORTED. Trace confirmed expected effect cleanup. Test now waits for the actual examples response to finish; production code unchanged."
+  },
+  "runtime_verification": {
+    "origin": "https://insider-lens.pages.dev",
+    "files": 798,
+    "bytes": 38648744,
+    "missing": [],
+    "pass": true
+  },
+  "browser": {
+    "anonymous": true,
+    "serviceWorkers": "blocked",
+    "answer_ms": 3010,
+    "geography_ms": 3616,
+    "policies": [
+      {
+        "name": "MODIS only",
+        "records": 2139,
+        "keys": 233,
+        "policy_ms": 309
+      },
+      {
+        "name": "VIIRS only",
+        "records": 8385,
+        "keys": 534,
+        "policy_ms": 296
+      },
+      {
+        "name": "Both native",
+        "records": 10524,
+        "keys": 568,
+        "policy_ms": 305
+      }
+    ],
+    "heap_snapshot_bytes": 33100000,
+    "errors": [],
+    "failures": []
+  },
+  "science_response_count": 33,
+  "unique_science_response_paths": 21
+}

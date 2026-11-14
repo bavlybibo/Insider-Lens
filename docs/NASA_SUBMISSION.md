@@ -3,7 +3,7 @@
 Project: **Insider Lens**. Team: **Insider Lens**. Historical internal codename: EmberGuard.
 Challenge: **Harmonization of MODIS and VIIRS Hot Spots**, NASA Space Apps Challenge 2026.
 Repository: https://github.com/bavlybibo/Insider-Lens
-Live application: https://emberguard-evidence-retention.musicalartichoke4.chatgpt.site/?region=canada&view=retention
+Live application: https://insider-lens.pages.dev/?region=canada&view=retention
 
 ## Short summary
 

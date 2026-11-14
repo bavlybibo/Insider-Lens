@@ -1,0 +1,675 @@
+{
+  "new_regressions": {
+    "stats": {
+      "startTime": "2026-11-14T10:36:03.421Z",
+      "duration": 17361.464,
+      "expected": 5,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "tests": [
+      {
+        "title": "direct Canada does not depend on the Portugal release",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 1753
+          }
+        ]
+      },
+      {
+        "title": "region navigation commits the URL and survives refresh, back and forward",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 3272
+          }
+        ]
+      },
+      {
+        "title": "a failed lazy Canada module displays an error boundary instead of an empty root",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 520
+          }
+        ]
+      },
+      {
+        "title": "a corrupt Canada receipt remains visibly withheld without fabricated totals",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 500
+          }
+        ]
+      },
+      {
+        "title": "direct retention refresh and repeated visits keep exact public evidence without errors",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 9126
+          }
+        ]
+      }
+    ]
+  },
+  "existing_suite": {
+    "stats": {
+      "startTime": "2026-11-14T10:38:48.835Z",
+      "duration": 239366.684,
+      "expected": 59,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "tests": [
+      {
+        "title": "Insider Lens identity and immutable evidence /",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 1434
+          }
+        ]
+      },
+      {
+        "title": "Insider Lens identity and immutable evidence /?region=canada&view=retention",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 2786
+          }
+        ]
+      },
+      {
+        "title": "existing region picker opens Canada, preserves the original Portugal release and provides multi-year evidence",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 4771
+          }
+        ]
+      },
+      {
+        "title": "theme preserves actual map values; D/N, source lens and exact scientific exports retain one cohort",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 7296
+          }
+        ]
+      },
+      {
+        "title": "Memory source retention and unknown opportunity cannot unlock a harmonized series",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 4729
+          }
+        ]
+      },
+      {
+        "title": "an unavailable or corrupt independent native acceptance artifact withholds Canada totals",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 1034
+          }
+        ]
+      },
+      {
+        "title": "agency context opens the independently recounted cell without asserting an event match",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 4915
+          }
+        ]
+      },
+      {
+        "title": "bounded selected-cell keyboard investigation and export use exact source/day keys",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 4781
+          }
+        ]
+      },
+      {
+        "title": "SP/NRT boundaries and checksum rejection do not show stale data or pool products",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 6909
+          }
+        ]
+      },
+      {
+        "title": "Canada map/calendar/Passport remain legible and bounded at 1440\u00d7900",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 3697
+          }
+        ]
+      },
+      {
+        "title": "Canada map/calendar/Passport remain legible and bounded at 1920\u00d71080",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 7000
+          }
+        ]
+      },
+      {
+        "title": "anonymous static Canada journeys use only same-origin hash-verified scientific JSON",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 18081
+          }
+        ]
+      },
+      {
+        "title": "judge finding matches all 12 independently accepted scopes and native filters",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 186
+          }
+        ]
+      },
+      {
+        "title": "source policies retain exact keys, source records and unavailable-era semantics",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 19
+          }
+        ]
+      },
+      {
+        "title": "unknown, unacquired and withheld findings never reuse stale numeric answers",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 14
+          }
+        ]
+      },
+      {
+        "title": "desktop judge 1440: scope, policy, copy and selected evidence remain synchronized",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 10070
+          }
+        ]
+      },
+      {
+        "title": "desktop judge 1920: scope, policy, copy and selected evidence remain synchronized",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 11194
+          }
+        ]
+      },
+      {
+        "title": "desktop finding follows UTC day, native D/N and processing changes",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 2819
+          }
+        ]
+      },
+      {
+        "title": "existing narrow layout keeps its prior card and excludes desktop-only controls",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 1482
+          }
+        ]
+      },
+      {
+        "title": "first screen synchronizes experiment date, centered signal, calendar and hidden native totals",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 2085
+          }
+        ]
+      },
+      {
+        "title": "qualification passport separates verified class meaning from unresolved bits and footprints",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 2295
+          }
+        ]
+      },
+      {
+        "title": "qualification CSV retains selected three-source baseline and new audit hashes",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 2069
+          }
+        ]
+      },
+      {
+        "title": "exiting restores exact earlier history selection and camera",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 7402
+          }
+        ]
+      },
+      {
+        "title": "a tampered qualification bundle fails closed and preserves native history",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 2062
+          }
+        ]
+      },
+      {
+        "title": "legacy triangular panel synchronizes its background to the actual June2023 experiment",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 2918
+          }
+        ]
+      },
+      {
+        "title": "forced provider failure retains actual centers and coarse land after style replacement",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 1813
+          }
+        ]
+      },
+      {
+        "title": "scientific result and center labels remain usable at 1440px",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 2812
+          }
+        ]
+      },
+      {
+        "title": "all 12 independent original-data cases match every browser key and source multiplicity",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 292
+          }
+        ]
+      },
+      {
+        "title": "half-open rectangle selects original 10 km centers and rejects invalid geographic queries",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 43
+          }
+        ]
+      },
+      {
+        "title": "geometry uses fixed cell polygons and source groups while policies change retention only",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 1184
+          }
+        ]
+      },
+      {
+        "title": "map partition, UTC calendar, source policy and exact export reconcile the primary cohort",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 6236
+          }
+        ]
+      },
+      {
+        "title": "before-VIIRS journey excludes acquired MODIS history without inventing zero or era coverage",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 4101
+          }
+        ]
+      },
+      {
+        "title": "map cell selection opens exact dates and selected CSV, independent of which policy is retained",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 2740
+          }
+        ]
+      },
+      {
+        "title": "bounded rectangle form commits same independently recounted keys and invalid input preserves scope",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 3228
+          }
+        ]
+      },
+      {
+        "title": "two map taps commit a bounded AOI only after the second corner",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 3590
+          }
+        ]
+      },
+      {
+        "title": "corrupt independent partition fails closed without blocking preserved native release",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 2416
+          }
+        ]
+      },
+      {
+        "title": "missing independent partition fails closed without blocking preserved native release",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 2803
+          }
+        ]
+      },
+      {
+        "title": "sealed 2024 remains withheld and missing SP months do not become observation zero",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 4642
+          }
+        ]
+      },
+      {
+        "title": "delayed L2 date cannot apply the next product to a stale cohort or export pending evidence",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 5041
+          }
+        ]
+      },
+      {
+        "title": "measured bridge shows the rejected L2 support and a preserved baseline",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 1433
+          }
+        ]
+      },
+      {
+        "title": "frozen cohort drives map, UTC dates, raw centers and selected CSV; full release is recoverable",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 7434
+          }
+        ]
+      },
+      {
+        "title": "corrupt research evidence withholds experiment without breaking native Canada",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 1812
+          }
+        ]
+      },
+      {
+        "title": "bridge result is keyboard accessible and bounded at 1440px",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 1820
+          }
+        ]
+      },
+      {
+        "title": "new experiment reports measured failure and near-nadir replication without a fitted bridge",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 2002
+          }
+        ]
+      },
+      {
+        "title": "map, study calendar and center export reconcile exactly for both sources and dates",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 18386
+          }
+        ]
+      },
+      {
+        "title": "checksum failure withholds new overlay and leaves native history available",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 1762
+          }
+        ]
+      },
+      {
+        "title": "late native-history delivery cannot move the observation camera off its frozen AOI",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 4459
+          }
+        ]
+      },
+      {
+        "title": "actual mask map remains dismissible and bounded at 1440px",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 4617
+          }
+        ]
+      },
+      {
+        "title": "event result reports actual positives, limited timing and no qualified denominator",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 1878
+          }
+        ]
+      },
+      {
+        "title": "aggregates, native drilldown, source selection, calendar and CSV preserve every identity",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 6024
+          }
+        ]
+      },
+      {
+        "title": "corrupt event evidence fails closed without replacing native or Phase7 releases",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 1861
+          }
+        ]
+      },
+      {
+        "title": "late mask response cannot override a newer source selection",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 5271
+          }
+        ]
+      },
+      {
+        "title": "event map and keyboard controls remain usable at 1440px",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 2645
+          }
+        ]
+      },
+      {
+        "title": "triangular result distinguishes equal fractions, native land class and unknown support",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 2474
+          }
+        ]
+      },
+      {
+        "title": "every selected pixel, map candidate and three-row evidence export agrees with the oracle",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 8301
+          }
+        ]
+      },
+      {
+        "title": "tampered triangular bytes withhold the view without harming the prior event study",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 2253
+          }
+        ]
+      },
+      {
+        "title": "complete16-row evidence export retains time, QA flags, allocation units and all source hashes",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 1984
+          }
+        ]
+      },
+      {
+        "title": "regional context and native geometry retain one scientific selection",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 3968
+          }
+        ]
+      },
+      {
+        "title": "selected triangular evidence is bounded and keyboard usable at 1440px",
+        "status": "expected",
+        "results": [
+          {
+            "status": "passed",
+            "duration_ms": 2255
+          }
+        ]
+      }
+    ]
+  },
+  "deployment_unit_tests": {
+    "passed": 5,
+    "failed": 0
+  },
+  "scientific_preservation": {
+    "files_hash_verified": 771,
+    "production_cases_replayed": 12,
+    "original_data_oracle_rerun": false
+  }
+}

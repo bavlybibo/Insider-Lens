@@ -5,11 +5,11 @@
 NASA Space Apps Challenge 2026 · Team **Insider Lens** · Cairo, Egypt  
 Challenge: **Harmonization of MODIS and VIIRS Hot Spots**
 
-[**Open the live application →**](https://emberguard-evidence-retention.musicalartichoke4.chatgpt.site/?region=canada&view=retention) · [Public source](https://github.com/bavlybibo/Insider-Lens) · [Scientific method](docs/SCIENTIFIC_SCOPE.md)
+[**Open the live application →**](https://insider-lens.pages.dev/?region=canada&view=retention) · [Public source](https://github.com/bavlybibo/Insider-Lens) · [Scientific method](docs/SCIENTIFIC_SCOPE.md)
 
 ![Insider Lens desktop investigation: geographic map, source-aware evidence partition and UTC calendar](docs/assets/insider-lens-overview.png)
 
-> **Release status:** this repository includes the final desktop judge improvements. The existing live demo is the earlier verified release; it has **not** been redeployed by this GitHub update. Run locally to inspect the new dynamic scope and finding. Scientific data and results are identical.
+> **Release status:** the complete static application is live on **[Cloudflare Pages](https://insider-lens.pages.dev/?region=canada&view=retention)**. All 798 deployed resources were anonymously verified by HTTP status, size and SHA-256; real Canada policies, history, cell/date evidence, exports and Scientific Bridge were tested in a fresh desktop browser. Scientific data and results are unchanged. The [earlier demo](https://emberguard-evidence-retention.musicalartichoke4.chatgpt.site/?region=canada&view=retention) remains available and was not modified. [Executed Canada route repair and production verification](reports/PAGES_CANADA_PRODUCTION_REPAIR.md).
 
 ## The problem
 
@@ -70,7 +70,7 @@ npm run preview
 
 Use **Node.js 22**, production branch **main**, build command **`npm run build:cloudflare`**, output **`dist`**, and **`SKIP_DEPENDENCY_INSTALL=1`**. With that variable, this command installs only lockfile-pinned JavaScript dependencies. It restores three allowlisted, already public immutable receipts over verified HTTPS, checks their exact sizes and SHA-256 values, verifies every public runtime asset and catalog dependency, then builds and verifies the complete static output. A download, integrity or dependency failure stops the build. Python, Earthdata credentials, NASA ZIP/HDF files and research databases are not needed for deployment or browser operation.
 
-Cloudflare publication is pending verification; the live link above remains the existing working demo. [Deployment and integrity checks](docs/CLOUDFLARE_PAGES.md).
+[Deployment and integrity checks](docs/CLOUDFLARE_PAGES.md) · [Per-resource production verification](reports/pages-repair/production-resources.tsv).
 
 Node 22+ and Python 3.12+ recommended. The lockfiles pin tested dependencies.
 

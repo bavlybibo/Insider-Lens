@@ -1,0 +1,30 @@
+[
+  {
+    "path": "/data/canada/ca-92a935da01aecfa3e1d130b3/catalog.json",
+    "status": 200,
+    "bytes": 1568686,
+    "hash": "ecebbb2614b6e60825752210cdc672a29b3e7e6ef956d59057ade4baa4cf1938",
+    "json": true
+  },
+  {
+    "path": "/data/canada/ca-92a935da01aecfa3e1d130b3/native-oracle.json",
+    "status": 200,
+    "bytes": 1544,
+    "hash": "9ff195b400d62e3c2390636663ac23357d4bed71c76d0359be7eaefb8d75fa80",
+    "json": true
+  },
+  {
+    "path": "/data/phase12/PARTITION.json",
+    "status": 200,
+    "bytes": 262748,
+    "hash": "e8b76d1bbe1c24e166dece3d54f22122fcc3076fe887d0eed1e65546057c7887",
+    "json": true
+  },
+  {
+    "path": "/data/phase12/INDEPENDENT_PARTITION.json",
+    "status": 200,
+    "bytes": 625,
+    "hash": "50b186d978fa7e287218d58ed8fea198286d8b1038dabd2d31b469e2fd4ae1e2",
+    "json": true
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "case": "pages-route-a-failed-lazy--a429f-ry-instead-of-an-empty-root",
+    "event": {
+      "type": "console",
+      "messageType": "error",
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "args": [],
+      "location": {
+        "url": "https://insider-lens.pages.dev/assets/CanadaWorkspace-DPm2uaRO.js",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "time": 20099.173,
+      "pageId": "page@8a06f515b3a4ae94116a07145403b540"
+    }
+  },
+  {
+    "case": "pages-route-a-failed-lazy--a429f-ry-instead-of-an-empty-root",
+    "event": {
+      "type": "console",
+      "messageType": "error",
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "args": [],
+      "location": {
+        "url": "https://insider-lens.pages.dev/assets/CanadaWorkspace-DPm2uaRO.js",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "time": 20215.401,
+      "pageId": "page@8a06f515b3a4ae94116a07145403b540"
+    }
+  },
+  {
+    "case": "pages-route-a-failed-lazy--a429f-ry-instead-of-an-empty-root",
+    "event": {
+      "type": "event",
+      "time": 20389.813,
+      "class": "BrowserContext",
+      "method": "pageError",
+      "params": {
+        "error": {
+          "error": {
+            "message": "Failed to fetch dynamically imported module: https://insider-lens.pages.dev/assets/CanadaWorkspace-DPm2uaRO.js",
+            "stack": "",
+            "name": "TypeError"
+          }
+        },
+        "location": {
+          "url": "",
+          "line": 0,
+          "column": 0
+        }
+      },
+      "pageId": "page@8a06f515b3a4ae94116a07145403b540"
+    }
+  },
+  {
+    "case": "pages-route-direct-Canada--20457-end-on-the-Portugal-release",
+    "event": {
+      "type": "console",
+      "messageType": "error",
+      "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+      "args": [],
+      "location": {
+        "url": "https://insider-lens.pages.dev/data/catalog.json",
+        "lineNumber": 0,
+        "columnNumber": 0
+      },
+      "time": 2189.112,
+      "pageId": "page@d0b3e4b55f44c25232882dd5a0971d41"
+    }
+  }
+]

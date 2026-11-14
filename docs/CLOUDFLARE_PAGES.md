@@ -1,5 +1,7 @@
 # Insider Lens static release
 
+Verified public application: **https://insider-lens.pages.dev/?region=canada&view=retention**. The earlier `chatgpt.site` demonstration remains unchanged. See the [executed Canada route and production report](../reports/PAGES_CANADA_PRODUCTION_REPAIR.md).
+
 Cloudflare Pages settings: existing GitHub repository `bavlybibo/Insider-Lens`, production branch `main`, React/Vite, root `/`, **Node.js 22**, build **`npm run build:cloudflare`**, output **`dist`**. `.node-version` pins the major version. No Python, server functions, Earthdata login, environment secrets or raw science files are required.
 
 Set **`SKIP_DEPENDENCY_INSTALL=1`** in both production and preview environments. The dedicated build then runs `npm ci --include=dev --no-audit --no-fund` itself, avoiding Pages' automatic discovery of the separately preserved research `requirements.txt`. Only JavaScript build dependencies are installed. This variable is not a secret.

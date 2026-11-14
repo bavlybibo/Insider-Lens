@@ -1,0 +1,110 @@
+{
+  "production_origin": "https://insider-lens.pages.dev",
+  "source_commit": "785e0ca9f9fbbba55d078b4aea302187cb249344",
+  "natural_blank_reproduced": false,
+  "fresh_context_runs": [
+    {
+      "mode": "default",
+      "i": 0,
+      "ready": true,
+      "portugal": "https://insider-lens.pages.dev/?month=2017-06&sources=AQUA_MODIS%2CSNPP_VIIRS&dn=ALL",
+      "navigated": "https://insider-lens.pages.dev/?month=2017-06&sources=AQUA_MODIS%2CSNPP_VIIRS&dn=ALL",
+      "errors": [],
+      "consoleErrors": [],
+      "direct_url": "https://insider-lens.pages.dev/?region=canada&view=retention",
+      "direct_rejections": [],
+      "refresh": {
+        "url": "https://insider-lens.pages.dev/?month=2017-06&sources=AQUA_MODIS%2CSNPP_VIIRS&dn=ALL",
+        "canada": false,
+        "portugal": true
+      }
+    },
+    {
+      "mode": "default",
+      "i": 1,
+      "ready": true,
+      "portugal": "https://insider-lens.pages.dev/?month=2017-06&sources=AQUA_MODIS%2CSNPP_VIIRS&dn=ALL",
+      "navigated": "https://insider-lens.pages.dev/?month=2017-06&sources=AQUA_MODIS%2CSNPP_VIIRS&dn=ALL",
+      "errors": [],
+      "consoleErrors": [],
+      "direct_url": "https://insider-lens.pages.dev/?region=canada&view=retention",
+      "direct_rejections": [],
+      "refresh": {
+        "url": "https://insider-lens.pages.dev/?month=2017-06&sources=AQUA_MODIS%2CSNPP_VIIRS&dn=ALL",
+        "canada": false,
+        "portugal": true
+      }
+    },
+    {
+      "mode": "default",
+      "i": 2,
+      "ready": true,
+      "portugal": "https://insider-lens.pages.dev/?month=2017-06&sources=AQUA_MODIS%2CSNPP_VIIRS&dn=ALL",
+      "navigated": "https://insider-lens.pages.dev/?month=2017-06&sources=AQUA_MODIS%2CSNPP_VIIRS&dn=ALL",
+      "errors": [],
+      "consoleErrors": [],
+      "direct_url": "https://insider-lens.pages.dev/?region=canada&view=retention",
+      "direct_rejections": [],
+      "refresh": {
+        "url": "https://insider-lens.pages.dev/?month=2017-06&sources=AQUA_MODIS%2CSNPP_VIIRS&dn=ALL",
+        "canada": false,
+        "portugal": true
+      }
+    },
+    {
+      "mode": "software",
+      "i": 0,
+      "ready": true,
+      "portugal": "https://insider-lens.pages.dev/?month=2017-06&sources=AQUA_MODIS%2CSNPP_VIIRS&dn=ALL",
+      "navigated": "https://insider-lens.pages.dev/?month=2017-06&sources=AQUA_MODIS%2CSNPP_VIIRS&dn=ALL",
+      "errors": [],
+      "consoleErrors": [],
+      "direct_url": "https://insider-lens.pages.dev/?region=canada&view=retention",
+      "direct_rejections": [],
+      "refresh": {
+        "url": "https://insider-lens.pages.dev/?month=2017-06&sources=AQUA_MODIS%2CSNPP_VIIRS&dn=ALL",
+        "canada": false,
+        "portugal": true
+      }
+    },
+    {
+      "mode": "software",
+      "i": 1,
+      "ready": true,
+      "portugal": "https://insider-lens.pages.dev/?month=2017-06&sources=AQUA_MODIS%2CSNPP_VIIRS&dn=ALL",
+      "navigated": "https://insider-lens.pages.dev/?month=2017-06&sources=AQUA_MODIS%2CSNPP_VIIRS&dn=ALL",
+      "errors": [],
+      "consoleErrors": [
+        "Error: The layer 'offline-land' does not exist in the map's style and cannot be queried for features.\n    at Rg.queryRenderedFeatures (https://insider-lens.pages.dev/assets/cartography-R0GqJvmG.js:847:98295)\n    at vR.queryRenderedFeatures (https://insider-lens.pages.dev/assets/cartography-R0GqJvmG.js:851:123052)\n    at Q (https://insider-lens.pages.dev/assets/CanadaMap-D7ObCpeE.js:1:11137)\n    at vR.<anonymous> (https://insider-lens.pages.dev/assets/CanadaMap-D7ObCpeE.js:1:11394)\n    at vR.fire (https://insider-lens.pages.dev/assets/cartography-R0GqJvmG.js:4:33081)\n    at vR._render (https://insider-lens.pages.dev/assets/cartography-R0GqJvmG.js:851:139561)\n    at https://insider-lens.pages.dev/assets/cartography-R0GqJvmG.js:851:141131\n    at https://insider-lens.pages.dev/assets/cartography-R0GqJvmG.js:4:24525"
+      ],
+      "direct_url": "https://insider-lens.pages.dev/?region=canada&view=retention",
+      "direct_rejections": [],
+      "refresh": {
+        "url": "https://insider-lens.pages.dev/?month=2017-06&sources=AQUA_MODIS%2CSNPP_VIIRS&dn=ALL",
+        "canada": false,
+        "portugal": true
+      }
+    },
+    {
+      "mode": "software",
+      "i": 2,
+      "ready": true,
+      "portugal": "https://insider-lens.pages.dev/?month=2017-06&sources=AQUA_MODIS%2CSNPP_VIIRS&dn=ALL",
+      "navigated": "https://insider-lens.pages.dev/?month=2017-06&sources=AQUA_MODIS%2CSNPP_VIIRS&dn=ALL",
+      "errors": [],
+      "consoleErrors": [],
+      "direct_url": "https://insider-lens.pages.dev/?region=canada&view=retention",
+      "direct_rejections": [],
+      "refresh": {
+        "url": "https://insider-lens.pages.dev/?month=2017-06&sources=AQUA_MODIS%2CSNPP_VIIRS&dn=ALL",
+        "canada": false,
+        "portugal": true
+      }
+    }
+  ],
+  "controlled_regressions_before": {
+    "tests": 3,
+    "failed": 3,
+    "note": "Portugal load blocked, URL persistence, and deliberately aborted Canada lazy module; controlled module failure is not proof of the original incident trigger."
+  }
+}

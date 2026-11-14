@@ -1,0 +1,74 @@
+[
+  {
+    "ts": "2026-11-14T10:42:58.05764Z",
+    "line": "HEAD is now at 32d66c1 Fix Canada route persistence and recover failed workspace rendering"
+  },
+  {
+    "ts": "2026-11-14T10:42:58.108845Z",
+    "line": "Success: Finished cloning repository files"
+  },
+  {
+    "ts": "2026-11-14T10:43:00.56985Z",
+    "line": "Success: Dependencies restored from build cache."
+  },
+  {
+    "ts": "2026-11-14T10:43:01.368157Z",
+    "line": "A Wrangler configuration file was found but it does not appear to be valid. Did you mean to use wrangler.toml to configure Pages? If so, then make sure the file is valid and contains the `pages_build_output_dir` property. Skipping file and continuing."
+  },
+  {
+    "ts": "2026-11-14T10:43:01.498162Z",
+    "line": "Detected the following tools from environment: nodejs@22.23.4, npm@10.9.9, pip@26.2.2, python@3.13.3"
+  },
+  {
+    "ts": "2026-11-14T10:43:01.4985Z",
+    "line": "SKIP_DEPENDENCY_INSTALL is present in environment. Skipping automatic dependency installation."
+  },
+  {
+    "ts": "2026-11-14T10:43:01.498563Z",
+    "line": "Executing user command: npm run build:cloudflare"
+  },
+  {
+    "ts": "2026-11-14T10:43:01.916003Z",
+    "line": "> node scripts/build-cloudflare.mjs"
+  },
+  {
+    "ts": "2026-11-14T10:43:03.891597Z",
+    "line": "restored-and-verified: public/data/canada/ca-92a935da01aecfa3e1d130b3/catalog.json"
+  },
+  {
+    "ts": "2026-11-14T10:43:03.891816Z",
+    "line": "restored-and-verified: public/data/phase6/p6-ab874a4a4d03-6e562cb1cbc4/bridge.json"
+  },
+  {
+    "ts": "2026-11-14T10:43:03.891879Z",
+    "line": "restored-and-verified: public/data/phase6/p6-ab874a4a4d03-8218b6e3ca49/bridge.json"
+  },
+  {
+    "ts": "2026-11-14T10:43:21.533385Z",
+    "line": "PASS: complete static release verified (798 pinned runtime/entry assets). No Python or private credentials required."
+  },
+  {
+    "ts": "2026-11-14T10:43:22.191385Z",
+    "line": "A Wrangler configuration file was found but it does not appear to be valid. Did you mean to use wrangler.toml to configure Pages? If so, then make sure the file is valid and contains the `pages_build_output_dir` property. Skipping file and continuing."
+  },
+  {
+    "ts": "2026-11-14T10:43:22.192065Z",
+    "line": "Note: No functions dir at /functions found. Skipping."
+  },
+  {
+    "ts": "2026-11-14T10:43:27.209596Z",
+    "line": "✨ Success! Uploaded 5 files (793 already uploaded) (0.84 sec)"
+  },
+  {
+    "ts": "2026-11-14T10:43:28.516359Z",
+    "line": "Skipping build output cache as it's not supported for your project"
+  },
+  {
+    "ts": "2026-11-14T10:43:30.32814Z",
+    "line": "Success: Assets published!"
+  },
+  {
+    "ts": "2026-11-14T10:43:31.230201Z",
+    "line": "Success: Your site was deployed!"
+  }
+]

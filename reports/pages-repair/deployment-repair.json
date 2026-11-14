@@ -1,0 +1,32 @@
+{
+  "project": "insider-lens",
+  "deployment": {
+    "id": "0e048e32-5486-4987-b9b8-6048524f23b0",
+    "url": "https://0e048e32.insider-lens.pages.dev",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": "2026-11-14T10:43:23.526607Z",
+      "ended_on": "2026-11-14T10:43:31.230201Z",
+      "status": "success"
+    },
+    "environment": "production",
+    "deployment_trigger": {
+      "type": "github:push",
+      "metadata": {
+        "branch": "main",
+        "commit_hash": "32d66c1bd8102350d7f6dcdecfc91869bbb55c35",
+        "commit_message": "Fix Canada route persistence and recover failed workspace rendering",
+        "commit_dirty": false
+      }
+    }
+  },
+  "production_origin": "https://insider-lens.pages.dev",
+  "build": {
+    "build_command": "npm run build:cloudflare",
+    "destination_dir": "dist",
+    "build_caching": true,
+    "root_dir": "/",
+    "web_analytics_tag": null,
+    "web_analytics_token": null
+  }
+}
