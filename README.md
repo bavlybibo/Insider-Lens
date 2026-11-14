@@ -1,40 +1,66 @@
 # Insider Lens
 
-**Historical fire evidence that survives a sensor switch.**  
-Team **Insider Lens** · NASA Space Apps Challenge 2026 · Harmonization of MODIS and VIIRS Hot Spots
+**Preserving satellite fire history across MODIS and VIIRS generations.**
 
-[![Live application](https://img.shields.io/badge/demo-live-244d43)](https://emberguard-evidence-retention.musicalartichoke4.chatgpt.site/?region=canada&view=retention) [![Science](https://img.shields.io/badge/G4-adjustment_withheld-936135)](docs/SCIENTIFIC_SCOPE.md)
+NASA Space Apps Challenge 2026 · Team **Insider Lens** · Cairo, Egypt  
+Challenge: **Harmonization of MODIS and VIIRS Hot Spots**
 
-[**Open the live Evidence Retention map →**](https://emberguard-evidence-retention.musicalartichoke4.chatgpt.site/?region=canada&view=retention)
+[**Open the live application →**](https://emberguard-evidence-retention.musicalartichoke4.chatgpt.site/?region=canada&view=retention) · [Public source](https://github.com/bavlybibo/Insider-Lens) · [Scientific method](docs/SCIENTIFIC_SCOPE.md)
 
-![Insider Lens: the actual NASA FIRMS evidence-retention map](docs/images/insider-lens-desktop.png)
+![Insider Lens desktop investigation: geographic map, source-aware evidence partition and UTC calendar](docs/assets/insider-lens-overview.png)
 
-<details><summary>Mobile application</summary>
+> **Release status:** this repository includes the final desktop judge improvements. The existing live demo is the earlier verified release; it has **not** been redeployed by this GitHub update. Run locally to inspect the new dynamic scope and finding. Scientific data and results are identical.
 
-![Insider Lens on mobile](docs/images/insider-lens-mobile.png)
+## The problem
 
-</details>
+MODIS and VIIRS have different spatial responses, sensitivities, acquisition times and observation conditions. Comparing raw hotspot totals can confuse instrument differences with changing fire activity. Focusing only on the newer VIIRS record also discards acquired MODIS evidence from before the S-NPP era.
 
-## The problem and the working solution
+## Our solution
 
-A sensor transition can erase access to earlier observations or create misleading comparisons between instruments. Insider Lens preserves source identity and makes historical evidence retention measurable. It implements a geographic atlas, native source comparison, UTC historical calendar, Memory Loss investigation, Evidence Passport, exact scientific CSV exports and a supplementary Scientific Bridge laboratory.
+Insider Lens keeps source identity and uncertainty visible. A geographic atlas, fixed equal-area cells and UTC positive-activity calendar connect **what was reported** to exact evidence. The Evidence Retention map shows what MODIS-only, VIIRS-only and both-native policies retain or exclude. An Evidence Passport exposes source/processing lineage; CSV exports reproduce the same committed cell/date/filter selection. Explore, Compare, History, Memory Loss, Heat Atlas and an experimental Scientific Bridge remain available.
 
-Southern Canada (120–110°W, 49–55°N), June 2023 Standard Processing:
+The desktop result explains its current area, period, selected sources, SP/NRT status and native Day/Night flags. “Copy finding” includes the actual conclusion, limitation, release identity and source hashes. Unavailable eras, unacquired products and unknown observation support remain distinct.
 
-| Positive cell-day group | Keys |
+## Verified result: Southern Canada, June 2023
+
+Standard Processing; all native acquisition flags; study tract 120–110°W, 49–55°N; original 10 km equal-area grid:
+
+| Reported-positive cell-day group | Keys |
 |---|---:|
 | MODIS only | 34 |
 | Shared | 199 |
 | VIIRS only | 335 |
 | **Union** | **568** |
 
-These are independently reconciled **reported-positive fixed spatial-cell/UTC-day keys**, not 568 fires or calibrated simultaneous observation opportunities. The original 10 km ellipsoidal equal-area grid is unchanged. Aqua 990 + Terra 1,149 + S-NPP VIIRS 8,385 = 10,524 reported source records. MODIS occupancy uses an Aqua/Terra union, not addition. June 2010 retains 12,744 acquired MODIS records from before the S-NPP FIRMS era.
+MODIS-only policy excludes 335 positive keys present in the acquired VIIRS record; VIIRS-only excludes 34 keys present in MODIS. Both-native retains 10,524 source records: Aqua 990 + Terra 1,149 + S-NPP 8,385. June 2010 preserves 12,744 acquired MODIS records from before the S-NPP FIRMS era.
 
-**Calibrated MODIS–VIIRS continuity is unresolved. G4: ADJUSTMENT_WITHHELD.** No missed-fire count, cloud-free opportunity, observed-zero day, anomaly or source-normalized trend is inferred.
+These are **positive spatial-cell/UTC-day keys**, not 568 individual fires. Shared keys do not establish simultaneous valid observation opportunities; exclusive keys are not confirmed missed fires. **Calibrated continuity remains unresolved: G4 ADJUSTMENT_WITHHELD.**
 
-## Run the actual application
+## Visual demonstration
 
-Node 22+ and Python 3.12+ are recommended. `package-lock.json` and `requirements.lock.txt` pin the tested dependencies.
+Select a geographic cell and inspect the exact source records, UTC dates and retained/excluded evidence:
+
+![Selected equal-area cell and its actual source-by-UTC-date evidence in the Evidence Passport](docs/assets/scientific-evidence-detail.png)
+
+Before VIIRS: older acquired evidence remains visible while unavailable instrument history stays explicitly unavailable:
+
+![Pre-VIIRS 2010 investigation distinguishes unavailable S-NPP history from acquired MODIS positives](docs/assets/historical-evidence-before-viirs.png)
+
+All images are genuine desktop captures from this repository using NASA observations. Map attribution is retained. No mockup or synthetic observations are displayed.
+
+## Scientific method
+
+- Aqua MODIS, Terra MODIS and S-NPP VIIRS remain separate; SP and NRT are never pooled.
+- Fixed 10 km WGS84 ellipsoidal Lambert azimuthal equal-area cells; native acquisition D/N flags and UTC grouping. Research rectangles select cell centers, W/S included and E/N excluded.
+- Exact set difference/intersection/union on reported-positive keys. MODIS occupancy uses an Aqua/Terra union, not addition of overlapping keys.
+- Python production processing and separate original-data parsing/projection/counting oracles; immutable archive/member hashes and versioned browser artifacts.
+- Unknown coverage and processing-vintage limits are exposed. Existing scientific releases, holdouts and bridge decisions are preserved.
+
+[Scope and source hashes](docs/SCIENTIFIC_SCOPE.md) · [Reproduction boundaries](docs/REPRODUCIBILITY.md) · [Release audit and executed validation](reports/FINAL_INSIDER_LENS_RELEASE_AUDIT.md)
+
+## Run and reproduce
+
+Node 22+ and Python 3.12+ recommended. The lockfiles pin tested dependencies.
 
 ```sh
 python -m venv .venv
@@ -45,7 +71,7 @@ npm ci
 npm run dev
 ```
 
-Open the printed local URL, then `/?region=canada&view=retention`. The restore command downloads three small, SHA-256-checked **existing public provenance artifacts** omitted from Git because their immutable original bytes contain acquisition-machine paths. It needs no credential. All remaining lightweight runtime artifacts are committed. No raw NASA archive, SQLite database, secret or simulated substitute is required to run the demo.
+Open `/?region=canada&view=retention` at the printed URL. Three original public provenance receipts are restored explicitly by URL, byte size and SHA-256 because their immutable bytes contain acquisition-machine paths. All other lightweight runtime artifacts are committed. No credential, raw archive or local Python service is required by the browser.
 
 ```sh
 npm run build
@@ -55,21 +81,24 @@ python -m unittest discover -s science -p test_science.py -v
 python scripts/verify-public-release.py
 ```
 
-The synthetic known-answer suite tests parser/projection/duplicates; it does not replace the real-data oracle. The browser suite checks exact published evidence, policies, map/calendar/export agreement, faults and mobile behavior. [Reproduction tiers and original-data rebuild](docs/REPRODUCIBILITY.md) distinguish portable checks from the complete archive/L2 audit, which requires separately acquired source files and preserved local receipts. **The public clone does not independently reparse the full 8.36 million original records.**
+The public-clone browser profile excludes one non-runtime historical-audit binding test whose private receipt is not published. Synthetic Python checks and the 12-case production replay do **not** replace the original-data oracle. A complete raw/L2 research replay requires separately acquired originals, disk indexes and historical receipts; see the [explicit rebuild tiers](docs/REPRODUCIBILITY.md). No simulated substitute is provided.
 
-## Science and provenance
+## Validation and scientific limits
 
-- NASA FIRMS / University of Maryland: MODIS C6.1 requests 844805 and 845605; S-NPP VIIRS 375 m C2 requests 844806 and 845606. Canada delivery contains JSON records; the Portugal diagnostic contains CSV.
-- Source archives are immutable and SHA-256 bound. Python production code and separate parsing/projection/counting oracles remain in `science/`. Browser results load hash-verified source/processing/month artifacts.
-- Aqua, Terra and S-NPP; Standard Processing and NRT; native acquisition D/N flags remain distinct. Unknown observation support never becomes zero.
-- Historical internal codename **EmberGuard** remains in release IDs, contracts and historical evidence for reproducibility.
+Executed results for this release are recorded in [the release audit](reports/FINAL_INSIDER_LENS_RELEASE_AUDIT.md) and [validation notes](docs/VALIDATION.md), including exact commands, current counts, clean-clone scope, desktop screenshots and measured performance. Historical counts are labeled by execution rather than presented as a new run.
 
-[Scientific scope, hashes and limitations](docs/SCIENTIFIC_SCOPE.md) · [Reproduction](docs/REPRODUCIBILITY.md) · [Submission fields and demo](docs/NASA_SUBMISSION.md) · [Attribution and AI disclosure](public/submission/README.md)
+Observation support/completeness remains unknown. No normalized trend, seasonal anomaly, missed-fire estimate, physical-fire count or calibrated harmonization is released. Missing/unacquired data and absent selected rows are never confirmed fire-free periods. Source collection labels and row version codes do not certify uniform monthly processing vintage. G4 remains **ADJUSTMENT_WITHHELD**.
 
-## Rights and disclosure
+## NASA data, geography and rights
 
-Credit **NASA FIRMS / UMD** for source observations; NASA does not endorse this project. Geographic context: Natural Earth (public domain); OpenFreeMap / OpenMapTiles / OpenStreetMap attribution remains on the live map. No bulk provider tiles or NRCan perimeter dataset is redistributed. [Third-party notices](public/submission/THIRD_PARTY_SOFTWARE.json) include copied installed license texts.
+**NASA observations:** NASA FIRMS / University of Maryland, MODIS C6.1 requests 844805/845605 and S-NPP VIIRS 375 m C2 requests 844806/845606. Canada deliveries contain JSON; the Portugal diagnostic contains CSV. [FIRMS archive and citation](https://firms.modaps.eosdis.nasa.gov/download/Readme.txt) · [NASA Earthdata](https://www.earthdata.nasa.gov/data/tools/firms).
 
-No project-wide open-source license has been invented or granted on the team's behalf. See [license status](LICENSE_STATUS.md); source visibility does not itself grant reuse rights. Final OSI license selection, competition eligibility/reuse and official submission remain team actions.
+**Geographic context:** Natural Earth public-domain coarse geography; OpenFreeMap, OpenMapTiles and OpenStreetMap detailed context with map attribution retained. No bulk provider tiles or NRCan perimeter dataset is redistributed.
 
-OpenAI Codex assisted code, research, text and tests; NASA observations were not AI-generated. [Full AI disclosure](public/submission/AI_DISCLOSURE.json). Separate software oracles within one AI-assisted workflow are not independent human scientific review.
+**Method, research and software:** [Scientific scope](docs/SCIENTIFIC_SCOPE.md), [source/rules references](public/submission/SOURCES_AND_RULES.md), [147-package inventory and copied third-party notices](public/submission/THIRD_PARTY_SOFTWARE.json). Original-content license selection remains a team decision; no license grant is invented. See [license status](LICENSE_STATUS.md). NASA data use does not imply NASA endorsement.
+
+## Team and AI disclosure
+
+**Insider Lens — Cairo, Egypt.** Historical internal codename **EmberGuard** is retained in source contracts, release IDs and historical reports. No individual contributions are invented.
+
+OpenAI Codex assisted software, research, text, separate oracle implementations and tests. NASA observations were acquired, not AI-generated. Separate software recounts in one AI-assisted workflow are not independent human scientific review. [Full disclosure](public/submission/AI_DISCLOSURE.json) · [Copy-ready NASA submission](docs/NASA_SUBMISSION.md).

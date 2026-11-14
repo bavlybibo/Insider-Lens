@@ -1,0 +1,18 @@
+/* This component is mounted only above the existing desktop breakpoint. */
+@media(min-width:801px){
+ .retention-view .retention-card{width:350px;padding:14px 16px;max-height:calc(100% - 90px);overflow-y:auto;scrollbar-width:thin}
+ .retention-card h1{font-size:24px;margin:5px 0 10px}
+ .desktop-evidence-finding{border-top:1px solid #d6ddcf;border-bottom:1px solid #d6ddcf;margin:0 0 10px;padding:8px 0}
+ .desktop-evidence-scope summary{cursor:pointer;line-height:1.35;font-size:12px;color:#294f42}
+ .retention-view details.desktop-evidence-scope{border:0;padding:0;margin:0}
+ .desktop-evidence-scope summary strong{font-weight:650}
+ .desktop-evidence-scope summary span{display:block;margin:4px 0 0 13px;color:#5a6c60;font-size:11px;font-weight:400}
+ .desktop-evidence-scope dl{display:grid;grid-template-columns:82px minmax(0,1fr);gap:5px 8px;margin:8px 0;font-size:11px;line-height:1.35}
+ .desktop-evidence-scope dt{color:#596c5f}.desktop-evidence-scope dd{margin:0;overflow-wrap:anywhere}
+ .desktop-finding-text{font-size:12px;line-height:1.5;margin:9px 0 7px;color:#243f34}
+ .desktop-finding-foot{display:flex;align-items:center;justify-content:space-between;gap:7px;font-size:10px;color:#617365}
+ .desktop-finding-foot button{font-size:10px;padding:3px 7px;min-height:29px;white-space:nowrap}
+ .desktop-era-context{font-size:10px;color:#795627;margin-bottom:7px}
+ .retention-card .retention-key-totals{margin:10px 0}
+ .retention-card .retention-short-limit{margin-bottom:5px}
+}

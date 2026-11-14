@@ -1,5 +1,6 @@
 import {useEffect,useMemo,useState} from 'react';
-import {Panel} from './Panel';
+import {Panel,useMobile} from './Panel';
+import {DesktopEvidenceFinding} from './DesktopEvidenceFinding';
 import {CA_NAMES,CA_SOURCES,cellId,validateResearchRect,type CaCatalog,type CaQuery,type NativeFlag} from './canada';
 import {GROUPS,GROUP_COLORS,GROUP_NAMES,partitionCounts,retainedRecords,type PositiveKey} from './evidenceRetention';
 import './retentionExperience.css';
@@ -14,7 +15,7 @@ export function RetentionCalendar({keys,query,onDay}:{keys:PositiveKey[];query:C
  return <section className="ca-calendar retention-calendar" id="canada-calendar" aria-label="Evidence Retention UTC calendar"><div className="ca-calendar-header"><strong>{query.month} <small>UTC · {query.pc} · native {query.flag} · positive cell-day keys</small></strong><button onClick={()=>onDay(null)}>Full month</button></div><div className="ca-days">{days.map(d=><button key={d.day} aria-pressed={query.day===d.day} aria-label={`${query.month}-${String(d.day).padStart(2,'0')} UTC retention: ${GROUPS.map(g=>`${GROUP_NAMES[g]} ${d.counts[g]}`).join('; ')}; observation opportunity unknown`} onClick={()=>onDay(query.day===d.day?null:d.day)}><span className="ca-bars">{GROUPS.map(g=><i key={g} style={{background:GROUP_COLORS[g],height:Math.max(d.counts[g]?3:0,d.counts[g]/max*42)}}/>)}</span><span>{d.day}</span></button>)}</div><p className="ca-calendar-limit">Positive-key overlap ≠ simultaneous observations. Blank dates have unknown opportunity, not verified fire absence.</p></section>;
 }
 export function RetentionExperience({catalog,query,keys,ready,error,onPatch,onPolicy,onJourney,onExit,onExport,drawing,onDraw,aoiMessage}:{catalog:CaCatalog;query:CaQuery;keys:PositiveKey[];ready:boolean;error:string;onPatch:(p:Partial<CaQuery>)=>void;onPolicy:(s:CaQuery['sources'])=>void;onJourney:(step:'before'|'overlap')=>void;onExit:()=>void;onExport:()=>void;drawing:boolean;onDraw:()=>void;aoiMessage:string}){
- const [evidence,setEvidence]=useState(false),[limit,setLimit]=useState(false);
+ const [evidence,setEvidence]=useState(false),[limit,setLimit]=useState(false),mobile=useMobile();
  useEffect(()=>{if(query.cell){setLimit(false);setEvidence(true);}},[query.cell]);
  const counts=useMemo(()=>partitionCounts(keys),[keys]),records=keys.reduce((n,k)=>n+retainedRecords(k,query),0),all=keys.reduce((n,k)=>n+k.records.reduce((a,b)=>a+b,0),0);
  const kept=keys.filter(k=>retainedRecords(k,query)>0),dates=new Set(keys.map(k=>k.date)),keptDates=new Set(kept.map(k=>k.date));
@@ -23,7 +24,8 @@ export function RetentionExperience({catalog,query,keys,ready,error,onPatch,onPo
   <div className="retention-tools"><button onClick={onExit}>← Native atlas</button><div role="group" aria-label="Evidence acquisition flags">{(['ALL','D','N'] as NativeFlag[]).map(f=><button aria-pressed={query.flag===f} key={f} onClick={()=>onPatch({flag:f})}>{f==='ALL'?'All flags':f==='D'?'Day':'Night'}</button>)}</div><button aria-pressed={drawing} onClick={onDraw}>{drawing?'Cancel rectangle':'Draw rectangle'}</button>{(query.cell||query.day)&&<button onClick={()=>onPatch({cell:null,day:null})}>Clear cell/date</button>}</div>
   {(drawing||aoiMessage)&&<p className="retention-aoi-status" role="status">{drawing?'Tap two opposite corners. Draft geometry changes no measurements.':aoiMessage}</p>}
   <section className="retention-card" data-testid="retention-map-answer" data-ready={ready}>
-   <span className="eyebrow">EVIDENCE RETENTION · {query.pc} · 10 KM</span><h1>Keep the fire record in view</h1>
+   <span className="eyebrow">EVIDENCE RETENTION · {query.pc} · 10 KM</span><h1>{mobile?'Keep the fire record in view':'What this evidence shows'}</h1>
+   {!mobile&&<DesktopEvidenceFinding catalog={catalog} query={query} keys={keys} ready={ready} error={error}/>}
    <nav aria-label="Historical memory journey"><button onClick={()=>onJourney('before')}>1 · Before VIIRS</button><button onClick={()=>onJourney('overlap')}>2 · Overlap era</button><button onClick={()=>{setLimit(true);setEvidence(true);}}>3 · Scientific limit</button></nav>
    <div className="retention-key-totals" aria-label="Disjoint positive cell-day partition">{GROUPS.map((g,i)=><span key={g} data-group={g}><i className={'retention-shape shape-'+i} style={{background:GROUP_COLORS[g]}}/><b>{ready?fmt(counts[g]):'—'}</b><small>{g==='SHARED'?'Shared':g==='MODIS_ONLY'?'MODIS only':'VIIRS only'}</small></span>)}</div>
    <div className="retention-policy" role="group" aria-label="Map source retention policy">{[['MODIS only',CA_SOURCES.slice(0,2)],['VIIRS only',CA_SOURCES.slice(2)],['Both native',CA_SOURCES]].map(([label,sources])=><button key={label as string} aria-pressed={policy===label} onClick={()=>onPolicy(sources as CaQuery['sources'])}>{label as string}</button>)}</div>
