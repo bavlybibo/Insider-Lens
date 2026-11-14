@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "insider-lens",
+  "compatibility_date": "2026-11-14",
+  "workers_dev": true,
+  "preview_urls": false,
+  "build": {
+    "command": "node scripts/verify-runtime.mjs dist"
+  },
+  "assets": {
+    "directory": "./dist",
+    // The app routes by query parameters at /. Unknown JSON must remain 404,
+    // rather than a successful-looking index.html response.
+    "not_found_handling": "none"
+  }
+}

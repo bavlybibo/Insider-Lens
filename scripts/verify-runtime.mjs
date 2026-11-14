@@ -35,7 +35,7 @@ export function dependencyGraph(documents,inventory) {
   edge('/data/phase11/NASA_SUPPORT_DRAFT.md','src/NativeInsights.tsx');
   return edges;
 }
-export async function verifyRuntime({root=ROOT,directory='public',allowMissingRestorable=false,origin,report}={}) {
+export async function verifyRuntime({root=ROOT,directory='public',allowMissingRestorable=false,origin,report,rejectHtmlFallback=false}={}) {
   const m=await json(path.join(root,'docs/PUBLIC_RUNTIME_MANIFEST.json'));
   if(m.schema!==1||!m.files||Object.keys(m.files).length<700)throw Error('Runtime manifest invalid');
   const science=await json(path.join(root,'docs/PUBLIC_SCIENCE_SHA256.json'));
@@ -70,20 +70,31 @@ export async function verifyRuntime({root=ROOT,directory='public',allowMissingRe
     }}
     await walk(path.join(root,directory));
   }
+  let missing_json_probe=null;
   if(origin) {
     const u=new URL(origin);
     if(u.pathname!=='/'||u.search||u.hash||u.username||u.password||!(u.protocol==='https:'||(u.protocol==='http:'&&['127.0.0.1','localhost'].includes(u.hostname))))throw Error('Untrusted verification origin');
     let next=0;
-    await Promise.all(Array.from({length:6},async()=>{while(next<rows.length){const row=rows[next++];try{const r=await fetch(u.origin+row.path,{redirect:'error',signal:AbortSignal.timeout(45_000),headers:{'Cache-Control':'no-cache','User-Agent':'Insider-Lens-runtime-verification/1.0'}});row.http_status=r.status;if(!r.ok)throw Error();const b=Buffer.from(await r.arrayBuffer());if(b.length!==row.size||sha256(b)!==row.hash)throw Error();}catch{row.present=false;}}}));
+    await Promise.all(Array.from({length:6},async()=>{while(next<rows.length){const row=rows[next++];try{
+      // Pages canonicalizes /index.html to /. Verify the actual browser entry
+      // directly; redirects stay forbidden for every data and bundle resource.
+      row.http_path=row.path==='/index.html'?'/':row.path.split('/').map(encodeURIComponent).join('/');
+      const r=await fetch(u.origin+row.http_path,{redirect:'error',signal:AbortSignal.timeout(45_000),headers:{'Cache-Control':'no-cache','User-Agent':'Insider-Lens-runtime-verification/1.0'}});row.http_status=r.status;if(!r.ok)throw Error();const b=Buffer.from(await r.arrayBuffer());if(b.length!==row.size||sha256(b)!==row.hash)throw Error();
+    }catch{row.present=false;}}}));
+    if(rejectHtmlFallback){
+      const probe='/data/__insider_lens_missing_science__.json';
+      const r=await fetch(u.origin+probe,{redirect:'error',signal:AbortSignal.timeout(30_000)});
+      missing_json_probe={path:probe,status:r.status,pass:r.status===404};
+    }
   }
-  const summary={schema:1,directory,origin:origin??null,files:rows.length,bytes:rows.reduce((n,r)=>n+r.size,0),missing,pass:!rows.some(r=>!r.present),resources:rows};
+  const summary={schema:1,directory,origin:origin??null,files:rows.length,bytes:rows.reduce((n,r)=>n+r.size,0),missing,missing_json_probe,pass:!rows.some(r=>!r.present)&&(!missing_json_probe||missing_json_probe.pass),resources:rows};
   if(report){await mkdir(path.dirname(report),{recursive:true});await import('node:fs/promises').then(fs=>Promise.all([
     fs.writeFile(report+'.json',JSON.stringify(summary,null,2)+'\n'),
-    fs.writeFile(report+'.tsv','PATH\tPRESENT\tSIZE\tHASH\tHTTP STATUS\tREQUIRED BY\n'+rows.map(r=>[r.path,r.present,r.size,r.hash,r.http_status,r.required_by.join('; ')].join('\t')).join('\n')+'\n')
+    fs.writeFile(report+'.tsv','PATH\tPRESENT\tSIZE\tHASH\tHTTP STATUS\tREQUIRED BY\tHTTP PATH\n'+rows.map(r=>[r.path,r.present,r.size,r.hash,r.http_status,r.required_by.join('; '),r.http_path??''].join('\t')).join('\n')+'\n')
   ]));}
   if(!summary.pass)throw Error('Runtime HTTP verification failed; inspect resource receipt');
   return summary;
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)) {
-  verifyRuntime({directory:process.argv[2]??'dist',origin:process.argv[3],report:process.argv[4]??'reports/cloudflare/runtime'}).then(r=>console.log(`PASS: ${r.files} runtime assets; ${r.bytes} bytes; all hash bindings verified.`)).catch(e=>{console.error(e.message);process.exitCode=1;});
+  verifyRuntime({directory:process.argv[2]??'dist',origin:process.argv[3],report:process.argv[4]??'reports/cloudflare/runtime',rejectHtmlFallback:process.argv.includes('--strict-missing-json')}).then(r=>console.log(`PASS: ${r.files} runtime assets; ${r.bytes} bytes; all hash bindings verified.`)).catch(e=>{console.error(e.message);process.exitCode=1;});
 }
